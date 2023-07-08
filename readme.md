@@ -1,13 +1,13 @@
 EDC Website
 
-#Setup:
+# Setup:
 
-##Prerequisite:
+## Prerequisite:
 - PHP version 7.4
 - Node version 14.21.2
 - NPM version 8.17.0
 
-##Installation:
+## Installation:
 1. Install Laragon
 2. Clone this project
    1. Change Project folder's name to *edc-website.dev*
