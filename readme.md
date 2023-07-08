@@ -1,11 +1,11 @@
-<h1 style="text-align: center">
-    EDC Website
-</h1>
+<p align="center">
+  <img style="border-radius: 10px" width="200" height="200" src="https://play-lh.googleusercontent.com/ieM4T3W63Hly8IuJrvgkoqd5QMZwAsCR56h7tary-hWc0-bZna7qgh3HKNoa4OjFlcI">
+</p>
 
 # Setup:
 
 ## Prerequisite:
-- PHP version 7.4
+ PHP version 7.4
 - Node version 14.21.2
 - NPM version 8.17.0
 
