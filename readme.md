@@ -1,4 +1,6 @@
-EDC Website
+<h1 style="text-align: center">
+    EDC Website
+</h1>
 
 # Setup:
 
