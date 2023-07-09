@@ -5,5 +5,15 @@
 @section('content')
     <div class="home">
         about-us
+        <div>
+            <div>
+                
+            </div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
+@endsection
+
+@section('script_links')
 @endsection

@@ -8,9 +8,22 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+// Style
+@import "pages/header";
 @import "pages/home";
 
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+@media (min-width: 1200px) {
+  .wrapGeneralBig {
+    padding: 0;
+    max-width: 2000px;
+    margin: auto;
+    background-color: #ffffff;
+  }
+  .container {
+    max-width: 1440px;
+  }
 }

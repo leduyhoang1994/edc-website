@@ -14,15 +14,19 @@
     @yield('header_links')
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            @include('layouts.header')
-        </div>
-        @yield('content')
-        <div class="footer">
-            @include('layouts.footer')
+    <div class="wrapGeneralBig">
+        <div class="container">
+            <div class="header">
+                @include('layouts.header')
+            </div>
+            @yield('content')
+            <div class="footer">
+                @include('layouts.footer')
+            </div>
         </div>
     </div>
+  
     <script src="{{asset('js/app.js')}}"></script>
+    @yield('script_links')
 </body>
 </html>

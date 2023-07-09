@@ -1,9 +1,9 @@
 @extends('layouts.main')
 @section('og-title')
-    Trang chủ
+Trang chủ
 @endsection
 @section('content')
-    <div class="home">
-        21123123
-    </div>
+<div class="home">
+	21123123
+</div>
 @endsection
