@@ -1,17 +1,17 @@
-<nav class="navbar navbar-expand-lg navbar-light mw-75 px-0 py-2">
-  <div class="container">
-    <div class="row align-items-center">
+<nav class="navbar navbar-expand-lg navbar-light px-0 py-4">
+  <div class="container px-0 py-auto">
+    <div class="row w-100">
       <div class="col-lg-3">
         <a class="navbar-brand d-flex align-items-center" href="#">
           <img src="{{ asset('images/logos/LogoBrandEdupia.svg') }}" alt="Logo" class="logo">
         </a>
       </div>
-      <div class="col-lg-6"> <!-- Thêm một cột col-lg-6 cho phần giữa -->
+      <div class="col-lg-6 my-auto"> 
         <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar4">
-          <ul class="navbar-nav w-100 justify-content-center">
+          <ul class="navbar-nav justify-content-center">
             <li class="nav-item px-lg-2 active">
               <a class="nav-link text-blue-900" href="#">
                 <span class="d-inline-block d-lg-none icon-width "></span>Giới thiệu
@@ -43,8 +43,8 @@
           </ul>
         </div>
       </div>
-      <div class="col-lg-3"> <!-- Thêm một cột col-lg-3 cho phần cuối -->
-        <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
+      <div class="col-lg-3 my-auto">
+        <ul class="navbar-nav mt-3 mt-lg-0 justify-content-between">
           <li class="nav-item">
             <a class="nav-link text-blue-900" href="#">
               <i class="fab fa-twitter"></i>
@@ -52,7 +52,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="btn btn-warning mx-1 text-uppercase">Vào học</a>
+            <a href="#" class="btn bg-orange-500 mx-1 px-5 py-1 text-uppercase font-weight-bold text-white">Vào học</a>
           </li>
         </ul>
       </div>

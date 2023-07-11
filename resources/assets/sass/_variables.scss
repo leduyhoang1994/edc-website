@@ -11,6 +11,7 @@ $font-weight-300: 300;
 $font-weight-400: 400;
 $font-weight-500: 500;
 $font-weight-600: 600;
+$font-weight-700: 700;
 $font-weight-base: $font-weight-600;
 
 // Font Sizes
@@ -52,26 +53,29 @@ $teal: #4dc0b5;
 $cyan: #6cb2eb;
 
 // fusv-disable
-$blue-100: tint-color($blue, 80%) !default;
-$blue-200: tint-color($blue, 60%) !default;
-$blue-300: tint-color($blue, 40%) !default;
-$blue-400: tint-color($blue, 20%) !default;
-$blue-500: $blue !default;
-$blue-600: shade-color($blue, 20%) !default;
-$blue-700: shade-color($blue, 40%) !default;
-$blue-800: shade-color($blue, 60%) !default;
+// $blue-100: tint-color($blue, 80%) !default;
+// $blue-200: tint-color($blue, 60%) !default;
+// $blue-300: tint-color($blue, 40%) !default;
+// $blue-400: tint-color($blue, 20%) !default;
+// $blue-500: $blue !default;
+// $blue-600: shade-color($blue, 20%) !default;
+// $blue-700: shade-color($blue, 40%) !default;
+// $blue-800: shade-color($blue, 60%) !default;
 $blue-900: #292D32 !default;
-
+$orange-500: #FF9213 !default;
 
 $theme-colors: (
   blue-900: $blue-900,
+  orange-500: $orange-500,
 );
 // Spacing 
 $spacer: 8px !default;
 $spacers: (
   0: 0,
-  1: 9px,
-  2: 18px,
-  3: 27px,
-  4: 36px,
+  1: $spacer,
+  2: 9px,
+  3: 10px,
+  4: 18px,
+  5: 36px,
+  10: 12%,
 );

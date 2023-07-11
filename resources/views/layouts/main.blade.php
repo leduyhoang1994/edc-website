@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="wrapGeneralBig">
-        <div class="container">
+        <div class="container-fluid px-0">
             <div class="header">
                 @include('layouts.header')
             </div>
