@@ -3,9 +3,41 @@
 $body-bg: #f8fafc;
 
 // Typography
-$font-family-sans-serif: "Nunito", sans-serif;
-$font-size-base: 0.9rem;
-$line-height-base: 1.6;
+$font-family-base: 'Quicksand', sans-serif;
+ 
+
+// Font Weights
+$font-weight-300: 300;
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+$font-weight-base: $font-weight-600;
+
+// Font Sizes
+$font-28: 28px; // Engagement Stats
+$font-22: 22px; // Profile User Name, Performance Goal Stats
+$font-16: 16px; // Profile User Role, Card Title, Section Title 
+$font-14: 14px; // Profile User Stats, Profile Stats Title, Load More Btn
+$font-12: 12px; // Profile Stats Caption, Competency Tags, Table Headers, Cert Title, etc
+$font-10: 10px; // Cert Caption
+
+// Font line height
+
+$line-height-base:            1.5 !default;
+
+
+// // Enabling shadows and gradients
+// $enable-shadows: true;
+// $card-box-shadow: 1px 2px 8px 0 #E3E3E3;
+// $input-box-shadow: 0px 0px 0px 2px #e3e3e3;
+
+// Image Icons Width
+$img-icon-small: 40px;
+$img-icon-mini: 25px;
+
+
+// $font-size-base: 0.9rem;
+// $line-height-base: 1.6;
 
 // Colors
 $blue: #3490dc;
@@ -19,17 +51,27 @@ $green: #38c172;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
 
-// Boostrap 
+// fusv-disable
+$blue-100: tint-color($blue, 80%) !default;
+$blue-200: tint-color($blue, 60%) !default;
+$blue-300: tint-color($blue, 40%) !default;
+$blue-400: tint-color($blue, 20%) !default;
+$blue-500: $blue !default;
+$blue-600: shade-color($blue, 20%) !default;
+$blue-700: shade-color($blue, 40%) !default;
+$blue-800: shade-color($blue, 60%) !default;
+$blue-900: #292D32 !default;
+
+
+$theme-colors: (
+  blue-900: $blue-900,
+);
+// Spacing 
+$spacer: 8px !default;
 $spacers: (
   0: 0,
-  1: 10px,
-  2: 20px,
-  3: 30px,
-  4: 40px,
-  5: 50px,
-  6: 60px,
-  7: 70px,
-  8: 80px,
-  9: 90px,
-  10: 100px,
+  1: 9px,
+  2: 18px,
+  3: 27px,
+  4: 36px,
 );
