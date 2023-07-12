@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light px-0 py-4">
   <div class="container px-0 py-auto">
-    <div class="row w-100">
+    <div class="row w-100 mx-0">
       <div class="col-lg-3">
         <a class="navbar-brand d-flex align-items-center" href="#">
           <img src="{{ asset('images/logos/LogoBrandEdupia.svg') }}" alt="Logo" class="logo">
@@ -43,7 +43,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-lg-3 my-auto">
+      <div class="col-lg-3 my-auto px-0">
         <ul class="navbar-nav mt-3 mt-lg-0 justify-content-between">
           <li class="nav-item">
             <a class="nav-link text-blue-900" href="#">
@@ -52,7 +52,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="btn bg-orange-500 mx-1 px-5 py-1 text-uppercase font-weight-bold text-white">Vào học</a>
+            <a href="#" class="btn bg-orange-500 px-5 py-1 text-uppercase font-weight-bold text-white">Vào học</a>
           </li>
         </ul>
       </div>

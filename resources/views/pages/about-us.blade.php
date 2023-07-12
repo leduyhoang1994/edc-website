@@ -16,4 +16,8 @@
 @endsection
 
 @section('script_links')
+<script>
+    alert('bbbb')
+</script>
+
 @endsection

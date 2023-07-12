@@ -1,3 +1,38 @@
 .home {
-    background-color: $red;
+    .form-register {
+        max-width: $edupia-width-content !important;
+        margin: auto;
+        top: 38px;
+        bottom: 38px;
+      
+        .register-wrapp {
+            padding: 24px;
+            background-color: $white;
+            border-radius: $spacer * 2;
+            box-shadow: 0px 4px 22px 0px rgba(32, 32, 32, 0.12);
+        }
+        form {
+            width: 332px;
+            span {
+                line-height: 28px;
+                font-size: 20px;
+            }
+            .form-select-customize {
+                border-radius: 8px;
+                padding: 16px;
+                border: 1px solid $gray-200
+            }
+            .form-control-customize {
+                height: 56px;
+                border: 1px solid $gray-200
+            }
+        }
+    }
+
+    .carousel-customize {
+        max-width: $edupia-width-content !important;
+        margin: auto;
+    }
+
+
 }
