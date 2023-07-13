@@ -16,7 +16,7 @@
 <body>
     <div class="wrapGeneralBig">
         <div class="container-fluid px-0">
-            <div class="header">
+            <div class="edupia-container-lg">
                 @include('layouts.header')
             </div>
             @yield('content')

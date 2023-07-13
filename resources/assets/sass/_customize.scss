@@ -1,0 +1,33 @@
+html {
+  background-color: white;
+}
+
+.edupia-container-lg {
+  max-width: $edupia-width-content !important;
+  margin: auto;
+}
+
+// Display
+.d-inline-grid {
+  display: inline-grid;
+}
+
+// Text font size
+.text-font-size-20 {
+  font-size: $font-20;
+}
+.text-font-size-22 {
+  font-size: $font-22;
+}
+.text-font-size-24 {
+  font-size: $font-24;
+}
+.text-font-size-28 {
+  font-size: $font-28;
+}
+
+// Text font weight
+
+.text-font-weight-500 {
+  font-weight: $font-weight-500;
+}
