@@ -1,4 +1,11 @@
 .home {
+    .edupia-liner {
+        position: relative;
+        img {
+            bottom: -8px;
+            position: absolute;
+        }
+    }
     .form-register {
         // max-width: $edupia-width-content !important;
         // margin: auto;
@@ -47,7 +54,7 @@
         }
 
         .small-title {
-            font-size: 20px;
+            font-size: $font-20;
             font-weight: $font-weight-base;
             line-height: 28px;
         }
@@ -212,24 +219,148 @@
                 line-height: 48px;
             }
             .small-title {
-                
+                font-size: $font-20;
+
+            }
+
+        }
+
+        .block-2, .block-3, .block-4 {
+            width: calc((100% - 36%) / 3);
+            padding: 176px 20px 116px 20px;
+            .big-text {
+                font-size: $font-36;
+                font-weight: $font-weight-700;
+                line-height: 36px;
+                margin-top: 60px;
+            }
+            .small-title {
+                font-size: $font-22;
             }
         }
 
-        .block-2 {
-            width: calc((100% - 36%) / 3);
 
+    }
+    
+    .section-7 {
+        padding-top: 80px;
+        .item-eco {
+            width: 49%;
+        }
+        .small-title {
+            font-weight: $font-weight-base;
+            line-height: 28px;
+        }
+       .edupia-img-second {
+            right: 0;
+            top: 42px;
+            border-bottom-right-radius: 44px 44px;
+       }
+       .edupia-img-math {
+            right: 0;
+            top: 21px;
+            border-bottom-right-radius: 44px 44px;
+       }
+       .edupia-img-english {
+            right: 0;
+            top: 74px;
+            border-bottom-right-radius: 44px 44px;
+       }
+       .edupia-img-tutor {
+            right: 0;
+            top: 94px;
+            border-bottom-right-radius: 44px 44px;
+       }
+       .edupia-img-ielts {
+        right: 0;
+        top: 17px;
+        border-bottom-right-radius: 44px 44px;
+       }
+       .star-23 {
+        top: 20%;
+        left: 10%;
+       }
+       .star-26 {
+        bottom: 10%;
+        left: 10%;
+       }
+
+       .star-24 {
+        bottom: 5%;
+        right: 15%;
+       }
+       .star-25 {
+        top: 5%;
+        right: 5%;
+       }
+    }
+    .section-8 {
+        .marquee {
+            background: linear-gradient(-135deg, #008ed9, #8b00db);
+            box-sizing: border-box;
+            padding: 1em;
+            color: #fff;
+            font-weight: 200;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+        .marquee-content {
+            display: flex;
+            animation: marquee 40s linear infinite running;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+        .marquee-tag {
+            width: 200px;
+            margin: 0 0.5em;
+            padding: 0.5em;
+            background: rgba(255,255,255,0.1);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            &:hover {
+                background: rgba(255,255,255,0.5);
+                transform: scale(1.1);
+                cursor: pointer;
+            }
         }
 
-        .block-3 {
-            width: calc((100% - 36%) / 3);
-
-        }
-
-        .block-4 {
-            width: calc((100% - 36%) / 3);
-
-        }
-
+        @-moz-keyframes marquee {
+            0% {
+              transform: translateX(0);
+            }
+            100% {
+              transform: translate(-50%);
+            }
+          }
+          @-webkit-keyframes marquee {
+            0% {
+              transform: translateX(0);
+            }
+            100% {
+              transform: translate(-50%);
+            }
+          }
+          @-o-keyframes marquee {
+            0% {
+              transform: translateX(0);
+            }
+            100% {
+              transform: translate(-50%);
+            }
+          }
+          @keyframes marquee {
+            0% {
+              transform: translateX(0);
+            }
+            100% {
+              transform: translate(-50%);
+            }
+          }
+          
+        
     }
 }

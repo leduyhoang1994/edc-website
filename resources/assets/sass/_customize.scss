@@ -2,6 +2,25 @@ html {
   background-color: white;
 }
 
+// sizing
+.w-45 {
+  width: 45%;
+}
+
+// Margin
+.mb-3-2 {
+  margin-bottom: 32px;
+}
+.mb-4-0 {
+  margin-bottom: 40px;
+}
+
+// Padding
+.pb-3-2 {
+  padding-bottom: 32px;
+}
+
+// container
 .edupia-container-lg {
   max-width: $edupia-width-content !important;
   margin: auto;
@@ -13,6 +32,12 @@ html {
 }
 
 // Text font size
+.text-font-size-16 {
+  font-size: $font-16;
+}
+.text-font-size-18 {
+  font-size: $font-18;
+}
 .text-font-size-20 {
   font-size: $font-20;
 }
@@ -25,9 +50,40 @@ html {
 .text-font-size-28 {
   font-size: $font-28;
 }
+.text-font-size-40 {
+  font-size: $font-40;
+}
 
 // Text font weight
-
 .text-font-weight-500 {
   font-weight: $font-weight-500;
+}
+.text-font-weight-600 {
+  font-weight: $font-weight-600;
+}
+
+// Line height
+.line-height-28 {
+  line-height: 28px;
+}
+
+// Border-radius
+.edupia-border-radius-44 {
+  border-radius: 44px;
+}
+
+
+// button styles
+
+.btn-discover {
+  width: 180px;
+  padding: 12px 20px;
+  background-color: $orange-500;
+  border-radius: 36px;
+  cursor: pointer;
+  .text {
+    color: white;
+    text-align: center;
+
+  }
 }

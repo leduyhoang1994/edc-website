@@ -19,10 +19,12 @@ $font-weight-base: $font-weight-600;
 
 // Font Sizes
 $font-40: 40px;
+$font-36: 36px;
 $font-28: 28px;
 $font-24: 24px;
 $font-22: 22px;
-$font-20: 20px; // Profile User Name, Performance Goal Stats
+$font-20: 20px;
+$font-18: 18px; // Profile User Name, Performance Goal Stats
 $font-16: 16px; // Profile User Role, Card Title, Section Title 
 $font-14: 14px; // Profile User Stats, Profile Stats Title, Load More Btn
 $font-12: 12px; // Profile Stats Caption, Competency Tags, Table Headers, Cert Title, etc
@@ -61,6 +63,7 @@ $navy-blue: #204B8E;
 $goldenrod:  #FFBE44;
 $dodger-blue: #4DBEFF;
 $coral: #FF6A92;
+$purple: #4915C2;
 
 // fusv-disable
 // $blue-100: tint-color($blue, 80%) !default;
@@ -77,6 +80,8 @@ $blue-900: #292D32 !default;
 $orange-500: #FF9213 !default;
 $gray-100: #F5F5F5 !default;
 $gray-200: #DEE1E1 !default;
+$dodger-blue-100: #36BFC7 !default;
+
 
 $theme-colors: (
   blue-500: $blue-500,
@@ -89,6 +94,8 @@ $theme-colors: (
   goldenrod: $goldenrod,
   dodger-blue: $dodger-blue,
   coral: $coral,
+  purple: $purple,
+  dodger-blue-100: $dodger-blue-100,
 );
 // Spacing 
 $spacer: 8px !default;
