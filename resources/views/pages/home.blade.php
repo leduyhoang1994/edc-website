@@ -38,15 +38,15 @@ Trang chủ
 			</div>
 			<ol class="carousel-indicators justify-content-start edupia-container-lg py-5">
 				<img data-target="#carouselExampleIndicators" data-slide-to="0"
-					src="{{ asset('images/icons/IndicatorsActive.svg') }}" alt="First slide">
+					src="{{ asset('images/icons/homepage/IndicatorsActive.svg') }}" alt="First slide">
 				<img data-target="#carouselExampleIndicators" data-slide-to="1" class="ml-1 mr-1"
-					src="{{ asset('images/icons/Dot.svg') }}" alt="Second slide">
-				<img data-target="#carouselExampleIndicators" data-slide-to="2" src="{{ asset('images/icons/Dot.svg') }}"
-					alt="Third slide">
+					src="{{ asset('images/icons/homepage/Dot.svg') }}" alt="Second slide">
+				<img data-target="#carouselExampleIndicators" data-slide-to="2"
+					src="{{ asset('images/icons/homepage/Dot.svg') }}" alt="Third slide">
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img class="d-block w-100" src="{{ asset('images/imgs/imgpsh_fullsize.png') }}" alt="First slide">
+					<img class="d-block w-100" src="{{ asset('images/imgs/homepage/imgpsh_fullsize.png') }}" alt="First slide">
 				</div>
 				<div class="carousel-item">
 					<img class="d-block w-100"
@@ -68,7 +68,7 @@ Trang chủ
 			<div class="col-12-lg mx-auto mb-6">
 				<span class="text-blue-500 d-inline-grid edupia-liner">
 					EDUPIA
-					<img src="{{ asset('images/icons/AnimationLine.svg') }}" alt="AnimationLine">
+					<img src="{{ asset('images/icons/homepage/AnimationLine.svg') }}" alt="AnimationLine">
 				</span>
 				<span class="text-blue-600">- Tiếng Anh Online</span>
 				<span class="text-blue-500"> TOÀN DIỆN </span>
@@ -82,7 +82,7 @@ Trang chủ
 		</div>
 		<div class="row justify-content-between">
 			<div class="col-4-lg text-center ">
-				<img class="mb-5" src="{{ asset('images/imgs/section-2-img.jpg') }}" alt="section-2-img">
+				<img class="mb-5" src="{{ asset('images/imgs/homepage/section-2-img.jpg') }}" alt="section-2-img">
 				<p class="text-blue-600 font-weight-bold text-font-size-24 mb-0">
 					100% giáo viên Anh - Mỹ
 				</p>
@@ -93,7 +93,7 @@ Trang chủ
 				<p class="text-blue-900 text-font-weight-500 text-font-size-20 mb-0">toàn diện 4 kỹ năng</p>
 			</div>
 			<div class="col-4-lg text-center">
-				<img class="mb-5" src="{{ asset('images/imgs/section-2-img.jpg') }}" alt="section-2-img">
+				<img class="mb-5" src="{{ asset('images/imgs/homepage/section-2-img.jpg') }}" alt="section-2-img">
 				<p class="text-blue-600 font-weight-bold text-font-size-24 mb-0">
 					Chương trình chuẩn Bộ Giáo Dục
 				</p>
@@ -104,7 +104,7 @@ Trang chủ
 				</p>
 			</div>
 			<div class="col-4-lg text-center">
-				<img class="mb-5" src="{{ asset('images/imgs/section-2-img.jpg') }}" alt="section-2-img">
+				<img class="mb-5" src="{{ asset('images/imgs/homepage/section-2-img.jpg') }}" alt="section-2-img">
 				<p class="text-blue-600 font-weight-bold text-font-size-24 mb-0">
 					Giáo viên chủ nhiệm sát sao
 				</p>
@@ -118,7 +118,7 @@ Trang chủ
 		</div>
 		<div class="row justify-content-between bg-white">
 			<div class="col-12-lg mx-auto">
-				<img src="{{ asset('images/imgs/chicken-pea-1.png') }}" alt="chicken-pea-1">
+				<img src="{{ asset('images/imgs/homepage/chicken-pea-1.png') }}" alt="chicken-pea-1">
 			</div>
 		</div>
 	</div>
@@ -131,7 +131,7 @@ Trang chủ
 						<span class="text-blue-600">Con Nhận Được Gì Sau Khi Tham Gia Khóa Học </span>
 						<span class="text-blue-500 d-inline-grid edupia-liner">
 							EDUPIA
-							<img src="{{ asset('images/icons/AnimationLine.svg') }}" alt="AnimationLine">
+							<img src="{{ asset('images/icons/homepage/AnimationLine.svg') }}" alt="AnimationLine">
 						</span>
 					</div>
 					<div class="col-12-lg mx-auto mb-7">
@@ -142,13 +142,14 @@ Trang chủ
 					</div>
 					<div class="col-lg-3">
 						<div class="img-frame position-relative">
-							<img class="frame" src="{{ asset('images/imgs/boder-home-section-3-1.png') }}"
+							<img class="frame" src="{{ asset('images/imgs/homepage/boder-home-section-3-1.png') }}"
 								alt="boder-home-section-3-1">
-							<img class="picture" src="{{ asset('images/imgs/home-section-3-1.png') }}" alt="home-section-3-1">
+							<img class="picture" src="{{ asset('images/imgs/homepage/home-section-3-1.png') }}"
+								alt="home-section-3-1">
 						</div>
 					</div>
 					<div class="col-lg-3">
-						<img class="drawn-arrows" src="{{ asset('images/icons/DrawnArrows.svg') }}" alt="drawn-arrows-1">
+						<img class="drawn-arrows" src="{{ asset('images/icons/homepage/DrawnArrows.svg') }}" alt="drawn-arrows-1">
 					</div>
 					<div class="col-lg-6 desc-1 text-blue-600 text-left">
 						<p>Con yêu thích và tự giác học tiếng Anh một</p>
@@ -170,14 +171,16 @@ Trang chủ
 						<p> triệt để</p>
 					</div>
 					<div class="col-lg-2">
-						<img class="drawn-arrows" src="{{ asset('images/icons/DrawnArrowsLeft.svg') }}" alt="drawn-arrows-1">
+						<img class="drawn-arrows" src="{{ asset('images/icons/homepage/DrawnArrowsLeft.svg') }}"
+							alt="drawn-arrows-1">
 					</div>
 
 					<div class="col-lg-3">
 						<div class="img-frame position-relative">
-							<img class="frame" src="{{ asset('images/imgs/border-home-section-4-1.png') }}"
+							<img class="frame" src="{{ asset('images/imgs/homepage/border-home-section-4-1.png') }}"
 								alt="border-home-section-4-1">
-							<img class="picture" src="{{ asset('images/imgs/home-section-4-1.png') }}" alt="home-section-4-1">
+							<img class="picture" src="{{ asset('images/imgs/homepage/home-section-4-1.png') }}"
+								alt="home-section-4-1">
 						</div>
 					</div>
 				</div>
@@ -193,9 +196,10 @@ Trang chủ
 
 					<div class="col-lg-7">
 						<div class="img-frame position-relative">
-							<img class="frame" src="{{ asset('images/imgs/border-home-section-5-1.png') }}"
+							<img class="frame" src="{{ asset('images/imgs/homepage/border-home-section-5-1.png') }}"
 								alt="border-home-section-5-1">
-							<img class="picture" src="{{ asset('images/imgs/home-section-5-1.png') }}" alt="home-section-5-1">
+							<img class="picture" src="{{ asset('images/imgs/homepage/home-section-5-1.png') }}"
+								alt="home-section-5-1">
 						</div>
 					</div>
 					<div class="col-lg-5 desc-1 text-blue-600 text-left">
@@ -214,7 +218,7 @@ Trang chủ
 			<div class="big-text text-white text-center mb-5">
 				<p class="d-inline-grid">
 					EDUPIA
-					<img src="{{ asset('images/icons/AnimationLine.svg') }}" alt="AnimationLine">
+					<img src="{{ asset('images/icons/homepage/AnimationLine.svg') }}" alt="AnimationLine">
 				</p>
 				<p>Và</p>
 				<p>Những Con Số</p>
@@ -227,7 +231,7 @@ Trang chủ
 			</div>
 		</div>
 		<div class="block-2 text-center bg-goldenrod">
-			<img src="{{ asset('images/imgs/home-section-6-1.png') }}" alt="AnimationLine">
+			<img src="{{ asset('images/imgs/homepage/home-section-6-1.png') }}" alt="AnimationLine">
 			<p class="big-text text-white mb-5">
 				5.000.000+
 			</p>
@@ -236,7 +240,7 @@ Trang chủ
 			</div>
 		</div>
 		<div class="block-3 text-center bg-dodger-blue">
-			<img src="{{ asset('images/imgs/home-section-6-1.png') }}" alt="AnimationLine">
+			<img src="{{ asset('images/imgs/homepage/home-section-6-1.png') }}" alt="AnimationLine">
 			<p class="big-text text-white mb-5">
 				25.000+
 			</p>
@@ -245,7 +249,7 @@ Trang chủ
 			</div>
 		</div>
 		<div class="block-4 text-center bg-coral">
-			<img src="{{ asset('images/imgs/home-section-6-1.png') }}" alt="AnimationLine">
+			<img src="{{ asset('images/imgs/homepage/home-section-6-1.png') }}" alt="AnimationLine">
 			<p class="big-text text-white mb-5">
 				95%
 			</p>
@@ -261,18 +265,21 @@ Trang chủ
 				<span class="text-blue-600">Hệ Sinh Thái Sản Phẩm</span>
 				<span class="text-blue-500 d-inline-grid edupia-liner">
 					EDUPIA
-					<img src="{{ asset('images/icons/AnimationLine.svg') }}" alt="AnimationLine">
-				</span>				
+					<img src="{{ asset('images/icons/homepage/AnimationLine.svg') }}" alt="AnimationLine">
+				</span>
 			</div>
 			<div class="col-12-lg mx-auto mb-5">
-				<span class="small-title blue-900 d-block text-center">Các sản phẩm của EDUPIA được thiết kế riêng dành cho những nhu cầu học tập và đối tượng</span>
-				<span class="small-title blue-900 d-block text-center"> khác nhau, nhằm truyển tải những giá trị và hiệu quả tốt nhất cho người học</span>
+				<span class="small-title blue-900 d-block text-center">Các sản phẩm của EDUPIA được thiết kế riêng dành
+					cho những nhu cầu học tập và đối tượng</span>
+				<span class="small-title blue-900 d-block text-center"> khác nhau, nhằm truyển tải những giá trị và
+					hiệu quả tốt nhất cho người học</span>
 			</div>
 		</div>
 		<div class="row justify-content-between mb-4-0 mx-auto">
-			<div class="item-eco col-6-lg bg-dodger-blue edupia-border-radius-44 eco-item pt-5 pb-3-2 px-5 d-flex position-relative">
+			<div
+				class="item-eco col-6-lg bg-dodger-blue edupia-border-radius-44 eco-item pt-5 pb-3-2 px-5 d-flex position-relative">
 				<div class="text-font-size-18 text-font-weight-600">
-					<img class="mb-5" src="{{ asset('images/icons/EdupiaSecond.svg') }}" alt="EdupiaSecond">
+					<img class="mb-5" src="{{ asset('images/icons/homepage/EdupiaSecond.svg') }}" alt="EdupiaSecond">
 					<p class="text-white line-height-28 mb-0">EDUPIA THCS - chương trình tiếng Anh</p>
 					<p class="text-white line-height-28 mb-0">dành cho học sinh từ lớp 6 - lớp 9.</p>
 					<p class="text-white line-height-28 mb-0">Chắp cánh tương lai cho con</p>
@@ -280,11 +287,13 @@ Trang chủ
 						<p class="text">KHÁM PHÁ</p>
 					</div>
 				</div>
-				<img class="edupia-img-second position-absolute" src="{{ asset('images/imgs/edupia-second-img.png') }}" alt="edupia-second-img">
+				<img class="edupia-img-second position-absolute" src="{{ asset('images/imgs/homepage/edupia-second-img.png') }}"
+					alt="edupia-second-img">
 			</div>
-			<div class="item-eco col-6-lg bg-navy-blue edupia-border-radius-44 eco-item pt-5 pb-3-2 px-5 d-flex position-relative">
+			<div
+				class="item-eco col-6-lg bg-navy-blue edupia-border-radius-44 eco-item pt-5 pb-3-2 px-5 d-flex position-relative">
 				<div class="text-font-size-18 text-font-weight-600">
-					<img class="mb-5" src="{{ asset('images/icons/EdupiaMath.svg') }}" alt="EdupiaMath">
+					<img class="mb-5" src="{{ asset('images/icons/homepage/EdupiaMath.svg') }}" alt="EdupiaMath">
 					<p class="text-white line-height-28 mb-0">EDUPIA Toán - chương trình Toán Học</p>
 					<p class="text-white line-height-28 mb-0">dành cho học sinh từ lớp 1 - lớp 5.</p>
 					<p class="text-white line-height-28 mb-0">Con học Toán cùng giáo viên giỏi,</p>
@@ -293,18 +302,18 @@ Trang chủ
 						<p class="text">KHÁM PHÁ</p>
 					</div>
 				</div>
-				<img class="edupia-img-math position-absolute" src="{{ asset('images/imgs/edupia-math-img.png') }}" alt="edupia-math-img">
+				<img class="edupia-img-math position-absolute" src="{{ asset('images/imgs/homepage/edupia-math-img.png') }}"
+					alt="edupia-math-img">
 			</div>
-
-
 		</div>
 
 		<div class="row justify-content-between mb-4-0 mx-auto position-relative">
-			<img class="star-23 position-absolute" src="{{ asset('images/icons/Star23.svg') }}" alt="Star23">
-			<img class="star-26 position-absolute" src="{{ asset('images/icons/Star26.svg') }}" alt="Star26">
-			<div class="item-eco mx-auto col-12-lg bg-dodger-blue-100 edupia-border-radius-44 eco-item pt-5 pb-3-2 px-5 d-flex position-relative">
+			<img class="star-23 position-absolute" src="{{ asset('images/icons/homepage/Star23.svg') }}" alt="Star23">
+			<img class="star-26 position-absolute" src="{{ asset('images/icons/homepage/Star26.svg') }}" alt="Star26">
+			<div
+				class="item-eco mx-auto col-12-lg bg-dodger-blue-100 edupia-border-radius-44 eco-item pt-5 pb-3-2 px-5 d-flex position-relative">
 				<div class="text-font-size-18 text-font-weight-600">
-					<img class="mb-5" src="{{ asset('images/icons/EdupiaEnglish.svg') }}" alt="EdupiaEnglish">
+					<img class="mb-5" src="{{ asset('images/icons/homepage/EdupiaEnglish.svg') }}" alt="EdupiaEnglish">
 					<p class="text-white line-height-28 mb-0">EDUPIA Tiểu Học - chương trình tiếng</p>
 					<p class="text-white line-height-28 mb-0">Anh dành cho học sinh từ lớp 1 - lớp 5.</p>
 					<p class="text-white line-height-28 mb-0">Bé học mà chơi, chơi mà học</p>
@@ -312,17 +321,19 @@ Trang chủ
 						<p class="text">KHÁM PHÁ</p>
 					</div>
 				</div>
-				<img class="edupia-img-english position-absolute" src="{{ asset('images/imgs/edupia-english-img.png') }}" alt="edupia-english-img">
+				<img class="edupia-img-english position-absolute"
+					src="{{ asset('images/imgs/homepage/edupia-english-img.png') }}" alt="edupia-english-img">
 			</div>
-			<img class="star-24 position-absolute" src="{{ asset('images/icons/Star24.svg') }}" alt="Star24">
-			<img class="star-25 position-absolute" src="{{ asset('images/icons/Star25.svg') }}" alt="Star25">
+			<img class="star-24 position-absolute" src="{{ asset('images/icons/homepage/Star24.svg') }}" alt="Star24">
+			<img class="star-25 position-absolute" src="{{ asset('images/icons/homepage/Star25.svg') }}" alt="Star25">
 
 		</div>
 
 		<div class="row justify-content-between mb-4-0 mx-auto">
-			<div class="item-eco col-6-lg bg-purple edupia-border-radius-44 eco-item pt-5 pb-3-2 px-5 d-flex position-relative">
+			<div
+				class="item-eco col-6-lg bg-purple edupia-border-radius-44 eco-item pt-5 pb-3-2 px-5 d-flex position-relative">
 				<div class="text-font-size-18 text-font-weight-600">
-					<img class="mb-5" src="{{ asset('images/icons/EdupiaTutor.svg') }}" alt="EdupiaTutor">
+					<img class="mb-5" src="{{ asset('images/icons/homepage/EdupiaTutor.svg') }}" alt="EdupiaTutor">
 					<p class="text-white line-height-28 mb-0">EDUPIA TUTOR - chương trình gia sư tiếng</p>
 					<p class="text-white line-height-28 mb-0">Anh trực tuyến chất lượng cao.</p>
 					<p class="text-white line-height-28 mb-0">Lớp gia sư yêu thích - con cán đích điểm 10</p>
@@ -330,11 +341,13 @@ Trang chủ
 						<p class="text">KHÁM PHÁ</p>
 					</div>
 				</div>
-				<img class="edupia-img-tutor position-absolute" src="{{ asset('images/imgs/edupia-tutor-img.png') }}" alt="edupia-tutor-img">
+				<img class="edupia-img-tutor position-absolute" src="{{ asset('images/imgs/homepage/edupia-tutor-img.png') }}"
+					alt="edupia-tutor-img">
 			</div>
-			<div class="item-eco col-6-lg bg-coral edupia-border-radius-44 eco-item pt-5 pb-3-2 px-5 d-flex position-relative">
+			<div
+				class="item-eco col-6-lg bg-coral edupia-border-radius-44 eco-item pt-5 pb-3-2 px-5 d-flex position-relative">
 				<div class="text-font-size-18 text-font-weight-600">
-					<img class="mb-5" src="{{ asset('images/icons/EdupiaIelts.svg') }}" alt="EdupiaIelts">
+					<img class="mb-5" src="{{ asset('images/icons/homepage/EdupiaIelts.svg') }}" alt="EdupiaIelts">
 					<p class="text-white line-height-28 mb-0">EDUPIA IELTS - tiếng Anh nền tảng 4</p>
 					<p class="text-white line-height-28 mb-0">kỹ năng, chương trình học thuật, kiến</p>
 					<p class="text-white line-height-28 mb-0">thức chuyên sâu cho mục tiêu ôn và</p>
@@ -343,30 +356,156 @@ Trang chủ
 						<p class="text">KHÁM PHÁ</p>
 					</div>
 				</div>
-				<img class="edupia-img-ielts position-absolute" src="{{ asset('images/imgs/edupia-ielts-img.png') }}" alt="edupia-ielts-img">
+				<img class="edupia-img-ielts position-absolute" src="{{ asset('images/imgs/homepage/edupia-ielts-img.png') }}"
+					alt="edupia-ielts-img">
 			</div>
-
-
 		</div>
-
 	</div>
 	<!-- section 8 -->
 	<div class="section-8 w-100">
-		<div class="edupia-container-lg">Báo Chí Và Truyền Thông Nói Gì Về EDUPIA</div>
+		<div class="edupia-container-lg">
+			<div class="row">
+				<div class="col-12-lg mx-auto mb-5 text-font-size-40">
+					<span class="text-blue-600">Báo Chí Và Truyền Thông Nói Gì Về</span>
+					<span class="text-blue-500 d-inline-grid edupia-liner">
+						EDUPIA
+						<img src="{{ asset('images/icons/homepage/AnimationLine.svg') }}" alt="AnimationLine">
+					</span>
+				</div>
+				<div class="col-12-lg mx-auto mb-5">
+					<span class="small-title blue-900 d-block text-center">Luôn nỗ lực và hết mình vì cộng đồng trong
+						hành trình phát triển, EDUPIA khẳng định sứ mệnh</span>
+					<span class="small-title blue-900 d-block text-center"> vì “Một thế hệ học sinh với tương lai tốt
+						đẹp hơn”.</span>
+				</div>
+				<div class="col-12-lg mx-auto video-intro position-relative">
+					<div id="videoContainer" class="mb-4-0">
+						<img id="thumbnail" src="{{ asset('images/imgs/homepage/hompage-thumbnail.png') }}" alt="hompage-thumbnail">
+						<img class="position-absolute play-icon" src="{{ asset('images/icons/homepage/Play.svg') }}" alt="Play">
+					</div>
+					<p class="text-center mt-9">EDUPIA được đưa tin bởi những <span class="text-blue-500">kênh tin tức
+							uy tín</span> tại Việt Nam</p>
+				</div>
+			</div>
+		</div>
 		<div class="marquee">
 			<div class="marquee-content">
-				<div class="marquee-tag">1</div>
-				<div class="marquee-tag">2</div>
-				<div class="marquee-tag">3</div>
-				<div class="marquee-tag">1</div>
-				<div class="marquee-tag">2</div>
-				<div class="marquee-tag">3</div>
-				<div class="marquee-tag">1</div>
-				<div class="marquee-tag">2</div>
-				<div class="marquee-tag">3</div>
-				<div class="marquee-tag">1</div>
-				<div class="marquee-tag">2</div>
-				<div class="marquee-tag">3</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/VTV.svg') }}" alt="VTV">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/DanTri.svg') }}" alt="DanTri">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/Vnexpress.svg') }}" alt="Vnexpress">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/VtcNews.svg') }}" alt="VtcNews">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/Cafebiz.svg') }}" alt="Cafebiz">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/VnEconomy.svg') }}" alt="VnEconomy">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/ZingNews.svg') }}" alt="ZingNews">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/GiaoDucThoiDai.svg') }}" alt="GiaoDucThoiDai">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/Cafef.svg') }}" alt="Cafef">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/Vov1.svg') }}" alt="Vov1">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/VTV.svg') }}" alt="VTV">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/DanTri.svg') }}" alt="DanTri">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/Vnexpress.svg') }}" alt="Vnexpress">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/VtcNews.svg') }}" alt="VtcNews">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/Cafebiz.svg') }}" alt="Cafebiz">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/VnEconomy.svg') }}" alt="VnEconomy">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/ZingNews.svg') }}" alt="ZingNews">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/GiaoDucThoiDai.svg') }}" alt="GiaoDucThoiDai">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/Cafef.svg') }}" alt="Cafef">
+				</div>
+				<div class="marquee-tag">
+					<img src="{{ asset('images/icons/homepage/Vov1.svg') }}" alt="Vov1">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- section 9 -->
+	<div class="section-9 w-100">
+		<div class="edupia-container-lg">
+			<div class="row">
+				<div class="col-12-lg mx-auto mb-5 text-font-size-40">
+					<span class="text-blue-600">Những Giải Thưởng Gọi Tên</span>
+					<span class="text-blue-500 d-inline-grid edupia-liner">
+						EDUPIA
+						<img src="{{ asset('images/icons/homepage/AnimationLine.svg') }}" alt="AnimationLine">
+					</span>
+				</div>
+				<div class="col-12-lg mx-auto mb-5">
+					<span class="small-title blue-900 d-block text-center">Những giải thưởng danh giá thêm một lần nữa khẳng định uy tín của EDUPIA trong hành trình</span>
+					<span class="small-title blue-900 d-block text-center">phát triển của mình.</span>
+				</div>
+			</div>
+		</div>
+		<div class="row award w-100">
+			<div class="col-7">
+				<img src="{{ asset('images/imgs/homepage/award-img.png') }}" alt="award-img">
+			</div>
+			<div class="col-5">
+				<div class="row py-5">
+					<div class="col-4">
+						<img src="{{ asset('images/imgs/homepage/asean-2019.png') }}" alt="asean-2019">
+					</div>
+					<div class="col-6 text">
+						<p class="text-font-size-24 text-blue-500 text-font-weight-600">Top 50 thương hiệu vàng</p>
+						<p class="text-font-size-18 text-font-weight-600">ASEAN BRAND AWARDS 2019</p>
+					</div>
+					<div class="col-2"></div>
+				</div>
+				<div class="row py-5">
+					<div class="col-4 py-7">
+						<img src="{{ asset('images/imgs/homepage/vietnam-digital.png') }}" alt="vietnam-digital">
+					</div>
+					<div class="col-6 text">
+						<p class="text-font-size-24 text-blue-500 text-font-weight-600">Ứng dụng số tốt nhất</p>
+						<p class="text-font-size-18 text-font-weight-600">VIETNAM DIGITAL AWARDS 2018</p>
+					</div>
+					<div class="col-2"></div>
+				</div>
+				<div class="row py-5">
+					<div class="col-4 py-2">
+						<img src="{{ asset('images/imgs/homepage/techin-asia.png') }}" alt="techin-asia">
+					</div>
+					<div class="col-6 text">
+						<p class="text-font-size-24 text-blue-500 text-font-weight-600">Top 50 Startup hứa hẹn</p>
+						<p class="text-font-size-18 text-font-weight-600">TECHINASIA 2021</p>
+					</div>
+					<!-- <div class="col-2"></div> -->
+				</div>
 			</div>
 		</div>
 	</div>
@@ -379,9 +518,33 @@ Trang chủ
 	$('.carousel').carousel({
             interval: false,
         });
-        $(".carousel-indicators img").click(function() {
-            $(".carousel-indicators img").attr('src', "{{ asset('images/icons/Dot.svg') }}");
-            $(this).attr('src', "{{ asset('images/icons/IndicatorsActive.svg') }}");
-        });
+	$(".carousel-indicators img").click(function() {
+			$(".carousel-indicators img").attr('src', "{{ asset('images/icons/homepage/Dot.svg') }}");
+			$(this).attr('src', "{{ asset('images/icons/homepage/IndicatorsActive.svg') }}");
+	});
+
+	$('.play-icon').click(function() {
+			// Lấy video ID từ URL của video YouTube
+			const videoId = 'zg6eSuOpJEQ';
+
+			// Tạo thẻ iframe chứa video
+			const iframe = $('<iframe></iframe>', {
+					width: 970,
+					height: 545,
+					src: `https://www.youtube.com/embed/${videoId}?rel=0&autoplay=1&mute=1`,
+					frameborder: 0,
+					allowfullscreen: true,
+					class: 'embed-responsive-item',
+					preload: 'metadata',
+					css: {
+							'border-radius': '12px'
+
+					}
+			});
+
+			// Ẩn hình ảnh thumbnail và thay thế bằng iframe chứa video
+			$('#thumbnail').hide();
+			$('#videoContainer').html(iframe);
+	});
 </script>
 @endsection

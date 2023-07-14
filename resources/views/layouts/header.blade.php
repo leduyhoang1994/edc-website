@@ -3,7 +3,7 @@
     <div class="row w-100 mx-0">
       <div class="col-lg-3">
         <a class="navbar-brand d-flex align-items-center" href="#">
-          <img src="{{ asset('images/icons/LogoBrandEdupia.svg') }}" alt="Logo" class="logo">
+          <img src="{{ asset('images/icons/homepage/LogoBrandEdupia.svg') }}" alt="Logo" class="logo">
         </a>
       </div>
       <div class="col-lg-6 my-auto"> 

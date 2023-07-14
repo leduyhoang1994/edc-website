@@ -1,11 +1,13 @@
 .home {
     .edupia-liner {
         position: relative;
+
         img {
             bottom: -8px;
             position: absolute;
         }
     }
+
     .form-register {
         // max-width: $edupia-width-content !important;
         // margin: auto;
@@ -213,11 +215,13 @@
         .block-1 {
             width: 36%;
             padding: 143px 20px;
+
             .big-text {
                 font-size: $font-40;
                 font-weight: $font-weight-base;
                 line-height: 48px;
             }
+
             .small-title {
                 font-size: $font-20;
 
@@ -225,15 +229,19 @@
 
         }
 
-        .block-2, .block-3, .block-4 {
+        .block-2,
+        .block-3,
+        .block-4 {
             width: calc((100% - 36%) / 3);
             padding: 176px 20px 116px 20px;
+
             .big-text {
                 font-size: $font-36;
                 font-weight: $font-weight-700;
                 line-height: 36px;
                 margin-top: 60px;
             }
+
             .small-title {
                 font-size: $font-22;
             }
@@ -241,126 +249,196 @@
 
 
     }
-    
+
     .section-7 {
         padding-top: 80px;
+        padding-bottom: 40px;
+
         .item-eco {
             width: 49%;
         }
+
         .small-title {
             font-weight: $font-weight-base;
             line-height: 28px;
         }
-       .edupia-img-second {
+
+        .edupia-img-second {
             right: 0;
             top: 42px;
             border-bottom-right-radius: 44px 44px;
-       }
-       .edupia-img-math {
+        }
+
+        .edupia-img-math {
             right: 0;
             top: 21px;
             border-bottom-right-radius: 44px 44px;
-       }
-       .edupia-img-english {
+        }
+
+        .edupia-img-english {
             right: 0;
             top: 74px;
             border-bottom-right-radius: 44px 44px;
-       }
-       .edupia-img-tutor {
+        }
+
+        .edupia-img-tutor {
             right: 0;
             top: 94px;
             border-bottom-right-radius: 44px 44px;
-       }
-       .edupia-img-ielts {
-        right: 0;
-        top: 17px;
-        border-bottom-right-radius: 44px 44px;
-       }
-       .star-23 {
-        top: 20%;
-        left: 10%;
-       }
-       .star-26 {
-        bottom: 10%;
-        left: 10%;
-       }
+        }
 
-       .star-24 {
-        bottom: 5%;
-        right: 15%;
-       }
-       .star-25 {
-        top: 5%;
-        right: 5%;
-       }
+        .edupia-img-ielts {
+            right: 0;
+            top: 17px;
+            border-bottom-right-radius: 44px 44px;
+        }
+
+        .star-23 {
+            top: 20%;
+            left: 10%;
+        }
+
+        .star-26 {
+            bottom: 10%;
+            left: 10%;
+        }
+
+        .star-24 {
+            bottom: 5%;
+            right: 15%;
+        }
+
+        .star-25 {
+            top: 5%;
+            right: 5%;
+        }
     }
+
     .section-8 {
+        background-color: $gray-100;
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        .video-intro {
+            margin-top: 48px;
+            margin-bottom: 72px;
+
+            img {
+                border-radius: 12px;
+
+            }
+
+            .play-icon {
+                top: 40%;
+                /* position the top  edge of the element at the middle of the parent */
+                left: 50%;
+                /* position the left edge of the element at the middle of the parent */
+
+                transform: translate(-50%, -50%);
+                cursor: pointer;
+            }
+
+            p {
+                font-family: Quicksand;
+                font-size: $font-20;
+                font-weight: $font-family-base;
+                line-height: 28px;
+            }
+
+        }
+
         .marquee {
-            background: linear-gradient(-135deg, #008ed9, #8b00db);
             box-sizing: border-box;
-            padding: 1em;
+            padding: 0 15px;
             color: #fff;
-            font-weight: 200;
             display: flex;
             align-items: center;
             overflow: hidden;
         }
+
         .marquee-content {
             display: flex;
-            animation: marquee 40s linear infinite running;
+            animation: marquee 60s linear infinite running;
+
             &:hover {
                 animation-play-state: paused;
             }
         }
+
         .marquee-tag {
-            width: 200px;
-            margin: 0 0.5em;
-            padding: 0.5em;
-            background: rgba(255,255,255,0.1);
+            margin: 0 40px;
             display: inline-flex;
             align-items: center;
             justify-content: center;
             transition: all 0.2s ease;
+
+            img {
+                filter: grayscale(100%);
+            }
+
             &:hover {
-                background: rgba(255,255,255,0.5);
                 transform: scale(1.1);
                 cursor: pointer;
+
+                img {
+                    filter: none;
+                }
             }
+
         }
 
         @-moz-keyframes marquee {
             0% {
-              transform: translateX(0);
+                transform: translateX(0);
             }
+
             100% {
-              transform: translate(-50%);
+                transform: translate(-50%);
             }
-          }
-          @-webkit-keyframes marquee {
+        }
+
+        @-webkit-keyframes marquee {
             0% {
-              transform: translateX(0);
+                transform: translateX(0);
             }
+
             100% {
-              transform: translate(-50%);
+                transform: translate(-50%);
             }
-          }
-          @-o-keyframes marquee {
+        }
+
+        @-o-keyframes marquee {
             0% {
-              transform: translateX(0);
+                transform: translateX(0);
             }
+
             100% {
-              transform: translate(-50%);
+                transform: translate(-50%);
             }
-          }
-          @keyframes marquee {
+        }
+
+        @keyframes marquee {
             0% {
-              transform: translateX(0);
+                transform: translateX(0);
             }
+
             100% {
-              transform: translate(-50%);
+                transform: translate(-50%);
             }
-          }
-          
-        
+        }
+
+
+    }
+
+    .section-9 {
+        padding-top: 80px;
+        // padding-bottom: 80px;
+        background-color: $white;
+        .award {
+            .text {
+                padding-top: 40px;
+                text-align: center;
+            }
+        }
     }
 }
