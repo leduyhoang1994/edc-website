@@ -19,9 +19,9 @@ Trang chủ
 				</div>
 			</div>
 			<ol class="carousel-indicators justify-content-center edupia-container-lg py-5">
-				<li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-				<li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-				<li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
@@ -207,11 +207,11 @@ Trang chủ
 										<div class="col-lg-4">
 											<div>
 												<div class="card border-0" style="width: 100%;">
-													<img class="card-img-top" src="{{ asset('images/imgs/homepage/edupia-standard.png') }}"
+													<img class="card-img-top" src="{{ asset('images/imgs/homepage/edupia-pro.png') }}"
 														alt="Card image cap">
 													<div class="card-body">
-														<h5 class="card-title text-font-size-28 text-font-weight-700">Edupia Standard</h5>
-														<p class="card-text text-font-size-20 text-font-weight-400">Tiếng Anh online chất lượng cao cho<br /> học sinh lớp 1  -  lớp 9</p>
+														<h5 class="card-title text-font-size-28 text-font-weight-700">Edupia Pro</h5>
+														<p class="card-text text-font-size-20 text-font-weight-400">Gia sư tiếng Anh cùng giáo viên Việt Nam</p>
 													</div>
 												</div>
 											</div>
@@ -219,11 +219,11 @@ Trang chủ
 										<div class="col-lg-4">
 											<div>
 												<div class="card border-0" style="width: 100%;">
-													<img class="card-img-top" src="{{ asset('images/imgs/homepage/edupia-standard.png') }}"
+													<img class="card-img-top" src="{{ asset('images/imgs/homepage/edupia-native.png') }}"
 														alt="Card image cap">
 													<div class="card-body">
-														<h5 class="card-title text-font-size-28 text-font-weight-700">Edupia Standard</h5>
-														<p class="card-text text-font-size-20 text-font-weight-400">Tiếng Anh online chất lượng cao cho<br /> học sinh lớp 1  -  lớp 9</p>
+														<h5 class="card-title text-font-size-28 text-font-weight-700">Edupia Native</h5>
+														<p class="card-text text-font-size-20 text-font-weight-400">Gia sư tiếng Anh cao cấp 1:1 cùng giáo viên bản ngữ</p>
 													</div>
 												</div>
 											</div>

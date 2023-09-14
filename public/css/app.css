@@ -316,7 +316,7 @@ html {
 .carousel-indicators .active {
   width: 74px !important;
   border-radius: 50rem !important;
-  background-color: #20BEC6;
+  background-color: #20BEC6 !important;
 }
 
 /*!
@@ -17476,6 +17476,10 @@ a:hover {
   left: 50%;
   -webkit-transform: translate(-50%, -50%) !important;
           transform: translate(-50%, -50%) !important;
+}
+
+.home .carousel-indicators li {
+  background-color: #ECEAF9;
 }
 
 .home .edupia-liner {
