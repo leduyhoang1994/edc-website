@@ -18,9 +18,15 @@ $font-weight-700: 700;
 $font-weight-base: $font-weight-600;
 
 // Font Sizes
+$font-65: 65px;
+$font-60: 60px;
+$font-55: 55px;
+$font-50: 50px;
+$font-45: 45px;
 $font-40: 40px;
 $font-36: 36px;
 $font-28: 28px;
+$font-25: 25px;
 $font-24: 24px;
 $font-22: 22px;
 $font-20: 20px;
@@ -64,6 +70,8 @@ $goldenrod:  #FFBE44;
 $dodger-blue: #4DBEFF;
 $coral: #FF6A92;
 $purple: #4915C2;
+$blue-primary: #20BEC6;
+$white: #FFFFFF;
 
 // fusv-disable
 // $blue-100: tint-color($blue, 80%) !default;
@@ -74,6 +82,9 @@ $purple: #4915C2;
 // $blue-600: shade-color($blue, 20%) !default;
 // $blue-700: shade-color($blue, 40%) !default;
 // $blue-800: shade-color($blue, 60%) !default;
+$blue-200: #2581BA !default;
+$blue-300: #005B94 !default;
+$blue-400: #40B8D5 !default;
 $blue-500: #21BDC6 !default;
 $blue-600: #005487 !default;
 $blue-900: #292D32 !default;
@@ -81,9 +92,16 @@ $orange-500: #FF9213 !default;
 $gray-100: #F5F5F5 !default;
 $gray-200: #DEE1E1 !default;
 $dodger-blue-100: #36BFC7 !default;
+$yellow-200: #FFF0B8 !default;
+$black-100: #333333 !default;
+$yellow-300: #FFD600 !default;
+$white-100: #F8F9F9 !default;
 
 
 $theme-colors: (
+  blue-200: $blue-200,
+  blue-300: $blue-300,
+  blue-400: $blue-400,
   blue-500: $blue-500,
   blue-600: $blue-600,
   blue-900: $blue-900,
@@ -96,6 +114,11 @@ $theme-colors: (
   coral: $coral,
   purple: $purple,
   dodger-blue-100: $dodger-blue-100,
+  yellow-200: $yellow-200,
+  black-100: $black-100,
+  white: $white,
+  yellow-300: $yellow-300,
+  white-100: $white-100
 );
 // Spacing 
 $spacer: 8px !default;

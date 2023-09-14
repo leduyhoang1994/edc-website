@@ -6,43 +6,22 @@ Trang chủ
 <div class="home">
 	<div class="banner w-100">
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-			<div class="carousel-indicators justify-content-end form-register edupia-container-lg ">
-				<div class="justify-content-end register-wrapp">
-					<form action="">
-						<span class="text-blue-600 d-block text-center">Ba mẹ đăng ký nhận </span>
-						<span class="text-blue-600 d-block text-center"> tư vấn MIỄN PHÍ tại đây nhé!</span></span>
-						<div class="mt-5 mb-3 form-group">
-							<input type="email" class="form-control form-control-customize" id="email"
-								placeholder="Họ và tên phụ huynh">
-						</div>
-						<div class="form-group">
-							<input type="email" class="form-control form-control-customize" id="phone"
-								placeholder="Số điện thoại phụ huynh">
-						</div>
-						<div class="form-group">
-							<input type="email" class="form-control form-control-customize" id="class"
-								placeholder="Nhập lớp học của con">
-						</div>
-						<select class="form-select w-100 form-select-customize" aria-label="Chọn khóa học quan tâm">
-							<option selected>Chọn khóa học đang quan tâm</option>
-							<option value="1">One</option>
-							<option value="2">Two</option>
-							<option value="3">Three</option>
-						</select>
-						<button type="submit"
-							class="w-100 btn bg-blue-500 mt-5  py-1 text-uppercase font-weight-bold text-white">ĐĂNG KÝ
-							NGAY</button>
-					</form>
+			<div class="carousel-indicators justify-content-start form-register edupia-container-lg ">
+				<div class="justify-content-end content-slide-item">
+					<div>
+						<p class="text-white text-font-size-50 text-font-weight-700 title-banner">Tiên phong trong lĩnh vực <br />
+							Edtech tại Việt Nam</p>
+						<p class="text-white text-font-size-18 text-font-weight-400">
+							Trong hơn 5 năm hình thành & phát triển, Edupia đã cho ra mắt các sản phẩm
+							giáo dục trực tuyến thúc đẩy sự phát triển cho hàng triệu trẻ em Việt Nam.
+						</p>
+					</div>
 				</div>
-
 			</div>
-			<ol class="carousel-indicators justify-content-start edupia-container-lg py-5">
-				<img data-target="#carouselExampleIndicators" data-slide-to="0"
-					src="{{ asset('images/icons/homepage/IndicatorsActive.svg') }}" alt="First slide">
-				<img data-target="#carouselExampleIndicators" data-slide-to="1" class="ml-1 mr-1"
-					src="{{ asset('images/icons/homepage/Dot.svg') }}" alt="Second slide">
-				<img data-target="#carouselExampleIndicators" data-slide-to="2"
-					src="{{ asset('images/icons/homepage/Dot.svg') }}" alt="Third slide">
+			<ol class="carousel-indicators justify-content-center edupia-container-lg py-5">
+				<li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
@@ -59,101 +38,210 @@ Trang chủ
 						alt="Third slide">
 				</div>
 			</div>
-
 		</div>
 	</div>
 	<!-- section chicken-pea -->
 	<div class="section-2 edupia-container-lg">
 		<div class="row w-75 m-auto">
 			<div class="col-12-lg mx-auto mb-6">
-				<span class="text-blue-500 d-inline-grid edupia-liner">
-					EDUPIA
-					<img src="{{ asset('images/icons/homepage/AnimationLine.svg') }}" alt="AnimationLine">
-				</span>
-				<span class="text-blue-600">- Tiếng Anh Online</span>
-				<span class="text-blue-500"> TOÀN DIỆN </span>
-				<span class="d-block text-center text-blue-600">Cho Học Sinh Từ Lớp 1 - 9</span>
-			</div>
-			<div class="col-12-lg mx-auto mb-7">
-				<span class="small-title blue-900 d-block text-center">Tiếp cận phương pháp đào tạo CHUẨN quốc tế đầu
-					tiên tại Việt Nam,</span>
-				<span class="small-title blue-900 d-block text-center">giúp con tiến bộ vượt bậc môn Tiếng Anh</span>
-			</div>
-		</div>
-		<div class="row justify-content-between">
-			<div class="col-4-lg text-center ">
-				<img class="mb-5" src="{{ asset('images/imgs/homepage/section-2-img.jpg') }}" alt="section-2-img">
-				<p class="text-blue-600 font-weight-bold text-font-size-24 mb-0">
-					100% giáo viên Anh - Mỹ
-				</p>
-				<p class="text-blue-900 text-font-weight-500 text-font-size-20 mb-0">Đội ngũ giáo viên bản địa với
-					chuyên</p>
-				<p class="text-blue-900 text-font-weight-500 text-font-size-20 mb-0">môn vững vàng sẽ giúp con phát
-					triển</p>
-				<p class="text-blue-900 text-font-weight-500 text-font-size-20 mb-0">toàn diện 4 kỹ năng</p>
-			</div>
-			<div class="col-4-lg text-center">
-				<img class="mb-5" src="{{ asset('images/imgs/homepage/section-2-img.jpg') }}" alt="section-2-img">
-				<p class="text-blue-600 font-weight-bold text-font-size-24 mb-0">
-					Chương trình chuẩn Bộ Giáo Dục
-				</p>
-				<p class="text-blue-900 text-font-weight-500 text-font-size-20 mb-0">Bám sát nội dung trong Sách Giáo
-				</p>
-				<p class="text-blue-900 text-font-weight-500 text-font-size-20 mb-0">Khoa. Con học có định hướng rõ</p>
-				<p class="text-blue-900 text-font-weight-500 text-font-size-20 mb-0">ràng, tự tin chinh phục điểm cao
+				<p class="text-center text-font-size-36 text-font-weight-600">Edupia và những con số ấn tượng</p>
+				<p class="text-center text-font-size-18 text-font-weight-400">Là sản phẩm tiên phong đi đầu, từ khi ra mắt đến
+					nay EDUPIA đã đạt được những thành tựu ấn tượng
 				</p>
 			</div>
-			<div class="col-4-lg text-center">
-				<img class="mb-5" src="{{ asset('images/imgs/homepage/section-2-img.jpg') }}" alt="section-2-img">
-				<p class="text-blue-600 font-weight-bold text-font-size-24 mb-0">
-					Giáo viên chủ nhiệm sát sao
-				</p>
-				<p class="text-blue-900 text-font-weight-500 text-font-size-20 mb-0">Ban giáo vụ đồng hành, giúp đỡ con
-				</p>
-				<p class="text-blue-900 text-font-weight-500 text-font-size-20 mb-0">trong suốt quá trình học, cùng con
-					kiên </p>
-				<p class="text-blue-900 text-font-weight-500 text-font-size-20 mb-0">trì theo đuổi mục tiêu</p>
-			</div>
+			<div class="col-12-lg mb-7 w-100 h-340 position-relative">
+				<div class="item-achievement-1 position-absolute">
+					<div class="position-relative">
+						<svg width="181" height="160" viewBox="0 0 181 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M127.443 0H53.1039C47.7751 0 42.8464 2.82705 40.1561 7.42675L2.41578 71.9504C-0.313073 76.6159 -0.320951 82.3887 2.39517 87.0616L40.1627 152.038C42.8478 156.658 47.7877 159.5 53.1311 159.5H127.415C132.734 159.5 137.655 156.684 140.349 152.098L178.522 87.1221C181.285 82.4187 181.277 76.586 178.501 71.8902L140.355 7.36632C137.656 2.80079 132.746 0 127.443 0Z"
+								fill="#40B8D5" />
+						</svg>
+						<div class="position-absolute txt-item-achievement">
+							<p class="text-white text-font-size-20 line-height-normal d-flex align-items-baseline">
+								<span class="text-font-size-50">5</span> <span class="ml-1">Triệu</span>
+							</p>
+							<p class="text-white text-font-size-18 text-font-weight-500">Học sinh <br />theo học</p>
+						</div>
+					</div>
+				</div>
+				<div class="item-achievement-2 position-absolute">
+					<div class="position-relative">
+						<svg width="185" height="164" viewBox="0 0 185 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M129.443 2H55.1039C49.7751 2 44.8464 4.82705 42.1561 9.42675L4.41578 73.9504C1.68693 78.6159 1.67905 84.3887 4.39517 89.0616L42.1627 154.038C44.8478 158.658 49.7877 161.5 55.1311 161.5H129.415C134.734 161.5 139.655 158.684 142.349 154.098L180.522 89.1221C183.285 84.4187 183.277 78.586 180.501 73.8902L142.355 9.36632C139.656 4.80079 134.746 2 129.443 2Z"
+								stroke="#40B8D5" stroke-width="4" />
+						</svg>
+						<div class="position-absolute txt-item-achievement">
+							<p class="text-blue-400 line-height-normal d-flex align-items-baseline justify-content-center">
+								<span class="text-font-size-55 text-font-weight-700">25</span> <span>nghìn</span>
+							</p>
+							<p class="text-blue-400 text-font-size-16 text-font-weight-500 white-space-nowrap text-center">Học sinh
+								Online <br />hàng ngày</p>
+						</div>
+					</div>
+				</div>
+				<div class="item-achievement-3 position-absolute">
+					<div class="position-relative">
+						<svg width="185" height="164" viewBox="0 0 185 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M129.443 2H55.1039C49.7751 2 44.8464 4.82705 42.1561 9.42675L4.41578 73.9504C1.68693 78.6159 1.67905 84.3887 4.39517 89.0616L42.1627 154.038C44.8478 158.658 49.7877 161.5 55.1311 161.5H129.415C134.734 161.5 139.655 158.684 142.349 154.098L180.522 89.1221C183.285 84.4187 183.277 78.586 180.501 73.8902L142.355 9.36632C139.656 4.80079 134.746 2 129.443 2Z"
+								stroke="#2581BA" stroke-width="4" />
+						</svg>
 
-		</div>
-		<div class="row justify-content-between bg-white">
-			<div class="col-12-lg mx-auto">
-				<img src="{{ asset('images/imgs/homepage/chicken-pea-1.png') }}" alt="chicken-pea-1">
+						<div class="position-absolute txt-item-achievement">
+							<span class="text-blue-200 text-font-size-18 text-font-weight-500 d-block margin-left-4">Hơn</span>
+							<p class="text-blue-200 d-flex align-items-baseline line-height-normal">
+								<span class="text-font-size-55 text-font-weight-700 line-height-30">5</span><span>nghìn</span>
+							</p>
+							<p class="mt-2 text-center text-blue-200 text-font-size-16 text-font-weight-500">Bài giảng <br />& Luyện
+								tập</p>
+						</div>
+					</div>
+				</div>
+				<div class="item-achievement-4 position-absolute">
+					<div class="position-relative">
+						<svg width="181" height="160" viewBox="0 0 181 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M127.443 0H53.1039C47.7751 0 42.8464 2.82705 40.1561 7.42675L2.41578 71.9504C-0.313073 76.6159 -0.320951 82.3887 2.39517 87.0616L40.1627 152.038C42.8478 156.658 47.7877 159.5 53.1311 159.5H127.415C132.734 159.5 137.655 156.684 140.349 152.098L178.522 87.1221C181.285 82.4187 181.277 76.586 178.501 71.8902L140.355 7.36632C137.656 2.80079 132.746 0 127.443 0Z"
+								fill="#3DD9D8" />
+						</svg>
+						<div class="position-absolute txt-item-achievement">
+							<p class="text-white text-font-size-50 text-font-weight-600 line-height-normal text-center">
+								<span>#1</span>
+							</p>
+							<p class="text-center text-white white-space-nowrap">Ed-Tech <br />tại Việt Nam</p>
+						</div>
+					</div>
+				</div>
+				<div class="item-achievement-5 position-absolute">
+					<div class="position-relative">
+						<svg width="185" height="164" viewBox="0 0 185 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M129.443 2H55.1039C49.7751 2 44.8464 4.82705 42.1561 9.42675L4.41578 73.9504C1.68693 78.6159 1.67905 84.3887 4.39517 89.0616L42.1627 154.038C44.8478 158.658 49.7877 161.5 55.1311 161.5H129.415C134.734 161.5 139.655 158.684 142.349 154.098L180.522 89.1221C183.285 84.4187 183.277 78.586 180.501 73.8902L142.355 9.36632C139.656 4.80079 134.746 2 129.443 2Z"
+								stroke="#2581BA" stroke-width="4" />
+						</svg>
+						<div class="position-absolute txt-item-achievement">
+							<p class="text-blue-200 text-center  white-space-nowrap line-height-normal">
+								<span class="text-font-size-55 text-font-weight-700">100</span>
+								<span class="text-font-size-25">%</span>
+							</p>
+							<p class="text-center text-blue-200 text-font-size-16 text-font-weight-500">Bài học được <br />thiết kế
+								riêng</p>
+						</div>
+					</div>
+				</div>
+				<div class="item-achievement-6 position-absolute">
+					<div class="position-relative">
+						<svg width="181" height="160" viewBox="0 0 181 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M127.443 0H53.1039C47.7751 0 42.8464 2.82705 40.1561 7.42675L2.41578 71.9504C-0.313073 76.6159 -0.320951 82.3887 2.39517 87.0616L40.1627 152.038C42.8478 156.658 47.7877 159.5 53.1311 159.5H127.415C132.734 159.5 137.655 156.684 140.349 152.098L178.522 87.1221C181.285 82.4187 181.277 76.586 178.501 71.8902L140.355 7.36632C137.656 2.80079 132.746 0 127.443 0Z"
+								fill="#40C1C8" />
+						</svg>
+						<div class="position-absolute txt-item-achievement">
+							<p class="text-center text-white text-font-size-16 text-font-weight-500">Top</p>
+							<p class="text-center text-white line-height-normal">
+								<span class="text-font-size-65 line-height-55">5</span>
+							</p>
+							<p class="white-space-nowrap text-white text-font-size-16 text-font-weight-500 text-center">Ed-Tech
+								<br />Đông Nam Á
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item-achievement-7 position-absolute">
+					<div class="position-relative">
+						<svg width="181" height="160" viewBox="0 0 181 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M127.443 0H53.1039C47.7751 0 42.8464 2.82705 40.1561 7.42675L2.41578 71.9504C-0.313073 76.6159 -0.320951 82.3887 2.39517 87.0616L40.1627 152.038C42.8478 156.658 47.7877 159.5 53.1311 159.5H127.415C132.734 159.5 137.655 156.684 140.349 152.098L178.522 87.1221C181.285 82.4187 181.277 76.586 178.501 71.8902L140.355 7.36632C137.656 2.80079 132.746 0 127.443 0Z"
+								fill="#0D5B8F" />
+						</svg>
+						<div class="position-absolute txt-item-achievement">
+							<p class="text-center text-white d-flex align-items-baseline justify-content-center line-height-normal">
+								<span class="text-font-size-60 text-font-weight-700">95</span>
+								<span class="text-font-size-45 text-font-weight-700">%</span>
+							</p>
+							<p class="text-center text-white white-space-nowrap text-font-size-16 text-font-weight-500">Học sinh cải
+								thiện <br />điểm số</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 	<!-- section 3 -->
-	<div class="w-100 section-3 ">
-		<div class="edupia-container-lg">
-			<div class="block-1 text-center">
-				<div class="row m-auto">
-					<div class="col-lg-12 mb-5">
-						<span class="text-blue-600">Con Nhận Được Gì Sau Khi Tham Gia Khóa Học </span>
-						<span class="text-blue-500 d-inline-grid edupia-liner">
-							EDUPIA
-							<img src="{{ asset('images/icons/homepage/AnimationLine.svg') }}" alt="AnimationLine">
-						</span>
+	<div class="w-100 section-3">
+		<div class="block-1 text-center">
+			<div class="row m-auto">
+				<div class="col-lg-12 mb-5">
+					<div class="edupia-container-lg">
+						<p class="text-center text-font-size-36 text-font-weight-600">Hệ sinh thái sản phẩm Edupia</p>
+						<p class="text-center text-font-size-18 text-font-weight-400">
+							Giáo viên chuyên nghiệp - Giáo dục truyền cảm hứng - Cá nhân hoá học tập
+						</p>
 					</div>
-					<div class="col-12-lg mx-auto mb-7">
-						<span class="small-title blue-900 d-block text-center">EDUPIA là sản phẩm đi đầu trong ứng dụng
-							công nghệ trong lĩnh vực giáo dục, với khao khát đem lại</span>
-						<span class="small-title blue-900 d-block text-center">cơ hội học tiếng Anh online chất lượng
-							cao cho hàng triệu học sinh Việt Nam</span>
-					</div>
-					<div class="col-lg-3">
-						<div class="img-frame position-relative">
-							<img class="frame" src="{{ asset('images/imgs/homepage/boder-home-section-3-1.png') }}"
-								alt="boder-home-section-3-1">
-							<img class="picture" src="{{ asset('images/imgs/homepage/home-section-3-1.png') }}"
-								alt="home-section-3-1">
+				</div>
+				<div class="col-12-lg mx-auto mb-7">
+					<div class="container">
+						<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+								<li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+								<li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="row">
+										<div class="col-lg-4">
+											<div>
+												<div class="card border-0" style="width: 100%;">
+													<img class="card-img-top" src="{{ asset('images/imgs/homepage/edupia-standard.png') }}"
+														alt="Card image cap">
+													<div class="card-body">
+														<h5 class="card-title text-font-size-28 text-font-weight-700">Edupia Standard</h5>
+														<p class="card-text text-font-size-20 text-font-weight-400">Tiếng Anh online chất lượng cao cho<br /> học sinh lớp 1  -  lớp 9</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div>
+												<div class="card border-0" style="width: 100%;">
+													<img class="card-img-top" src="{{ asset('images/imgs/homepage/edupia-standard.png') }}"
+														alt="Card image cap">
+													<div class="card-body">
+														<h5 class="card-title text-font-size-28 text-font-weight-700">Edupia Standard</h5>
+														<p class="card-text text-font-size-20 text-font-weight-400">Tiếng Anh online chất lượng cao cho<br /> học sinh lớp 1  -  lớp 9</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div>
+												<div class="card border-0" style="width: 100%;">
+													<img class="card-img-top" src="{{ asset('images/imgs/homepage/edupia-standard.png') }}"
+														alt="Card image cap">
+													<div class="card-body">
+														<h5 class="card-title text-font-size-28 text-font-weight-700">Edupia Standard</h5>
+														<p class="card-text text-font-size-20 text-font-weight-400">Tiếng Anh online chất lượng cao cho<br /> học sinh lớp 1  -  lớp 9</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100"
+										src="https://fastly.picsum.photos/id/2/1440/532.jpg?hmac=Fk--igIQyi6twk6odnElXoeWh4c1IA0j0DoIsyN6Nnk"
+										alt="Second slide">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100"
+										src="https://fastly.picsum.photos/id/2/1440/532.jpg?hmac=Fk--igIQyi6twk6odnElXoeWh4c1IA0j0DoIsyN6Nnk"
+										alt="Third slide">
+								</div>
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-3">
-						<img class="drawn-arrows" src="{{ asset('images/icons/homepage/DrawnArrows.svg') }}" alt="drawn-arrows-1">
-					</div>
-					<div class="col-lg-6 desc-1 text-blue-600 text-left">
-						<p>Con yêu thích và tự giác học tiếng Anh một</p>
-						<p>cách tự nhiên</p>
 					</div>
 				</div>
 			</div>
@@ -466,7 +554,8 @@ Trang chủ
 					</span>
 				</div>
 				<div class="col-12-lg mx-auto mb-5">
-					<span class="small-title blue-900 d-block text-center">Những giải thưởng danh giá thêm một lần nữa khẳng định uy tín của EDUPIA trong hành trình</span>
+					<span class="small-title blue-900 d-block text-center">Những giải thưởng danh giá thêm một lần nữa khẳng định
+						uy tín của EDUPIA trong hành trình</span>
 					<span class="small-title blue-900 d-block text-center">phát triển của mình.</span>
 				</div>
 			</div>
@@ -516,35 +605,35 @@ Trang chủ
 @section('script_links')
 <script>
 	$('.carousel').carousel({
-            interval: false,
-        });
-	$(".carousel-indicators img").click(function() {
-			$(".carousel-indicators img").attr('src', "{{ asset('images/icons/homepage/Dot.svg') }}");
-			$(this).attr('src', "{{ asset('images/icons/homepage/IndicatorsActive.svg') }}");
+		interval: false,
+	});
+	$(".carousel-indicators img").click(function () {
+		$(".carousel-indicators img").attr('src', "{{ asset('images/icons/homepage/Dot.svg') }}");
+		$(this).attr('src', "{{ asset('images/icons/homepage/IndicatorsActive.svg') }}");
 	});
 
-	$('.play-icon').click(function() {
-			// Lấy video ID từ URL của video YouTube
-			const videoId = 'zg6eSuOpJEQ';
+	$('.play-icon').click(function () {
+		// Lấy video ID từ URL của video YouTube
+		const videoId = 'zg6eSuOpJEQ';
 
-			// Tạo thẻ iframe chứa video
-			const iframe = $('<iframe></iframe>', {
-					width: 970,
-					height: 545,
-					src: `https://www.youtube.com/embed/${videoId}?rel=0&autoplay=1&mute=1`,
-					frameborder: 0,
-					allowfullscreen: true,
-					class: 'embed-responsive-item',
-					preload: 'metadata',
-					css: {
-							'border-radius': '12px'
+		// Tạo thẻ iframe chứa video
+		const iframe = $('<iframe></iframe>', {
+			width: 970,
+			height: 545,
+			src: `https://www.youtube.com/embed/${videoId}?rel=0&autoplay=1&mute=1`,
+			frameborder: 0,
+			allowfullscreen: true,
+			class: 'embed-responsive-item',
+			preload: 'metadata',
+			css: {
+				'border-radius': '12px'
 
-					}
-			});
+			}
+		});
 
-			// Ẩn hình ảnh thumbnail và thay thế bằng iframe chứa video
-			$('#thumbnail').hide();
-			$('#videoContainer').html(iframe);
+		// Ẩn hình ảnh thumbnail và thay thế bằng iframe chứa video
+		$('#thumbnail').hide();
+		$('#videoContainer').html(iframe);
 	});
 </script>
 @endsection
