@@ -1,4 +1,12 @@
-.header {
-  margin: auto;
-  max-width: $edupia-width-content;
+.header-area {
+  background-color: $blue-primary;
+  .tag-logo {
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+  .div-menu-item-bottom {
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
 }

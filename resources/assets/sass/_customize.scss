@@ -11,6 +11,7 @@ html {
 .mb-3-2 {
   margin-bottom: 32px;
 }
+
 .mb-4-0 {
   margin-bottom: 40px;
 }
@@ -18,6 +19,7 @@ html {
 .mt-7-2 {
   margin-bottom: 72px;
 }
+
 // Padding
 .pb-3-2 {
   padding-bottom: 32px;
@@ -35,34 +37,81 @@ html {
 }
 
 // Text font size
+.text-font-size-14 {
+  font-size: $font-14 !important;
+}
+
 .text-font-size-16 {
   font-size: $font-16;
 }
+
 .text-font-size-18 {
   font-size: $font-18;
 }
+
 .text-font-size-20 {
   font-size: $font-20;
 }
+
 .text-font-size-22 {
   font-size: $font-22;
 }
+
 .text-font-size-24 {
   font-size: $font-24;
 }
+
+.text-font-size-25 {
+  font-size: $font-25;
+}
+
 .text-font-size-28 {
   font-size: $font-28;
 }
+
+.text-font-size-36 {
+  font-size: $font-36;
+}
+
 .text-font-size-40 {
   font-size: $font-40;
 }
 
+.text-font-size-45 {
+  font-size: $font-45;
+}
+
+.text-font-size-50 {
+  font-size: $font-50;
+}
+
+.text-font-size-55 {
+  font-size: $font-55;
+}
+
+.text-font-size-60 {
+  font-size: $font-60;
+}
+
+.text-font-size-65 {
+  font-size: $font-65;
+}
+
 // Text font weight
+.text-font-weight-400 {
+  font-weight: $font-weight-400;
+}
+
 .text-font-weight-500 {
   font-weight: $font-weight-500;
 }
+
 .text-font-weight-600 {
   font-weight: $font-weight-600;
+}
+
+.text-font-weight-700 {
+  font-weight: $font-weight-700;
 }
 
 // Line height
@@ -75,6 +124,10 @@ html {
   border-radius: 44px;
 }
 
+//cursor pointer
+.cursor-pointer {
+  cursor: pointer;
+}
 
 // button styles
 
@@ -84,9 +137,70 @@ html {
   background-color: $orange-500;
   border-radius: 36px;
   cursor: pointer;
+
   .text {
     color: white;
     text-align: center;
 
+  }
+}
+
+//gap
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-25 {
+  gap: 25px;
+}
+
+//marin-top-90
+.marin-top-70 {
+  margin-top: 70px;
+}
+
+.margin-left-4 {
+  margin-left: 4px;
+}
+
+//height
+.h-300 {
+  height: 300px;
+}
+
+.h-340 {
+  height: 340px;
+}
+
+//line-height-normal
+.line-height-normal {
+  line-height: normal;
+}
+
+.line-height-30 {
+  line-height: 30px;
+}
+
+.line-height-55 {
+  line-height: 55px;
+}
+
+//white-space
+.white-space-nowrap {
+  white-space: nowrap;
+}
+
+//carousel
+.carousel-indicators {
+  li {
+    width: 13px !important;
+    height: 13px !important;
+    border-radius: 100%;
+  }
+
+  .active {
+    width: 74px !important;
+    border-radius: 50rem !important;
+    background-color: $blue-primary;
   }
 }
