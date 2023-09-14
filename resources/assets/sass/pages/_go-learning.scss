@@ -1,0 +1,24 @@
+.go-learning {
+  .learning-title {
+    margin-top: 45px;
+    margin-bottom: 62px;
+  }
+  .logo {
+    height: 250px;
+    border-radius: 20px;
+    background-color: $gray-100 ;
+    margin-bottom: 48px;
+  }
+  .btn-action {
+    height: 250px;
+    .btn-go-learning {
+      width: 240px;
+      background-color: $blue-primary;
+      border-radius: 26.5px;
+      cursor: pointer;
+      padding-top: 12.5px;
+      padding-bottom: 12.5px;
+      margin-top: 19px;
+    }
+  }
+}

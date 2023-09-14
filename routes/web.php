@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/about-us', function () {
     return view('pages.about-us');
 });
+
+Route::get('/go-learning', function () {
+    return view('pages.go-learning');
+});
