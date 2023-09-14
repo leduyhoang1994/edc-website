@@ -55,6 +55,10 @@
     transform: translate(-50%, -50%) !important;
   }
 
+  .carousel-indicators li { 
+    background-color: $grey;
+  }
+    
   .edupia-liner {
     position: relative;
 
