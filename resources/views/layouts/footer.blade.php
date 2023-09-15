@@ -203,10 +203,10 @@
       </div>
     </div>
     <hr class="hr" />
-    <div class="d-flex justify-content-between">
-      <p class="text-white text-font-size-14 text-font-weight-500">Copyright © 2023 Educa Corporation | All Rights
+    <div class="d-flex justify-content-between end-footer">
+      <p class="text-white text-font-size-14 text-font-weight-500 copy-right">Copyright © 2023 Educa Corporation | All Rights
         Reserved</p>
-      <div class="d-flex gap-25">
+      <div class="d-flex gap-25 list-policy">
         <a href="#">
           <p class="text-font-size-14 text-font-weight-400 text-white">
             <svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
