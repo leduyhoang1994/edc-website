@@ -25,6 +25,15 @@ html {
   padding-bottom: 32px;
 }
 
+.pt-60 {
+  padding-top: 60px;
+}
+
+.px-39 {
+  padding-left: 39px !important;
+  padding-right: 39px !important;
+}
+
 // container
 .edupia-container-lg {
   max-width: $edupia-width-content !important;
@@ -63,6 +72,10 @@ html {
 
 .text-font-size-25 {
   font-size: $font-25;
+}
+
+.text-font-size-26 {
+  font-size: $font-26;
 }
 
 .text-font-size-28 {
@@ -202,5 +215,125 @@ html {
     width: 74px !important;
     border-radius: 50rem !important;
     background-color: $blue-primary !important;
+    border: none !important;
   }
+}
+
+//nav tabs
+.nav-pills .nav-link {
+  font-size: $font-18;
+  font-weight: $font-weight-700;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  background-color: $blue-primary !important;
+  border-radius: 100px;
+  color: $white;
+  font-size: $font-18;
+  font-weight: $font-weight-700;
+}
+
+//step-by-step
+.wizard .nav-tabs {
+  position: relative;
+  margin-bottom: 0;
+  border-bottom-color: transparent;
+}
+
+.wizard>div.wizard-inner {
+  position: relative;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.connecting-line {
+  height: 2px;
+  background: $blue-primary;
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 9px;
+  z-index: 1;
+}
+
+span.round-tab {
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  display: inline-block;
+  border-radius: 50%;
+  background: $black-200;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  font-weight: 500;
+  border: 1px solid $black-200;
+}
+
+.wizard li.active span.round-tab {
+  background: $yellow-400;
+  color: $white;
+  border-color: $yellow-400;
+}
+
+// .wizard li.active span.round-tab i {
+//   color: #5bc0de;
+// }
+
+.wizard .nav-tabs>li.active>a i {
+  color: $blue-primary;
+}
+
+.wizard .nav-tabs>li {
+  width: 20%;
+}
+
+.wizard li:after {
+  content: " ";
+  position: absolute;
+  left: 46%;
+  opacity: 0;
+  margin: 0 auto;
+  bottom: 0px;
+  border: 5px solid transparent;
+  border-bottom-color: red;
+  transition: 0.1s ease-in-out;
+}
+
+
+
+.wizard .nav-tabs>li a {
+  width: 30px;
+  height: 30px;
+  margin: 20px auto;
+  border-radius: 100%;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  top: 0;
+}
+
+.wizard .nav-tabs>li a i {
+  position: absolute;
+  top: 50px;
+  font-style: normal;
+  white-space: nowrap;
+  left: 10px;
+  transform: translate(-50%, -50%);
+  font-size: $font-26;
+  font-weight: 500;
+  color: $black;
+}
+
+.wizard .nav-tabs>li a:hover {
+  background: transparent;
+}
+
+.wizard .tab-pane {
+  position: relative;
+  padding-top: 20px;
 }

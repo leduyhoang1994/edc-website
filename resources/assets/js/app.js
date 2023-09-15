@@ -7,6 +7,7 @@
 
 require('./bootstrap');
 require('./lazysizes.min');
+require('./stepwizard');
 // window.Vue = require('vue');
 
 /**

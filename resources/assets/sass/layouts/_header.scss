@@ -1,12 +1,14 @@
 .header-area {
   background-color: $blue-primary;
+  padding: 15px 25px 10px 25px;
   .tag-logo {
-    margin-top: -30px;
-    margin-left: 50px;
+    top: 0;
+    right: -265px;
   }
-  .div-menu-item-bottom {
-    bottom: 0;
-    left: 0;
-    right: 0;
+  .nav-primary {
+    padding-left: 84px;
+  }
+  .nav-custom-content {
+    margin-top: 30px;
   }
 }
