@@ -22,3 +22,7 @@ Route::get('/about-us', function () {
 Route::get('/go-learning', function () {
     return view('pages.go-learning');
 });
+
+Route::get('/payment-method', function () {
+    return view('pages.payment-method');
+});

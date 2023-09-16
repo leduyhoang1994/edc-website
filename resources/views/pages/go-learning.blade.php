@@ -5,7 +5,7 @@ Vào Học
 @section('content')
 <main class="go-learning text-center text-font-weight-600">
 	<section class="mx-auto learning-title">
-		<p class="m-0 text-font-size-36">THAM GIA LỚP HỌC EDUPIA</p>
+		<p class="m-0 text-font-size-36 text-uppercase">THAM GIA LỚP HỌC EDUPIA</p>
 		<p class="m-0">Hãy chọn khóa học đã đăng ký và tiếp tục học cùng Edupia nhé!</p>
 	</section>
 	<section class="container">

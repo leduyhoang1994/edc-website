@@ -83,6 +83,7 @@ $grey: #ECEAF9;
 // $blue-600: shade-color($blue, 20%) !default;
 // $blue-700: shade-color($blue, 40%) !default;
 // $blue-800: shade-color($blue, 60%) !default;
+$blue-100: #E8F6FF !default;
 $blue-200: #2581BA !default;
 $blue-300: #005B94 !default;
 $blue-400: #40B8D5 !default;
@@ -100,6 +101,7 @@ $white-100: #F8F9F9 !default;
 
 
 $theme-colors: (
+  blue-100: $blue-100,
   blue-200: $blue-200,
   blue-300: $blue-300,
   blue-400: $blue-400,
