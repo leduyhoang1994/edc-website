@@ -49,9 +49,11 @@
       flex-direction: column;
       gap: 0;
     }
+
     .marin-top-70 {
       margin-top: 40px !important;
     }
+
     .hr {
       margin-top: 30px !important;
     }
@@ -114,7 +116,8 @@
       }
 
       .item-achievement-3 {
-        left: 65%;
+        left: auto;
+        right: -17%;
         bottom: 50%;
       }
 
@@ -130,8 +133,9 @@
       }
 
       .item-achievement-6 {
-        right: 66%;
+        right: auto;
         bottom: 16%;
+        left: -16%;
       }
 
       .item-achievement-7 {
@@ -274,6 +278,62 @@
   }
 }
 
-@media (max-width: 414px) {}
+@media (max-width: 375px) {
+  .logo-header {
+    width: 40% !important;
+  }
 
-@media (max-width: 375px) {}
+  .tag-logo {
+    right: -20px !important;
+  }
+
+  .home {
+    .section-2 {
+      .item-achievement-2 {
+        width: 140px;
+        top: 14%;
+      }
+
+      .item-achievement-3 {
+        left: auto;
+        right: -16%;
+        bottom: 61%;
+        width: 140px;
+      }
+
+      .item-achievement-4 {
+        top: 28%;
+      }
+
+      .item-achievement-6 {
+        bottom: 34%;
+        width: 140px;
+      }
+
+      .item-achievement-5 {
+        width: 140px;
+        top: 41%;
+      }
+
+      .item-achievement-7 {
+        top: 55%;
+      }
+
+      .text-font-size-16 {
+        font-size: $font-14 !important;
+      }
+
+      .text-font-size-55 {
+        font-size: 40px;
+      }
+
+      .text-font-size-60 {
+        font-size: 45px;
+      }
+
+      .line-height-55 {
+        line-height: 40px;
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.about-us {
+  .title-about-us {
+    left: 20%;
+    bottom: 10%;
+  }
+
+  .item-about-content {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .about-item-1 {
+    margin-top: 50px;
+  }
+
+  .about-item-2 {
+    margin-top: 60px;
+  }
+
+  //more btn
+  .more-btn {
+    background-color: $yellow-400;
+    border-color: $yellow-400;
+    border-radius: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .div-left-about {
+    padding-left: 40px;
+  }
+  .div-right-about {
+    padding-right: 40px;
+  }
+}
