@@ -207,3 +207,12 @@ html {
     background-color: $blue-primary !important;
   }
 }
+
+p {
+  margin-bottom: 8px !important;
+}
+
+li::marker {
+  font-size: 14px;
+}
+
