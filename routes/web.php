@@ -30,3 +30,7 @@ Route::get('/payment-method', function () {
 Route::get('/terms-of-use', function () {
     return view('pages.terms-of-use');
 });
+
+Route::get('/privacy-policy', function () {
+    return view('pages.privacy-policy');
+});
