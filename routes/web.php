@@ -26,3 +26,7 @@ Route::get('/go-learning', function () {
 Route::get('/payment-method', function () {
     return view('pages.payment-method');
 });
+
+Route::get('/terms-of-use', function () {
+    return view('pages.terms-of-use');
+});

@@ -1,6 +1,46 @@
 .payment-method {
+  margin-bottom: 43px;
+  .payment-title {
+    padding-top: 82px;
+    padding-bottom: 48px;
+  }
+  .cod-method {
+    .cod-head {
+      display: block;
+      margin-bottom: 23px;
+    }
+    .cod-title {
+      margin-bottom: 9px;
+    }
+  }
+  .banking-block {
+    .banking-title {
+      margin-bottom: 23px;
+    }
+    p {
+      margin-bottom: 29px;
+    }
+  }
   .banking-info {
     background: $blue-100;
     width: 100%;
+    .info-block {
+      p{
+        font-size: $font-18;
+        font-weight: $font-weight-400;
+        // border-bottom: 1px $gray-200 solid;
+      }
+    }
+  }
+  .text-noitice {
+    margin-top: 23px;
+    margin-bottom: 7px;
+    font-size: $font-18;
+    font-weight: $font-weight-800;
+  }
+  .vnpay-block {
+    .vnpay-title {
+      margin-bottom: 9px;
+    }
   }
 }

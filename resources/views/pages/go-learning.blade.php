@@ -8,7 +8,7 @@ Vào Học
 		<p class="m-0 text-font-size-36 text-uppercase">THAM GIA LỚP HỌC EDUPIA</p>
 		<p class="m-0">Hãy chọn khóa học đã đăng ký và tiếp tục học cùng Edupia nhé!</p>
 	</section>
-	<section class="container">
+	<section class="container edupia-mw-1230">
 		<div class="row">
 			{{-- tieu-hoc --}}
 			<div class="col">
