@@ -66,7 +66,7 @@ Trang chủ
 				</div>
 				<div class="item-achievement-2 position-absolute">
 					<div class="position-relative">
-						<img src="{{ asset('images/imgs/homepage/achievement-2.svg') }}" alt="achievement" />
+						<img class="img-fluid" src="{{ asset('images/imgs/homepage/achievement-2.svg') }}" alt="achievement" />
 						<div class="position-absolute txt-item-achievement">
 							<p class="text-blue-400 line-height-normal d-flex align-items-baseline justify-content-center">
 								<span class="text-font-size-55 text-font-weight-700">25</span> <span>nghìn</span>
@@ -78,31 +78,31 @@ Trang chủ
 				</div>
 				<div class="item-achievement-3 position-absolute">
 					<div class="position-relative">
-						<img src="{{ asset('images/imgs/homepage/achievement-3.svg') }}" alt="achievement" />
+						<img class="img-fluid" src="{{ asset('images/imgs/homepage/achievement-3.svg') }}" alt="achievement" />
 						<div class="position-absolute txt-item-achievement">
 							<span class="text-blue-200 text-font-size-18 text-font-weight-500 d-block margin-left-4">Hơn</span>
 							<p class="text-blue-200 d-flex align-items-baseline line-height-normal">
 								<span class="text-font-size-55 text-font-weight-700 line-height-30">5</span><span>nghìn</span>
 							</p>
-							<p class="mt-2 text-center text-blue-200 text-font-size-16 text-font-weight-500">Bài giảng <br />& Luyện
+							<p class="mt-2 text-center text-blue-200 text-font-size-16 text-font-weight-500 white-space-nowrap">Bài giảng <br />& Luyện
 								tập</p>
 						</div>
 					</div>
 				</div>
 				<div class="item-achievement-4 position-absolute">
 					<div class="position-relative">
-						<img src="{{ asset('images/imgs/homepage/achievement-4.svg') }}" alt="achievement" />
+						<img class="img-fluid" src="{{ asset('images/imgs/homepage/achievement-4.svg') }}" alt="achievement" />
 						<div class="position-absolute txt-item-achievement">
 							<p class="text-white text-font-size-50 text-font-weight-600 line-height-normal text-center">
 								<span>#1</span>
 							</p>
-							<p class="text-center text-white white-space-nowrap">Ed-Tech <br />tại Việt Nam</p>
+							<p class="text-center text-white white-space-nowrap text-font-size-16 text-font-weight-500">Ed-Tech <br />tại Việt Nam</p>
 						</div>
 					</div>
 				</div>
 				<div class="item-achievement-5 position-absolute">
 					<div class="position-relative">
-						<img src="{{ asset('images/imgs/homepage/achievement-3.svg') }}" alt="achievement" />
+						<img class="img-fluid" src="{{ asset('images/imgs/homepage/achievement-3.svg') }}" alt="achievement" />
 						<div class="position-absolute txt-item-achievement">
 							<p class="text-blue-200 text-center  white-space-nowrap line-height-normal">
 								<span class="text-font-size-55 text-font-weight-700">100</span>
@@ -115,7 +115,7 @@ Trang chủ
 				</div>
 				<div class="item-achievement-6 position-absolute">
 					<div class="position-relative">
-						<img src="{{ asset('images/imgs/homepage/achievement-5.svg') }}" alt="achievement" />
+						<img class="img-fluid" src="{{ asset('images/imgs/homepage/achievement-5.svg') }}" alt="achievement" />
 						<div class="position-absolute txt-item-achievement">
 							<p class="text-center text-white text-font-size-16 text-font-weight-500">Top</p>
 							<p class="text-center text-white line-height-normal">
@@ -129,7 +129,7 @@ Trang chủ
 				</div>
 				<div class="item-achievement-7 position-absolute">
 					<div class="position-relative">
-						<img src="{{ asset('images/imgs/homepage/achievement-6.svg') }}" alt="achievement" />
+						<img class="img-fluid" src="{{ asset('images/imgs/homepage/achievement-6.svg') }}" alt="achievement" />
 						<div class="position-absolute txt-item-achievement">
 							<p class="text-center text-white d-flex align-items-baseline justify-content-center line-height-normal">
 								<span class="text-font-size-60 text-font-weight-700">95</span>

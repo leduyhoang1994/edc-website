@@ -18421,6 +18421,21 @@ a:hover {
   margin-top: 30px;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+  -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
 .footer {
   padding-top: 85px;
   padding-bottom: 70px;
@@ -18845,6 +18860,40 @@ a:hover {
   text-align: center;
 }
 
+.about-us .title-about-us {
+  left: 20%;
+  bottom: 10%;
+}
+
+.about-us .item-about-content {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.about-us .about-item-1 {
+  margin-top: 50px;
+}
+
+.about-us .about-item-2 {
+  margin-top: 60px;
+}
+
+.about-us .more-btn {
+  background-color: #FFA800;
+  border-color: #FFA800;
+  border-radius: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.about-us .div-left-about {
+  padding-left: 40px;
+}
+
+.about-us .div-right-about {
+  padding-right: 40px;
+}
+
 @media (max-width: 480px) {
   .header-area {
     padding: 10px !important;
@@ -18968,7 +19017,8 @@ a:hover {
   }
 
   .home .section-2 .item-achievement-3 {
-    left: 65%;
+    left: auto;
+    right: -17%;
     bottom: 50%;
   }
 
@@ -18985,8 +19035,9 @@ a:hover {
   }
 
   .home .section-2 .item-achievement-6 {
-    right: 66%;
+    right: auto;
     bottom: 16%;
+    left: -16%;
   }
 
   .home .section-2 .item-achievement-7 {
@@ -19111,6 +19162,62 @@ a:hover {
 
   .home .section-8 .text-font-size-26 {
     font-size: 14px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .logo-header {
+    width: 40% !important;
+  }
+
+  .tag-logo {
+    right: -20px !important;
+  }
+
+  .home .section-2 .item-achievement-2 {
+    width: 140px;
+    top: 14%;
+  }
+
+  .home .section-2 .item-achievement-3 {
+    left: auto;
+    right: -16%;
+    bottom: 61%;
+    width: 140px;
+  }
+
+  .home .section-2 .item-achievement-4 {
+    top: 28%;
+  }
+
+  .home .section-2 .item-achievement-6 {
+    bottom: 34%;
+    width: 140px;
+  }
+
+  .home .section-2 .item-achievement-5 {
+    width: 140px;
+    top: 41%;
+  }
+
+  .home .section-2 .item-achievement-7 {
+    top: 55%;
+  }
+
+  .home .section-2 .text-font-size-16 {
+    font-size: 14px !important;
+  }
+
+  .home .section-2 .text-font-size-55 {
+    font-size: 40px;
+  }
+
+  .home .section-2 .text-font-size-60 {
+    font-size: 45px;
+  }
+
+  .home .section-2 .line-height-55 {
+    line-height: 40px;
   }
 }
 

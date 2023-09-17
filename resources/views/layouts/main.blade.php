@@ -18,12 +18,28 @@
 <body>
 	<div class="wrapGeneralBig">
 		@include('layouts.header')
-		@yield('content')
+		<div class="content">
+			@yield('content')
+		</div>
 		@include('layouts.footer')
 	</div>
 
 	<script src="{{asset('js/app.js')}}"></script>
 	@yield('script_links')
 </body>
+<script>
+	window.onscroll = function () { myFunction() };
+
+	var header = document.getElementById("iHeader");
+	var sticky = header.offsetTop;
+
+	function myFunction() {
+		if (window.pageYOffset > sticky) {
+			header.classList.add("sticky");
+		} else {
+			header.classList.remove("sticky");
+		}
+	}
+</script>
 
 </html>

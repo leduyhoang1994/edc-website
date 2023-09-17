@@ -1,14 +1,32 @@
 .header-area {
   background-color: $blue-primary;
   padding: 15px 25px 10px 25px;
+
   .tag-logo {
     top: 0;
     right: -265px;
   }
+
   .nav-primary {
     padding-left: 84px;
   }
+
   .nav-custom-content {
     margin-top: 30px;
   }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+  -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+}
+
+.sticky+.content {
+  padding-top: 102px;
 }
