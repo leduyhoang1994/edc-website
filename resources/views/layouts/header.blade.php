@@ -1,7 +1,7 @@
 <div class="header-area header-transparrent" id="iHeader">
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="d-flex align-items-center justify-content-start position-relative">
-      <a class="navbar-brand logo-header" href="#">
+      <a class="navbar-brand logo-header" href="{{ route('home') }}">
         <img src="{{ asset('images/icons/homepage/LogoBrandEdupia.svg') }}" alt="Logo" class="logo img-fluid">
       </a>
       <div class="d-flex gap-8 tag-logo position-absolute">
@@ -19,7 +19,7 @@
     <div class="collapse navbar-collapse nav-custom-content" id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto nav-primary">
         <li class="nav-item active">
-          <a class="nav-link text-white" href="#">
+          <a class="nav-link text-white" href="{{ route('about-us') }}">
             <span class="d-inline-block d-lg-none icon-width "></span>Giới thiệu
           </a>
         </li>
