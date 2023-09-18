@@ -27,6 +27,7 @@ $font-45: 45px;
 $font-40: 40px;
 $font-36: 36px;
 $font-28: 28px;
+$font-26: 26px;
 $font-25: 25px;
 $font-24: 24px;
 $font-22: 22px;
@@ -36,6 +37,7 @@ $font-16: 16px; // Profile User Role, Card Title, Section Title
 $font-14: 14px; // Profile User Stats, Profile Stats Title, Load More Btn
 $font-12: 12px; // Profile Stats Caption, Competency Tags, Table Headers, Cert Title, etc
 $font-10: 10px; // Cert Caption
+$font-8: 8px; // Cert Caption
 
 // Font line height
 
@@ -74,6 +76,8 @@ $purple: #4915C2;
 $blue-primary: #20BEC6;
 $white: #FFFFFF;
 $grey: #ECEAF9;
+$black: #000000;
+
 
 // fusv-disable
 // $blue-100: tint-color($blue, 80%) !default;
@@ -84,7 +88,7 @@ $grey: #ECEAF9;
 // $blue-600: shade-color($blue, 20%) !default;
 // $blue-700: shade-color($blue, 40%) !default;
 // $blue-800: shade-color($blue, 60%) !default;
-$blue-100: #E8F6FF !default;
+$blue-100: #20BEC633 !default;
 $blue-200: #2581BA !default;
 $blue-300: #005B94 !default;
 $blue-400: #40B8D5 !default;
@@ -98,12 +102,15 @@ $gray-200: #DEE1E1 !default;
 $gray-300: #515E5F !default;
 $dodger-blue-100: #36BFC7 !default;
 $yellow-200: #FFF0B8 !default;
-$black-100: #333333 !default;
 $yellow-300: #FFD600 !default;
+$yellow-400: #FFA800 !default;
+$black-100: #333333 !default;
+$black-200: #444444 !default;
 $white-100: #F8F9F9 !default;
 
 
 $theme-colors: (
+  blue-primary: $blue-primary,
   blue-100: $blue-100,
   blue-200: $blue-200,
   blue-300: $blue-300,
@@ -123,9 +130,12 @@ $theme-colors: (
   purple: $purple,
   dodger-blue-100: $dodger-blue-100,
   yellow-200: $yellow-200,
-  black-100: $black-100,
-  white: $white,
   yellow-300: $yellow-300,
+  yellow-400: $yellow-400,
+  black: $black,
+  black-100: $black-100,
+  black-200: $black-200,
+  white: $white,
   white-100: $white-100
 );
 // Spacing 
