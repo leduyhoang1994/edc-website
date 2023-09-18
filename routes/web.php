@@ -38,3 +38,7 @@ Route::get('/privacy-policy', function () {
 Route::get('/refund-policy', function () {
     return view('pages.refund-policy');
 });
+
+Route::get('/recruitment-detail', function () {
+    return view('pages.recruitment-detail');
+});
