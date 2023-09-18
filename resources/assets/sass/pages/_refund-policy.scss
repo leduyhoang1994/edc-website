@@ -1,0 +1,70 @@
+.refund-policy {
+  margin-bottom: 43px;
+
+  .refund-title {
+    padding-top: 82px;
+    padding-bottom: 48px;
+  }
+
+  .refund-method {
+    .refund-head {
+      display: block;
+      margin-bottom: 42px;
+    }
+  }
+
+  .banking-info {
+    background: $blue-110;
+    width: 100%;
+
+    .info-block {
+      p {
+        font-size: $font-18;
+        font-weight: $font-weight-400;
+      }
+    }
+  }
+
+  .policy {
+    .table-responsive {
+      border-radius: 8px;
+    }
+    .table th:first-child,
+    .table td:first-child {
+      width: 70px;
+      /* Điều chỉnh kích thước cột số thứ tự */
+    }
+
+    /* Đổi màu nền table-head sang #005488 */
+    .table thead {
+      background-color: #005488;
+      color: white;
+      /* Đổi màu chữ trắng để tương phản */
+      border: none;
+    }
+
+    /* Đổi màu nền table-body sang #E8F6FF */
+    .table tbody {
+      background-color: #E8F6FF;
+    }
+
+    .no-border-left {
+      border-left: none !important;
+    }
+
+    .no-border-right {
+      border-right: none !important;
+    }
+
+    .table-bordered>tbody>tr>td,
+    .table-bordered>tbody>tr>th,
+    .table-bordered>tfoot>tr>td,
+    .table-bordered>tfoot>tr>th,
+    .table-bordered>thead>tr>td,
+    .table-bordered>thead>tr>th {
+      border: 1px solid #004F80;
+    }
+
+
+  }
+}
