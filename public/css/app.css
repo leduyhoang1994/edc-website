@@ -217,6 +217,10 @@ html {
   font-size: 28px;
 }
 
+.text-font-size-30 {
+  font-size: 30px;
+}
+
 .text-font-size-36 {
   font-size: 36px;
 }
@@ -19000,7 +19004,7 @@ a:hover {
 }
 
 .refund-policy {
-  margin-bottom: 43px;
+  margin-bottom: 69px;
 }
 
 .refund-policy .refund-title {
@@ -19064,6 +19068,24 @@ a:hover {
 .refund-policy .policy .table-bordered > thead > tr > td,
 .refund-policy .policy .table-bordered > thead > tr > th {
   border: 1px solid #004F80;
+}
+
+.recruitment-detail {
+  margin-top: 41px;
+}
+
+.recruitment-detail .back-link {
+  cursor: pointer;
+}
+
+.recruitment-detail .header-title .desc-short {
+  margin-bottom: 26px;
+}
+
+.recruitment-detail .header-title .desc-short .label {
+  border-radius: 100px;
+  background: #F1F1F1;
+  padding: 8px 47px;
 }
 
 @media (max-width: 480px) {

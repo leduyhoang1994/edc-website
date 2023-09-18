@@ -155,7 +155,6 @@ Chính sách hoàn trả
     <p>
       2.2.1 Chính sách
     </p>
-
     <div class="table-responsive">
       <table class="table table-bordered table-hover">
         <thead>
@@ -167,8 +166,8 @@ Chính sách hoàn trả
         </thead>
         <tbody>
           <tr>
-            <th scope="row" class="text-center">1</th>
-            <td>Thiết bị không đáp ứng, không cài đặt được và không sử dụng được chương trình</td>
+            <th scope="row" class="text-center align-middle">1</th>
+            <td class="align-middle">Thiết bị không đáp ứng, không cài đặt được và không sử dụng được chương trình</td>
             <td>
               <ul class="pl-4 mb-0">
                 <li>
@@ -239,7 +238,41 @@ Chính sách hoàn trả
       </table>
     </div>
 
+    <div>
+      <p>Điều kiện:</p>
+      <ul class="pl-4">
+        <li>
+          <p>Không áp dụng đối với khách hàng mua sản phẩm trong các chương trình khuyến mãi có quà tặng là hiện vật.</p>
+        </li>
+      </ul>    
+      <p>2.2.2 Phương thức hoàn tiền và thời gian thực hiện</p>
+      <ul class="pl-4">
+        <li>
+          <p>
+            EDUPIA sẽ tiến hành hoàn tiền đến quý khách qua hình thức chuyển khoản ngân hàng sau khi hoàn tất quy trình kiểm tra và xét duyệt. Quy trình này được thực hiện trong 15 ngày làm việc (Không tính thứ 7, chủ nhật và các ngày nghỉ lễ, tết). Thông tin về thời gian hoàn tiền cụ thể cho từng trường hợp sẽ được cập nhật đến quý khách qua email, tin nhắn.
+          </p>
+        </li>
+        <li>
+          <p>Cách làm: Liên hệ tổng đài Edupia <b>093.120.8686</b> để được hỗ trợ.</p>
+        </li>
+      </ul>
+      <p class="text-font-weight-600">
+        Lưu ý:
+      </p>
+      <ul class="pl-4">
+        <li>
+          <p>
+            Theo quy định của ngân hàng phát hành thẻ và quy trình phối hợp làm việc giữa ngân hàng Vietcombank và các ngân hàng khác, sau khi thực hiện lệnh REFUND , khách hàng sẽ nhận được tiền hoàn trả trong khoảng từ 10-30 ngày kể từ thời điểm thực hiện lệnh.
+          </p>
+        </li>
+        <li>
+          <p>
+            Trường hợp Khách hàng muốn biết chính xác về thời gian sẽ nhận được tiền hoàn trả, Khách hàng vui lòng chủ động liên lạc với ngân hàng phát hành thẻ của mình để được hỗ trợ
+          </p>
+        </li>
+      </ul>
     </div>
+
   </section>
 </main>
 @endsection
