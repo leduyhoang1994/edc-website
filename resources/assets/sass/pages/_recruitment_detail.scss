@@ -1,17 +1,53 @@
 .recruitment-detail {
   margin-top: 41px;
+
   .back-link {
     cursor: pointer;
   }
+
   .header-title {
-    .desc-short{
+    .desc-short {
+      margin-top: 10px;
       margin-bottom: 26px;
+
       .label {
         border-radius: 100px;
         background: #F1F1F1;
         padding: 8px 47px;
       }
     }
- 
+
+    .desc-list {
+      padding-top: 26px;
+      padding-bottom: 18px;
+    }
+
+    .desc-salary {
+      margin-bottom: 28px;
+    }
+
+
+
+  }
+
+  .recruitment-form {
+    .form-control {
+      border: none;
+      border-bottom: 1px solid #ccc;
+      border-radius: 0;
+    }
+
+    .custom-file-upload {
+      width: 100%;
+
+      display: inline-block;
+      padding: 13px 12px;
+      cursor: pointer;
+      border-radius: 1000px;
+      border: 1px dashed #C8C8C8;
+      background: #F3F3F3;
+      text-align: center; 
+    }
+
   }
 }
