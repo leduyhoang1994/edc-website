@@ -29,25 +29,43 @@
 
 
   }
+  .desc-detail {
+    padding-top: 57px;
+    padding-bottom: 57px;
+    .recruitment-form {
 
-  .recruitment-form {
-    .form-control {
-      border: none;
-      border-bottom: 1px solid #ccc;
-      border-radius: 0;
+      .form-control {
+        border: none;
+        border-bottom: 1px solid $gray-400;
+        border-radius: 0;
+      }
+  
+      .custom-file-upload {
+        width: 100%;
+  
+        display: inline-block;
+        padding: 13px 12px;
+        cursor: pointer;
+        border-radius: 1000px;
+        border: 1px dashed $gray-300;
+        background: $gray-50;
+        text-align: center; 
+      }
+      .custom-button {
+        border-radius: 1000px;
+        background: $blue-primary;
+        padding: 12px 12px;
+      }
+  
     }
+  }
 
-    .custom-file-upload {
-      width: 100%;
-
-      display: inline-block;
-      padding: 13px 12px;
-      cursor: pointer;
-      border-radius: 1000px;
-      border: 1px dashed #C8C8C8;
-      background: #F3F3F3;
-      text-align: center; 
-    }
-
+  .contact {
+    padding-top: 45px;
+    padding-bottom: 48px;
+  }
+ 
+  .other-position {
+    padding-top: 46px;
   }
 }

@@ -134,7 +134,7 @@ Chi tiết tuyển dụng
         </div>
       </div>
     </div>
-    <div class="row mb-2">
+    <div class="row">
       <div class="col-2">
         <p>Ứng tuyển ngay</p>
         <p>với Edupia</p>
@@ -156,19 +156,49 @@ Chi tiết tuyển dụng
             </div>
           </div>
           <div class="form-group">
-            <label for="nguonTin">Bạn biết đến tin tuyển dụng này từ đâu? <span
-                class="text-red text-font-size-600">*</span></label>
-            <input type="text" class="form-control" id="nguonTin" required>
-          </div>
+            <label for="nguonTin">Bạn biết đến tin tuyển dụng này từ đâu? *</label>
+            <textarea class="form-control" id="nguonTin" rows="1" required></textarea>
+        </div>
           <div class="form-group">
             <label for="email">Upload CV của bạn (nếu có)</label>
             <label for="cv" class="custom-file-upload">
-              <span>Tải lên ( doc, docx, pdf, cv, Max size &lt; 5MB)</span>
+              <span> <span class="text-red">Tải lên </span>( doc, docx, pdf, cv, Max size &lt; 5MB)</span>
             </label>
             <input type="file" class="form-control-file d-none" id="cv">
           </div>
-          <button type="submit" class="btn btn-primary btn-block">Gửi</button>
+          <button type="submit" class="btn btn-block custom-button"><span class="text-font-weight-700 text-font-size-20 text-white">GỬI ĐI</span></button>
         </form>
+      </div>
+    </div>
+  </section>
+  <hr class="m-0" />
+  <section class="contact edupia-mw-1230 container">
+    <div class="text-center">
+      <p>Số điện thoại liên hệ tuyển dụng:</p>
+      <div class="d-flex justify-content-center align-items-center">
+        <img class="mr-1" width="23" src="{{ asset('images/icons/homepage/PhoneIcon.svg') }}" alt="PhoneIcon" />
+        <span class="text-blue-500 text-font-size-30 text-font-weight-700">024 6295 4629</span>
+      </div>
+      <p>Thời giờ làm việc:</p>
+      <p>- Sáng: 8h00 - 12h00</p>
+      <p>- Chiều: 13h30 - 17h30</p>
+      <p>- Nghỉ: Chủ nhật và các ngày Lễ, Tết</p>
+    </div>
+  </section>
+  <hr class="m-0" />
+  <section class="other-position edupia-mw-1230 container">
+    <p class="text-center text-font-size-30 text-font-weight-600">Xem Thêm Các Vị Trí Khác</p>
+    <div class="position-item row">
+      <div class="col-6">
+        <p>Content Social Marketing Senior</p>
+      </div>
+      <div class="col-4">
+        <p>Lên đến 25.000.000 VNĐ/tháng</p>
+      </div>
+      <div class="col-2">
+        <div>
+          <span>Ứng tuyển</span>
+        </div>
       </div>
     </div>
   </section>
