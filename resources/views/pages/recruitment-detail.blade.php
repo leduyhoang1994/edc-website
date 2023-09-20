@@ -17,7 +17,7 @@ Chi tiết tuyển dụng
     </p>
     <div class="d-flex justify-content-center align-items-center desc-short">
       <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
-      <span class="d-inline mr-2">Hà nội</span>
+      <span>Hà nội</span>
       <div class="label">
         <span>Phòng Marketing</span>
       </div>
@@ -158,7 +158,7 @@ Chi tiết tuyển dụng
           <div class="form-group">
             <label for="nguonTin">Bạn biết đến tin tuyển dụng này từ đâu? *</label>
             <textarea class="form-control" id="nguonTin" rows="1" required></textarea>
-        </div>
+          </div>
           <div class="form-group">
             <label for="email">Upload CV của bạn (nếu có)</label>
             <label for="cv" class="custom-file-upload">
@@ -187,17 +187,120 @@ Chi tiết tuyển dụng
   </section>
   <hr class="m-0" />
   <section class="other-position edupia-mw-1230 container">
-    <p class="text-center text-font-size-30 text-font-weight-600">Xem Thêm Các Vị Trí Khác</p>
-    <div class="position-item row">
-      <div class="col-6">
-        <p>Content Social Marketing Senior</p>
+    <p class="text-center text-font-size-30 text-font-weight-600 m-0">Xem Thêm Các Vị Trí Khác</p>
+    <div class="position-list-job">
+      {{-- job --}}
+      <div class="position-item row">
+        <div class="col-6">
+          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing Senior</p>
+          <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
+            <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
+            <span>Hà nội</span>
+            <div class="label">
+              <span class="text-blue-primary">Phòng Marketing</span>
+            </div>
+          </div>
+  
+        </div>
+        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18" >
+          <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
+        </div>
+        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+          <div class="recruitment-btn">
+            <span>Ứng tuyển</span>
+          </div>
+        </div>
       </div>
-      <div class="col-4">
-        <p>Lên đến 25.000.000 VNĐ/tháng</p>
+
+      {{-- job --}}
+      <div class="position-item row">
+        <div class="col-6">
+          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing Senior</p>
+          <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
+            <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
+            <span>Hà nội</span>
+            <div class="label">
+              <span class="text-blue-primary">Phòng Marketing</span>
+            </div>
+          </div>
+  
+        </div>
+        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18" >
+          <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
+        </div>
+        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+          <div class="recruitment-btn">
+            <span>Ứng tuyển</span>
+          </div>
+        </div>
       </div>
-      <div class="col-2">
-        <div>
-          <span>Ứng tuyển</span>
+
+      {{-- job --}}
+      <div class="position-item row">
+        <div class="col-6">
+          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing Senior</p>
+          <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
+            <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
+            <span>Hà nội</span>
+            <div class="label">
+              <span class="text-blue-primary">Phòng Marketing</span>
+            </div>
+          </div>
+  
+        </div>
+        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18" >
+          <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
+        </div>
+        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+          <div class="recruitment-btn">
+            <span>Ứng tuyển</span>
+          </div>
+        </div>
+      </div>
+
+      {{-- job --}}
+      <div class="position-item row">
+        <div class="col-6">
+          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing Senior</p>
+          <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
+            <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
+            <span>Hà nội</span>
+            <div class="label">
+              <span class="text-blue-primary">Phòng Marketing</span>
+            </div>
+          </div>
+  
+        </div>
+        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18" >
+          <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
+        </div>
+        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+          <div class="recruitment-btn">
+            <span>Ứng tuyển</span>
+          </div>
+        </div>
+      </div>
+
+      {{-- job --}}
+      <div class="position-item row">
+        <div class="col-6">
+          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing Senior</p>
+          <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
+            <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
+            <span>Hà nội</span>
+            <div class="label">
+              <span class="text-blue-primary">Phòng Marketing</span>
+            </div>
+          </div>
+  
+        </div>
+        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18" >
+          <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
+        </div>
+        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+          <div class="recruitment-btn">
+            <span>Ứng tuyển</span>
+          </div>
         </div>
       </div>
     </div>
