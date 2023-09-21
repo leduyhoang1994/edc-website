@@ -99,8 +99,12 @@ $blue-600: #005487 !default;
 $blue-700: #01C0ED !default;
 $blue-900: #292D32 !default;
 $orange-500: #FF9213 !default;
+$gray-20: #F1F1F1 !default;
+$gray-50: #F3F3F3 !default;
 $gray-100: #F5F5F5 !default;
 $gray-200: #DEE1E1 !default;
+$gray-300: #C8C8C8 !default;
+$gray-400: #969696 !default;
 $dodger-blue-100: #36BFC7 !default;
 $yellow-200: #FFF0B8 !default;
 $yellow-300: #FFD600 !default;
@@ -136,7 +140,8 @@ $theme-colors: (
   black-100: $black-100,
   black-200: $black-200,
   white: $white,
-  white-100: $white-100
+  white-100: $white-100,
+  red: $red,
 );
 // Spacing 
 $spacer: 8px !default;
