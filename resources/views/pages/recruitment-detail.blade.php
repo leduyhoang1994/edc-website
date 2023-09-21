@@ -200,9 +200,9 @@ Chi tiết tuyển dụng
               <span class="text-blue-primary">Phòng Marketing</span>
             </div>
           </div>
-  
+
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18" >
+        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
         <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
@@ -223,9 +223,9 @@ Chi tiết tuyển dụng
               <span class="text-blue-primary">Phòng Marketing</span>
             </div>
           </div>
-  
+
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18" >
+        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
         <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
@@ -246,9 +246,9 @@ Chi tiết tuyển dụng
               <span class="text-blue-primary">Phòng Marketing</span>
             </div>
           </div>
-  
+
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18" >
+        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
         <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
@@ -269,9 +269,9 @@ Chi tiết tuyển dụng
               <span class="text-blue-primary">Phòng Marketing</span>
             </div>
           </div>
-  
+
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18" >
+        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
         <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
@@ -292,9 +292,9 @@ Chi tiết tuyển dụng
               <span class="text-blue-primary">Phòng Marketing</span>
             </div>
           </div>
-  
+
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18" >
+        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
         <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
@@ -305,5 +305,105 @@ Chi tiết tuyển dụng
       </div>
     </div>
   </section>
+  <section class="banner-body container-fluid">
+    <div class="edupia-mw-1230 container w-75">
+      <p class="m-0 text-center text-font-size-30 text-font-weight-600 text-white">Edupia - Công ty Edtech số 1 tại Việt Nam hân hoan chào đón bạn!</p>
+      <div class="content row">
+        <div class="col-4 d-flex flex-column align-items-center">
+          <div class="icon d-flex justify-content-center align-items-center">
+            <img src="{{ asset('images/icons/homepage/MemberIcon.svg') }}" alt="MemberIcon" />
+          </div>
+          <div class="text-center text-white">
+            <div class="text-font-size-24 text-font-weight-600 title">
+              <p>Chính sách phát</p>
+              <p>triển nhân lực</p>
+            </div>
+            <p class="text-font-size-18 text-font-weight-400">"Con người là tài sản quý giá nhất" - tại EDUPIA, chúng tôi định hướng rõ ràng lộ trình phát triển cho từng thành viên và tin tưởng các thành viên sẽ phát huy tối đa tinh thần làm việc tận tâm, cầu thị, khả năng tự học hỏi, không ngại xông pha và tinh thần tập thể để tạo sức mạnh, động lực thúc đẩy sự phát triển và hướng tới mục tiêu “Chương trình Tiếng Anh cho trẻ em phổ biến nhất Đông Nam Á”.</p>
+          </div>
+        </div>
+        <div class="col-4 d-flex flex-column align-items-center">
+          <div class="icon d-flex justify-content-center align-items-center">
+            <img src="{{ asset('images/icons/homepage/FlyIcon.svg') }}" alt="FlyIcon" />
+          </div>
+          <div class="text-center text-white">
+            <div class="text-font-size-24 text-font-weight-600 title">
+              <p>Cơ hội thăng tiến</p>
+            </div>
+            <p class="text-font-size-18 text-font-weight-400">
+              EDUPIA là môi trường lý tưởng để các bạn trẻ khám phá bản thân và phát huy tối đa sở trường, năng lực cá nhân. Tất cả nhân sự có cơ hội bình đẳng để phát triển lên quản lý cấp cao hoặc trở thành chuyên gia trong lĩnh vực của mình chỉ sau 03-06 tháng, cùng với sự gia tăng về quy mô tổ chức, đổi mới sản phẩm kinh doanh.
+            </p>
+          </div>
+        </div>
+        <div class="col-4 d-flex flex-column align-items-center">
+          <div class="icon d-flex justify-content-center align-items-center">
+            <img src="{{ asset('images/icons/homepage/PigIcon.svg') }}" alt="PigIcon" />
+          </div>
+          <div class="text-center text-white">
+            <div class="text-font-size-24 text-font-weight-600 title">
+              <p>Lương, thưởng,</p>
+              <p>lợi nhuận</p>
+            </div>
+            <p class="text-font-size-18 text-font-weight-400">
+              Khi làm việc tại EDUPIA, các thành viên thường xuyên có cơ hội tham gia các khóa đào tạo về chuyên môn và kỹ năng mềm từ các chuyên gia hàng đầu thị trường, giúp các bạn luôn được phát triển & nâng cao năng lực bản thân. Ngoài ra, EDUPIA rất đề cao trải nghiệm cá nhân và thường xuyên tổ chức các hoạt động văn hóa ý nghĩa giúp các thành viên thấy mỗi ngày đi làm là một ngày vui.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="activity edupia-mw-1230 container">
+    <p class="text-center text-font-size-30 text-font-weight-600">
+      Cuộc sống ở Edupia
+    </p>
+    <div class="video-container">
+      <div class="lazy-loading-content image-container">
+        <img class="thumbnail w-100" src="{{ asset('images/imgs/homepage/activity-thumbnail.png') }}" alt="activity-thumbnail" />
+        <img id="play-btn" class="play-btn" width="95" src="{{ asset('images/icons/homepage/PlayVideoIcon.svg') }}" alt="PlayVideoIcon" />
+      </div>
+
+    </div>
+    <p class="text-center text-font-size-30 text-font-weight-500">[DU LỊCH HÈ 2023]: DẤU ẤN EDUCA-ERS TẠI HẠ LONG</p>
+
+  </section>
+  <section class="container edupia-mw-1230 slide-activity">
+   
+  </section>
 </main>
+@endsection
+
+@section('script_links')
+<script>
+  $(document).ready(function() {
+    const videoID = "EVXFzZ2qA8g";
+
+    // selects the parent container
+    const parentContainer = $(".video-container");
+
+    // When the parent container is clicked
+    parentContainer.on("click", function() {
+      // remove the image container
+      const lazyLoadingChild = $(".lazy-loading-content", this);
+      lazyLoadingChild.remove();
+
+      // create a new responsive video container
+      const responsiveVideoContainer = $("<div></div>").addClass("embed-responsive embed-responsive-16by9");
+
+      // create the iFrame with the video embed
+      const videoIframe = $("<iframe></iframe>").addClass("embed-responsive-item");
+
+      videoIframe.attr("src", `https://www.youtube.com/embed/${videoID}?autoplay=1`);
+      videoIframe.attr("allow", "autoplay");
+
+      // add the iFrame to the video container
+      responsiveVideoContainer.append(videoIframe);
+
+      // add the video container to the parent container
+      $(this).append(responsiveVideoContainer);
+    });
+
+    
+  });
+
+</script>
 @endsection

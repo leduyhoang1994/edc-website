@@ -30,9 +30,11 @@
 
 
   }
+
   .desc-detail {
     padding-top: 57px;
     padding-bottom: 57px;
+
     .recruitment-form {
 
       .form-control {
@@ -40,24 +42,25 @@
         border-bottom: 1px solid $gray-400;
         border-radius: 0;
       }
-  
+
       .custom-file-upload {
         width: 100%;
-  
+
         display: inline-block;
         padding: 13px 12px;
         cursor: pointer;
         border-radius: 1000px;
         border: 1px dashed $gray-300;
         background: $gray-50;
-        text-align: center; 
+        text-align: center;
       }
+
       .custom-button {
         border-radius: 1000px;
         background: $blue-primary;
         padding: 12px 12px;
       }
-  
+
     }
   }
 
@@ -65,9 +68,10 @@
     padding-top: 45px;
     padding-bottom: 48px;
   }
- 
+
   .other-position {
     padding-top: 46px;
+
     .position-list-job {
       padding-top: 45px;
       padding-bottom: 98px;
@@ -77,12 +81,14 @@
         border-radius: 10px;
         box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.05);
         margin-bottom: 25px;
+
         .label {
           border-radius: 20.5px;
           background: $gray-20;
           padding: 4px 17px;
           margin-left: 38px;
         }
+
         .recruitment-btn {
           padding: 10px 25px;
           border-radius: 26px;
@@ -91,6 +97,68 @@
         }
       }
     }
-  
+
+  }
+
+  .banner-body {
+    background-image: url("/images/imgs/homepage/galaxy.png");
+    background-size: cover;
+    /* Hiển thị ảnh nền sao cho che phủ toàn bộ khu vực */
+    background-repeat: no-repeat;
+    background-position: center top 36px;
+    background-color: $blue-primary;
+    padding-top: 47px;
+    padding-bottom: 90px;
+
+    .content {
+      margin-top: 44px;
+
+      .icon {
+        background: $white;
+        width: 136px;
+        height: 136px;
+        border-radius: 100%;
+        margin-bottom: 26px;
+      }
+
+      .title {
+        width: 100%;
+        height: 71px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .activity {
+    padding-top: 71px;
+
+    .video-container {
+      margin-top: 45px;
+      margin-bottom: 35px;
+
+      .image-container {
+        position: relative;
+        text-align: center;
+        /* Để căn giữa theo chiều ngang */
+      }
+
+      .play-btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: filter 0.3s ease;
+        cursor: pointer;
+      }
+
+      .play-btn:hover {
+        filter: brightness(1.5);
+        /* Hiệu ứng làm sáng khi hover vào nút play */
+      }
+    }
+  }
+
+  .slide-activity {
+
   }
 }
