@@ -6,6 +6,7 @@ html {
 .edupia-mw-1230 {
   max-width: 1230px !important;
 }
+
 .w-45 {
   width: 45%;
 }
@@ -137,7 +138,29 @@ html {
 // Line height
 .line-height-28 {
   line-height: 28px;
+
 }
+
+.line-height-normal {
+  line-height: normal;
+}
+
+.line-height-30 {
+  line-height: 30px;
+}
+
+.line-height-44 {
+  line-height: 44px;
+}
+
+.line-height-50 {
+  line-height: 50px;
+}
+
+.line-height-55 {
+  line-height: 55px;
+}
+
 
 // Border-radius
 .edupia-border-radius-44 {
@@ -190,19 +213,6 @@ html {
 
 .h-340 {
   height: 340px;
-}
-
-//line-height-normal
-.line-height-normal {
-  line-height: normal;
-}
-
-.line-height-30 {
-  line-height: 30px;
-}
-
-.line-height-55 {
-  line-height: 55px;
 }
 
 //white-space
@@ -286,10 +296,6 @@ span.round-tab {
   color: $white;
   border-color: $yellow-400;
 }
-
-// .wizard li.active span.round-tab i {
-//   color: #5bc0de;
-// }
 
 .wizard .nav-tabs>li.active>a i {
   color: $blue-primary;

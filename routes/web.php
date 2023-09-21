@@ -19,6 +19,12 @@ Route::get('/about-us', function () {
     return view('pages.about-us');
 })->name('about-us');
 
+Route::group(['prefix'=>'product'], function () {
+    Route::get('/native', function () {
+        return view('pages.product-native');
+    })->name('native');
+});
+
 Route::get('/go-learning', function () {
     return view('pages.go-learning');
 });
