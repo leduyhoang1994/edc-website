@@ -4,6 +4,10 @@
     bottom: 10%;
   }
 
+  p {
+    margin-bottom: 0;
+  }
+
   .item-about-content {
     border-radius: 10px;
     overflow: hidden;
@@ -25,10 +29,98 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .div-left-about {
     padding-left: 40px;
   }
+
   .div-right-about {
     padding-right: 40px;
+  }
+
+  .trip-content {
+    height: 300px;
+  }
+
+  .img-item-trip-1 {
+    left: -43px;
+    z-index: 9;
+    bottom: 0;
+  }
+
+  .img-item-trip-2 {
+    left: -43px;
+    z-index: 9;
+    top: -20px;
+  }
+
+  .wizard .nav-tabs>li a {
+    top: 20px;
+  }
+
+  .wizard>div.wizard-inner {
+    margin-top: 340px;
+  }
+
+  .item-bottom-1 {
+    position: absolute;
+    top: 114px;
+    font-style: normal;
+    left: 0;
+    transform: translate(-50%, -50%);
+    color: $black;
+    width: 243px;
+  }
+
+  .item-bottom-2 {
+    position: absolute;
+    bottom: -85px;
+    font-style: normal;
+    left: 0;
+    transform: translate(-50%, -50%);
+    color: $black;
+    width: 243px;
+  }
+
+  .wizard .nav-tabs>li {
+    width: 16.666% !important;
+  }
+
+  .card-img-top {
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .dot {
+    width: 7px;
+    height: 7px;
+    line-height: 18px;
+    display: inline-block;
+    border-radius: 50%;
+    background: $blue-primary;
+  }
+
+  .about-register {
+    margin-bottom: 100px;
+  }
+
+  .about-register-content {
+    padding: 48px 20px 35px 75px;
+    border-radius: 15px;
+  }
+
+  .input-customer {
+    border-radius: 31px;
+    padding: 19px 30px;
+    font-size: $font-18;
+    font-weight: 300;
+    height: 62px;
+    border: none;
+  }
+
+  .btn-register {
+    padding: 17px 50px;
+    font-size: 18px;
+    font-weight: 600;
   }
 }

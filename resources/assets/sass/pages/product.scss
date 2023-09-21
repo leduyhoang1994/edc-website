@@ -1,0 +1,284 @@
+.product-native {
+  .native-banner {
+    padding-top: 148px;
+    // background-color: $blue-primary;
+    background: linear-gradient(0deg, #C2F3FF 0%, #C2F3FF 100%), lightgray 50% / cover no-repeat;
+  }
+
+  .div-register {
+    border-radius: 15px;
+  }
+
+  .native-register {
+    margin-top: 78px;
+    margin-bottom: 78px;
+  }
+
+  .img-register {
+    padding: 50px 50px 0 55px;
+  }
+
+  .div-form-register {
+    padding: 14px 114px 37px 0;
+  }
+
+  .video_youtube {
+    width: 60%;
+    height: 26rem;
+  }
+
+  .native-result {
+    margin: 100px 0;
+  }
+
+  li::marker {
+    color: $yellow-400;
+  }
+
+  .list-item-result {
+    li {
+      font-weight: 500;
+      line-height: 50px;
+    }
+  }
+
+  .btn-register {
+    font-size: $font-20;
+    font-weight: 600;
+    padding: 15px 41px;
+  }
+
+  .native-commit {
+    margin: 127px 0;
+  }
+
+  .item-card-commit {
+    padding: 0 23px;
+  }
+
+  .content-commit {
+    max-width: 524px;
+  }
+
+  .title-commit {
+    text-align: center;
+
+    p {
+      padding: 0 15%;
+    }
+  }
+
+  .title-native-teams {
+    text-align: center;
+
+    p {
+      padding: 0 21%;
+    }
+  }
+
+  .native-teams {
+    padding-bottom: 60px;
+  }
+
+  .carousel-control-prev {
+    left: -150px;
+
+    .carousel-control-prev-icon {
+      background-image: url("~/images/imgs/product/prev.svg");
+      width: 53px;
+      height: 53px;
+    }
+  }
+
+  .carousel-control-next {
+    right: -150px;
+
+    .carousel-control-next-icon {
+      background-image: url("~/images/imgs/product/next.svg");
+      width: 53px;
+      height: 53px;
+    }
+  }
+
+  .carousel-indicators {
+    bottom: -50px;
+  }
+
+  .carousel-indicators li {
+    background-color: #E6E4F7;
+  }
+
+  .native-postshare {
+    margin: 50px 0;
+  }
+
+  .card-img {
+    border-radius: 20px !important;
+  }
+
+  .native-verify {
+    margin-top: 62px;
+    margin-bottom: 107px;
+  }
+
+  .item-verify {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .marquee {
+    box-sizing: border-box;
+    padding: 0 15px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .marquee-content {
+    display: flex;
+    animation: marquee 60s linear infinite running;
+
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+
+  .marquee-tag {
+    margin: 0 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+
+    img {
+      filter: grayscale(100%);
+    }
+
+    &:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+
+      img {
+        filter: none;
+      }
+    }
+  }
+
+  @-moz-keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translate(-50%);
+    }
+  }
+
+  @-webkit-keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translate(-50%);
+    }
+  }
+
+  @-o-keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translate(-50%);
+    }
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translate(-50%);
+    }
+  }
+  .content-chicken-txt {
+    padding-top: 70px;
+  }
+  .content-chicken-description {
+    padding-right: 60px;
+  }
+  .about-register-content {
+    padding: 48px 20px 35px 75px;
+    border-radius: 15px;
+  }
+}
+
+.more-btn {
+  background-color: $yellow-400;
+  border-color: $yellow-400;
+  border-radius: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+}
+
+.input-customer {
+  border-radius: 31px;
+  padding: 19px 30px;
+  font-size: $font-18;
+  font-weight: 300;
+  height: 62px;
+  border: none;
+}
+
+.play-button {
+  width: 115px;
+  height: 111px;
+  position: absolute;
+  transform: translate3d(-50%, -50%, 0);
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  // background-color: transparent;
+  /* youtube's actual play button svg */
+  background-image: url('~/images/icons/product/icon_play.svg');
+  filter: grayscale(100%);
+  transition: filter 0.1s cubic-bezier(0, 0, 0.2, 1);
+  border: none;
+
+  &:hover {
+    filter: none;
+  }
+}
+
+.play-button-post {
+  width: 86px;
+  height: 86px;
+  position: absolute;
+  transform: translate3d(-50%, -50%, 0);
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  // background-color: transparent;
+  /* youtube's actual play button svg */
+  background-image: url('~/images/icons/product/icon-play-post.svg');
+  filter: grayscale(100%);
+  transition: filter 0.1s cubic-bezier(0, 0, 0.2, 1);
+  border: none;
+
+  &:hover {
+    filter: none;
+  }
+}
+
+.btn-primary {
+
+  &:hover,
+  &:focus {
+    background-color: $yellow-400;
+    border-color: $yellow-400;
+  }
+}
