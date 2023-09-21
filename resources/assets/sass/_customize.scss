@@ -3,6 +3,10 @@ html {
 }
 
 // sizing
+.edupia-mw-1230 {
+  max-width: 1230px !important;
+}
+
 .w-45 {
   width: 45%;
 }
@@ -345,4 +349,13 @@ span.round-tab {
 .wizard .tab-pane {
   position: relative;
   padding-top: 20px;
+}
+
+
+p {
+  margin-bottom: 8px !important;
+}
+
+li::marker {
+  font-size: 14px;
 }

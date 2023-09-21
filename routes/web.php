@@ -24,3 +24,27 @@ Route::group(['prefix'=>'product'], function () {
         return view('pages.product-native');
     })->name('native');
 });
+
+Route::get('/go-learning', function () {
+    return view('pages.go-learning');
+});
+
+Route::get('/payment-method', function () {
+    return view('pages.payment-method');
+});
+
+Route::get('/terms-of-use', function () {
+    return view('pages.terms-of-use');
+});
+
+Route::get('/privacy-policy', function () {
+    return view('pages.privacy-policy');
+});
+
+Route::get('/refund-policy', function () {
+    return view('pages.refund-policy');
+});
+
+Route::get('/recruitment-detail', function () {
+    return view('pages.recruitment-detail');
+});
