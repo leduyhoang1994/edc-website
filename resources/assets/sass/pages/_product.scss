@@ -204,15 +204,32 @@
       transform: translate(-50%);
     }
   }
+
   .content-chicken-txt {
     padding-top: 70px;
   }
+
   .content-chicken-description {
     padding-right: 60px;
   }
+
   .about-register-content {
     padding: 48px 20px 35px 75px;
     border-radius: 15px;
+  }
+
+  .img-card-slide {
+    border-radius: 20px;
+    width: 285px;
+    height: 365px;
+    padding: 24px 41px 0 30px;
+
+    &-cayman {
+      padding: 14px 7px 0 7px;
+      border-radius: 20px;
+      width: 285px;
+      height: 365px;
+    }
   }
 }
 

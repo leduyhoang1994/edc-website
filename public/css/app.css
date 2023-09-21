@@ -19424,6 +19424,20 @@ a:hover {
   border-radius: 15px;
 }
 
+.product-native .img-card-slide {
+  border-radius: 20px;
+  width: 285px;
+  height: 365px;
+  padding: 24px 41px 0 30px;
+}
+
+.product-native .img-card-slide-cayman {
+  padding: 14px 7px 0 7px;
+  border-radius: 20px;
+  width: 285px;
+  height: 365px;
+}
+
 .more-btn {
   background-color: #FFA800;
   border-color: #FFA800;

@@ -211,8 +211,10 @@ Product Native
                     <div class="row">
                       <div class="col-lg-3">
                         <div class="card border-0" style="width: 100%;">
-                          <img class="card-img" src="{{ asset('images/imgs/product/native-slide-1.png') }}"
-                            alt="Card image cap">
+                          <div class="d-flex justify-content-center w-100 bg-blue-700 img-card-slide">
+                            <img class="card-img img-fluid" src="{{ asset('images/imgs/product/avt-adam.png') }}"
+                              alt="Card image cap">
+                          </div>
                           <div class="card-body pl-0 pr-0">
                             <h5
                               class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
@@ -241,8 +243,10 @@ Product Native
                       </div>
                       <div class="col-lg-3">
                         <div class="card border-0" style="width: 100%;">
-                          <img class="card-img" src="{{ asset('images/imgs/product/native-slide-1.png') }}"
-                            alt="Card image cap">
+                          <div class="d-flex justify-content-center w-100 bg-blue-700 img-card-slide">
+                            <img class="card-img img-fluid" src="{{ asset('images/imgs/product/avt-miller.png') }}"
+                              alt="Card image cap">
+                          </div>
                           <div class="card-body pl-0 pr-0">
                             <h5
                               class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
@@ -270,8 +274,10 @@ Product Native
                       </div>
                       <div class="col-lg-3">
                         <div class="card border-0" style="width: 100%;">
-                          <img class="card-img" src="{{ asset('images/imgs/product/native-slide-1.png') }}"
-                            alt="Card image cap">
+                          <div class="d-flex justify-content-center w-100 bg-blue-700 img-card-slide">
+                            <img class="card-img img-fluid" src="{{ asset('images/imgs/product/avt-hare.png') }}"
+                              alt="Card image cap">
+                          </div>
                           <div class="card-body pl-0 pr-0">
                             <h5
                               class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
@@ -299,8 +305,10 @@ Product Native
                       </div>
                       <div class="col-lg-3">
                         <div class="card border-0" style="width: 100%;">
-                          <img class="card-img" src="{{ asset('images/imgs/product/native-slide-1.png') }}"
-                            alt="Card image cap">
+                          <div class="d-flex justify-content-center w-100 bg-blue-700 img-card-slide-cayman">
+                            <img class="card-img img-fluid" src="{{ asset('images/imgs/product/avt-cayman.png') }}"
+                              alt="Card image cap">
+                          </div>
                           <div class="card-body pl-0 pr-0">
                             <h5
                               class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
@@ -360,10 +368,10 @@ Product Native
               <div class="col-lg-4 px-5">
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
-                    <div class="position-relative">
+                    <div class="position-relative" id="video1">
                       <img class="card-img" src="{{ asset('images/imgs/product/img-post-native.png') }}"
                         alt="Card image cap">
-                      <div class="play-button-post"></div>
+                      <div class="play-button-post" onclick="showVideoPost('video1')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
                       <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
@@ -387,10 +395,10 @@ Product Native
               <div class="col-lg-4 px-5">
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
-                    <div class="position-relative">
+                    <div class="position-relative" id="video2">
                       <img class="card-img" src="{{ asset('images/imgs/product/img-post-native-2.png') }}"
                         alt="Card image cap">
-                      <div class="play-button-post"></div>
+                      <div class="play-button-post" onclick="showVideoPost('video2')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
                       <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
@@ -415,10 +423,10 @@ Product Native
               <div class="col-lg-4 px-5">
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
-                    <div class="position-relative">
+                    <div class="position-relative" id="video3">
                       <img class="card-img" src="{{ asset('images/imgs/product/img-post-native-3.png') }}"
                         alt="Card image cap">
-                      <div class="play-button-post"></div>
+                      <div class="play-button-post" onclick="showVideoPost('video3')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
                       <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
@@ -442,10 +450,10 @@ Product Native
               <div class="col-lg-4 px-5">
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
-                    <div class="position-relative">
+                    <div class="position-relative" id="video4">
                       <img class="card-img" src="{{ asset('images/imgs/product/img-post-native.png') }}"
                         alt="Card image cap">
-                      <div class="play-button-post"></div>
+                      <div class="play-button-post" onclick="showVideoPost('video4')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
                       <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
@@ -469,10 +477,10 @@ Product Native
               <div class="col-lg-4 px-5">
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
-                    <div class="position-relative">
+                    <div class="position-relative" id="video5">
                       <img class="card-img" src="{{ asset('images/imgs/product/img-post-native-2.png') }}"
                         alt="Card image cap">
-                      <div class="play-button-post"></div>
+                      <div class="play-button-post" onclick="showVideoPost('video5')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
                       <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
@@ -497,10 +505,10 @@ Product Native
               <div class="col-lg-4 px-5">
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
-                    <div class="position-relative">
+                    <div class="position-relative" id="video6">
                       <img class="card-img" src="{{ asset('images/imgs/product/img-post-native-3.png') }}"
                         alt="Card image cap">
-                      <div class="play-button-post"></div>
+                      <div class="play-button-post" onclick="showVideoPost('video6')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
                       <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
@@ -674,7 +682,8 @@ Product Native
                     <p class="text-center text-white text-font-size-26 text-font-weight-600 mb-1">
                       Đăng ký tư vấn
                     </p>
-                    <p class="text-center text-white text-font-size-18 text-font-weight-400">Ba mẹ hãy đăng ký để được các thầy cô tại EDUPIA
+                    <p class="text-center text-white text-font-size-18 text-font-weight-400">Ba mẹ hãy đăng ký để được
+                      các thầy cô tại EDUPIA
                       tư vấn về lộ trình học cho con nhé!
                     </p>
                     <form>
@@ -707,6 +716,12 @@ Product Native
   function showVideo() {
     $('#video_skill').
       html(`<iframe class="embed-responsive embed-responsive-16by9" width="1020" height="533" src="https://www.youtube.com/embed/rAwGaTomeEw?si=Aq0hmWQnigAlk-Pm?autoplay=1&mute=1" title="YouTube video player" mute frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+      )
+  }
+
+  function showVideoPost(idHtml) {
+    $(`#${idHtml}`).
+      html(`<iframe class="embed-responsive embed-responsive-16by9" width="370" height="227" src="https://www.youtube.com/embed/rAwGaTomeEw?si=Aq0hmWQnigAlk-Pm?autoplay=1&mute=1" title="YouTube video player" mute frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
       )
   }
 </script>
