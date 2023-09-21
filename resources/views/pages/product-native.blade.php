@@ -182,8 +182,8 @@ Product Native
             </div>
           </div>
         </div>
-        <div class="my-5 text-center">
-          <button class="btn btn-primary more-btn mt-4 btn-register">Đăng ký tư vấn</button>
+        <div class="my-4 text-center">
+          <button class="btn btn-primary more-btn btn-register">Đăng ký tư vấn</button>
         </div>
       </div>
     </div>
@@ -336,12 +336,141 @@ Product Native
                       </div>
                     </div>
                   </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <div class="card border-0" style="width: 100%;">
+                          <div class="d-flex justify-content-center w-100 bg-blue-700 img-card-slide">
+                            <img class="card-img img-fluid" src="{{ asset('images/imgs/product/avt-adam.png') }}"
+                              alt="Card image cap">
+                          </div>
+                          <div class="card-body pl-0 pr-0">
+                            <h5
+                              class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+                              <span class="text-font-weight-400">Thầy</span> Thầy Adam Lewis
+                            </h5>
+                            <p class="text-black text-center text-font-size-18 text-font-weight-400">Giám đốc phát triển
+                              nội dung</p>
+                            <div class="card-text mt-4 d-flex text-left">
+                              <div>
+                                <i class="dot"></i>
+                              </div>
+                              <span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Từng là Giám đốc
+                                Trung tâm VAS,
+                                Giám đốc khối Digital của Viettel Telecom.</span>
+                            </div>
+                            <div class="card-text mt-4 d-flex text-left">
+                              <div>
+                                <i class="dot"></i>
+                              </div>
+                              <span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Có hơn 10 năm kinh
+                                nghiệm trong
+                                lĩnh vực viễn thông và nội dung số.</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="card border-0" style="width: 100%;">
+                          <div class="d-flex justify-content-center w-100 bg-blue-700 img-card-slide">
+                            <img class="card-img img-fluid" src="{{ asset('images/imgs/product/avt-miller.png') }}"
+                              alt="Card image cap">
+                          </div>
+                          <div class="card-body pl-0 pr-0">
+                            <h5
+                              class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+                              <span class="text-font-weight-400">Cô</span> Jessica Miller
+                            </h5>
+                            <p class="text-black text-center text-font-size-18 text-font-weight-400">Cố vấn sư phạm</p>
+                            <div class="card-text mt-4 d-flex text-left">
+                              <div>
+                                <i class="dot"></i>
+                              </div>
+                              <span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Từng là Giám đốc
+                                Trung tâm VAS,
+                                Giám đốc khối Digital của Viettel Telecom.</span>
+                            </div>
+                            <div class="card-text mt-4 d-flex text-left">
+                              <div>
+                                <i class="dot"></i>
+                              </div>
+                              <span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Có hơn 10 năm kinh
+                                nghiệm trong
+                                lĩnh vực viễn thông và nội dung số.</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="card border-0" style="width: 100%;">
+                          <div class="d-flex justify-content-center w-100 bg-blue-700 img-card-slide">
+                            <img class="card-img img-fluid" src="{{ asset('images/imgs/product/avt-hare.png') }}"
+                              alt="Card image cap">
+                          </div>
+                          <div class="card-body pl-0 pr-0">
+                            <h5
+                              class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+                              <span class="text-font-weight-400">Cô</span> Suzanna Hare
+                            </h5>
+                            <p class="text-black text-center text-font-size-18 text-font-weight-400">Cô vấn sư phạm</p>
+                            <div class="card-text mt-4 d-flex text-left">
+                              <div>
+                                <i class="dot"></i>
+                              </div>
+                              <span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Từng là Giám đốc
+                                Trung tâm VAS,
+                                Giám đốc khối Digital của Viettel Telecom.</span>
+                            </div>
+                            <div class="card-text mt-4 d-flex text-left">
+                              <div>
+                                <i class="dot"></i>
+                              </div>
+                              <span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Có hơn 10 năm kinh
+                                nghiệm trong
+                                lĩnh vực viễn thông và nội dung số.</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="card border-0" style="width: 100%;">
+                          <div class="d-flex justify-content-center w-100 bg-blue-700 img-card-slide-cayman">
+                            <img class="card-img img-fluid" src="{{ asset('images/imgs/product/avt-cayman.png') }}"
+                              alt="Card image cap">
+                          </div>
+                          <div class="card-body pl-0 pr-0">
+                            <h5
+                              class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+                              <span class="text-font-weight-400">Thầy</span> Cayman Fitzhugh
+                            </h5>
+                            <p class="text-black text-center text-font-size-18 text-font-weight-400">Cô vấn sư phạm</p>
+                            <div class="card-text mt-4 d-flex text-left">
+                              <div>
+                                <i class="dot"></i>
+                              </div>
+                              <span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Từng là Giám đốc
+                                Trung tâm VAS,
+                                Giám đốc khối Digital của Viettel Telecom.</span>
+                            </div>
+                            <div class="card-text mt-4 d-flex text-left">
+                              <div>
+                                <i class="dot"></i>
+                              </div>
+                              <span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Có hơn 10 năm kinh
+                                nghiệm trong
+                                lĩnh vực viễn thông và nội dung số.</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
@@ -556,10 +685,15 @@ Product Native
                 <div class="item-verify">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative">
-                      <div class="position-relative" id="videoVerify1">
-                        <img class="card-img" src="{{ asset('images/imgs/product/tivi-1.png') }}"
-                          alt="Card image cap">
-                        <div class="play-button-post" onclick="showVideoVerify('videoVerify1')"></div>
+                      <div class="position-relative">
+                        <img class="card-img" src="{{ asset('images/imgs/product/i-speak.png') }}" alt="Card image cap">
+                        <div class="video-verify">
+                          <iframe class="embed-responsive embed-responsive-16by9" width="100%" height="100%"
+                            src="https://www.youtube.com/embed/rAwGaTomeEw?si=Aq0hmWQnigAlk-Pm?autoplay=1&mute=1"
+                            title="YouTube video player" mute frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        </div>
                       </div>
                     </div>
                     <div class="card-body pl-0 pr-0">
@@ -575,10 +709,15 @@ Product Native
                 <div class="item-verify">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative">
-                      <div class="position-relative" id="videoVerify2">
-                        <img class="card-img" src="{{ asset('images/imgs/product/tivi-2.png') }}"
-                          alt="Card image cap">
-                        <div class="play-button-post" onclick="showVideoVerify('videoVerify2')"></div>
+                      <div class="position-relative">
+                        <img class="card-img" src="{{ asset('images/imgs/product/i-speak.png') }}" alt="Card image cap">
+                        <div class="video-verify">
+                          <iframe class="embed-responsive embed-responsive-16by9" width="100%" height="100%"
+                            src="https://www.youtube.com/embed/rAwGaTomeEw?si=Aq0hmWQnigAlk-Pm?autoplay=1&mute=1"
+                            title="YouTube video player" mute frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        </div>
                       </div>
                     </div>
                     <div class="card-body pl-0 pr-0">

@@ -49,7 +49,7 @@
   }
 
   .native-commit {
-    margin: 127px 0;
+    margin: 115px 0;
   }
 
   .item-card-commit {
@@ -70,6 +70,7 @@
 
   .title-native-teams {
     text-align: center;
+    margin-bottom: 63px;
 
     p {
       padding: 0 21%;
@@ -230,6 +231,15 @@
       width: 285px;
       height: 365px;
     }
+  }
+  .video-verify {
+    position: absolute;
+    top: 28px;
+    left: 14px;
+    max-width: 453px;
+    max-height: 337px;
+    width: 100%;
+    height: 100%;
   }
 }
 
