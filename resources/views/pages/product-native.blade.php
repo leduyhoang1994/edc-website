@@ -365,7 +365,7 @@ Product Native
           </div>
           <div class="col-lg-12 my-5">
             <div class="row">
-              <div class="col-lg-4 px-5">
+              <div class="col-lg-4 px-3">
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative" id="video1">
@@ -392,7 +392,7 @@ Product Native
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 px-5">
+              <div class="col-lg-4 px-3">
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative" id="video2">
@@ -420,7 +420,7 @@ Product Native
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 px-5">
+              <div class="col-lg-4 px-3">
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative" id="video3">
@@ -447,7 +447,7 @@ Product Native
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 px-5">
+              <div class="col-lg-4 px-3">
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative" id="video4">
@@ -474,7 +474,7 @@ Product Native
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 px-5">
+              <div class="col-lg-4 px-3">
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative" id="video5">
@@ -502,7 +502,7 @@ Product Native
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 px-5">
+              <div class="col-lg-4 px-3">
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative" id="video6">
@@ -544,7 +544,7 @@ Product Native
     <div class="container">
       <div class="edupia-container-lg">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-12 mb-5">
             <div class="title-verify">
               <p class="text-black text-center text-font-size-36 text-font-weight-600">Được kiểm chứng bởi truyền
                 thông, báo chí toàn quốc</p>
@@ -556,7 +556,11 @@ Product Native
                 <div class="item-verify">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative">
-                      <img class="card-img" src="{{ asset('images/imgs/product/tivi-1.png') }}" alt="Card image cap">
+                      <div class="position-relative" id="videoVerify1">
+                        <img class="card-img" src="{{ asset('images/imgs/product/tivi-1.png') }}"
+                          alt="Card image cap">
+                        <div class="play-button-post" onclick="showVideoVerify('videoVerify1')"></div>
+                      </div>
                     </div>
                     <div class="card-body pl-0 pr-0">
                       <p class="text-black text-center text-font-size-18 text-font-weight-400">
@@ -571,7 +575,11 @@ Product Native
                 <div class="item-verify">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative">
-                      <img class="card-img" src="{{ asset('images/imgs/product/tivi-2.png') }}" alt="Card image cap">
+                      <div class="position-relative" id="videoVerify2">
+                        <img class="card-img" src="{{ asset('images/imgs/product/tivi-2.png') }}"
+                          alt="Card image cap">
+                        <div class="play-button-post" onclick="showVideoVerify('videoVerify2')"></div>
+                      </div>
                     </div>
                     <div class="card-body pl-0 pr-0">
                       <p class="text-black text-center text-font-size-18 text-font-weight-400">
@@ -722,6 +730,12 @@ Product Native
   function showVideoPost(idHtml) {
     $(`#${idHtml}`).
       html(`<iframe class="embed-responsive embed-responsive-16by9" width="370" height="227" src="https://www.youtube.com/embed/rAwGaTomeEw?si=Aq0hmWQnigAlk-Pm?autoplay=1&mute=1" title="YouTube video player" mute frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+      )
+  }
+
+  function showVideoVerify(idHtml) {
+    $(`#${idHtml}`).
+      html(`<iframe class="embed-responsive embed-responsive-16by9" width="492" height="349" src="https://www.youtube.com/embed/rAwGaTomeEw?si=Aq0hmWQnigAlk-Pm?autoplay=1&mute=1" title="YouTube video player" mute frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
       )
   }
 </script>
