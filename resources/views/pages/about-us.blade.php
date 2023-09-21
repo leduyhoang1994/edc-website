@@ -81,6 +81,263 @@ About us
 			</div>
 		</div>
 	</section>
+	<section class="about-trip py-5">
+		<div class="container">
+			<div class="edupia-container-lg">
+				<p class="text-center text-black text-font-size-36 text-font-weight-600">Hành trình của ước mơ</p>
+			</div>
+		</div>
+		<div class="px-4">
+			<div class="trip-content">
+				<div class="wizard">
+					<div class="wizard-inner">
+						<div class="connecting-line"></div>
+						<ul class="nav nav-tabs" role="tablist">
+							<li role="presentation" class="active">
+								<a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" aria-expanded="true">
+									<div class="img-item-trip-1 position-absolute">
+										<img src="{{ asset('images/imgs/aboutus/trip-1.svg') }}" alt="trip 1" />
+									</div>
+									<div class="item-bottom-1 text-center">
+										<p class="text-font-size-18 text-font-weight-600">2018</p>
+										<p class="text-font-size-18 text-font-weight-600 mb-3">Ra mắt Edupia Tiểu Học</p>
+										<p class="text-font-size-16 text-font-weight-400">Chương trình Tiếng Anh Online dành cho học sinh từ
+											lớp 1 - lớp 5 và đạt
+											Giải thưởng ứng dụng công nghệ số trong lĩnh vực Giáo Dục & Đào Tạo, tại Vietnam Digital Awards
+											2018</p>
+									</div>
+								</a>
+							</li>
+							<li role="presentation" class="disabled">
+								<a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" aria-expanded="false">
+									<div class="img-item-trip-2 position-absolute">
+										<img src="{{ asset('images/imgs/aboutus/trip-2.svg') }}" alt="trip 1" />
+									</div>
+									<div class="item-bottom-2 text-center">
+										<p class="text-font-size-18 text-font-weight-600 mb-3">Ra mắt Edupia Tiểu Học</p>
+										<p class="text-font-size-16 text-font-weight-400 mb-4">Chương trình Tiếng Anh Online dành cho học
+											sinh từ
+											lớp 1 - lớp 5 và đạt
+											Giải thưởng ứng dụng công nghệ số trong lĩnh vực Giáo Dục & Đào Tạo, tại Vietnam Digital Awards
+											2018
+										</p>
+										<p class="text-font-size-18 text-font-weight-600 mt-5">2019</p>
+
+									</div>
+							</li>
+							<li role="presentation" class="disabled">
+								<a href="#step3" data-toggle="tab" aria-controls="step3" role="tab">
+									<div class="img-item-trip-1 position-absolute">
+										<img src="{{ asset('images/imgs/aboutus/trip-3.svg') }}" alt="trip 1" />
+									</div>
+									<div class="item-bottom-1 text-center">
+										<p class="text-font-size-18 text-font-weight-600">2020</p>
+										<p class="text-font-size-18 text-font-weight-600 mb-3">Ra mắt Edupia Tiểu Học</p>
+										<p class="text-font-size-16 text-font-weight-400">Chương trình Tiếng Anh Online dành cho học sinh từ
+											lớp 1 - lớp 5 và đạt
+											Giải thưởng ứng dụng công nghệ số trong lĩnh vực Giáo Dục & Đào Tạo, tại Vietnam Digital Awards
+											2018</p>
+									</div>
+							</li>
+							<li role="presentation" class="disabled">
+								<a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" aria-expanded="false">
+									<div class="img-item-trip-2 position-absolute">
+										<img src="{{ asset('images/imgs/aboutus/trip-4.svg') }}" alt="trip 1" />
+									</div>
+									<div class="item-bottom-2 text-center">
+										<p class="text-font-size-18 text-font-weight-600 mb-3">Ra đời Edupia Tutor</p>
+										<p class="text-font-size-16 text-font-weight-400 mb-4">Top 10 Giải thưởng Tin Dùng Việt Nam hạng mục
+											Sản phẩm - Dịch vụ triển vọng tương lai của Việt Nam. Top 50 Startup Hứa Hẹn Nhất được đánh giá
+											bởi Techinasia
+										</p>
+										<p class="text-font-size-18 text-font-weight-600 mt-5">2021</p>
+									</div>
+							</li>
+							<li role="presentation" class="disabled">
+								<a href="#step5" data-toggle="tab" aria-controls="step5" role="tab">
+									<div class="img-item-trip-1 position-absolute">
+										<img src="{{ asset('images/imgs/aboutus/trip-5.svg') }}" alt="trip 1" />
+									</div>
+									<div class="item-bottom-1 text-center">
+										<p class="text-font-size-18 text-font-weight-600">2022</p>
+										<p class="text-font-size-18 text-font-weight-600 mb-3">Ra đời Edupia IELTS,
+											Edupia Math </p>
+										<p class="text-font-size-16 text-font-weight-400">Giải thưởng Best Online English Teaching Product
+											thuộc mảng Giáo Dục. Top 50 - Edtech hạng mục Language Learning nổi bật nhất Đông Nam Á bởi
+											HolonIQ</p>
+									</div>
+							</li>
+							<li role="presentation" class="disabled">
+								<a href="#step6" data-toggle="tab" aria-controls="step6" role="tab" aria-expanded="false">
+									<div class="img-item-trip-2 position-absolute">
+										<img src="{{ asset('images/imgs/aboutus/trip-6.svg') }}" alt="trip 6" />
+									</div>
+									<div class="item-bottom-2 text-center">
+										<p class="text-font-size-18 text-font-weight-600 mb-3">Ra mắt Edupia Business và Edupia Academy</p>
+										<p class="text-font-size-16 text-font-weight-400 mb-4">Tháng 8/2023 Edupia ra mắt sản phẩm Edupia
+											Business - Giải pháp toàn diện Tiếng Anh cho Doanh nghiệp. Đồng thời cho ra mắt Edupia Academy
+										</p>
+										<p class="text-font-size-18 text-font-weight-600 mt-5">2023</p>
+									</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="about-team py-5">
+		<div class="container">
+			<div class="edupia-container-lg">
+				<div>
+					<p class="text-blue-primary text-font-size-36 text-font-weight-600 text-center">Đội ngũ làm việc tâm huyết
+						Edupia</p>
+				</div>
+				<div class="mt-5">
+					<div class="row">
+						<div class="col-lg-3">
+							<div class="card border-0" style="width: 100%;">
+								<img class="card-img" src="{{ asset('images/imgs/aboutus/avt-ceo.png') }}" alt="Card image cap">
+								<div class="card-body pl-0 pr-0">
+									<h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+										<span class="text-font-weight-400">Ông</span> Trần Đức Hùng
+									</h5>
+									<p class="text-black text-center text-font-size-18 text-font-weight-400">CEO - Co founder</p>
+									<div class="card-text mt-4 d-flex text-left">
+										<div>
+											<i class="dot"></i>
+										</div>
+										<span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Từng là Giám đốc Trung tâm VAS,
+											Giám đốc khối Digital của Viettel Telecom.</span>
+									</div>
+									<div class="card-text mt-4 d-flex text-left">
+										<div>
+											<i class="dot"></i>
+										</div>
+										<span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Có hơn 10 năm kinh nghiệm trong
+											lĩnh vực viễn thông và nội dung số.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="card border-0" style="width: 100%;">
+								<img class="card-img" src="{{ asset('images/imgs/aboutus/avt-adam.png') }}" alt="Card image cap">
+								<div class="card-body pl-0 pr-0">
+									<h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+										<span class="text-font-weight-400">Thầy</span> Adam Lewis
+									</h5>
+									<p class="text-black text-center text-font-size-18 text-font-weight-400">Giám đốc phát triển nội dung
+									</p>
+									<div class="card-text mt-4 d-flex text-left">
+										<div>
+											<i class="dot"></i>
+										</div>
+										<span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Từng là Giám đốc Trung tâm VAS,
+											Giám đốc khối Digital của Viettel Telecom.</span>
+									</div>
+									<div class="card-text mt-4 d-flex text-left">
+										<div>
+											<i class="dot"></i>
+										</div>
+										<span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Có hơn 10 năm kinh nghiệm trong
+											lĩnh vực viễn thông và nội dung số.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="card border-0" style="width: 100%;">
+								<img class="card-img" src="{{ asset('images/imgs/aboutus/avt-miller.png') }}" alt="Card image cap">
+								<div class="card-body pl-0 pr-0">
+									<h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+										<span class="text-font-weight-400">Cô</span> Jessica Miller
+									</h5>
+									<p class="text-black text-center text-font-size-18 text-font-weight-400">Cố vấn sư phạm</p>
+									<div class="card-text mt-4 d-flex text-left">
+										<div>
+											<i class="dot"></i>
+										</div>
+										<span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Từng là Giám đốc Trung tâm VAS,
+											Giám đốc khối Digital của Viettel Telecom.</span>
+									</div>
+									<div class="card-text mt-4 d-flex text-left">
+										<div>
+											<i class="dot"></i>
+										</div>
+										<span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Có hơn 10 năm kinh nghiệm trong
+											lĩnh vực viễn thông và nội dung số.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="card border-0" style="width: 100%;">
+								<img class="card-img" src="{{ asset('images/imgs/aboutus/avt-cayman.png') }}" alt="Card image cap">
+								<div class="card-body pl-0 pr-0">
+									<h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+										<span class="text-font-weight-400">Cô</span> Cayman Fitzhugh
+									</h5>
+									<p class="text-black text-center text-font-size-18 text-font-weight-400">Cô vấn sư phạm</p>
+									<div class="card-text mt-4 d-flex text-left">
+										<div>
+											<i class="dot"></i>
+										</div>
+										<span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Từng là Giám đốc Trung tâm VAS,
+											Giám đốc khối Digital của Viettel Telecom.</span>
+									</div>
+									<div class="card-text mt-4 d-flex text-left">
+										<div>
+											<i class="dot"></i>
+										</div>
+										<span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Có hơn 10 năm kinh nghiệm trong
+											lĩnh vực viễn thông và nội dung số.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="about-register py-5">
+		<div class="container">
+			<div class="edupia-container-lg">
+				<div class="about-register-content bg-blue-primary">
+					<div class="row">
+						<div class="col-lg-6">
+							<div>
+								<p class="text-white text-font-size-26 text-font-weight-600 mb-4">Đặc biệt! Tặng 100 ba mẹ đăng ký đầu
+									tiên bộ quà trị giá 2 triệu
+								</p>
+								<form>
+									<div class="form-group">
+										<input class="form-control input-customer" type="text" placeholder="Họ tên phụ huynh" />
+									</div>
+									<div class="form-group">
+										<input class="form-control input-customer" type="number" placeholder="Số điện thoại" />
+									</div>
+									<div class="form-group">
+										<input class="form-control input-customer" type="number" placeholder="Bé học lớp mấy?" />
+									</div>
+									<div class="text-center">
+										<button type="submit" class="btn btn-primary more-btn btn-register">Đăng ký ngay</button>
+									</div>
+								</form>
+							</div>
+
+						</div>
+						<div class="col-lg-6">
+							<div class="text-center">
+								<img class="img-fluid" src="{{ asset('images/imgs/aboutus/img-register.png') }}" alt="img register" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 </div>
 @endsection
 

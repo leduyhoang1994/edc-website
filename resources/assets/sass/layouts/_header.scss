@@ -30,3 +30,16 @@
 .sticky+.content {
   padding-top: 102px;
 }
+
+.dropdown-menu {
+  color: $white;
+  background-color: $blue-primary;
+}
+.dropdown-item {
+  color: $white !important;
+  font-weight: 500;
+  &:hover {
+    background-color: $blue-primary;
+    color: #d9d9d9 !important;
+  }
+}

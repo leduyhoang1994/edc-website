@@ -26,6 +26,7 @@
 
 	<script src="{{asset('js/app.js')}}"></script>
 	@yield('script_links')
+	@stack('scripts')
 </body>
 <script>
 	window.onscroll = function () { myFunction() };

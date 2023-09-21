@@ -33,10 +33,7 @@
             </svg>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="{{ route('native') }}">Edupia Native</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -50,9 +47,6 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
             <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -89,30 +83,6 @@
               stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
         </div>
-        <!-- <ul class="navbar-nav mt-3 mt-lg-0 justify-content-center align-items-center gap-25 mr-5">
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">
-              <i class="fab fa-twitter"></i>
-              <span class="d-lg ml-3 text-font-weight-400">Kích hoạt tài khoản</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="btn px-5 bg-orange-500 text-font-weight-500 text-white rounded-pill">
-              Vào học
-            </a>
-          </li>
-          <li>
-            <div class="cursor-pointer">
-              <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M11.3496 12.1484L15 15.8645" stroke="white" stroke-width="1.3" stroke-linecap="round"
-                  stroke-linejoin="round" />
-                <path
-                  d="M1 7.37044C1 10.8887 3.80175 13.7409 7.25788 13.7409C8.98892 13.7409 10.5559 13.0254 11.6888 11.869C12.8178 10.7167 13.5158 9.12655 13.5158 7.37044C13.5158 3.85214 10.714 1 7.25788 1C3.80175 1 1 3.85214 1 7.37044Z"
-                  stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-            </div>
-          </li>
-        </ul> -->
       </form>
     </div>
   </nav>
