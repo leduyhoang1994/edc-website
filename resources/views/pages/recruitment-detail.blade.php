@@ -192,7 +192,8 @@ Chi tiết tuyển dụng
       {{-- job --}}
       <div class="position-item row">
         <div class="col-6">
-          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing Senior</p>
+          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
+            Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
             <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
             <span>Hà nội</span>
@@ -215,7 +216,8 @@ Chi tiết tuyển dụng
       {{-- job --}}
       <div class="position-item row">
         <div class="col-6">
-          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing Senior</p>
+          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
+            Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
             <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
             <span>Hà nội</span>
@@ -238,7 +240,8 @@ Chi tiết tuyển dụng
       {{-- job --}}
       <div class="position-item row">
         <div class="col-6">
-          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing Senior</p>
+          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
+            Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
             <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
             <span>Hà nội</span>
@@ -261,7 +264,8 @@ Chi tiết tuyển dụng
       {{-- job --}}
       <div class="position-item row">
         <div class="col-6">
-          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing Senior</p>
+          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
+            Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
             <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
             <span>Hà nội</span>
@@ -284,7 +288,8 @@ Chi tiết tuyển dụng
       {{-- job --}}
       <div class="position-item row">
         <div class="col-6">
-          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing Senior</p>
+          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
+            Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
             <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
             <span>Hà nội</span>
@@ -307,7 +312,8 @@ Chi tiết tuyển dụng
   </section>
   <section class="banner-body container-fluid">
     <div class="edupia-mw-1230 container w-75">
-      <p class="m-0 text-center text-font-size-30 text-font-weight-600 text-white">Edupia - Công ty Edtech số 1 tại Việt Nam hân hoan chào đón bạn!</p>
+      <p class="m-0 text-center text-font-size-30 text-font-weight-600 text-white">Edupia - Công ty Edtech số 1
+        tại Việt Nam hân hoan chào đón bạn!</p>
       <div class="content row">
         <div class="col-4 d-flex flex-column align-items-center">
           <div class="icon d-flex justify-content-center align-items-center">
@@ -318,7 +324,11 @@ Chi tiết tuyển dụng
               <p>Chính sách phát</p>
               <p>triển nhân lực</p>
             </div>
-            <p class="text-font-size-18 text-font-weight-400">"Con người là tài sản quý giá nhất" - tại EDUPIA, chúng tôi định hướng rõ ràng lộ trình phát triển cho từng thành viên và tin tưởng các thành viên sẽ phát huy tối đa tinh thần làm việc tận tâm, cầu thị, khả năng tự học hỏi, không ngại xông pha và tinh thần tập thể để tạo sức mạnh, động lực thúc đẩy sự phát triển và hướng tới mục tiêu “Chương trình Tiếng Anh cho trẻ em phổ biến nhất Đông Nam Á”.</p>
+            <p class="text-font-size-18 text-font-weight-400">"Con người là tài sản quý giá nhất" - tại
+              EDUPIA, chúng tôi định hướng rõ ràng lộ trình phát triển cho từng thành viên và tin tưởng
+              các thành viên sẽ phát huy tối đa tinh thần làm việc tận tâm, cầu thị, khả năng tự học hỏi,
+              không ngại xông pha và tinh thần tập thể để tạo sức mạnh, động lực thúc đẩy sự phát triển và
+              hướng tới mục tiêu “Chương trình Tiếng Anh cho trẻ em phổ biến nhất Đông Nam Á”.</p>
           </div>
         </div>
         <div class="col-4 d-flex flex-column align-items-center">
@@ -330,7 +340,10 @@ Chi tiết tuyển dụng
               <p>Cơ hội thăng tiến</p>
             </div>
             <p class="text-font-size-18 text-font-weight-400">
-              EDUPIA là môi trường lý tưởng để các bạn trẻ khám phá bản thân và phát huy tối đa sở trường, năng lực cá nhân. Tất cả nhân sự có cơ hội bình đẳng để phát triển lên quản lý cấp cao hoặc trở thành chuyên gia trong lĩnh vực của mình chỉ sau 03-06 tháng, cùng với sự gia tăng về quy mô tổ chức, đổi mới sản phẩm kinh doanh.
+              EDUPIA là môi trường lý tưởng để các bạn trẻ khám phá bản thân và phát huy tối đa sở trường,
+              năng lực cá nhân. Tất cả nhân sự có cơ hội bình đẳng để phát triển lên quản lý cấp cao hoặc
+              trở thành chuyên gia trong lĩnh vực của mình chỉ sau 03-06 tháng, cùng với sự gia tăng về
+              quy mô tổ chức, đổi mới sản phẩm kinh doanh.
             </p>
           </div>
         </div>
@@ -344,7 +357,11 @@ Chi tiết tuyển dụng
               <p>lợi nhuận</p>
             </div>
             <p class="text-font-size-18 text-font-weight-400">
-              Khi làm việc tại EDUPIA, các thành viên thường xuyên có cơ hội tham gia các khóa đào tạo về chuyên môn và kỹ năng mềm từ các chuyên gia hàng đầu thị trường, giúp các bạn luôn được phát triển & nâng cao năng lực bản thân. Ngoài ra, EDUPIA rất đề cao trải nghiệm cá nhân và thường xuyên tổ chức các hoạt động văn hóa ý nghĩa giúp các thành viên thấy mỗi ngày đi làm là một ngày vui.
+              Khi làm việc tại EDUPIA, các thành viên thường xuyên có cơ hội tham gia các khóa đào tạo về
+              chuyên môn và kỹ năng mềm từ các chuyên gia hàng đầu thị trường, giúp các bạn luôn được phát
+              triển & nâng cao năng lực bản thân. Ngoài ra, EDUPIA rất đề cao trải nghiệm cá nhân và
+              thường xuyên tổ chức các hoạt động văn hóa ý nghĩa giúp các thành viên thấy mỗi ngày đi làm
+              là một ngày vui.
             </p>
           </div>
         </div>
@@ -363,11 +380,28 @@ Chi tiết tuyển dụng
       </div>
 
     </div>
-    <p class="text-center text-font-size-30 text-font-weight-500">[DU LỊCH HÈ 2023]: DẤU ẤN EDUCA-ERS TẠI HẠ LONG</p>
+    <p class="text-center text-font-size-30 text-font-weight-500 m-0">[DU LỊCH HÈ 2023]: DẤU ẤN EDUCA-ERS TẠI HẠ LONG
+    </p>
 
   </section>
   <section class="container edupia-mw-1230 slide-activity">
-   
+    <div class="slick-carousel">
+      <div>
+        <img src="{{ asset('images/imgs/homepage/activity-slide-1.png') }}" alt="activity-slide-1" />
+      </div>
+      <div>
+        <img src="{{ asset('images/imgs/homepage/activity-slide-2.png') }}" alt="activity-slide-2" />
+      </div>
+      <div>
+        <img src="{{ asset('images/imgs/homepage/activity-slide-3.png') }}" alt="activity-slide-3" />
+      </div>
+      <div>
+        <img src="{{ asset('images/imgs/homepage/activity-slide-4.png') }}" alt="activity-slide-4" />
+      </div>
+      <div>
+        <img src="{{ asset('images/imgs/homepage/activity-slide-3.png') }}" alt="activity-slide-5" />
+      </div>
+    </div>
   </section>
 </main>
 @endsection
@@ -387,7 +421,8 @@ Chi tiết tuyển dụng
       lazyLoadingChild.remove();
 
       // create a new responsive video container
-      const responsiveVideoContainer = $("<div></div>").addClass("embed-responsive embed-responsive-16by9");
+      const responsiveVideoContainer = $("<div></div>").addClass(
+        "embed-responsive embed-responsive-16by9");
 
       // create the iFrame with the video embed
       const videoIframe = $("<iframe></iframe>").addClass("embed-responsive-item");
@@ -400,9 +435,19 @@ Chi tiết tuyển dụng
 
       // add the video container to the parent container
       $(this).append(responsiveVideoContainer);
+
+
     });
 
-    
+    $('.slick-carousel').slick({
+      infinite: true,
+      autoplay:true,
+      slidesToShow: 4, // Shows a three slides at a time
+      slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
+      arrows: true, // Adds arrows to sides of slider
+      prevArrow:'<img class="slick-prev" src="images/icons/homepage/PrevIcon.svg" alt="PrevIcon" />',
+      nextArrow:'<img class="slick-next" src="images/icons/homepage/NextIcon.svg" alt="NextIcon" />',
+    });
   });
 
 </script>

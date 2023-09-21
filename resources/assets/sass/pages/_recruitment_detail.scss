@@ -159,6 +159,23 @@
   }
 
   .slide-activity {
-
+    margin-top: 45px;
+    margin-bottom: 109px;
+    .slick-carousel {
+      width: 1230px;
+      .slick-prev {
+        position: absolute;
+        left: -50px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .slick-next {
+        position: absolute;
+        right: -80px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
   }
 }
+

@@ -8,6 +8,7 @@
 require('./bootstrap');
 require('./lazysizes.min');
 require('./stepwizard');
+import 'slick-carousel';
 // window.Vue = require('vue');
 
 /**
