@@ -1,0 +1,80 @@
+.recruitment {
+  .header-banner {
+    height: 490px;
+    padding-top: 380px;
+    padding-left: 345px;
+    position: relative;
+    background-image: url("/images/imgs/other/recruitment-header.png");
+    background-size: cover;
+    /* Hiển thị ảnh nền sao cho che phủ toàn bộ khu vực */
+    background-repeat: no-repeat;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 490px;
+      background-color: rgba(0, 0, 0, 0.20);
+      /* Màu của lớp mờ (được đặt dưới dạng rgba với độ trong suốt) */
+      z-index: 1;
+      /* Đảm bảo lớp mờ nằm phía trên ảnh nền */
+    }
+
+    .header-text {
+      position: absolute;
+      z-index: 2;
+    }
+  }
+
+  .header-title {
+    .select-cus {
+      padding: 10px 0 11px 19px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background: none;
+      border: 1px solid $gray-80;
+
+    }
+
+    .custom-icon {
+      position: absolute;
+      top: 40%;
+      right: 10%;
+      transform: translateY(-50%);
+      pointer-events: none;
+    }
+
+    .search-container {
+      display: flex;
+      align-items: center;
+      border-radius: 100px;
+      border: 1px solid $gray-80;
+      width: 300px;
+      padding: 3px 4px 3px 11px;
+
+      .search-icon {
+        padding: 5px;
+      }
+
+      .search-input {
+        flex-grow: 1;
+        border: none;
+        outline: none;
+        padding: 5px;
+      }
+
+      .search-button {
+        background-color: $blue-primary;
+        color: white;
+        border: none;
+        border-radius: 100px;
+        cursor: pointer;
+        padding: 7px 14px 7px 21px;
+      }
+    }
+
+  }
+}
