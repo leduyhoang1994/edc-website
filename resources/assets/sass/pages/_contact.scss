@@ -1,0 +1,85 @@
+.contact {
+  .header-banner {
+    height: 490px;
+    padding-top: 380px;
+    padding-left: 345px;
+    position: relative;
+    background-image: url("/images/imgs/other/contact-header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 490px;
+      background-color: rgba(0, 0, 0, 0.20);
+      z-index: 1;
+    }
+
+    .header-text {
+      position: absolute;
+      z-index: 2;
+    }
+  }
+
+  .contact-form-detail {
+    padding-top: 52px;
+    padding-bottom: 57px;
+
+    .contact-form {
+
+      .form-control {
+        border: none;
+        border-bottom: 1px solid $gray-400;
+        border-radius: 0;
+      }
+
+      .custom-file-upload {
+        width: 100%;
+
+        display: inline-block;
+        padding: 13px 12px;
+        cursor: pointer;
+        border-radius: 1000px;
+        border: 1px dashed $gray-300;
+        background: $gray-50;
+        text-align: center;
+      }
+
+      .custom-button {
+        border-radius: 1000px;
+        background: $blue-primary;
+        padding: 6px;
+      }
+
+    }
+
+    [data-toggle="collapse"].collapsed .if-not-collapsed,
+    [data-toggle="collapse"]:not(.collapsed) .if-collapsed {
+      display: none;
+    }
+    [data-toggle="collapse"].collapsed {
+      margin-bottom: 33px;
+    }
+    [data-toggle="collapse"]:not(.collapsed)  {
+      margin-bottom: 0;
+    }
+    [data-toggle="collapse"]:not(.collapsed) span {
+      font-weight: bold;
+    }
+    .card-answer {
+      margin-top: 20px;
+      margin-bottom: 40px;
+      font-size: $font-18;
+      font-weight: $font-weight-400;
+      a {
+        font-weight: $font-weight-600;
+        color: $blue-primary;
+      }
+    }
+
+  }
+}

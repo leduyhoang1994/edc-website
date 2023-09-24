@@ -49,6 +49,17 @@ Route::get('/refund-policy', function () {
     return view('pages.refund-policy');
 });
 
-Route::get('/recruitment-detail', function () {
-    return view('pages.recruitment-detail');
+Route::group(['prefix'=>'recruitment'], function () {
+    Route::get('/', function () {
+        return view('pages.recruitment');
+    })->name('recruitment');
+
+    Route::get('/{id}', function () {
+        return view('pages.recruitment-detail');
+    })->name('recruitment detail');
 });
+
+Route::get('/contact', function () {
+    return view('pages.contact');
+});
+
