@@ -59,3 +59,12 @@ Route::get('/contact', function () {
     return view('pages.contact');
 });
 
+Route::group(['prefix'=>'document'], function () {
+    Route::get('/', function () {
+        return view('pages.document');
+    })->name('document');
+
+    Route::get('/{id}', function () {
+        return view('pages.document-detail');
+    })->name('document detail');
+});
