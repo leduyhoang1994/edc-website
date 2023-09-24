@@ -1,0 +1,210 @@
+.recruitment {
+  .header-banner {
+    height: 490px;
+    padding-top: 380px;
+    padding-left: 345px;
+    position: relative;
+    background-image: url("/images/imgs/other/recruitment-header.png");
+    background-size: cover;
+    /* Hiển thị ảnh nền sao cho che phủ toàn bộ khu vực */
+    background-repeat: no-repeat;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 490px;
+      background-color: rgba(0, 0, 0, 0.20);
+      /* Màu của lớp mờ (được đặt dưới dạng rgba với độ trong suốt) */
+      z-index: 1;
+      /* Đảm bảo lớp mờ nằm phía trên ảnh nền */
+    }
+
+    .header-text {
+      position: absolute;
+      z-index: 2;
+    }
+  }
+
+  .header-title {
+    padding-top: 52px;
+
+    .desc-title {
+      margin-top: 11px;
+      margin-bottom: 34px;
+    }
+
+    .select-cus {
+      padding: 10px 0 11px 19px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background: none;
+      border: 1px solid $gray-80;
+
+    }
+
+    .custom-icon {
+      position: absolute;
+      top: 40%;
+      right: 10%;
+      transform: translateY(-50%);
+      pointer-events: none;
+    }
+
+    .search-container {
+      display: flex;
+      align-items: center;
+      border-radius: 100px;
+      border: 1px solid $gray-80;
+      width: 300px;
+      padding: 3px 4px 3px 11px;
+
+      .search-icon {
+        padding: 5px;
+      }
+
+      .search-input {
+        flex-grow: 1;
+        border: none;
+        outline: none;
+        padding: 5px;
+      }
+
+      .search-button {
+        background-color: $blue-primary;
+        color: white;
+        border: none;
+        border-radius: 100px;
+        cursor: pointer;
+        padding: 7px 14px 7px 21px;
+      }
+    }
+
+    .form-group {
+      margin-bottom: 0 !important;
+    }
+
+  }
+
+  .other-position {
+    padding-top: 49px;
+
+    .position-list-job {
+      padding-bottom: 64px;
+
+      .position-item {
+        padding: 22px 23px 27px 39px;
+        border-radius: 10px;
+        box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.05);
+        margin-bottom: 25px;
+
+        .label {
+          border-radius: 20.5px;
+          background: $gray-20;
+          padding: 4px 17px;
+          margin-left: 38px;
+        }
+
+        .recruitment-btn {
+          padding: 10px 25px;
+          border-radius: 26px;
+          border: 1px solid $blue-primary;
+          cursor: pointer;
+        }
+      }
+    }
+
+    $color_1: #999;
+    $color_2: white;
+    $color_3: #0057b3;
+    $color_4: #0056b3;
+    $color_5: #ccc;
+    $background-color_1: white;
+    $background-color_2: #0057b3;
+    $background-color_3: #ffffff00;
+
+    .pagination {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 64px;
+    }
+
+    .pages {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 100%;
+    }
+
+    .page-number {
+      cursor: pointer;
+      font-size: $font-18;
+      font-weight: $font-weight-400;
+      background-color: $blue-primary;
+      color: $white;
+      width: 50px;
+
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+
+      margin-right: 20px;
+    }
+    .page-number:last-child {
+      margin-right: 0;
+    }
+
+    .active {
+      height: 50px;
+      width: 50px;
+      background-color: $yellow-500;
+      color: $color_2;
+    }
+
+    button {
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: $background-color_3;
+      &:hover {
+        color: $color_4;
+      }
+
+      &:disabled {
+        cursor: not-allowed;
+      }
+    }
+
+    #prevPage {
+      margin-right: 27px;
+    }
+
+    #nextPage {
+      margin-left: 27px;
+    }
+
+    .arrow {
+      font-size: 1.2em;
+    }
+
+    .nav-text {
+      font-size: 0.7em;
+      letter-spacing: 0.3em;
+    }
+
+
+  }
+  .contact {
+    padding-top: 30px;
+    padding-bottom: 64px;
+  }
+}
