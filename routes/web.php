@@ -23,6 +23,10 @@ Route::group(['prefix'=>'product'], function () {
     Route::get('/native', function () {
         return view('pages.product-native');
     })->name('native');
+
+    Route::get('/ai', function () {
+        return view('pages.product-ai');
+    })->name('productAI');
 });
 
 Route::get('/go-learning', function () {
