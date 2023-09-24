@@ -55,3 +55,7 @@ Route::group(['prefix'=>'recruitment'], function () {
     })->name('recruitment detail');
 });
 
+Route::get('/contact', function () {
+    return view('pages.contact');
+});
+

@@ -156,7 +156,7 @@ Chi tiết tuyển dụng
             </div>
           </div>
           <div class="form-group">
-            <label for="nguonTin">Bạn biết đến tin tuyển dụng này từ đâu? *</label>
+            <label for="nguonTin">Bạn biết đến tin tuyển dụng này từ đâu? <span class="text-red text-font-size-600">*</span></label>
             <textarea class="form-control" id="nguonTin" rows="1" required></textarea>
           </div>
           <div class="form-group">
