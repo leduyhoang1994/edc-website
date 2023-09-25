@@ -13,7 +13,7 @@ Vào Học
 			{{-- tieu-hoc --}}
 			<div class="col">
 				<div class="logo d-flex justify-content-center align-items-center">
-					<img class="" src="{{ asset('images/icons/homepage/EdupiaLogo.svg') }}" alt="EdupiaMath">
+					<img src="{{ asset('images/icons/homepage/EdupiaLogo.svg') }}" alt="EdupiaMath">
 				</div>
 				<div class="btn-action">
 					<p class="text-font-weight-600 mb-3">EDUPIA AI - TIỂU HỌC</p>
@@ -26,7 +26,7 @@ Vào Học
 			{{-- thcs --}}
 			<div class="col">
 				<div class="logo d-flex justify-content-center align-items-center">
-					<img class="" src="{{ asset('images/icons/homepage/EdupiaTHCS.svg') }}" alt="EdupiaTHCS">
+					<img src="{{ asset('images/icons/homepage/EdupiaTHCS.svg') }}" alt="EdupiaTHCS">
 				</div>
 				<div class="btn-action">
 					<p class="text-font-weight-600 mb-3">EDUPIA AI - THCS</p>
@@ -39,7 +39,7 @@ Vào Học
 			{{-- math --}}
 			<div class="col">
 				<div class="logo d-flex justify-content-center align-items-center">
-					<img class="" src="{{ asset('images/icons/homepage/EdupiaMath.png') }}" alt="EdupiaMath">
+					<img src="{{ asset('images/icons/homepage/EdupiaMath.png') }}" alt="EdupiaMath">
 				</div>
 				<div class="btn-action">
 					<p class="text-font-weight-600 mb-3">EDUPIA EXTRA - TOÁN</p>
@@ -55,7 +55,7 @@ Vào Học
 			{{-- tieng viet --}}
 			<div class="col">
 				<div class="logo d-flex justify-content-center align-items-center">
-					<img class="" src="{{ asset('images/icons/homepage/EdupiaTV.svg') }}" alt="EdupiaTV">
+					<img src="{{ asset('images/icons/homepage/EdupiaTV.svg') }}" alt="EdupiaTV">
 				</div>
 				<div class="btn-action">
 					<p class="text-font-weight-600 mb-3">EDUPIA EXTRA - TIẾNG VIỆT</p>
@@ -68,7 +68,7 @@ Vào Học
 			{{-- ielts --}}
 			<div class="col">
 				<div class="logo d-flex justify-content-center align-items-center">
-					<img class="" src="{{ asset('images/icons/homepage/EdupiaIELTS.png') }}" alt="EdupiaIELTS">
+					<img src="{{ asset('images/icons/homepage/EdupiaIELTS.png') }}" alt="EdupiaIELTS">
 				</div>
 				<div class="btn-action">
 					<p class="text-font-weight-600 mb-3">EDUPIA IELTS</p>
@@ -81,7 +81,7 @@ Vào Học
 			{{-- tutor --}}
 			<div class="col">
 				<div class="logo d-flex justify-content-center align-items-center">
-					<img class="" src="{{ asset('images/icons/homepage/EdupiaTutor.png') }}" alt="EdupiaTutor">
+					<img src="{{ asset('images/icons/homepage/EdupiaTutor.png') }}" alt="EdupiaTutor">
 				</div>
 				<div class="btn-action">
 					<p class="text-font-weight-600 mb-3">EDUPIA TUTOR, PRO, NATIVE</p>

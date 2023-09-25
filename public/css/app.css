@@ -21330,6 +21330,103 @@ a:hover {
   color: #20BEC6;
 }
 
+.document-detail {
+  padding-bottom: 87px;
+}
+
+.document-detail .header-banner {
+  padding-top: 79px;
+  padding-bottom: 87px;
+  background: #F9F9F9;
+}
+
+.document-detail .header-banner .book-cover {
+  padding: 22px 33px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 1px solid #E9E9E9;
+}
+
+.document-detail .header-banner .description {
+  max-width: 631px;
+}
+
+.document-detail .header-banner .description .category {
+  width: 126px;
+  background: #D9D9D9;
+  padding: 4px 24px 3px 24px;
+  border-radius: 15.5px;
+  margin-top: 29px;
+  margin-bottom: 43px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.document-detail .ask-form {
+  padding-top: 49px;
+  padding-bottom: 54px;
+  background: #20BEC6;
+}
+
+.document-detail .ask-form .form-rounded {
+  border-radius: 1000px;
+  border: none;
+  font-size: 18px;
+  font-weight: 300;
+  height: 58px;
+  padding-left: 28px;
+}
+
+.document-detail .custom-button {
+  border-radius: 1000px;
+  background: #FFA800;
+}
+
+.document-detail .other-document {
+  padding-top: 71px;
+}
+
+.document-detail .other-document .btn-action {
+  margin-top: 11px;
+  text-align: center;
+}
+
+.document-detail .other-document .btn-action .btn-download {
+  width: 143px;
+  padding: 5px 18px;
+  background: #EAEAEA;
+  border-radius: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.document-detail #documentModal .modal-content {
+  background: #20BEC6;
+  padding: 17px 22px 42px 41px;
+  border-radius: 14px;
+}
+
+.document-detail #documentModal .modal-content .modal-header {
+  border-bottom: none !important;
+}
+
+.document-detail #documentModal .modal-content .modal-header .close {
+  background-image: url("/images/icons/other/CloseIcon.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.document-detail #documentModal .modal-content .modal-body .form-rounded {
+  border-radius: 1000px;
+  border: none;
+  font-size: 18px;
+  font-weight: 300;
+  height: 58px;
+  padding-left: 28px;
+}
+
 @media (max-width: 480px) {
   .header-area {
     padding: 10px !important;
