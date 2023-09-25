@@ -68,16 +68,166 @@ Tài liệu chi tiết
         <div class="col-5">
           <div class="image-container">
             <img src="{{ asset('images/imgs/other/chicken-kid.png') }}" alt="chicken-kid" class="image" />
-            <img src="{{ asset('images/imgs/other/elipse-chicken.png') }}" alt="elipse-chicken" class="image1" />
-            <img  src="{{ asset('images/imgs/other/coconut-tree.png') }}" alt="coconut-tree" class="image2" />
-
           </div>
         </div>
       </div>
     </div>
 
   </section>
-
+  <section class="container edupia-mw-1230 other-document">
+    <p class="text-center text-font-size-36 text-font-weight-500 mb-6">Tài liệu cho con đáng quan tâm khác</p>
+    <div class="row mb-6">
+      <div class="col-3">
+        <div class="logo d-flex justify-content-center align-items-center">
+          <img src="{{ asset('images/imgs/other/document-pic-1.png') }}" alt="document-pic-1">
+        </div>
+        <div class="btn-action">
+          <p class="text-font-weight-400 text-font-size-16">
+            Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
+          </p>
+          <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
+            <img src="{{ asset('images/icons/other/DownloadBlueIcon.svg') }}" alt="DownloadBlueIcon">
+            <span class="text-font-weight-300 text-font-size-16">Tải xuống</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="logo d-flex justify-content-center align-items-center">
+          <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-1">
+        </div>
+        <div class="btn-action">
+          <p class="text-font-weight-400 text-font-size-16">
+            Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
+          </p>
+          <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
+            <img src="{{ asset('images/icons/other/DownloadBlueIcon.svg') }}" alt="DownloadBlueIcon">
+            <span class="text-font-weight-300 text-font-size-16">Tải xuống</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="logo d-flex justify-content-center align-items-center">
+          <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-1">
+        </div>
+        <div class="btn-action">
+          <p class="text-font-weight-400 text-font-size-16">
+            Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
+          </p>
+          <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
+            <img src="{{ asset('images/icons/other/DownloadBlueIcon.svg') }}" alt="DownloadBlueIcon">
+            <span class="text-font-weight-300 text-font-size-16">Tải xuống</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="logo d-flex justify-content-center align-items-center">
+          <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-1">
+        </div>
+        <div class="btn-action">
+          <p class="text-font-weight-400 text-font-size-16">
+            Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
+          </p>
+          <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
+            <img src="{{ asset('images/icons/other/DownloadBlueIcon.svg') }}" alt="DownloadBlueIcon">
+            <span class="text-font-weight-300 text-font-size-16">Tải xuống</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <div class="logo d-flex justify-content-center align-items-center">
+          <img src="{{ asset('images/imgs/other/document-pic-1.png') }}" alt="document-pic-1">
+        </div>
+        <div class="btn-action">
+          <p class="text-font-weight-400 text-font-size-16">
+            Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
+          </p>
+          <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
+            <img src="{{ asset('images/icons/other/DownloadBlueIcon.svg') }}" alt="DownloadBlueIcon">
+            <span class="text-font-weight-300 text-font-size-16">Tải xuống</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="logo d-flex justify-content-center align-items-center">
+          <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-1">
+        </div>
+        <div class="btn-action">
+          <p class="text-font-weight-400 text-font-size-16">
+            Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
+          </p>
+          <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
+            <img src="{{ asset('images/icons/other/DownloadBlueIcon.svg') }}" alt="DownloadBlueIcon">
+            <span class="text-font-weight-300 text-font-size-16">Tải xuống</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="logo d-flex justify-content-center align-items-center">
+          <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-1">
+        </div>
+        <div class="btn-action">
+          <p class="text-font-weight-400 text-font-size-16">
+            Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
+          </p>
+          <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
+            <img src="{{ asset('images/icons/other/DownloadBlueIcon.svg') }}" alt="DownloadBlueIcon">
+            <span class="text-font-weight-300 text-font-size-16">Tải xuống</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="logo d-flex justify-content-center align-items-center">
+          <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-1">
+        </div>
+        <div class="btn-action">
+          <p class="text-font-weight-400 text-font-size-16">
+            Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
+          </p>
+          <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
+            <img src="{{ asset('images/icons/other/DownloadBlueIcon.svg') }}" alt="DownloadBlueIcon">
+            <span class="text-font-weight-300 text-font-size-16">Tải xuống</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="modal fade custom-modal" id="documentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- Nút close -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <!-- Phần bên trái (hình ảnh) -->
+              <div class="col-md-5">
+                <img src="{{ asset('images/icons/other/DocumentModalIcon.svg') }}" alt="DocumentModalIcon">
+              </div>
+              <!-- Phần bên phải (form) -->
+              <div class="col-md-7">
+                <p class="text-font-size-18 text-font-weight-700 text-white ml-1 mb-2">Vui lòng đăng ký thông tin để nhận tài liệu!</p>
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control form-rounded" placeholder="Họ và tên phụ huynh">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control form-rounded" placeholder="Số điện thoại phụ huynh">
+                  </div>
+                  <button type="submit" class="btn btn-block custom-button py-2">
+                    <span class="text-font-weight-600 text-font-size-18 text-white">ĐĂNG KÝ</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 @endsection
 

@@ -21176,6 +21176,10 @@ a:hover {
   color: #20BEC6;
 }
 
+.document-detail {
+  padding-bottom: 87px;
+}
+
 .document-detail .header-banner {
   padding-top: 79px;
   padding-bottom: 87px;
@@ -21219,35 +21223,54 @@ a:hover {
   padding-left: 28px;
 }
 
-.document-detail .ask-form .image-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  top: -11px;
-}
-
-.document-detail .ask-form .image-container .image {
-  position: absolute;
-  z-index: 2;
-}
-
-.document-detail .ask-form .image-container .image1 {
-  position: absolute;
-  z-index: 1;
-  bottom: -50px;
-  left: 40px;
-}
-
-.document-detail .ask-form .image-container .image2 {
-  position: absolute;
-  z-index: 0;
-  bottom: -55px;
-  right: -21px;
-}
-
 .document-detail .custom-button {
   border-radius: 1000px;
   background: #FFA800;
+}
+
+.document-detail .other-document {
+  padding-top: 71px;
+}
+
+.document-detail .other-document .btn-action {
+  margin-top: 11px;
+  text-align: center;
+}
+
+.document-detail .other-document .btn-action .btn-download {
+  width: 143px;
+  padding: 5px 18px;
+  background: #EAEAEA;
+  border-radius: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.document-detail #documentModal .modal-content {
+  background: #20BEC6;
+  padding: 17px 22px 42px 41px;
+  border-radius: 14px;
+}
+
+.document-detail #documentModal .modal-content .modal-header {
+  border-bottom: none !important;
+}
+
+.document-detail #documentModal .modal-content .modal-header .close {
+  background-image: url("/images/icons/other/CloseIcon.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.document-detail #documentModal .modal-content .modal-body .form-rounded {
+  border-radius: 1000px;
+  border: none;
+  font-size: 18px;
+  font-weight: 300;
+  height: 58px;
+  padding-left: 28px;
 }
 
 @media (max-width: 480px) {
