@@ -35,6 +35,7 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="{{ route('native') }}">Edupia Native</a>
             <a class="dropdown-item" href="{{ route('productAI') }}">Edupia AI</a>
+            <a class="dropdown-item" href="{{ route('productIELTS') }}">Edupia IELTS</a>
           </div>
         </li>
         <li class="nav-item dropdown">

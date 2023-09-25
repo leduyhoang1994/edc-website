@@ -450,11 +450,305 @@
     width: 100%;
     height: 100%;
   }
+
   .content-chicken-txt {
     padding-top: 70px;
   }
+
   .ai-verify {
     margin-top: 89px;
     margin-bottom: 90px;
+  }
+}
+
+.product-ielts {
+  .btn-register {
+    font-size: $font-20;
+    font-weight: 600;
+    padding: 15px 41px;
+  }
+
+  .ielts-banner {
+    position: relative;
+    background-image: url("~/images/imgs/product/ielts-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+
+    .content-banner-ai {
+      width: 887px;
+      position: absolute;
+      left: 0;
+      top: 15%;
+      transform: translate(10%, 50%);
+
+      .title-banner {
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        line-height: 60px;
+      }
+
+      .des-banner {
+        width: 602px;
+        text-align: justify;
+      }
+    }
+  }
+
+  .ielts-register {
+    margin-top: 78px;
+    margin-bottom: 78px;
+
+    .div-register {
+      border-radius: 15px;
+    }
+
+    .img-register {
+      padding: 50px 50px 0 55px;
+    }
+
+    .div-form-register {
+      padding: 38px 114px 37px 0;
+    }
+
+  }
+
+  .ielts-chance {
+    .title-content-chance {
+      padding-left: 16px;
+      border-left: 4px solid $blue-600;
+      line-height: normal;
+    }
+
+    .hr-chance {
+      margin: 16px 0;
+      margin-left: 9px;
+      width: 35%;
+    }
+  }
+
+  .ielts-teacher {
+    margin-top: 77px;
+
+    .item-teacher {
+      border-radius: 45px;
+    }
+
+    .avt-teacher {
+      padding-top: 18px;
+      padding-bottom: 32px;
+    }
+
+    .list-item-result {
+      padding-right: 64px;
+      padding-top: 46px;
+      padding-bottom: 46px;
+
+      li {
+        line-height: 50px;
+      }
+    }
+
+    li::marker {
+      color: $yellow-400;
+      font-size: 25px;
+    }
+  }
+
+  .ielts-procedure {
+    background-image: url("~/images/imgs/product/bg-procedure.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 79px;
+    padding-bottom: 94px;
+    margin-bottom: 70px;
+
+    .item-procedure {
+      background-color: transparent;
+      max-width: 305px;
+
+      img {
+        width: 186px;
+        height: 186px;
+      }
+
+    }
+
+    .content-procedure {
+      margin-top: 98px;
+    }
+  }
+
+  .ielts-trip {
+    .title-item-trip-1 {
+      top: 5%;
+      left: 41%;
+    }
+
+    .title-item-trip-2 {
+      top: 38%;
+      left: 44%;
+    }
+
+    .title-item-trip-3 {
+      top: 70%;
+      left: 48%;
+    }
+
+    .des-item-trip-1 {
+      top: 13%;
+      left: 55%;
+    }
+
+    .des-item-trip-2 {
+      top: 46%;
+      left: 51%;
+    }
+
+    .des-item-trip-3 {
+      top: 78%;
+      left: 53%;
+    }
+  }
+
+  .ielts-feedback1 {
+    margin-top: 87px;
+    padding-bottom: 70px;
+
+    .card-img {
+      max-width: 214px;
+      max-height: 214px;
+    }
+
+    .item-slider-feedback {
+      padding: 0 40px;
+    }
+
+    .carousel-indicators {
+      bottom: -50px;
+
+      li {
+        width: 13px !important;
+        height: 13px !important;
+        border-radius: 100%;
+        background-color: #E6E4F7 !important;
+      }
+
+      .active {
+        width: 74px !important;
+        border-radius: 50rem !important;
+        background-color: #75B45A !important;
+        border: none !important;
+      }
+    }
+  }
+
+  .ielts-banner-mid {
+    background-image: url("~/images/imgs/product/bg-banner-mid-ie.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .list-item-result {
+      padding-top: 10px;
+
+      li {
+        line-height: 50px;
+      }
+    }
+
+    li::marker {
+      color: $yellow-400;
+      font-size: 25px;
+    }
+
+    .content-banner-mid {
+      padding-top: 75px;
+      padding-bottom: 80px;
+
+    }
+
+    .img-content-mid {
+      position: relative;
+      height: 100%;
+
+      img {
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+
+  .ielts-achievements {
+    margin-top: 58px;
+    padding-bottom: 100px;
+
+    .quote-icon {
+      width: 100px;
+    }
+
+    .quote-end {
+      img {
+        display: block;
+        margin-top: 45px;
+      }
+    }
+
+    .quote-content {
+      gap: 21px;
+    }
+
+    .txt-quote {
+      padding-top: 20px;
+    }
+
+    .student-info {
+      margin-top: 13px;
+    }
+
+    .carousel-indicators {
+      bottom: -100px;
+
+      li {
+        width: 13px !important;
+        height: 13px !important;
+        border-radius: 100%;
+        background-color: $yellow-500 !important;
+      }
+
+      .active {
+        width: 74px !important;
+        border-radius: 50rem !important;
+        background-color: #005488 !important;
+        border: none !important;
+      }
+    }
+  }
+  .ielts-award {
+    margin-top: 100px;
+    padding-bottom: 111px;
+    .wizard .nav-tabs > li.active > a i {
+      color: $blue-920;
+      font-weight: 600;
+      font-size: $font-26;
+    }
+  }
+  
+  .ielts-verify {
+    padding: 67px 0;
+    .video-verify {
+      position: absolute;
+      top: 28px;
+      left: 14px;
+      max-width: 453px;
+      max-height: 337px;
+      width: 100%;
+      height: 100%;
+    }
+    .item-verify {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
   }
 }
