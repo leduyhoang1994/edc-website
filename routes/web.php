@@ -72,3 +72,7 @@ Route::group(['prefix'=>'document'], function () {
         return view('pages.document-detail');
     })->name('document detail');
 });
+
+Route::get('/handbook', function () {
+    return view('pages.handbook');
+});

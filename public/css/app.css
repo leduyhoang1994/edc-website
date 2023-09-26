@@ -21423,11 +21423,8 @@ a:hover {
   padding-left: 28px;
 }
 
-.document {
-  padding-top: 56px;
-}
-
 .document .header-banner {
+  padding-top: 56px;
   padding-bottom: 62px;
   background: #F9F9F9;
 }
