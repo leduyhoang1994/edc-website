@@ -22904,6 +22904,36 @@ a:hover {
   padding-top: 74px;
 }
 
+.handbook .other-handbook .short-content {
+  padding-top: 24px;
+}
+
+.handbook .other-handbook .short-content .title {
+  display: block;
+}
+
+.handbook .other-handbook .short-content .author {
+  padding-bottom: 17px;
+}
+
+.handbook .other-handbook .short-content .see-detail-btn {
+  background: #20BEC6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 38px;
+  width: 135px;
+  border-radius: 1000px;
+  cursor: pointer;
+  margin-top: 17px;
+}
+
 .handbook .other-handbook .pagination {
   text-align: center;
   display: -webkit-box;
@@ -22918,7 +22948,7 @@ a:hover {
   margin-bottom: 64px;
 }
 
-.handbook .other-handbook .document-list {
+.handbook .other-handbook .handbook-list {
   margin-bottom: 68px;
 }
 
@@ -22999,6 +23029,203 @@ a:hover {
 }
 
 .handbook .other-handbook .nav-text {
+  font-size: 0.7em;
+  letter-spacing: 0.3em;
+}
+
+.news .header-banner {
+  height: 490px;
+  padding-top: 380px;
+  background-image: url("/images/imgs/other/news-header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.news .preview {
+  padding-top: 67px;
+  padding-bottom: 43px;
+}
+
+.news .preview .short-content {
+  padding-top: 29px;
+}
+
+.news .preview .short-content .title {
+  display: block;
+}
+
+.news .preview .short-content .author {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.news .preview .short-content .see-detail-btn {
+  background: #20BEC6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 38px;
+  width: 135px;
+  border-radius: 1000px;
+  cursor: pointer;
+  margin-top: 26px;
+}
+
+.news .ask-form {
+  padding-top: 49px;
+  padding-bottom: 54px;
+  background: #20BEC6;
+}
+
+.news .ask-form .form-rounded {
+  border-radius: 1000px;
+  border: none;
+  font-size: 18px;
+  font-weight: 300;
+  height: 58px;
+  padding-left: 28px;
+}
+
+.news .ask-form .custom-button {
+  border-radius: 1000px;
+  background: #FFA800;
+}
+
+.news .other-handbook {
+  padding-top: 74px;
+}
+
+.news .other-handbook .short-content {
+  padding-top: 24px;
+}
+
+.news .other-handbook .short-content .title {
+  display: block;
+}
+
+.news .other-handbook .short-content .author {
+  padding-bottom: 17px;
+}
+
+.news .other-handbook .short-content .see-detail-btn {
+  background: #20BEC6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 38px;
+  width: 135px;
+  border-radius: 1000px;
+  cursor: pointer;
+  margin-top: 17px;
+}
+
+.news .other-handbook .pagination {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 64px;
+}
+
+.news .other-handbook .handbook-list {
+  margin-bottom: 68px;
+}
+
+.news .other-handbook .pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+}
+
+.news .other-handbook .page-number {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #20BEC6;
+  color: #FFFFFF;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.news .other-handbook .page-number:last-child {
+  margin-right: 0;
+}
+
+.news .other-handbook .active {
+  height: 50px;
+  width: 50px;
+  background-color: #FF9900;
+  color: white;
+}
+
+.news .other-handbook button {
+  border: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.news .other-handbook button:disabled {
+  cursor: not-allowed;
+}
+
+.news .other-handbook #prevPage {
+  margin-right: 27px;
+}
+
+.news .other-handbook #nextPage {
+  margin-left: 27px;
+}
+
+.news .other-handbook .arrow {
+  font-size: 1.2em;
+  background: white;
+}
+
+.news .other-handbook .nav-text {
   font-size: 0.7em;
   letter-spacing: 0.3em;
 }

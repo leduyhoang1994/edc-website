@@ -1,22 +1,22 @@
 @extends('layouts.main')
 @section('og-title')
-Cẩm nang
+Tin tức 
 @endsection
 @section('content')
-<main class="handbook">
+<main class="news">
   <section class="header-banner container-fluid">
     <div class="container edupia-mw-1230 header-text">
-      <p class="m-0 text-font-size-36 text-font-weight-700 text-white">Cẩm nang</p>
+      <p class="m-0 text-font-size-36 text-font-weight-700 text-white">Tin tức - Sự kiện</p>
     </div>
   </section>
   <section class="container edupia-mw-1230 preview">
     <div class="row">
       <div class="col-6">
         <div>
-          <img width="100%" src="{{ asset('images/imgs/other/handbook-pic-1.png') }}" alt="handbook-pic-1" />
+          <img width="100%" src="{{ asset('images/imgs/other/news-pic-1.png') }}" alt="news-pic-1" />
         </div>
         <div class="short-content">
-          <span class="title text-font-size-20 text-font-weight-600">Tổng hợp từ vựng Tiếng Anh lớp 1 theo chủ đề giúp bé học hiệu quả</span>
+          <span class="title text-font-size-20 text-font-weight-600">MobiFone và Educa hợp tác chiến lược nâng tầm nền giáo dục số Việt Nam</span>
           <div class="author d-flex text-font-size-16 text-font-weigh-300">
             <div class="d-flex align-items-center mr-4">
               <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
@@ -29,10 +29,7 @@ Cẩm nang
           </div>
           <div class="text-font-size-18 text-font-weight-300">
             <p class="m-0">
-              Một trong những yếu tố quan trọng hàng đầu của việc học Tiếng Anh chính là từ vựng. Tuy
-              nhiên, đối với trẻ lớp 1 thì việc lựa chọn từ vựng học sao cho phù hợp với độ tuổi là điều
-              không phải dễ dàng. Một trong những phương pháp giúp trẻ lớp 1 ghi nhớ từ vựng hiệu quả
-              chính là tổng hợp từ vựng Tiếng Anh lớp 1 theo chủ đề.
+              Ngày 9/8/2023 vừa qua diễn ra lễ ký kết hợp tác chiến lược giữa Tổng Công ty MobiFone và Công ty Cổ phần giáo dục Educa Corporation. Đây là cơ hội để MobiFone và Educa chia sẻ những điểm chung về tầm nhìn, sứ mệnh của mình trên con đường bồi dưỡng thế hệ trẻ của Việt Nam trở thành các công dân số....
             </p>
           </div>
           <div class="see-detail-btn">
@@ -43,11 +40,11 @@ Cẩm nang
       <div class="col-6">
         <div class="row mb-5">
           <div class="col">
-            <img src="{{ asset('images/imgs/other/handbook-pic-2.png') }}" alt="handbook-pic-1" />
+            <img src="{{ asset('images/imgs/other/news-pic-2.png') }}" alt="news-pic-2" />
           </div>
           <div class="col">
             <p>
-              Top 5 phần mềm học Tiếng Anh cho trẻ lớp 1 hot nhất hiện nay
+              Startup Edtech Việt Nam Educa nhận đầu tư từ Quỹ đầu tư Singapore Redefine Capital Fund
             </p>
             <div class="author d-flex text-font-size-16 text-font-weigh-300">
               <div class="d-flex align-items-center mr-4">
@@ -63,7 +60,7 @@ Cẩm nang
         </div>
         <div class="row mb-5">
           <div class="col">
-            <img src="{{ asset('images/imgs/other/handbook-pic-3.png') }}" alt="handbook-pic-1" />
+            <img src="{{ asset('images/imgs/other/news-pic-3.png') }}" alt="news-pic-3" />
           </div>
           <div class="col">
             <p>
@@ -83,11 +80,11 @@ Cẩm nang
         </div>
         <div class="row">
           <div class="col">
-            <img src="{{ asset('images/imgs/other/handbook-pic-4.png') }}" alt="handbook-pic-1" />
+            <img src="{{ asset('images/imgs/other/news-pic-4.png') }}" alt="news-pic-4" />
           </div>
           <div class="col">
             <p>
-              Tổng hợp 5 cách học tiếng Anh online lớp 4 hiệu quả ngay tại nhà
+              Tổng giám đốc Educa nuôi giấc mơ 70% thế hệ trẻ Việt thạo tiếng Anh
             </p>
             <div class="author d-flex text-font-size-16 text-font-weigh-300">
               <div class="d-flex align-items-center mr-4">
@@ -141,10 +138,10 @@ Cẩm nang
       <div class="row">
         <div class="col-sm-3">
           <div>
-            <img width="100%" src="{{ asset('images/imgs/other/other-handbook-1.png') }}" alt="other-handbook-1" />
+            <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Bạn muốn con giỏi tiếng Anh trước tuổi lên 10?</p>
+            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
             <div class="author d-flex text-font-size-16 text-font-weigh-300">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
@@ -167,10 +164,10 @@ Cẩm nang
         </div>
         <div class="col-sm-3">
           <div>
-            <img width="100%" src="{{ asset('images/imgs/other/other-handbook-1.png') }}" alt="other-handbook-1" />
+            <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Tiền tố trong tiếng anh chi tiết và đầy đủ nhất</p>
+            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
             <div class="author d-flex text-font-size-16 text-font-weigh-300">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
@@ -193,10 +190,10 @@ Cẩm nang
         </div>
         <div class="col-sm-3">
           <div>
-            <img width="100%" src="{{ asset('images/imgs/other/other-handbook-1.png') }}" alt="other-handbook-1" />
+            <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Từ vựng tiếng Anh lớp 5 cho bé chuẩn sách mới</p>
+            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
             <div class="author d-flex text-font-size-16 text-font-weigh-300">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
@@ -219,10 +216,10 @@ Cẩm nang
         </div>
         <div class="col-sm-3">
           <div>
-            <img width="100%" src="{{ asset('images/imgs/other/other-handbook-1.png') }}" alt="other-handbook-1" />
+            <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Tổng hợp 12+ phần mềm học tiếng Anh bổ ích cho bé</p>
+            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
             <div class="author d-flex text-font-size-16 text-font-weigh-300">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
