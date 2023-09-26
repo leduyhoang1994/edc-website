@@ -36,6 +36,7 @@
             <a class="dropdown-item" href="{{ route('native') }}">Edupia Native</a>
             <a class="dropdown-item" href="{{ route('productAI') }}">Edupia AI</a>
             <a class="dropdown-item" href="{{ route('productIELTS') }}">Edupia IELTS</a>
+            <a class="dropdown-item" href="{{ route('productPro') }}">Edupia Pro</a>
           </div>
         </li>
         <li class="nav-item dropdown">
