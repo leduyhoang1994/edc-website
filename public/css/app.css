@@ -21691,6 +21691,11 @@ a:hover {
   transition: all 0.2s ease;
 }
 
+.home .section-5 .marquee-tag img {
+  -webkit-filter: none;
+          filter: none;
+}
+
 .home .section-5 .marquee-tag:hover {
   cursor: pointer;
 }
@@ -22935,6 +22940,7 @@ a:hover {
 }
 
 .product-pro .pro-teacher {
+  padding-top: 40px;
   padding-bottom: 60px;
 }
 
