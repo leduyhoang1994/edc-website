@@ -132,9 +132,9 @@ Tin tức
     </div>
 
   </section>
-  <section class="container edupia-mw-1230 other-handbook">
+  <section class="container edupia-mw-1230 other-news">
     {{-- page 1 --}}
-    <div class="handbook-list page">
+    <div class="news-list page">
       <div class="row">
         <div class="col-sm-3">
           <div>
