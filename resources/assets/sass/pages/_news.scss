@@ -1,0 +1,166 @@
+.news {
+  .header-banner {
+    height: 490px;
+    padding-top: 380px;
+    background-image: url("/images/imgs/other/news-header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .preview {
+    padding-top: 67px;
+    padding-bottom: 43px;
+
+    .short-content {
+      padding-top: 29px;
+
+      .title {
+        display: block;
+      }
+
+      .author {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      .see-detail-btn {
+        background: $blue-primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 38px;
+        width: 135px;
+        border-radius: 1000px;
+        cursor: pointer;
+        margin-top: 26px;
+      }
+    }
+  }
+
+  .ask-form {
+    padding-top: 49px;
+    padding-bottom: 54px;
+    background: $blue-primary;
+
+    .form-rounded {
+      border-radius: 1000px;
+      border: none;
+      font-size: $font-18;
+      font-weight: $font-weight-300;
+      height: 58px;
+      padding-left: 28px;
+    }
+
+    .custom-button {
+      border-radius: 1000px;
+      background: $yellow-400;
+    }
+
+  }
+
+  .other-news {
+    padding-top: 74px;
+    .short-content {
+      padding-top: 24px;
+
+      .title {
+        display: block;
+      }
+
+      .author {
+        padding-bottom: 17px;
+      }
+
+      .see-detail-btn {
+        background: $blue-primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 38px;
+        width: 135px;
+        border-radius: 1000px;
+        cursor: pointer;
+        margin-top: 17px;
+      }
+    }
+    .pagination {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 64px;
+    }
+
+    .news-list {
+      margin-bottom: 68px;
+    }
+
+    .pages {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 100%;
+    }
+
+    .page-number {
+      cursor: pointer;
+      font-size: $font-18;
+      font-weight: $font-weight-400;
+      background-color: $blue-primary;
+      color: $white;
+      width: 50px;
+
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+
+      margin-right: 20px;
+    }
+
+    .page-number:last-child {
+      margin-right: 0;
+    }
+
+    .active {
+      height: 50px;
+      width: 50px;
+      background-color: $yellow-500;
+      color: white;
+    }
+
+    button {
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+
+      &:disabled {
+        cursor: not-allowed;
+      }
+    }
+
+    #prevPage {
+      margin-right: 27px;
+    }
+
+    #nextPage {
+      margin-left: 27px;
+    }
+
+    .arrow {
+      font-size: 1.2em;
+      background: white;
+    }
+
+    .nav-text {
+      font-size: 0.7em;
+      letter-spacing: 0.3em;
+    }
+  }
+
+
+}

@@ -23919,11 +23919,6 @@ a:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #ffffff00;
-}
-
-.recruitment .other-position button:hover {
-  color: #0056b3;
 }
 
 .recruitment .other-position button:disabled {
@@ -23940,6 +23935,7 @@ a:hover {
 
 .recruitment .other-position .arrow {
   font-size: 1.2em;
+  background: white;
 }
 
 .recruitment .other-position .nav-text {
@@ -24082,7 +24078,7 @@ a:hover {
   padding-left: 28px;
 }
 
-.document-detail .custom-button {
+.document-detail .ask-form .custom-button {
   border-radius: 1000px;
   background: #FFA800;
 }
@@ -24198,6 +24194,757 @@ a:hover {
 
 .product-extra .extra-tab-content .math-study .icon-hand {
   width: 85px;
+}
+
+.document .header-banner {
+  padding-top: 56px;
+  padding-bottom: 62px;
+  background: #F9F9F9;
+}
+
+.document .header-banner .content {
+  max-width: 810px;
+}
+
+.document .header-banner .content .search-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0.5px solid #20BEC6;
+  border-radius: 100px;
+  width: 300px;
+  padding: 5px 7px 5px 26px;
+  margin-top: 37px;
+  margin-bottom: 37px;
+  background: white;
+}
+
+.document .header-banner .content .search-container .search-icon {
+  padding: 5px;
+}
+
+.document .header-banner .content .search-container .search-input {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.document .header-banner .content .search-container .search-input::-webkit-input-placeholder {
+  color: black;
+}
+
+.document .header-banner .content .search-container .search-input::-moz-placeholder {
+  color: black;
+}
+
+.document .header-banner .content .search-container .search-input::-ms-input-placeholder {
+  color: black;
+}
+
+.document .header-banner .content .search-container .search-input::placeholder {
+  color: black;
+}
+
+.document .header-banner .content .search-container .search-button {
+  background-color: #FFA800;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  padding: 13px 43px 13px 43px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.document .other-document {
+  padding-top: 46px;
+}
+
+.document .other-document .filter {
+  padding-bottom: 39px;
+}
+
+.document .other-document .select-cus {
+  padding: 10px 0 11px 19px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 1px solid #EAEAEA;
+}
+
+.document .other-document .custom-icon {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.document .other-document .btn-action {
+  margin-top: 11px;
+  text-align: center;
+}
+
+.document .other-document .btn-action .btn-download {
+  width: 143px;
+  padding: 5px 18px;
+  background: #EAEAEA;
+  border-radius: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.document .other-document .pagination {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 64px;
+}
+
+.document .other-document .document-list {
+  margin-bottom: 68px;
+}
+
+.document .other-document .pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+}
+
+.document .other-document .page-number {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #20BEC6;
+  color: #FFFFFF;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.document .other-document .page-number:last-child {
+  margin-right: 0;
+}
+
+.document .other-document .active {
+  height: 50px;
+  width: 50px;
+  background-color: #FF9900;
+  color: white;
+}
+
+.document .other-document button {
+  border: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.document .other-document button:disabled {
+  cursor: not-allowed;
+}
+
+.document .other-document #prevPage {
+  margin-right: 27px;
+}
+
+.document .other-document #nextPage {
+  margin-left: 27px;
+}
+
+.document .other-document .arrow {
+  font-size: 1.2em;
+  background: white;
+}
+
+.document .other-document .nav-text {
+  font-size: 0.7em;
+  letter-spacing: 0.3em;
+}
+
+.document #documentModal .modal-content {
+  background: #20BEC6;
+  padding: 17px 22px 42px 41px;
+  border-radius: 14px;
+}
+
+.document #documentModal .modal-content .modal-header {
+  border-bottom: none !important;
+}
+
+.document #documentModal .modal-content .modal-header .close {
+  background-image: url("/images/icons/other/CloseIcon.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.document #documentModal .modal-content .modal-body .form-rounded {
+  border-radius: 1000px;
+  border: none;
+  font-size: 18px;
+  font-weight: 300;
+  height: 58px;
+  padding-left: 28px;
+}
+
+.document .custom-button {
+  border-radius: 1000px;
+  background: #FFA800;
+}
+
+.handbook .header-banner {
+  height: 490px;
+  padding-top: 380px;
+  background-image: url("/images/imgs/other/handbook-header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.handbook .preview {
+  padding-top: 67px;
+  padding-bottom: 43px;
+}
+
+.handbook .preview .short-content {
+  padding-top: 29px;
+}
+
+.handbook .preview .short-content .title {
+  display: block;
+}
+
+.handbook .preview .short-content .author {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.handbook .preview .short-content .see-detail-btn {
+  background: #20BEC6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 38px;
+  width: 135px;
+  border-radius: 1000px;
+  cursor: pointer;
+  margin-top: 26px;
+}
+
+.handbook .ask-form {
+  padding-top: 49px;
+  padding-bottom: 54px;
+  background: #20BEC6;
+}
+
+.handbook .ask-form .form-rounded {
+  border-radius: 1000px;
+  border: none;
+  font-size: 18px;
+  font-weight: 300;
+  height: 58px;
+  padding-left: 28px;
+}
+
+.handbook .ask-form .custom-button {
+  border-radius: 1000px;
+  background: #FFA800;
+}
+
+.handbook .other-handbook {
+  padding-top: 74px;
+}
+
+.handbook .other-handbook .short-content {
+  padding-top: 24px;
+}
+
+.handbook .other-handbook .short-content .title {
+  display: block;
+}
+
+.handbook .other-handbook .short-content .author {
+  padding-bottom: 17px;
+}
+
+.handbook .other-handbook .short-content .see-detail-btn {
+  background: #20BEC6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 38px;
+  width: 135px;
+  border-radius: 1000px;
+  cursor: pointer;
+  margin-top: 17px;
+}
+
+.handbook .other-handbook .pagination {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 64px;
+}
+
+.handbook .other-handbook .handbook-list {
+  margin-bottom: 68px;
+}
+
+.handbook .other-handbook .pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+}
+
+.handbook .other-handbook .page-number {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #20BEC6;
+  color: #FFFFFF;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.handbook .other-handbook .page-number:last-child {
+  margin-right: 0;
+}
+
+.handbook .other-handbook .active {
+  height: 50px;
+  width: 50px;
+  background-color: #FF9900;
+  color: white;
+}
+
+.handbook .other-handbook button {
+  border: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.handbook .other-handbook button:disabled {
+  cursor: not-allowed;
+}
+
+.handbook .other-handbook #prevPage {
+  margin-right: 27px;
+}
+
+.handbook .other-handbook #nextPage {
+  margin-left: 27px;
+}
+
+.handbook .other-handbook .arrow {
+  font-size: 1.2em;
+  background: white;
+}
+
+.handbook .other-handbook .nav-text {
+  font-size: 0.7em;
+  letter-spacing: 0.3em;
+}
+
+.news .header-banner {
+  height: 490px;
+  padding-top: 380px;
+  background-image: url("/images/imgs/other/news-header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.news .preview {
+  padding-top: 67px;
+  padding-bottom: 43px;
+}
+
+.news .preview .short-content {
+  padding-top: 29px;
+}
+
+.news .preview .short-content .title {
+  display: block;
+}
+
+.news .preview .short-content .author {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.news .preview .short-content .see-detail-btn {
+  background: #20BEC6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 38px;
+  width: 135px;
+  border-radius: 1000px;
+  cursor: pointer;
+  margin-top: 26px;
+}
+
+.news .ask-form {
+  padding-top: 49px;
+  padding-bottom: 54px;
+  background: #20BEC6;
+}
+
+.news .ask-form .form-rounded {
+  border-radius: 1000px;
+  border: none;
+  font-size: 18px;
+  font-weight: 300;
+  height: 58px;
+  padding-left: 28px;
+}
+
+.news .ask-form .custom-button {
+  border-radius: 1000px;
+  background: #FFA800;
+}
+
+.news .other-news {
+  padding-top: 74px;
+}
+
+.news .other-news .short-content {
+  padding-top: 24px;
+}
+
+.news .other-news .short-content .title {
+  display: block;
+}
+
+.news .other-news .short-content .author {
+  padding-bottom: 17px;
+}
+
+.news .other-news .short-content .see-detail-btn {
+  background: #20BEC6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 38px;
+  width: 135px;
+  border-radius: 1000px;
+  cursor: pointer;
+  margin-top: 17px;
+}
+
+.news .other-news .pagination {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 64px;
+}
+
+.news .other-news .news-list {
+  margin-bottom: 68px;
+}
+
+.news .other-news .pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+}
+
+.news .other-news .page-number {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #20BEC6;
+  color: #FFFFFF;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.news .other-news .page-number:last-child {
+  margin-right: 0;
+}
+
+.news .other-news .active {
+  height: 50px;
+  width: 50px;
+  background-color: #FF9900;
+  color: white;
+}
+
+.news .other-news button {
+  border: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.news .other-news button:disabled {
+  cursor: not-allowed;
+}
+
+.news .other-news #prevPage {
+  margin-right: 27px;
+}
+
+.news .other-news #nextPage {
+  margin-left: 27px;
+}
+
+.news .other-news .arrow {
+  font-size: 1.2em;
+  background: white;
+}
+
+.news .other-news .nav-text {
+  font-size: 0.7em;
+  letter-spacing: 0.3em;
+}
+
+.news-detail {
+  padding-top: 44px;
+  padding-bottom: 74px;
+}
+
+.news-detail .left-block .title {
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.news-detail .left-block .line {
+  margin-top: 9px;
+}
+
+.news-detail .right-block .featured-article {
+  width: 100%;
+  border-radius: 10px;
+  background: #20BEC6;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 42px;
+  text-align: center;
+}
+
+.news-detail .right-block .banner-right {
+  padding: 28px 14px 0 14px;
+  background: #20BEC6;
+  border-radius: 10px;
+}
+
+.news-detail .right-block .banner-right .form-group {
+  margin-bottom: 21px;
+}
+
+.news-detail .right-block .banner-right .form-rounded {
+  border-radius: 1000px;
+  border: none;
+  font-size: 18px;
+  font-weight: 300;
+  height: 58px;
+  padding-left: 28px;
+}
+
+.news-detail .right-block .banner-right .form-rounded::-webkit-input-placeholder {
+  color: black;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.news-detail .right-block .banner-right .form-rounded::-moz-placeholder {
+  color: black;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.news-detail .right-block .banner-right .form-rounded::-ms-input-placeholder {
+  color: black;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.news-detail .right-block .banner-right .form-rounded::placeholder {
+  color: black;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.news-detail .right-block .banner-right .custom-button {
+  border-radius: 1000px;
+  background: #FFA800;
+  padding: 16px 0;
+  width: 235px;
+}
+
+.news-detail .right-block .banner-right .select-cus {
+  padding: 16px 0 16px 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: white;
+  border: 1px solid #EAEAEA;
+}
+
+.news-detail .right-block .banner-right .custom-icon {
+  position: absolute;
+  top: 50%;
+  right: 8%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.news-detail .news-list .title {
+  padding-top: 58px;
+  padding-bottom: 43px;
+}
+
+.news-detail .news-list .news-item {
+  margin-bottom: 43px;
+}
+
+.news-detail .news-list .news-item .see-detail-btn {
+  background: #20BEC6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 38px;
+  width: 135px;
+  border-radius: 1000px;
+  cursor: pointer;
+  margin-top: 17px;
 }
 
 @media (max-width: 480px) {

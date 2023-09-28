@@ -84,3 +84,23 @@ Route::group(['prefix'=>'document'], function () {
         return view('pages.document-detail');
     })->name('document detail');
 });
+
+Route::group(['prefix'=>'handbook'], function () {
+    Route::get('/', function () {
+        return view('pages.handbook');
+    })->name('handbook');
+
+    Route::get('/{id}', function () {
+        return view('pages.handbook-detail');
+    })->name('handbook detail');
+});
+
+Route::group(['prefix'=>'news'], function () {
+    Route::get('/', function () {
+        return view('pages.news');
+    })->name('news');
+
+    Route::get('/{id}', function () {
+        return view('pages.news-detail');
+    })->name('news detail');
+});

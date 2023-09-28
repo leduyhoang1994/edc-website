@@ -117,14 +117,6 @@
       }
     }
 
-    $color_1: #999;
-    $color_2: white;
-    $color_3: #0057b3;
-    $color_4: #0056b3;
-    $color_5: #ccc;
-    $background-color_1: white;
-    $background-color_2: #0057b3;
-    $background-color_3: #ffffff00;
 
     .pagination {
       text-align: center;
@@ -165,7 +157,7 @@
       height: 50px;
       width: 50px;
       background-color: $yellow-500;
-      color: $color_2;
+      color: white;
     }
 
     button {
@@ -174,10 +166,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      background-color: $background-color_3;
-      &:hover {
-        color: $color_4;
-      }
+
 
       &:disabled {
         cursor: not-allowed;
@@ -194,6 +183,7 @@
 
     .arrow {
       font-size: 1.2em;
+      background: white;
     }
 
     .nav-text {
