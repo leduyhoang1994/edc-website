@@ -118,6 +118,7 @@ $gray-300: #C8C8C8 !default;
 $gray-400: #969696 !default;
 $gray-500: #828282 !default;
 $gray-600: #D9D9D9 !default;
+$gray-700: #9B9B9B !default;
 $dodger-blue-100: #36BFC7 !default;
 $yellow-200: #FFF0B8 !default;
 $yellow-300: #FFD600 !default;
@@ -126,6 +127,7 @@ $yellow-500: #FF9900 !default;
 $yellow-600: #F2CD50 !default;
 $yellow-700: #FFD731 !default;
 $yellow-800: #FFC65A !default;
+$yellow-900: #FF9D00B2 !default;
 $black-100: #333333 !default;
 $black-200: #444444 !default;
 $black-300: #313131 !default;
@@ -155,6 +157,7 @@ $theme-colors: (
   gray-300: $gray-300,
   gray-400: $gray-400,
   gray-500: $gray-500,
+  gray-700: $gray-700,
   goldenrod: $goldenrod,
   dodger-blue: $dodger-blue,
   coral: $coral,
@@ -167,6 +170,7 @@ $theme-colors: (
   yellow-600: $yellow-600,
   yellow-700: $yellow-700,
   yellow-800: $yellow-800,
+  yellow-900: $yellow-900,
   black: $black,
   black-100: $black-100,
   black-200: $black-200,
