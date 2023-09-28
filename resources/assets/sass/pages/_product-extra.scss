@@ -2,6 +2,10 @@
   .extra-header-banner {
     background-color: $yellow-900;
 
+    .content {
+      max-width: 1685px;
+    }
+
     .center {
       padding: 70px 0;
     }
@@ -62,18 +66,82 @@
           margin: 0 auto;
         }
       }
+
       .icon-hand {
         width: 85px;
       }
     }
-    .learning-pack-banner {
+
+    .vietnamese-study {
       margin-top: 70px;
-      padding-top: 19px;
-      background: $blue-450;
+      padding-top: 41px;
+      background: $blue-350;
+
       .middle-text {
         padding-top: 33px;
         padding-bottom: 29px;
       }
+
+      .btn-register {
+        padding: 7px 44px 8px 44px;
+        background: $yellow-400;
+        border-radius: 100px;
+        cursor: pointer;
+      }
+
+      .banner {
+        max-width: 1556px;
+      }
+
+    }
+
+    .vietnamese-more-info {
+      max-width: 1190px;
+      padding-top: 108px;
+      margin-bottom: 41px;
+      .info {
+        margin-top: 14px;
+        .title {
+          margin-bottom: 28px;
+        }
+
+        .list-group {
+          margin-bottom: 28px;
+
+          li {
+            color: $yellow-350;
+
+            p {
+              color: black;
+            }
+          }
+        }
+
+        .btn-register {
+          padding: 7px 44px 8px 44px;
+          background: $yellow-400;
+          border-radius: 100px;
+          color: white;
+          cursor: pointer;
+        }
+      }
+
+    }
+
+    .learning-pack-banner {
+      margin-top: 70px;
+      padding-top: 19px;
+      background: $blue-450;
+
+      .banner {
+        max-width: 1439px;
+      }
+
+      .middle-text {
+        padding-top: 33px;
+        padding-bottom: 29px;
+      }
+
       .btn-register {
         padding: 7px 44px 8px 44px;
         background: $yellow-400;
@@ -81,26 +149,33 @@
         cursor: pointer;
       }
     }
-    .content {
+
+    .learning-pack-content {
       padding-top: 88px;
+
       .middle-img {
         width: 66%;
         padding-top: 154px;
         padding-bottom: 115px;
+
         p {
           margin-bottom: 118px !important;
         }
       }
+
       .middle-banner {
         background: $blue-primary;
         border-radius: 15px;
+
         .form-register {
           padding-top: 52px;
           padding-right: 85px;
           padding-left: 0;
+
           .form-group {
             margin-bottom: 24px;
           }
+
           .form-rounded {
             border-radius: 1000px;
             border: none;
@@ -109,12 +184,14 @@
             height: 56px;
             padding-left: 28px;
             color: black;
+
             &::placeholder {
               color: #B0B6B7;
               font-weight: $font-weight-300;
               font-size: $font-18;
             }
           }
+
           .custom-button {
             border-radius: 1000px;
             background: $yellow-400;
@@ -125,10 +202,12 @@
       }
     }
   }
+
   .pro-award {
     margin-top: 40px;
     padding-bottom: 67px;
-    .wizard .nav-tabs > li.active > a i {
+
+    .wizard .nav-tabs>li.active>a i {
       font-weight: 600;
     }
   }
