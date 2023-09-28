@@ -35,6 +35,10 @@ Route::group(['prefix'=>'product'], function () {
     Route::get('/pro', function () {
         return view('pages.product-pro');
     })->name('productPro');
+
+    Route::get('/extra', function () {
+        return view('pages.product-extra');
+    })->name('productExtra');
 });
 
 Route::get('/go-learning', function () {

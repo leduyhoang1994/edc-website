@@ -1,0 +1,70 @@
+.product-extra {
+  .extra-header-banner {
+    background-color: $yellow-900;
+
+    .center {
+      padding: 70px 0;
+    }
+
+    .title-banner {
+      margin: auto 0;
+    }
+
+    .img-banner {
+      padding-top: 88px;
+    }
+  }
+
+  .extra-option-product {
+    margin-top: 83px;
+
+    .nav-pills {
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .class-btn-math {
+      padding: 28px 80px;
+      font-size: $font-22;
+      font-weight: 700;
+      background-color: $gray-700;
+      border-radius: 100px;
+      color: $white;
+    }
+
+    .class-btn-vietnam {
+      font-size: $font-22;
+      padding: 28px 51px;
+      font-weight: 700;
+      background-color: $gray-700;
+      border-radius: 100px;
+      color: $white;
+    }
+
+    .class-btn-learning {
+      font-size: $font-22;
+      padding: 28px;
+      font-weight: 700;
+      background-color: $gray-700;
+      border-radius: 100px;
+      color: $white;
+    }
+  }
+
+  .extra-tab-content {
+    .math-study {
+      &-title {
+        max-width: 729px;
+        margin: 0 auto;
+
+        .p-630 {
+          max-width: 630px;
+          margin: 0 auto;
+        }
+      }
+      .icon-hand {
+        width: 85px;
+      }
+    }
+  }
+}
