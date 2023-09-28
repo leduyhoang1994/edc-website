@@ -135,7 +135,7 @@ Bài viết chi tiết
               </div>
               <form>
                 <div class="form-group">
-                  <input type="text" class="form-control form-rounded" placeholder="Họ và tên phụ huynh">
+                  <input type="text" class="form-control form-rounded" placeholder="Họ tên phụ huynh">
                 </div>
                 <div class="form-group">
                   <input type="text" class="form-control form-rounded" placeholder="Số điện thoại">
