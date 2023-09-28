@@ -1525,8 +1525,8 @@ Product Pro
         <div class="row">
           <div class="col-lg-12 mb-5">
             <div class="title-verify">
-              <p class="text-black text-center text-font-size-36 text-font-weight-700">Được kiểm chứng bởi truyền
-                thông, báo chí toàn quốc</p>
+              <p class="text-black text-center text-font-size-36 text-font-weight-700">
+                Được kiểm chứng bởi truyền thông, <br /> báo chí toàn quốc</p>
             </div>
           </div>
           <div class="col-lg-12">
