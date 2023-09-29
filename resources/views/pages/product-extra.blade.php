@@ -67,7 +67,7 @@ Product Extra
   <section class="extra-tab-content">
     <div class="tab-content" id="pills-tabContent">
       <!-- Toan -->
-      <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
         <section class="math-study">
           <div class="container">
             <div class="edupia-container-lg">
@@ -114,7 +114,7 @@ Product Extra
         </section>
       </div>
       <!-- Tieng viet -->
-      <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
         <section class="vietnamese-study container-fluid">
           <div class="container banner">
             <div class="row">
@@ -171,116 +171,640 @@ Product Extra
             </div>
           </div>
         </section>
-        <section class="teachers container edupia-mw-1230 px-0">
+        <section class="vietnamese-teachers container edupia-mw-1230 px-0">
           <div class="row">
-            <div class="col-sm text-center">
-              <div class="text-font-weight-700 text-font-size-36">
+            <div class="col-sm text-center header-text text-font-weight-600 text-font-size-36">
+              <div class="title">
                 <p class="m-0">Đội ngữ giáo viên giàu kinh nghiệm </p>
                 <p class="m-0">đồng hành cùng con</p>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-3">
-              <div class="card border-0" style="width: 100%;">
-                <img class="card-img" src="{{ asset('images/imgs/aboutus/avt-ceo.png') }}" alt="Card image cap">
-                <div class="card-body pl-0 pr-0">
-                  <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
-                    <span class="text-font-weight-400">Cô Hoàng Thùy Dương</span>
+            <div class="col-sm-3">
+              <div class=" border-0" style="width: 100%;">
+                <img class="w-100" src="{{ asset('images/imgs/product/extra-teacher-1.png') }}" alt="extra-teacher-1">
+                <div class="pl-0 pr-0">
+                  <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-1 mt-2">
+                    <span>Cô Hoàng Thùy Dương</span>
                   </h5>
-                  <div class="card-text d-flex text-left">
-                    <div>
-                      <i class="dot"></i>
-                    </div>
-                    <span class="ml-1 text-font-size-16 text-font-weight-400 text-black">
-                      Cử nhân trường Đại học Sư phạm Hà Nội.
-                    </span>
+                  <ul class="ml-2 list-group-2 text-font-size-6 text-font-weight-500">
+                    <li>
+                      <p class="m-0">Cử nhân trường Đại học Sư phạm Hà Nội.</p>
+                    </li>
+                    <li>
+                      <p class="m-0">
+                        Có nhiều năm kinh nghiệm giảng dạy các môn cấp Tiểu học.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="border-0" style="width: 100%;">
+                <img class="w-100" src="{{ asset('images/imgs/product/extra-teacher-2.png') }}" alt="extra-teacher-2">
+                <div class="pl-0 pr-0">
+                  <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-1 mt-2">
+                    <span>Cô Nguyễn Minh Hằng</span>
+                  </h5>
+                  <ul class="ml-2 list-group-2 text-font-size-6 text-font-weight-500">
+                    <li>
+                      <p class="m-0">Cử nhân trường Đại học Thủ đô.</p>
+                    </li>
+                    <li>
+                      <p class="m-0">
+                        Có nhiều năm kinh nghiệm giảng dạy các môn cấp Tiểu học.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="border-0" style="width: 100%;">
+                <img class="w-100" src="{{ asset('images/imgs/product/extra-teacher-3.png') }}" alt="extra-teacher-3">
+                <div class="pl-0 pr-0">
+                  <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-1 mt-2">
+                    <span>Cô Nguyễn Phương Thảo</span>
+                  </h5>
+                  <ul class="ml-2 list-group-2 text-font-size-6 text-font-weight-500">
+                    <li>
+                      <p class="m-0">Cử nhân trường Đại học Sư phạm Hà Nội.</p>
+                    </li>
+                    <li>
+                      <p class="m-0">
+                        Luôn đổi mới phương pháp giảng dạy để mang đến cho học sinh cái nhìn trực quan
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="border-0" style="width: 100%;">
+                <img class="w-100" src="{{ asset('images/imgs/product/extra-teacher-4.png') }}" alt="extra-teacher-4">
+                <div class="dpl-0 pr-0">
+                  <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-1 mt-2">
+                    <span>Cô Trần Phương Anh</span>
+                  </h5>
+                  <ul class="ml-2 list-group-2 text-font-size-6 text-font-weight-500">
+                    <li>
+                      <p class="m-0">Cử nhân trường Đại học Sư phạm Hà Nội</p>
+                    </li>
+                    <li>
+                      <p class="m-0">
+                        Giáo viên chủ nhiệm trường Hermann Gmeiner.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-sm text-center">
+              <span class="btn-register text-font-weight-500">Đăng ký tư vấn</span>
+            </div>
+          </div>
+        </section>
+        <section class="vietnamese-parrent-review container edupia-mw-1230 px-0">
+          <div class="row">
+            <div class="col-sm text-center header-text text-font-weight-600 text-font-size-36">
+              <div class="title">
+                <p class="m-0">Hơn 100.000 học sinh thích học hơn</p>
+                <p class="m-0">với EDUPIA Tiếng Việt</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 text-center">
+              <div class="w-100">
+                <img src="{{ asset('images/imgs/product/parrent-1.png') }}" alt="parrent-1">
+                <div>
+                  <div class="text-center text-blue-primary text-font-size-20 text-font-weight-600 mt-2">
+                    <p class="m-0">Mẹ Thùy Linh</p>
+                    <p>Em Hoàng Anh (Lớp 1)</p>
                   </div>
-                  <div class="card-text d-flex text-left">
-                    <div>
-                      <i class="dot"></i>
-                    </div>
-                    <span class="ml-1 text-font-size-16 text-font-weight-400 text-black">
-                      Có nhiều năm kinh nghiệm giảng dạy các môn cấp Tiểu học.
+                  <img class="mb-3" src="{{ asset('images/imgs/product/line-2.svg') }}" alt="line-2">
+
+                  <div class="text-font-size-18 text-font-weight-400">
+                    <span>
+                      "Con trai tôi đã tiến bộ đáng kể trong việc đọc, viết và hiểu ngôn ngữ. Những bài giảng sinh động và phong phú đã giúp con hứng thú hơn với môn học này”
                     </span>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
-              <div class="card border-0" style="width: 100%;">
-                <img class="card-img" src="{{ asset('images/imgs/aboutus/avt-adam.png') }}" alt="Card image cap">
-                <div class="card-body pl-0 pr-0">
-                  <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
-                    <span class="text-font-weight-400">Thầy</span> Adam Lewis
-                  </h5>
-                  <p class="text-black text-center text-font-size-18 text-font-weight-400">Giám đốc phát triển nội dung
+            <div class="col-sm-4 text-center">
+              <div class="w-100">
+                <img src="{{ asset('images/imgs/product/parrent-2.png') }}" alt="parrent-3">
+                <div>
+                  <div class="text-center text-blue-primary text-font-size-20 text-font-weight-600 mt-2">
+                    <p class="m-0">Bố Hồng Hà</p>
+                    <p>Em Thị Mỹ (Lớp 1)</p>
+                  </div>
+                  <img class="mb-3" src="{{ asset('images/imgs/product/line-2.svg') }}" alt="line-2">
+
+                  <div class="text-font-size-18 text-font-weight-400">
+                    <span>
+                      “EDUPIA Tiếng Việt không chỉ giúp con nắm vững kiến thức mà còn giúp con phát triển kỹ năng viết và tự tin trong việc thể hiện ý kiến bằng ngôn ngữ của mình.”
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 text-center">
+              <div class="w-100">
+                <img src="{{ asset('images/imgs/product/parrent-1.png') }}" alt="parrent-1">
+                <div>
+                  <div class="text-center text-blue-primary text-font-size-20 text-font-weight-600 mt-2">
+                    <p class="m-0">Mẹ Mai Phương</p>
+                    <p>Em Minh Lâm (Lớp 2)</p>
+                  </div>
+                  <img class="mb-3" src="{{ asset('images/imgs/product/line-2.svg') }}" alt="line-2">
+
+                  <div class="text-font-size-18 text-font-weight-400">
+                    <span>
+                      “Con trai mình luôn thấy khó khăn khi học Tiếng Việt, nhưng EDUPIA Tiếng Việt đã giúp con nắm vững kiến thức và phát triển kỹ năng ngôn ngữ một cách tự tin.”
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="vietnamese-ads container mx-auto">
+          <div class="row text-font-size-18 mx-auto">
+            <div class="col-sm-6 content">
+              <p class="text-font-size-48 text-font-weight-600 text-blue-700 mb-2">Chỉ từ 80k/tháng</p>
+              <p class="text-font-size-36 text-font-weight-600 commit">Hoàn tiền 100% nếu không tiến bộ sau 3 tháng</p>
+              <p class="text-font-weight-400">
+                EDUPIA mang lại sự hài lòng và an tâm tuyệt đối cho hàng ngàn phụ huynh.
+              </p>
+              <span class="btn-register text-font-weight-500">Đăng ký tư vấn</span>
+
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+              <img class="w-100" src="{{ asset('images/imgs/product/extra-vietnamese-ads.png') }}" alt="extra-vietnamese-ads" />
+            </div>
+          </div>
+        </section>
+        <section class="vietnamese-middle-banner container edupia-mw-1230 vietnamese-middle-banner">
+          <div class="row banner">
+            <div class="col-sm-7">
+              <img class="w-100" src="{{ asset('images/imgs/product/kid-tv-form1.png') }}" alt="kid-tv-form1" />
+            </div>
+            <div class="col-sm-5 form-register">
+              <div class="text-white mx-auto">
+                <p class="text-font-size-26 text-font-weight-600">Học Thử Miễn Phí Ngay Hôm Nay</p>
+                <p class="mb-3 text-font-size-18 text-font-weight-400">Để lại thông tin để ban giáo vụ có thể hỗ trợ phụ huynh lên lịch và chọn khóa học phù hợp</p>
+                <form class="mx-auto">
+                  <div class="form-group">
+                    <input type="text" class="form-control form-rounded" placeholder="Họ tên phụ huynh">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control form-rounded" placeholder="Số điện thoại phụ huynh">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control form-rounded" placeholder="Địa chỉ">
+                  </div>
+                  <div class="form-group position-relative">
+                    <select class="select-cus form-select rounded-pill w-100 text-font-size-18 text-font-weight-300" aria-label="Select Example">
+                      <option selected="">Năm sinh của con?</option>
+                      <option value="option1">Option 1</option>
+                      <option value="option2">Option 2</option>
+                      <option value="option3">Option 3</option>
+                    </select>
+                    <span class="custom-icon">
+                      <img src="https://edc-website.dev/images/icons/other/DownIcon2.svg" alt="DownIcon2">
+                    </span>
+                  </div>
+                  <button type="submit" class="btn btn-block custom-button mx-auto">
+                    <span class="text-font-weight-600 text-font-size-18 text-white">Đăng ký ngay</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pro-award">
+          <div class="container">
+            <div class="edupia-container-lg">
+              <div class="col-lg-12">
+                <div>
+                  <p class="text-black text-center text-font-size-36 text-font-weight-700">
+                    EDUPIA tự hào là chương trình tiếng Anh Tiểu học<br />
+                    số 1 Việt Nam với thành tích xuất sắc
                   </p>
-                  <div class="card-text mt-4 d-flex text-left">
-                    <div>
-                      <i class="dot"></i>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="mt-5">
+                  <div class="wizard">
+                    <!-- tab giai thuong -->
+                    <div class="mb-5">
+                      <div class="tab-content" id="main_form">
+                        <div class="tab-pane active" role="tabpanel" id="step1">
+                          <div class="row">
+                            <div class="col-lg-4 px-39">
+                              <div>
+                                <div class="card border-0" style="width: 100%;">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}" alt="Card image cap">
+                                  <div class="card-body mt-5">
+                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                      The BrandLaureate SMEs BestBrands Award
+                                    </h5>
+                                    <p class="card-text text-center text-font-size-18 text-font-weight-400">
+                                      Nhà cung cấp dịch vụ giáo dục trực tuyến xuất sắc nhất.Giải thưởng thương hiệu thế
+                                      giới
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 px-39">
+                              <div>
+                                <div class="card border-0 " style="width: 100%;">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}" alt="Card image cap">
+                                  <div class="card-body mt-5">
+                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                      Best Online English Teaching Product
+                                    </h5>
+                                    <p class="card-text text-center text-font-size-18 text-font-weight-400">
+                                      Sản phẩm đào tạo tiếng Anh trực tuyến tốt nhất.Giải thưởng thương hiệu toàn cầu
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 px-39">
+                              <div>
+                                <div class="card border-0" style="width: 100%;">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}" alt="Card image cap">
+                                  <div class="card-body mt-5">
+                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                      Top 50 công ty Edtech nổi bật của Đông Nam Á
+                                    </h5>
+                                    <p class="card-text text-center text-font-size-18 text-font-weight-400">
+                                      Nền tảng dữ liệu giáo dục toàn cầu - top 50 công ty Edtech nổi bật của Đông Nam Á
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="step2">
+                          <div class="row">
+                            <div class="col-lg-4 px-39">
+                              <div>
+                                <div class="card border-0" style="width: 100%;">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}" alt="Card image cap">
+                                  <div class="card-body mt-5">
+                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                      The BrandLaureate SMEs BestBrands Award
+                                    </h5>
+                                    <p class="card-text text-center text-font-size-18 text-font-weight-400">
+                                      Nhà cung cấp dịch vụ giáo dục trực tuyến xuất sắc nhất.Giải thưởng thương hiệu thế
+                                      giới
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 px-39">
+                              <div>
+                                <div class="card border-0 " style="width: 100%;">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}" alt="Card image cap">
+                                  <div class="card-body mt-5">
+                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                      Best Online English Teaching Product
+                                    </h5>
+                                    <p class="card-text text-center text-font-size-18 text-font-weight-400">
+                                      Sản phẩm đào tạo tiếng Anh trực tuyến tốt nhất.Giải thưởng thương hiệu toàn cầu
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 px-39">
+                              <div>
+                                <div class="card border-0" style="width: 100%;">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}" alt="Card image cap">
+                                  <div class="card-body mt-5">
+                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                      Top 50 công ty Edtech nổi bật của Đông Nam Á
+                                    </h5>
+                                    <p class="card-text text-center text-font-size-18 text-font-weight-400">
+                                      Nền tảng dữ liệu giáo dục toàn cầu - top 50 công ty Edtech nổi bật của Đông Nam Á
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="step3">
+                          <div class="row">
+                            <div class="col-lg-4 px-39">
+                              <div>
+                                <div class="card border-0" style="width: 100%;">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}" alt="Card image cap">
+                                  <div class="card-body mt-5">
+                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                      The BrandLaureate SMEs BestBrands Award
+                                    </h5>
+                                    <p class="card-text text-center text-font-size-18 text-font-weight-400">
+                                      Nhà cung cấp dịch vụ giáo dục trực tuyến xuất sắc nhất.Giải thưởng thương hiệu thế
+                                      giới
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 px-39">
+                              <div>
+                                <div class="card border-0 " style="width: 100%;">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}" alt="Card image cap">
+                                  <div class="card-body mt-5">
+                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                      Best Online English Teaching Product
+                                    </h5>
+                                    <p class="card-text text-center text-font-size-18 text-font-weight-400">
+                                      Sản phẩm đào tạo tiếng Anh trực tuyến tốt nhất.Giải thưởng thương hiệu toàn cầu
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 px-39">
+                              <div>
+                                <div class="card border-0" style="width: 100%;">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}" alt="Card image cap">
+                                  <div class="card-body mt-5">
+                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                      Top 50 công ty Edtech nổi bật của Đông Nam Á
+                                    </h5>
+                                    <p class="card-text text-center text-font-size-18 text-font-weight-400">
+                                      Nền tảng dữ liệu giáo dục toàn cầu - top 50 công ty Edtech nổi bật của Đông Nam Á
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="step4">
+                          <div class="row">
+                            <div class="col-lg-4 px-39">
+                              <div>
+                                <div class="card border-0" style="width: 100%;">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}" alt="Card image cap">
+                                  <div class="card-body mt-5">
+                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                      The BrandLaureate SMEs BestBrands Award
+                                    </h5>
+                                    <p class="card-text text-center text-font-size-18 text-font-weight-400">
+                                      Nhà cung cấp dịch vụ giáo dục trực tuyến xuất sắc nhất.Giải thưởng thương hiệu thế
+                                      giới
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 px-39">
+                              <div>
+                                <div class="card border-0 " style="width: 100%;">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}" alt="Card image cap">
+                                  <div class="card-body mt-5">
+                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                      Best Online English Teaching Product
+                                    </h5>
+                                    <p class="card-text text-center text-font-size-18 text-font-weight-400">
+                                      Sản phẩm đào tạo tiếng Anh trực tuyến tốt nhất.Giải thưởng thương hiệu toàn cầu
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 px-39">
+                              <div>
+                                <div class="card border-0" style="width: 100%;">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}" alt="Card image cap">
+                                  <div class="card-body mt-5">
+                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                      Top 50 công ty Edtech nổi bật của Đông Nam Á
+                                    </h5>
+                                    <p class="card-text text-center text-font-size-18 text-font-weight-400">
+                                      Nền tảng dữ liệu giáo dục toàn cầu - top 50 công ty Edtech nổi bật của Đông Nam Á
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="step5">
+                          <div class="row">
+                            <div class="col-lg-4 px-39">
+                              <div>
+                                <div class="card border-0" style="width: 100%;">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}" alt="Card image cap">
+                                  <div class="card-body mt-5">
+                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                      The BrandLaureate SMEs BestBrands Award
+                                    </h5>
+                                    <p class="card-text text-center text-font-size-18 text-font-weight-400">
+                                      Nhà cung cấp dịch vụ giáo dục trực tuyến xuất sắc nhất.Giải thưởng thương hiệu thế
+                                      giới
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 px-39">
+                              <div>
+                                <div class="card border-0 " style="width: 100%;">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}" alt="Card image cap">
+                                  <div class="card-body mt-5">
+                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                      Best Online English Teaching Product
+                                    </h5>
+                                    <p class="card-text text-center text-font-size-18 text-font-weight-400">
+                                      Sản phẩm đào tạo tiếng Anh trực tuyến tốt nhất.Giải thưởng thương hiệu toàn cầu
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 px-39">
+                              <div>
+                                <div class="card border-0" style="width: 100%;">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}" alt="Card image cap">
+                                  <div class="card-body mt-5">
+                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                      Top 50 công ty Edtech nổi bật của Đông Nam Á
+                                    </h5>
+                                    <p class="card-text text-center text-font-size-18 text-font-weight-400">
+                                      Nền tảng dữ liệu giáo dục toàn cầu - top 50 công ty Edtech nổi bật của Đông Nam Á
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div>
                     </div>
-                    <span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Từng là Giám đốc Trung tâm VAS,
-                      Giám đốc khối Digital của Viettel Telecom.</span>
-                  </div>
-                  <div class="card-text mt-4 d-flex text-left">
-                    <div>
-                      <i class="dot"></i>
+                    <!-- tab giai thuong -->
+                    <div class="wizard-inner">
+                      <div class="connecting-line"></div>
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                          <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" aria-expanded="true">
+                            <span class="round-tab"></span>
+                            <i>2022</i>
+                          </a>
+                        </li>
+                        <li role="presentation" class="disabled">
+                          <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" aria-expanded="false">
+                            <span class="round-tab"></span>
+                            <i>2021</i></a>
+                        </li>
+                        <li role="presentation" class="disabled">
+                          <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab">
+                            <span class="round-tab"></span>
+                            <i>2020</i></a>
+                        </li>
+                        <li role="presentation" class="disabled">
+                          <a href="#step4" data-toggle="tab" aria-controls="step4" role="tab">
+                            <span class="round-tab"></span>
+                            <i>2019</i></a>
+                        </li>
+                        <li role="presentation" class="disabled">
+                          <a href="#step4" data-toggle="tab" aria-controls="step5" role="tab">
+                            <span class="round-tab"></span>
+                            <i>2018</i></a>
+                        </li>
+                      </ul>
                     </div>
-                    <span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Có hơn 10 năm kinh nghiệm trong
-                      lĩnh vực viễn thông và nội dung số.</span>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
-              <div class="card border-0" style="width: 100%;">
-                <img class="card-img" src="{{ asset('images/imgs/aboutus/avt-miller.png') }}" alt="Card image cap">
-                <div class="card-body pl-0 pr-0">
-                  <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
-                    <span class="text-font-weight-400">Cô</span> Jessica Miller
-                  </h5>
-                  <p class="text-black text-center text-font-size-18 text-font-weight-400">Cố vấn sư phạm</p>
-                  <div class="card-text mt-4 d-flex text-left">
-                    <div>
-                      <i class="dot"></i>
+          </div>
+        </section>
+        <section class="pro-verify">
+          <div class="container">
+            <div class="edupia-container-lg">
+              <div class="row">
+                <div class="col-lg-12 mb-5">
+                  <div class="title-verify">
+                    <div class="text-black text-center text-font-size-36 text-font-weight-700">
+                      <p class="m-0">Được kiểm chứng bởi truyền thông,</p>
+                      <p class="m-0">báo chí toàn quốc</p>
                     </div>
-                    <span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Từng là Giám đốc Trung tâm VAS,
-                      Giám đốc khối Digital của Viettel Telecom.</span>
-                  </div>
-                  <div class="card-text mt-4 d-flex text-left">
-                    <div>
-                      <i class="dot"></i>
-                    </div>
-                    <span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Có hơn 10 năm kinh nghiệm trong
-                      lĩnh vực viễn thông và nội dung số.</span>
+
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="card border-0" style="width: 100%;">
-                <img class="card-img" src="{{ asset('images/imgs/aboutus/avt-cayman.png') }}" alt="Card image cap">
-                <div class="card-body pl-0 pr-0">
-                  <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
-                    <span class="text-font-weight-400">Cô</span> Cayman Fitzhugh
-                  </h5>
-                  <p class="text-black text-center text-font-size-18 text-font-weight-400">Cô vấn sư phạm</p>
-                  <div class="card-text mt-4 d-flex text-left">
-                    <div>
-                      <i class="dot"></i>
+                <div class="col-lg-12">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="item-verify">
+                        <div class="card border-0" style="width: 100%;">
+                          <div class="position-relative video-class" id="videoverify1">
+                            <img class="img-fluid" src="{{ asset('images/imgs/product/pro-verify1.png') }}" alt="img class" />
+                            <div class="play-button-post" onclick="showVideo('videoverify1')"></div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Từng là Giám đốc Trung tâm VAS,
-                      Giám đốc khối Digital của Viettel Telecom.</span>
-                  </div>
-                  <div class="card-text mt-4 d-flex text-left">
-                    <div>
-                      <i class="dot"></i>
+                    <div class="col-lg-6">
+                      <div class="item-verify">
+                        <div class="card border-0" style="width: 100%;">
+                          <div class="position-relative">
+                            <div class="position-relative video-class" id="videoverify2">
+                              <img class="img-fluid" src="{{ asset('images/imgs/product/pro-verify2.png') }}" alt="img class" />
+                              <div class="play-button-post" onclick="showVideo('videoverify2')"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Có hơn 10 năm kinh nghiệm trong
-                      lĩnh vực viễn thông và nội dung số.</span>
                   </div>
                 </div>
+                <div class="col-lg-12">
+                  <div class="my-5">
+                    <p class="text-center text-font-size-26 text-font-weight-700">
+                      VTV đánh giá Edupia là khóa học DUY NHẤT đồng hành giúp hơn 1 TRIỆU học sinh<br /> từ yếu kém lên khá,
+                      giỏi Tiếng Anh
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-12 mb-5 pb-5">
+                  <div class="marquee">
+                    <div class="marquee-content">
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/Vnexpress.svg') }}" alt="Vnexpress">
+                      </div>
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/GiaoDucThoiDai.svg') }}" alt="GiaoDucThoiDai">
+                      </div>
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/VTV.svg') }}" alt="VTV">
+                      </div>
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/Cafebiz.svg') }}" alt="Cafebiz">
+                      </div>
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/VnEconomy.svg') }}" alt="VnEconomy">
+                      </div>
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/VtcNews.svg') }}" alt="VtcNews">
+                      </div>
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/Vnexpress.svg') }}" alt="Vnexpress">
+                      </div>
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/GiaoDucThoiDai.svg') }}" alt="GiaoDucThoiDai">
+                      </div>
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/VTV.svg') }}" alt="VTV">
+                      </div>
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/Cafebiz.svg') }}" alt="Cafebiz">
+                      </div>
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/VnEconomy.svg') }}" alt="VnEconomy">
+                      </div>
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/VtcNews.svg') }}" alt="VtcNews">
+                      </div>
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/Vnexpress.svg') }}" alt="Vnexpress">
+                      </div>
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/GiaoDucThoiDai.svg') }}" alt="GiaoDucThoiDai">
+                      </div>
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/VTV.svg') }}" alt="VTV">
+                      </div>
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/Cafebiz.svg') }}" alt="Cafebiz">
+                      </div>
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/VnEconomy.svg') }}" alt="VnEconomy">
+                      </div>
+                      <div class="marquee-tag">
+                        <img src="{{ asset('images/icons/homepage/VtcNews.svg') }}" alt="VtcNews">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
@@ -298,9 +822,7 @@ Product Extra
                 <div class="text-white text-font-size-18 text-font-weight-400">
                   <p class="m-0 text-font-weight-700 text-font-size-36">Vừa chơi vừa học tiếng Anh với EDUPIA Learning Pack</p>
                   <p class="m-0  middle-text">EDUPIA Learning Package là gói học tập bao gồm các trò chơi, truyện tranh, sách giấy... tạo cảm hứng và xỏa bỏ nỗi sợ tiếng Anh cho con từ lớp 1 - 5 </p>
-                  <div>
-                    <span class="btn-register text-font-weight-500">Đăng ký tư vấn</span>
-                  </div>
+                  <span class="btn-register text-font-weight-500">Đăng ký tư vấn</span>
                 </div>
               </div>
             </div>
