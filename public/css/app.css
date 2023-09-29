@@ -594,7 +594,7 @@ p {
 }
 
 li::marker {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 /*!
@@ -24309,6 +24309,10 @@ a:hover {
   background-color: #FF9D00B2;
 }
 
+.product-extra .extra-header-banner .content {
+  max-width: 1685px;
+}
+
 .product-extra .extra-header-banner .center {
   padding: 70px 0;
 }
@@ -24544,10 +24548,207 @@ a:hover {
   padding: 0 20px;
 }
 
+.product-extra .extra-tab-content .vietnamese-study {
+  margin-top: 70px;
+  padding-top: 41px;
+  background: #52C7F1;
+}
+
+.product-extra .extra-tab-content .vietnamese-study .middle-text {
+  padding-top: 33px;
+  padding-bottom: 29px;
+}
+
+.product-extra .extra-tab-content .vietnamese-study .btn-register {
+  padding: 7px 44px 8px 44px;
+  background: #FFA800;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.product-extra .extra-tab-content .vietnamese-study .banner {
+  max-width: 1556px;
+}
+
+.product-extra .extra-tab-content .vietnamese-more-info {
+  max-width: 1190px;
+  padding-top: 108px;
+  margin-bottom: 41px;
+}
+
+.product-extra .extra-tab-content .vietnamese-more-info .info {
+  margin-top: 14px;
+}
+
+.product-extra .extra-tab-content .vietnamese-more-info .info .title {
+  margin-bottom: 28px;
+}
+
+.product-extra .extra-tab-content .vietnamese-more-info .info .list-group {
+  margin-bottom: 28px;
+}
+
+.product-extra .extra-tab-content .vietnamese-more-info .info .list-group li {
+  color: #FFBB4D;
+}
+
+.product-extra .extra-tab-content .vietnamese-more-info .info .list-group li p {
+  color: black;
+}
+
+.product-extra .extra-tab-content .vietnamese-more-info .info .btn-register {
+  padding: 7px 44px 8px 44px;
+  background: #FFA800;
+  border-radius: 100px;
+  color: white;
+  cursor: pointer;
+}
+
+.product-extra .extra-tab-content .vietnamese-teachers {
+  margin-bottom: 66px;
+}
+
+.product-extra .extra-tab-content .vietnamese-teachers .title {
+  margin-bottom: 45px;
+}
+
+.product-extra .extra-tab-content .vietnamese-teachers .list-group-2 {
+  margin-bottom: 0;
+}
+
+.product-extra .extra-tab-content .vietnamese-teachers .list-group-2 li {
+  color: #20BEC6;
+}
+
+.product-extra .extra-tab-content .vietnamese-teachers .list-group-2 li p {
+  color: black;
+}
+
+.product-extra .extra-tab-content .vietnamese-teachers .btn-register {
+  padding: 7px 44px 8px 44px;
+  background: #FFA800;
+  border-radius: 100px;
+  color: white;
+  cursor: pointer;
+}
+
+.product-extra .extra-tab-content .vietnamese-parrent-review {
+  margin-bottom: 62px;
+}
+
+.product-extra .extra-tab-content .vietnamese-parrent-review .title {
+  margin-bottom: 100px;
+}
+
+.product-extra .extra-tab-content .vietnamese-ads {
+  max-width: 1163px;
+  margin-bottom: 62px;
+}
+
+.product-extra .extra-tab-content .vietnamese-ads .content {
+  padding-top: 56px;
+}
+
+.product-extra .extra-tab-content .vietnamese-ads .content .commit {
+  line-height: 44px;
+  margin-bottom: 22px;
+}
+
+.product-extra .extra-tab-content .vietnamese-ads .btn-register {
+  padding: 7px 44px 8px 44px;
+  background: #FFA800;
+  border-radius: 100px;
+  color: white;
+  cursor: pointer;
+}
+
+.product-extra .extra-tab-content .vietnamese-middle-banner {
+  margin-bottom: 90px;
+}
+
+.product-extra .extra-tab-content .vietnamese-middle-banner .banner {
+  padding-top: 47px;
+  background: #52C7F1;
+  border-radius: 15px;
+}
+
+.product-extra .extra-tab-content .vietnamese-middle-banner .banner .form-register {
+  padding-right: 85px;
+  padding-left: 0;
+}
+
+.product-extra .extra-tab-content .vietnamese-middle-banner .banner .form-register .form-group {
+  margin-bottom: 24px;
+}
+
+.product-extra .extra-tab-content .vietnamese-middle-banner .banner .form-register .form-rounded {
+  border-radius: 1000px;
+  border: none;
+  font-size: 18px;
+  font-weight: 300;
+  height: 56px;
+  padding-left: 16px;
+  color: black;
+}
+
+.product-extra .extra-tab-content .vietnamese-middle-banner .banner .form-register .form-rounded::-webkit-input-placeholder {
+  color: #B0B6B7;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.product-extra .extra-tab-content .vietnamese-middle-banner .banner .form-register .form-rounded::-moz-placeholder {
+  color: #B0B6B7;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.product-extra .extra-tab-content .vietnamese-middle-banner .banner .form-register .form-rounded::-ms-input-placeholder {
+  color: #B0B6B7;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.product-extra .extra-tab-content .vietnamese-middle-banner .banner .form-register .form-rounded::placeholder {
+  color: #B0B6B7;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.product-extra .extra-tab-content .vietnamese-middle-banner .banner .form-register .custom-button {
+  border-radius: 1000px;
+  background: #FFA800;
+  padding: 16px 0;
+  width: 235px;
+}
+
+.product-extra .extra-tab-content .vietnamese-middle-banner .banner .form-register .select-cus {
+  padding: 14px 0 14px 19px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: white;
+  border: 1px solid #EAEAEA;
+  color: #B0B6B7;
+}
+
+.product-extra .extra-tab-content .vietnamese-middle-banner .banner .form-register .custom-icon {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  pointer-events: none;
+}
+
 .product-extra .extra-tab-content .learning-pack-banner {
   margin-top: 70px;
   padding-top: 19px;
   background: #20BEC6;
+}
+
+.product-extra .extra-tab-content .learning-pack-banner .banner {
+  max-width: 1439px;
 }
 
 .product-extra .extra-tab-content .learning-pack-banner .middle-text {
@@ -24562,36 +24763,36 @@ a:hover {
   cursor: pointer;
 }
 
-.product-extra .extra-tab-content .content {
+.product-extra .extra-tab-content .learning-pack-content {
   padding-top: 88px;
 }
 
-.product-extra .extra-tab-content .content .middle-img {
+.product-extra .extra-tab-content .learning-pack-content .middle-img {
   width: 66%;
   padding-top: 154px;
   padding-bottom: 115px;
 }
 
-.product-extra .extra-tab-content .content .middle-img p {
+.product-extra .extra-tab-content .learning-pack-content .middle-img p {
   margin-bottom: 118px !important;
 }
 
-.product-extra .extra-tab-content .content .middle-banner {
+.product-extra .extra-tab-content .learning-pack-content .middle-banner {
   background: #20BEC6;
   border-radius: 15px;
 }
 
-.product-extra .extra-tab-content .content .middle-banner .form-register {
+.product-extra .extra-tab-content .learning-pack-content .middle-banner .form-register {
   padding-top: 52px;
   padding-right: 85px;
   padding-left: 0;
 }
 
-.product-extra .extra-tab-content .content .middle-banner .form-register .form-group {
+.product-extra .extra-tab-content .learning-pack-content .middle-banner .form-register .form-group {
   margin-bottom: 24px;
 }
 
-.product-extra .extra-tab-content .content .middle-banner .form-register .form-rounded {
+.product-extra .extra-tab-content .learning-pack-content .middle-banner .form-register .form-rounded {
   border-radius: 1000px;
   border: none;
   font-size: 18px;
@@ -24601,31 +24802,31 @@ a:hover {
   color: black;
 }
 
-.product-extra .extra-tab-content .content .middle-banner .form-register .form-rounded::-webkit-input-placeholder {
+.product-extra .extra-tab-content .learning-pack-content .middle-banner .form-register .form-rounded::-webkit-input-placeholder {
   color: #B0B6B7;
   font-weight: 300;
   font-size: 18px;
 }
 
-.product-extra .extra-tab-content .content .middle-banner .form-register .form-rounded::-moz-placeholder {
+.product-extra .extra-tab-content .learning-pack-content .middle-banner .form-register .form-rounded::-moz-placeholder {
   color: #B0B6B7;
   font-weight: 300;
   font-size: 18px;
 }
 
-.product-extra .extra-tab-content .content .middle-banner .form-register .form-rounded::-ms-input-placeholder {
+.product-extra .extra-tab-content .learning-pack-content .middle-banner .form-register .form-rounded::-ms-input-placeholder {
   color: #B0B6B7;
   font-weight: 300;
   font-size: 18px;
 }
 
-.product-extra .extra-tab-content .content .middle-banner .form-register .form-rounded::placeholder {
+.product-extra .extra-tab-content .learning-pack-content .middle-banner .form-register .form-rounded::placeholder {
   color: #B0B6B7;
   font-weight: 300;
   font-size: 18px;
 }
 
-.product-extra .extra-tab-content .content .middle-banner .form-register .custom-button {
+.product-extra .extra-tab-content .learning-pack-content .middle-banner .form-register .custom-button {
   border-radius: 1000px;
   background: #FFA800;
   padding: 16px 0;
