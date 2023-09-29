@@ -69,6 +69,176 @@
 
       .icon-hand {
         width: 85px;
+        height: 82px;
+      }
+    }
+
+    .math-reason {
+      background-color: $blue-930;
+      padding-top: 43px;
+
+      .list-item-result {
+        padding-left: 20px;
+      }
+
+      li {
+        line-height: 50px;
+      }
+
+      li::marker {
+        color: $yellow-400;
+        font-size: 20px;
+      }
+    }
+
+    .math-rme {
+      margin-top: 68px;
+      margin-bottom: 76px;
+    }
+
+    .math-slide-teacher {
+      padding-bottom: 76px;
+
+      .img-card-slide {
+        border-radius: 20px;
+        width: 285px;
+        height: 339px;
+        padding-top: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        &-cayman {
+          border-radius: 20px;
+          width: 285px;
+          height: 339px;
+          padding-left: 45px;
+          padding-right: 45px;
+          padding-top: 13px;
+        }
+      }
+
+      .dot {
+        margin-top: 10px;
+        display: block;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background-color: $blue-primary;
+      }
+
+      .carousel-control-prev {
+        left: -150px;
+
+        .carousel-control-prev-icon {
+          background-image: url("~/images/imgs/product/math-prev.svg");
+          width: 53px;
+          height: 53px;
+        }
+      }
+
+      .carousel-control-next {
+        right: -150px;
+
+        .carousel-control-next-icon {
+          background-image: url("~/images/imgs/product/math-next.svg");
+          width: 53px;
+          height: 53px;
+        }
+      }
+
+      .carousel-indicators {
+        bottom: -50px;
+      }
+
+      .carousel-indicators li {
+        background-color: #E6E4F7;
+      }
+    }
+
+    .math-post {
+      padding-bottom: 60px;
+
+      .img-post-slide {
+        width: 214px;
+        height: 214px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .carousel-indicators {
+        bottom: -50px;
+
+        li {
+          width: 13px !important;
+          height: 13px !important;
+          border-radius: 100%;
+          background-color: #E6E4F7 !important;
+        }
+
+        .active {
+          width: 74px !important;
+          border-radius: 50rem !important;
+          background-color: $blue-primary !important;
+          border: none !important;
+        }
+      }
+    }
+
+    .math-family {
+      margin-top: 68px;
+
+      .content-chicken-txt {
+        padding-left: 50px;
+        padding-top: 70px;
+      }
+    }
+
+    .math-register {
+      margin-top: 68px;
+
+      .div-register {
+        border-radius: 15px;
+      }
+
+      .img-register {
+        position: relative;
+        padding-left: 56px;
+        height: 100%;
+
+        img {
+          position: absolute;
+          bottom: 0;
+        }
+      }
+
+      .div-form-register {
+        padding: 38px 99px 37px 48px;
+      }
+
+      .btn-register {
+        font-size: $font-20;
+        font-weight: 600;
+        padding: 15px 41px;
+      }
+
+      .form-group {
+        margin-bottom: 24px;
+      }
+    }
+
+    .math-award {
+      margin-top: 40px;
+      padding-bottom: 67px;
+
+      .wizard .nav-tabs>li.active>a i {
+        font-weight: 600;
+      }
+    }
+
+    .math-verify {
+      margin-top: 38px;
+      .item-verify {
+        padding: 0 20px;
       }
     }
 
