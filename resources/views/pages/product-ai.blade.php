@@ -5,12 +5,18 @@ Product AI
 @section('content')
 <div class="product-ai">
   <section class="ai-banner">
-    <div class="content-banner-ai">
-      <p class="text-white text-font-size-50 text-font-weight-700 title-banner">
-        Đồng hành cùng con<br />
-        chinh phục điểm 10 Tiếng Anh</p>
-      <p class="text-white text-font-size-25 text-font-weight-400">Lộ trình học tiếng Anh trực tuyến xuyên
-        suốt, bám sát SGK, <br />giúp con giỏi toàn diện 4 kỹ năng ngay từ lớp 1.</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <div class="content-banner-ai">
+            <p class="text-white text-font-size-50 text-font-weight-700 title-banner">
+              Đồng hành cùng con<br />
+              chinh phục điểm 10 Tiếng Anh</p>
+            <p class="text-white text-font-size-25 text-font-weight-400">Lộ trình học tiếng Anh trực tuyến xuyên
+              suốt, bám sát SGK, <br />giúp con giỏi toàn diện 4 kỹ năng ngay từ lớp 1.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <section class="ai-form-register">
@@ -110,7 +116,7 @@ Product AI
               </div>
               <div class="col-lg-6">
                 <div class="item-img-left">
-                  <img class="img-fluid" src="{{ asset('images/imgs/product/tieu-hoc-1.png') }}" />
+                  <img class="img-fluid" src="{{ asset('images/imgs/product/tieu-hoc-2.png') }}" />
                 </div>
               </div>
             </div>
@@ -136,7 +142,7 @@ Product AI
         </div>
         <div class="col-lg-6 pl-5">
           <div>
-            <p class="text-white text-font-size-36 text-font-weight-600">Con “lột xác” hoàn toàn môn tiếng Anh
+            <p class="text-white text-font-size-36 text-font-weight-600 mt-2">Con “lột xác” hoàn toàn môn tiếng Anh
               trong 3 tháng với EDUPIA AI
             </p>
             <div class="list-item-result">
@@ -419,7 +425,7 @@ Product AI
                     </div>
                     <div class="card-body pl-0 pr-0">
                       <div class="d-flex">
-                        <img src="{{ asset('images/icons/product/vtv.svg') }}" alt="VTV">
+                        <img class="img-fluid" src="{{ asset('images/icons/product/vtv.svg') }}" alt="VTV">
                         <p class="text-black text-left text-font-size-16 text-font-weight-400">
                           Đánh giá Edupia là khoá học DUY NHẤT đồng hành giúp hơn 1 TRIỆU học sinh từ yếu kém lên
                           khá, giỏi Tiếng Anh
@@ -446,7 +452,7 @@ Product AI
                     </div>
                     <div class="card-body pl-0 pr-0">
                       <div class="d-flex">
-                        <img src="{{ asset('images/icons/product/thvl.svg') }}" alt="THVL">
+                        <img class="img-fluid" src="{{ asset('images/icons/product/thvl.svg') }}" alt="THVL">
                         <p class="text-black text-center text-font-size-16 text-font-weight-400">
                           Edupia là chương trình Tiếng Anh ĐẦU TIÊN có
                           thầy cô giáo đồng hành theo sát tiến bộ của con 24/7
@@ -518,7 +524,7 @@ Product AI
               </div>
             </div>
           </div>
-          <div class="col-lg-12 mt-5 py-5">
+          <div class="col-lg-12 div-chicken mt-5 py-5">
             <div class="row">
               <div class="col-lg-7">
                 <div class="content-chicken-txt">
@@ -539,7 +545,7 @@ Product AI
                   </div>
                 </div>
               </div>
-              <div class="col-lg-5">
+              <div class="col-lg-5 mt-2">
                 <div class="text-left">
                   <img class="img-fluid" src="{{ asset('images/imgs/product/img-graduated.png') }}"
                     alt="img-graduated.png" />
@@ -593,9 +599,47 @@ Product AI
 @push('scripts')
 <script>
   function showVideo(idHtml) {
-    $(`#${idHtml}`).
-      html(`<iframe class="embed-responsive embed-responsive-16by9" width="370" height="227" src="https://www.youtube.com/embed/rAwGaTomeEw?si=Aq0hmWQnigAlk-Pm?autoplay=1&mute=1" title="YouTube video player" mute frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
-      )
+    $(`#${idHtml} img`).remove();
+    $(`#${idHtml} div`).remove();
+    // create a new responsive video container
+    const videoID = "EVXFzZ2qA8g";
+
+    const responsiveVideoContainer = $("<div></div>").addClass(
+      "embed-responsive embed-responsive-16by9");
+
+    // create the iFrame with the video embed
+    const videoIframe = $("<iframe></iframe>").addClass("embed-responsive-item");
+
+    videoIframe.attr("src", `https://www.youtube.com/embed/${videoID}?autoplay=1`);
+    videoIframe.attr("allow", "autoplay");
+
+    // add the iFrame to the video container
+    responsiveVideoContainer.append(videoIframe);
+
+    // add the video container to the parent container
+    $(`#${idHtml}`).append(responsiveVideoContainer);
+  }
+
+  function showVideoPost(idHtml) {
+    $(`#${idHtml} img`).remove();
+    $(`#${idHtml} div`).remove();
+    // create a new responsive video container
+    const videoID = "EVXFzZ2qA8g";
+
+    const responsiveVideoContainer = $("<div></div>").addClass(
+      "embed-responsive embed-responsive-16by9");
+
+    // create the iFrame with the video embed
+    const videoIframe = $("<iframe></iframe>").addClass("embed-responsive-item");
+
+    videoIframe.attr("src", `https://www.youtube.com/embed/${videoID}?autoplay=1`);
+    videoIframe.attr("allow", "autoplay");
+
+    // add the iFrame to the video container
+    responsiveVideoContainer.append(videoIframe);
+
+    // add the video container to the parent container
+    $(`#${idHtml}`).append(responsiveVideoContainer);
   }
 </script>
 @endpush

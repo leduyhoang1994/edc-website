@@ -103,7 +103,7 @@
           <p class="text-white text-font-size-18">Về Edupia</p>
           <ul>
             <li>
-              <a href="#">
+              <a href="{{ route('about-us') }}">
                 <p class="text-white text-font-weight-400">Giới thiệu chung</p>
               </a>
             </li>
@@ -123,7 +123,7 @@
               </a>
             </li>
             <li>
-              <a href="#" class="text-white text-font-weight-400">
+              <a href="{{ route('recruitment') }}" class="text-white text-font-weight-400">
                 <p>Tuyển dụng</p>
               </a>
             </li>
@@ -207,7 +207,7 @@
       <p class="text-white text-font-size-14 text-font-weight-500 copy-right">Copyright © 2023 Educa Corporation | All Rights
         Reserved</p>
       <div class="d-flex gap-25 list-policy">
-        <a href="#">
+        <a href="{{ route('payment-method') }}">
           <p class="text-font-size-14 text-font-weight-400 text-white">
             <svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
               <circle cx="2.5" cy="2.5" r="2.5" fill="#21BDC6" />
@@ -215,7 +215,7 @@
             <span class="margin-left-4">Hình thức thanh toán</span>
           </p>
         </a>
-        <a href="#">
+        <a href="{{ route('refund-policy') }}">
           <p class="text-font-size-14 text-font-weight-400 text-white">
             <svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
               <circle cx="2.5" cy="2.5" r="2.5" fill="#21BDC6" />
@@ -223,7 +223,7 @@
             <span class="margin-left-4">Chính sách đổi trả</span>
           </p>
         </a>
-        <a href="#">
+        <a href="{{ route('privacy-policy') }}">
           <p class="text-font-size-14 text-font-weight-400 text-white">
             <svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
               <circle cx="2.5" cy="2.5" r="2.5" fill="#21BDC6" />
@@ -231,7 +231,7 @@
             <span class="margin-left-4">Chính sách bảo mật</span>
           </p>
         </a>
-        <a href="#">
+        <a href="{{ route('terms-of-use') }}">
           <p class="text-font-size-14 text-font-weight-400 text-white">
             <svg xmlns="http://www.w3.org/2000/svg" width="5" height="5" viewBox="0 0 5 5" fill="none">
               <circle cx="2.5" cy="2.5" r="2.5" fill="#21BDC6" />

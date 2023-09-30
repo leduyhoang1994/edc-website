@@ -175,7 +175,7 @@ Product Extra
                   </div>
                 </div>
                 <div class="col-lg-7">
-                  <div class="pl-4">
+                  <div class="pl-4 content-reason">
                     <p class="text-white text-font-size-36 text-font-weight-700">4 lý do Con học giỏi toán hơn với
                       EDUPIA MATH</p>
                     <div class="list-item-result">
@@ -1519,16 +1519,18 @@ Product Extra
                     <p class="m-0">tiếng Việt online với giáo viên trường điểm</p>
                   </div>
                   <p class="m-0 middle-text">
-                    EDUPIA Tiếng Việt là chương trình học Tiếng Việt online với giáo viên giỏi hàng đầu tại Việt Nam cho học sinh từ lớp 1-5, tạo cho con sự hứng thú, yêu thích việc học và khám phá hơn.
+                    EDUPIA Tiếng Việt là chương trình học Tiếng Việt online với giáo viên giỏi hàng đầu tại Việt
+                    Nam cho học sinh từ lớp 1-5, tạo cho con sự hứng thú, yêu thích việc học và khám phá hơn.
                   </p>
                   <span class="btn-register text-font-weight-500">Đăng ký tư vấn</span>
                 </div>
               </div>
-  
+
               <div class="col-sm-6">
-                <img class="w-100" src="{{ asset('images/imgs/product/vietnamese-banner.png') }}" alt="vietnamese-banner" />
+                <img class="w-100" src="{{ asset('images/imgs/product/vietnamese-banner.png') }}"
+                  alt="vietnamese-banner" />
               </div>
-  
+
             </div>
           </div>
         </section>
@@ -1681,10 +1683,11 @@ Product Extra
                     <p>Em Hoàng Anh (Lớp 1)</p>
                   </div>
                   <img class="mb-3" src="{{ asset('images/imgs/product/line-2.svg') }}" alt="line-2">
-  
+
                   <div class="text-font-size-18 text-font-weight-400">
                     <span>
-                      "Con trai tôi đã tiến bộ đáng kể trong việc đọc, viết và hiểu ngôn ngữ. Những bài giảng sinh động và phong phú đã giúp con hứng thú hơn với môn học này”
+                      "Con trai tôi đã tiến bộ đáng kể trong việc đọc, viết và hiểu ngôn ngữ. Những bài giảng sinh động
+                      và phong phú đã giúp con hứng thú hơn với môn học này”
                     </span>
                   </div>
                 </div>
@@ -1699,10 +1702,11 @@ Product Extra
                     <p>Em Thị Mỹ (Lớp 1)</p>
                   </div>
                   <img class="mb-3" src="{{ asset('images/imgs/product/line-2.svg') }}" alt="line-2">
-  
+
                   <div class="text-font-size-18 text-font-weight-400">
                     <span>
-                      “EDUPIA Tiếng Việt không chỉ giúp con nắm vững kiến thức mà còn giúp con phát triển kỹ năng viết và tự tin trong việc thể hiện ý kiến bằng ngôn ngữ của mình.”
+                      “EDUPIA Tiếng Việt không chỉ giúp con nắm vững kiến thức mà còn giúp con phát triển kỹ năng viết
+                      và tự tin trong việc thể hiện ý kiến bằng ngôn ngữ của mình.”
                     </span>
                   </div>
                 </div>
@@ -1717,10 +1721,11 @@ Product Extra
                     <p>Em Minh Lâm (Lớp 2)</p>
                   </div>
                   <img class="mb-3" src="{{ asset('images/imgs/product/line-2.svg') }}" alt="line-2">
-  
+
                   <div class="text-font-size-18 text-font-weight-400">
                     <span>
-                      “Con trai mình luôn thấy khó khăn khi học Tiếng Việt, nhưng EDUPIA Tiếng Việt đã giúp con nắm vững kiến thức và phát triển kỹ năng ngôn ngữ một cách tự tin.”
+                      “Con trai mình luôn thấy khó khăn khi học Tiếng Việt, nhưng EDUPIA Tiếng Việt đã giúp con nắm
+                      vững kiến thức và phát triển kỹ năng ngôn ngữ một cách tự tin.”
                     </span>
                   </div>
                 </div>
@@ -1732,16 +1737,18 @@ Product Extra
           <div class="row text-font-size-18 mx-auto">
             <div class="col-sm-6 content">
               <p class="text-font-size-48 text-font-weight-600 text-blue-700 mb-2">Chỉ từ 80k/tháng</p>
-              <p class="text-font-size-36 text-font-weight-600 commit">Hoàn tiền 100% nếu không tiến bộ sau 3 tháng</p>
+              <p class="text-font-size-36 text-font-weight-600 commit">Hoàn tiền 100% nếu không tiến bộ sau 3 tháng
+              </p>
               <p class="text-font-weight-400">
                 EDUPIA mang lại sự hài lòng và an tâm tuyệt đối cho hàng ngàn phụ huynh.
               </p>
               <span class="btn-register text-font-weight-500">Đăng ký tư vấn</span>
-  
+
             </div>
             <div class="col-sm-1"></div>
             <div class="col-sm-5">
-              <img class="w-100" src="{{ asset('images/imgs/product/extra-vietnamese-ads.png') }}" alt="extra-vietnamese-ads" />
+              <img class="w-100" src="{{ asset('images/imgs/product/extra-vietnamese-ads.png') }}"
+                alt="extra-vietnamese-ads" />
             </div>
           </div>
         </section>
@@ -1753,7 +1760,8 @@ Product Extra
             <div class="col-sm-5 form-register">
               <div class="text-white mx-auto">
                 <p class="text-font-size-26 text-font-weight-600">Học Thử Miễn Phí Ngay Hôm Nay</p>
-                <p class="mb-3 text-font-size-18 text-font-weight-400">Để lại thông tin để ban giáo vụ có thể hỗ trợ phụ huynh lên lịch và chọn khóa học phù hợp</p>
+                <p class="mb-3 text-font-size-18 text-font-weight-400">Để lại thông tin để ban giáo vụ có thể hỗ trợ phụ
+                  huynh lên lịch và chọn khóa học phù hợp</p>
                 <form class="mx-auto">
                   <div class="form-group">
                     <input type="text" class="form-control form-rounded" placeholder="Họ tên phụ huynh">
@@ -1765,7 +1773,8 @@ Product Extra
                     <input type="text" class="form-control form-rounded" placeholder="Địa chỉ">
                   </div>
                   <div class="form-group position-relative">
-                    <select class="select-cus form-select rounded-pill w-100 text-font-size-18 text-font-weight-300" aria-label="Select Example">
+                    <select class="select-cus form-select rounded-pill w-100 text-font-size-18 text-font-weight-300"
+                      aria-label="Select Example">
                       <option selected="">Năm sinh của con?</option>
                       <option value="option1">Option 1</option>
                       <option value="option2">Option 2</option>
@@ -1805,9 +1814,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       The BrandLaureate SMEs BestBrands Award
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -1821,9 +1832,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0 " style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Best Online English Teaching Product
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -1836,9 +1849,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Top 50 công ty Edtech nổi bật của Đông Nam Á
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -1855,9 +1870,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       The BrandLaureate SMEs BestBrands Award
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -1871,9 +1888,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0 " style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Best Online English Teaching Product
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -1886,9 +1905,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Top 50 công ty Edtech nổi bật của Đông Nam Á
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -1905,9 +1926,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       The BrandLaureate SMEs BestBrands Award
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -1921,9 +1944,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0 " style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Best Online English Teaching Product
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -1936,9 +1961,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Top 50 công ty Edtech nổi bật của Đông Nam Á
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -1955,9 +1982,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       The BrandLaureate SMEs BestBrands Award
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -1971,9 +2000,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0 " style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Best Online English Teaching Product
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -1986,9 +2017,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Top 50 công ty Edtech nổi bật của Đông Nam Á
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2005,9 +2038,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       The BrandLaureate SMEs BestBrands Award
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2021,9 +2056,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0 " style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Best Online English Teaching Product
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2036,9 +2073,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Top 50 công ty Edtech nổi bật của Đông Nam Á
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2101,7 +2140,7 @@ Product Extra
                       <p class="m-0">Được kiểm chứng bởi truyền thông,</p>
                       <p class="m-0">báo chí toàn quốc</p>
                     </div>
-  
+
                   </div>
                 </div>
                 <div class="col-lg-12">
@@ -2110,7 +2149,8 @@ Product Extra
                       <div class="item-verify">
                         <div class="card border-0" style="width: 100%;">
                           <div class="position-relative video-class" id="videoverify1">
-                            <img class="img-fluid" src="{{ asset('images/imgs/product/pro-verify1.png') }}" alt="img class" />
+                            <img class="img-fluid" src="{{ asset('images/imgs/product/pro-verify1.png') }}"
+                              alt="img class" />
                             <div class="play-button-post" onclick="showVideo('videoverify1')"></div>
                           </div>
                         </div>
@@ -2121,7 +2161,8 @@ Product Extra
                         <div class="card border-0" style="width: 100%;">
                           <div class="position-relative">
                             <div class="position-relative video-class" id="videoverify2">
-                              <img class="img-fluid" src="{{ asset('images/imgs/product/pro-verify2.png') }}" alt="img class" />
+                              <img class="img-fluid" src="{{ asset('images/imgs/product/pro-verify2.png') }}"
+                                alt="img class" />
                               <div class="play-button-post" onclick="showVideo('videoverify2')"></div>
                             </div>
                           </div>
@@ -2133,7 +2174,8 @@ Product Extra
                 <div class="col-lg-12">
                   <div class="my-5">
                     <p class="text-center text-font-size-26 text-font-weight-700">
-                      VTV đánh giá Edupia là khóa học DUY NHẤT đồng hành giúp hơn 1 TRIỆU học sinh<br /> từ yếu kém lên khá,
+                      VTV đánh giá Edupia là khóa học DUY NHẤT đồng hành giúp hơn 1 TRIỆU học sinh<br /> từ yếu kém lên
+                      khá,
                       giỏi Tiếng Anh
                     </p>
                   </div>
@@ -2198,7 +2240,7 @@ Product Extra
                     </div>
                   </div>
                 </div>
-  
+
               </div>
             </div>
           </div>
@@ -2210,12 +2252,16 @@ Product Extra
           <div class="container banner">
             <div class="row">
               <div class="col-sm-6">
-                <img class="w-100" src="{{ asset('images/imgs/product/leaning-pack-banner.png') }}" alt="leaning-pack-banner" />
+                <img class="w-100" src="{{ asset('images/imgs/product/leaning-pack-banner.png') }}"
+                  alt="leaning-pack-banner" />
               </div>
               <div class="col-sm-6 d-flex align-items-center">
                 <div class="text-white text-font-size-18 text-font-weight-400">
-                  <p class="m-0 text-font-weight-700 text-font-size-36">Vừa chơi vừa học tiếng Anh với EDUPIA Learning Pack</p>
-                  <p class="m-0  middle-text">EDUPIA Learning Package là gói học tập bao gồm các trò chơi, truyện tranh, sách giấy... tạo cảm hứng và xỏa bỏ nỗi sợ tiếng Anh cho con từ lớp 1 - 5 </p>
+                  <p class="m-0 text-font-weight-700 text-font-size-36">Vừa chơi vừa học tiếng Anh với EDUPIA
+                    Learning Pack</p>
+                  <p class="m-0  middle-text">EDUPIA Learning Package là gói học tập bao gồm các trò chơi,
+                    truyện tranh, sách giấy... tạo cảm hứng và xỏa bỏ nỗi sợ tiếng Anh cho con từ lớp 1 -
+                    5 </p>
                   <span class="btn-register text-font-weight-500">Đăng ký tư vấn</span>
                 </div>
               </div>
@@ -2239,7 +2285,8 @@ Product Extra
             <div class="col-sm-6">
               <p class="text-font-size-36 text-font-weight-700 text-blue-primary mb-2">Sách từ vựng</p>
               <p class="text-font-weight-400">
-                Sách từ vựng giúp trẻ luyện thêm bài tập nhằm nắm vững kiến thức về từ vựng và mẫu câu học sinh đã được học ở trên ứng dụng.
+                Sách từ vựng giúp trẻ luyện thêm bài tập nhằm nắm vững kiến thức về từ vựng và mẫu câu học sinh đã
+                được học ở trên ứng dụng.
               </p>
             </div>
           </div>
@@ -2247,7 +2294,8 @@ Product Extra
             <div class="col-sm-5">
               <p class="text-font-size-36 text-font-weight-700 text-blue-primary mb-2">Sách ngữ pháp</p>
               <p class="text-font-weight-400">
-                Sách ngữ pháp cung cấp các bài tập thực tế giúp con luyện tập làm các mẫu câu cơ bản đến phức tạp trong các bài thi.
+                Sách ngữ pháp cung cấp các bài tập thực tế giúp con luyện tập làm các mẫu câu cơ bản
+                đến phức tạp trong các bài thi.
               </p>
             </div>
             <div class="col-sm-1"></div>
@@ -2262,7 +2310,8 @@ Product Extra
             <div class="col-sm-6">
               <p class="text-font-size-36 text-font-weight-700 text-blue-primary mb-2">10 quyển truyện tranh</p>
               <p class="text-font-weight-400">
-                Truyện tranh song ngữ Edupia được thiết kế giúp học sinh vận dụng ngay kiến thức vừa học trong thực tế. Ngoài là, bố mẹ dễ dàng học cùng con.
+                Truyện tranh song ngữ Edupia được thiết kế giúp học sinh vận dụng ngay kiến thức vừa học trong thực tế.
+                Ngoài là, bố mẹ dễ dàng học cùng con.
               </p>
             </div>
           </div>
@@ -2270,7 +2319,8 @@ Product Extra
             <div class="col-sm-6">
               <p class="text-font-size-36 text-font-weight-700 text-blue-primary mb-2">2 bộ Flashcard</p>
               <p class="text-font-weight-400">
-                Truyện tranh song ngữ Edupia được thiết kế giúp học sinh vận dụng ngay kiến thức vừa học trong thực tế. Ngoài là, bố mẹ dễ dàng học cùng con.
+                Truyện tranh song ngữ Edupia được thiết kế giúp học sinh vận dụng ngay kiến thức vừa học trong thực tế.
+                Ngoài là, bố mẹ dễ dàng học cùng con.
               </p>
             </div>
             <div class="col-sm-6">
@@ -2284,19 +2334,22 @@ Product Extra
             <div class="col-sm-6">
               <p class="text-font-size-36 text-font-weight-700 text-blue-primary mb-2">EDUPIA Boardgame</p>
               <p class="text-font-weight-400">
-                Giúp con cùng các bạn vui chơi gắn kết với trò chơi trí tuệ vô cùng hấp dẫn. Từ đó, Giảm nguy cơ trẻ bị cận thị và bị ảnh hưởng xấu từ các nội dung tiêu cực trên điện thoại, ti vi.
+                Giúp con cùng các bạn vui chơi gắn kết với trò chơi trí tuệ vô cùng hấp dẫn. Từ đó, Giảm nguy cơ trẻ
+                bị cận thị và bị ảnh hưởng xấu từ các nội dung tiêu cực trên điện thoại, ti vi.
               </p>
             </div>
           </div>
           <div class="row mx-auto middle-img">
             <div class="col-sm">
-              <p class="text-font-size-36 text-font-weight-700 text-center">Con chưa bao giờ học tiếng Anh vui đến thế</p>
+              <p class="text-font-size-36 text-font-weight-700 text-center">Con chưa bao giờ học tiếng Anh vui đến
+                thế</p>
               <img class="w-100" src="{{ asset('images/imgs/product/person.png') }}" alt="person" />
             </div>
           </div>
           <div class="row middle-banner">
             <div class="col-sm-7">
-              <img class="w-100" src="{{ asset('images/imgs/product/middle-banner-pic.png') }}" alt="middle-banner-pic" />
+              <img class="w-100" src="{{ asset('images/imgs/product/middle-banner-pic.png') }}"
+                alt="middle-banner-pic" />
             </div>
             <div class="col-sm-5 form-register">
               <div class="text-center text-white mx-auto">
@@ -2308,7 +2361,7 @@ Product Extra
                   <p class="m-0">Số lượng có hạn, ba mẹ nhanh tay đặt hàng để</p>
                   <p class="m-0">tạo cảm hứng cho con học tiếng Anh nhé!</p>
                 </div>
-  
+
                 <form class="mx-auto">
                   <div class="form-group">
                     <input type="text" class="form-control form-rounded" placeholder="Họ tên phụ huynh">
@@ -2349,9 +2402,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       The BrandLaureate SMEs BestBrands Award
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2365,9 +2420,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0 " style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Best Online English Teaching Product
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2380,9 +2437,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Top 50 công ty Edtech nổi bật của Đông Nam Á
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2399,9 +2458,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       The BrandLaureate SMEs BestBrands Award
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2415,9 +2476,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0 " style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Best Online English Teaching Product
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2430,9 +2493,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Top 50 công ty Edtech nổi bật của Đông Nam Á
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2449,9 +2514,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       The BrandLaureate SMEs BestBrands Award
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2465,9 +2532,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0 " style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Best Online English Teaching Product
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2480,9 +2549,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Top 50 công ty Edtech nổi bật của Đông Nam Á
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2499,9 +2570,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       The BrandLaureate SMEs BestBrands Award
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2515,9 +2588,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0 " style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Best Online English Teaching Product
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2530,9 +2605,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Top 50 công ty Edtech nổi bật của Đông Nam Á
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2549,9 +2626,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-1.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       The BrandLaureate SMEs BestBrands Award
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2565,9 +2644,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0 " style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-2.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Best Online English Teaching Product
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2580,9 +2661,11 @@ Product Extra
                             <div class="col-lg-4 px-39">
                               <div>
                                 <div class="card border-0" style="width: 100%;">
-                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}" alt="Card image cap">
+                                  <img class="card-img-top" src="{{ asset('images/imgs/homepage/prize-3.png') }}"
+                                    alt="Card image cap">
                                   <div class="card-body mt-5">
-                                    <h5 class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
+                                    <h5
+                                      class="card-title text-blue-primary text-font-size-20 text-center text-font-weight-700 mb-4">
                                       Top 50 công ty Edtech nổi bật của Đông Nam Á
                                     </h5>
                                     <p class="card-text text-center text-font-size-18 text-font-weight-400">
@@ -2645,7 +2728,7 @@ Product Extra
                       <p class="m-0">Được kiểm chứng bởi truyền thông,</p>
                       <p class="m-0">báo chí toàn quốc</p>
                     </div>
-  
+
                   </div>
                 </div>
                 <div class="col-lg-12">
@@ -2654,7 +2737,8 @@ Product Extra
                       <div class="item-verify">
                         <div class="card border-0" style="width: 100%;">
                           <div class="position-relative video-class" id="videoverify1">
-                            <img class="img-fluid" src="{{ asset('images/imgs/product/pro-verify1.png') }}" alt="img class" />
+                            <img class="img-fluid" src="{{ asset('images/imgs/product/pro-verify1.png') }}"
+                              alt="img class" />
                             <div class="play-button-post" onclick="showVideo('videoverify1')"></div>
                           </div>
                         </div>
@@ -2665,7 +2749,8 @@ Product Extra
                         <div class="card border-0" style="width: 100%;">
                           <div class="position-relative">
                             <div class="position-relative video-class" id="videoverify2">
-                              <img class="img-fluid" src="{{ asset('images/imgs/product/pro-verify2.png') }}" alt="img class" />
+                              <img class="img-fluid" src="{{ asset('images/imgs/product/pro-verify2.png') }}"
+                                alt="img class" />
                               <div class="play-button-post" onclick="showVideo('videoverify2')"></div>
                             </div>
                           </div>
@@ -2677,7 +2762,8 @@ Product Extra
                 <div class="col-lg-12">
                   <div class="my-5">
                     <p class="text-center text-font-size-26 text-font-weight-700">
-                      VTV đánh giá Edupia là khóa học DUY NHẤT đồng hành giúp hơn 1 TRIỆU học sinh<br /> từ yếu kém lên khá,
+                      VTV đánh giá Edupia là khóa học DUY NHẤT đồng hành giúp hơn 1 TRIỆU học sinh<br /> từ yếu kém lên
+                      khá,
                       giỏi Tiếng Anh
                     </p>
                   </div>
@@ -2742,7 +2828,7 @@ Product Extra
                     </div>
                   </div>
                 </div>
-  
+
               </div>
             </div>
           </div>
@@ -2755,10 +2841,29 @@ Product Extra
 @push('scripts')
 <script>
   function showVideo(idHtml) {
-    $(`#${idHtml}`).
-      html(`<iframe class="embed-responsive-16by9" width="572" height="338" src="https://www.youtube.com/embed/rAwGaTomeEw?si=Aq0hmWQnigAlk-Pm?autoplay=1&mute=1" title="YouTube video player" mute frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
-      )
+    $(`#${idHtml} img`).remove();
+    $(`#${idHtml} div`).remove();
+    // create a new responsive video container
+    const videoID = "EVXFzZ2qA8g";
+
+    const responsiveVideoContainer = $("<div></div>").addClass(
+      "embed-responsive embed-responsive-16by9");
+
+    // create the iFrame with the video embed
+    const videoIframe = $("<iframe></iframe>").addClass("embed-responsive-item");
+
+    videoIframe.attr("src", `https://www.youtube.com/embed/${videoID}?autoplay=1`);
+    videoIframe.attr("allow", "autoplay");
+
+    // add the iFrame to the video container
+    responsiveVideoContainer.append(videoIframe);
+
+    // add the video container to the parent container
+    $(`#${idHtml}`).append(responsiveVideoContainer);
   }
 
+  const videoIframe = $("<iframe></iframe>").addClass("embed-responsive-item");
+  videoIframe.attr("src", 'https://www.youtube.com/embed/${videoID}?autoplay=1');
+  videoIframe.attr("allow", "autoplay");
 </script>
 @endpush
