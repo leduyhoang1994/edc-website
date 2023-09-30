@@ -276,6 +276,573 @@
       }
     }
   }
+
+  .about-us {
+    .text-font-size-18 {
+      font-size: $font-16;
+    }
+
+    .about-item-1 {
+      margin-top: 0;
+    }
+
+    .about-item-2 {
+      margin-bottom: 30px;
+    }
+
+    .div-left-about {
+      padding-left: 0;
+      margin-top: 50px;
+    }
+
+    .div-right-about {
+      padding-right: 0;
+      margin-bottom: 50px;
+    }
+
+    .about-trip {
+      display: none;
+    }
+
+    .about-team {
+      .text-font-size-36 {
+        font-size: $font-24;
+      }
+    }
+
+    .about-register-content {
+      padding: 46px 20px 35px 20px;
+    }
+  }
+
+  .product-native {
+    .text-font-size-36 {
+      font-size: $font-22;
+    }
+
+    .text-font-size-45 {
+      font-size: $font-32;
+    }
+
+    .text-font-size-20 {
+      font-size: $font-18;
+    }
+
+    .line-height-44 {
+      line-height: 30px;
+    }
+
+    .native-banner {
+      padding-top: 60px;
+    }
+
+    .img-register {
+      padding: 20px;
+    }
+
+    .div-form-register {
+      padding: 20px;
+    }
+
+    .list-item-result {
+      padding-left: 10px;
+
+      li {
+        line-height: 35px;
+      }
+    }
+
+    .btn-register {
+      font-size: 15px;
+    }
+
+    .native-result {
+      img {
+        margin-top: 40px;
+      }
+    }
+
+    .native-commit {
+      margin: 100px 0;
+
+      .title-commit {
+        margin-bottom: 30px;
+
+        p {
+          padding: 0 5%;
+        }
+      }
+    }
+
+    .native-teams {
+      .title-native-teams p {
+        padding: 0 5%;
+      }
+    }
+
+    .native-verify {
+      .item-verify {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      .video-verify {
+        top: 19px;
+        left: 11px;
+        max-width: 318px;
+        max-height: 235px;
+      }
+    }
+
+    .div-chicken {
+      margin-top: 0 !important;
+    }
+
+    .content-chicken-txt {
+      padding-top: 0 !important;
+    }
+
+    .content-chicken-description {
+      padding-right: 0 !important;
+    }
+
+    .about-register-content {
+      padding: 48px 20px 35px 20px;
+    }
+  }
+
+  .product-ai {
+    .btn-register {
+      font-size: 15px;
+    }
+
+    .text-font-size-50 {
+      font-size: $font-32;
+    }
+
+    .text-font-size-25 {
+      font-size: $font-20;
+    }
+
+    .text-font-size-20 {
+      font-size: $font-18;
+    }
+
+    .text-font-size-36 {
+      font-size: $font-28;
+    }
+
+    .ai-banner {
+      height: 568px;
+
+      .content-banner-ai {
+        transform: translate(5%, 45%);
+      }
+    }
+
+    .about-register-content {
+      padding: 20px 20px
+    }
+
+    .item-img-right {
+      padding-right: 0;
+    }
+
+    .item-txt-right {
+      padding-left: 0;
+    }
+
+    .item-txt-left {
+      padding-right: 0;
+    }
+
+    .item-img-left {
+      padding-left: 0;
+    }
+
+    .ai-ispeak {
+      .pr-5 {
+        padding-right: 15px !important;
+      }
+
+      .pl-5 {
+        padding-left: 15px !important;
+      }
+
+      .text-font-size-36 {
+        font-size: $font-20;
+      }
+
+      .list-item-result {
+        padding-left: 20px;
+        margin-top: 28px;
+
+        .text-font-size-20 {
+          font-size: $font-16;
+        }
+
+        .dot {
+          display: none;
+        }
+
+        li {
+          list-style-type: disc;
+        }
+      }
+    }
+
+    .ai-study-online {
+      .text-font-size-36 {
+        font-size: $font-24;
+      }
+
+      .text-font-size-18 {
+        font-size: $font-13;
+      }
+    }
+
+    .item-verify {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .video-verify {
+      top: 19px !important;
+      left: 11px !important;
+      max-width: 318px !important;
+      max-height: 235px !important;
+    }
+
+    .div-chicken {
+      margin-top: 0 !important;
+    }
+
+    .content-chicken-txt {
+      padding-top: 40px;
+    }
+  }
+
+  .product-ielts {
+    .btn-register {
+      font-size: 15px;
+    }
+
+    .text-font-size-50 {
+      font-size: $font-25;
+    }
+
+    .text-font-size-25 {
+      font-size: $font-20;
+    }
+
+    .text-font-size-20 {
+      font-size: $font-18;
+    }
+
+    .text-font-size-36 {
+      font-size: $font-28;
+    }
+
+    .ielts-banner {
+      height: 568px;
+
+      .content-banner-ai {
+        transform: translate(5%, 80%);
+
+        .title-banner {
+          line-height: 40px;
+        }
+
+        .des-banner {
+          padding-right: 10px;
+          font-size: $font-16;
+        }
+      }
+    }
+
+    .ielts-register {
+      .img-register {
+        padding: 20px;
+      }
+
+      .div-form-register {
+        padding: 20px;
+      }
+    }
+
+    .ielts-teacher {
+      .avt-teacher {
+        padding-left: 0 !important;
+      }
+
+      .list-item-result {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 10px;
+        padding-left: 26px;
+
+        li {
+          line-height: 34px;
+        }
+      }
+    }
+
+    .ielts-procedure {
+      .des-ielts-procedure {
+        padding-right: 0 !important;
+        text-align: justify;
+      }
+
+      .item-procedure img {
+        width: 118px;
+        height: 135px;
+      }
+
+    }
+
+    .ielts-trip {
+      .content-trip {
+        display: none;
+      }
+    }
+
+    .ielts-banner-mid {
+      .img-content-mid img {
+        position: relative;
+      }
+
+      .list-item-result {
+        padding-left: 20px;
+
+        li {
+          line-height: 34px;
+        }
+      }
+    }
+
+    .ielts-achievements {
+      .carousel-item img {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    .ielts-award {
+      padding-bottom: 50px;
+
+      .text-font-size-36 {
+        font-size: $font-26;
+      }
+
+      .wizard .nav-tabs>li.active>a i {
+        font-size: $font-20;
+      }
+
+      .wizard .nav-tabs>li>a i {
+        font-size: $font-20;
+      }
+    }
+
+    .ielts-verify {
+      padding-bottom: 30px;
+
+      .item-verify {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      .video-verify {
+        top: 19px;
+        left: 11px;
+        max-width: 318px;
+        max-height: 235px;
+      }
+
+      .content-chicken-txt {
+        .text-font-size-36 {
+          font-size: $font-26;
+        }
+
+        .content-chicken-description {
+          padding-right: 0 !important;
+        }
+      }
+    }
+  }
+
+  .product-pro {
+    .btn-register {
+      font-size: 15px;
+    }
+
+    .text-font-size-50 {
+      font-size: $font-32;
+    }
+
+    .text-font-size-25 {
+      font-size: $font-20;
+    }
+
+    .text-font-size-20 {
+      font-size: $font-18;
+    }
+
+    .text-font-size-36 {
+      font-size: $font-26;
+    }
+
+    .line-height-44 {
+      line-height: 35px;
+    }
+
+    .img-banner {
+      padding-top: 0;
+    }
+
+    .img-register {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+
+      img {
+        position: relative !important;
+      }
+    }
+
+    .div-form-register {
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+    }
+
+    .pro-question {
+      display: none;
+    }
+
+    .img-about {
+      img {
+        position: relative !important;
+      }
+    }
+
+    .pro-class .list-item-result {
+      padding-left: 20px;
+    }
+
+    .pro-procedure {
+      ul#pills-tab {
+        flex-direction: row;
+        gap: 24px;
+        justify-content: center !important;
+      }
+    }
+
+    .wizard .nav-tabs>li a i {
+      font-size: $font-20;
+    }
+
+    .pro-verify {
+      .item-verify {
+        margin-top: 20px;
+      }
+
+      .text-font-size-26 {
+        font-size: $font-16;
+      }
+    }
+
+    .text-font-size-48 {
+      font-size: 40px;
+    }
+
+    .content-chicken-description {
+      padding-right: 0 !important;
+    }
+  }
+
+  .product-extra {
+    .btn-register {
+      font-size: 15px;
+    }
+
+    .text-font-size-50 {
+      font-size: $font-32;
+    }
+
+    .text-font-size-25 {
+      font-size: $font-20;
+    }
+
+    .text-font-size-20 {
+      font-size: $font-18;
+    }
+
+    .text-font-size-36 {
+      font-size: $font-26;
+    }
+
+    .line-height-44 {
+      line-height: 35px;
+    }
+
+    .img-banner {
+      padding-top: 0;
+    }
+
+    .img-register {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+
+      img {
+        position: relative !important;
+      }
+    }
+
+    .div-form-register {
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+    }
+    .math-study-title {
+      .text-font-size-36 {
+        font-size: 31px;
+      }
+    }
+    .math-reason {
+      .content-reason {
+        padding-left: 0 !important;
+        padding-bottom: 30px;
+      }
+    }
+    .math-slide-teacher, .math-post {
+      .text-font-size-36 {
+        font-size: $font-20;
+      }
+    }
+    .content-chicken-txt {
+      padding: 20px !important;
+      .line-height-44 {
+        line-height: 40px;
+      }
+    }
+    .img-register {
+      padding-top: 20px;
+    }
+    .wizard .nav-tabs > li a i {
+      font-size: $font-20;
+    }
+    .math-verify {
+      .title-verify {
+        .text-font-size-36 {
+          font-size: $font-20 !important;
+        }
+      }
+      .item-verify {
+        margin-top: 20px;
+      }
+      .text-font-size-26 {
+        font-size: $font-16 !important;
+      }
+    }
+   
+  }
 }
 
 @media (max-width: 375px) {

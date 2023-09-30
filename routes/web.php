@@ -47,19 +47,19 @@ Route::get('/go-learning', function () {
 
 Route::get('/payment-method', function () {
     return view('pages.payment-method');
-});
+})->name('payment-method');
 
 Route::get('/terms-of-use', function () {
     return view('pages.terms-of-use');
-});
+})->name('terms-of-use');
 
 Route::get('/privacy-policy', function () {
     return view('pages.privacy-policy');
-});
+})->name('privacy-policy');
 
 Route::get('/refund-policy', function () {
     return view('pages.refund-policy');
-});
+})->name('refund-policy');
 
 Route::group(['prefix'=>'recruitment'], function () {
     Route::get('/', function () {
@@ -73,7 +73,7 @@ Route::group(['prefix'=>'recruitment'], function () {
 
 Route::get('/contact', function () {
     return view('pages.contact');
-});
+})->name('contact');
 
 Route::group(['prefix'=>'document'], function () {
     Route::get('/', function () {

@@ -5,15 +5,21 @@ Product IELTS
 @section('content')
 <div class="product-ielts">
   <section class="ielts-banner">
-    <div class="content-banner-ai">
-      <p class="text-white text-font-size-50 text-font-weight-700 title-banner">
-        Đồng hành cùng con đạt 6.0+ IELTS ngay từ THCS
-      </p>
-      <p class="text-white text-font-size-25 text-font-weight-400 des-banner">
-        Chinh phục cơ hội tuyển thẳng vào các THCS và Đại học cùng giáo viên IELTS hàng đầu từ Hà Nội
-        và thành phố Hồ Chí Minh.
-      </p>
-    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <div class="content-banner-ai">
+            <p class="text-white text-font-size-50 text-font-weight-700 title-banner">
+              Đồng hành cùng con đạt 6.0+ IELTS ngay từ THCS
+            </p>
+            <p class="text-white text-font-size-25 text-font-weight-400 des-banner">
+              Chinh phục cơ hội tuyển thẳng vào các THCS và Đại học cùng giáo viên IELTS hàng đầu từ Hà
+              Nội
+              và thành phố Hồ Chí Minh.
+            </p>
+          </div>
+        </div>
+      </div>
   </section>
   <section class="ielts-register">
     <div class="container">
@@ -213,7 +219,7 @@ Product IELTS
                 </div>
               </div>
               <div class="col-lg-8">
-                <div class="pr-5">
+                <div class="pr-5 des-ielts-procedure">
                   <p class="text-white text-font-size-18 text-font-weight-400">Việc học Tiếng Anh cũng giống như việc
                     khoan sâu và phá vỡ một bức tường. Để tạo một mảnh vỡ trên
                     bức tường là rất dễ nhưng để phá vỡ nó bằng một mũi khoan thì rất khó và phải có chiến thuật.<br />
@@ -301,7 +307,7 @@ Product IELTS
               </div>
             </div>
             <div class="col-lg-7">
-              <div class="position-relative">
+              <div class="position-relative content-trip">
                 <img class="img-fluid" src="{{ asset('images/imgs/product/ielts-trip-1.png') }}" alt="img trip" />
                 <p class="position-absolute text-white text-font-size-24 title-item-trip-1">
                   <span class="text-font-weight-700">Điểm chạm</span> - <span class="text-font-weight-500">Kick
@@ -1184,7 +1190,8 @@ Product IELTS
                   <p class="text-left text-green-100 text-font-size-36 text-font-weight-600">
                     Miễn phí kiểm tra đầu vào
                   </p>
-                  <p class="text-left text-font-size-20 text-font-weight-400 line-height-28 content-chicken-description pr-5">
+                  <p
+                    class="text-left text-font-size-20 text-font-weight-400 line-height-28 content-chicken-description pr-5">
                     Edupia Native mang lại sự hài lòng và an tâm tuyệt đối cho hàng ngàn phụ huynh.<br />
                     Chúng tôi cam kết hoàn 100% học phí nếu sau 3 tháng con không tiến bộ.
                   </p>
@@ -1193,7 +1200,7 @@ Product IELTS
                   </div>
                 </div>
               </div>
-              <div class="col-lg-5">
+              <div class="col-lg-5 mt-2">
                 <div class="text-left">
                   <img class="img-fluid" src="{{ asset('images/imgs/product/ie-banner-bottom.png') }}"
                     alt="img banner bottom" />

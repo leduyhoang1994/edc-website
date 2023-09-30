@@ -50,7 +50,7 @@
             </svg>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="{{ route('news') }}">Tin Tức Chung</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -63,10 +63,7 @@
             </svg>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="{{ route('contact') }}">Liên hệ</a>
           </div>
         </li>
 

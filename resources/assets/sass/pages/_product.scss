@@ -1,4 +1,5 @@
 .product-native {
+  background-color: $white;
   .native-banner {
     padding-top: 188px;
     // background-color: $blue-primary;
@@ -276,6 +277,9 @@
   filter: grayscale(100%);
   transition: filter 0.1s cubic-bezier(0, 0, 0.2, 1);
   border: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 
   &:hover {
     filter: none;
@@ -296,6 +300,9 @@
   filter: grayscale(100%);
   transition: filter 0.1s cubic-bezier(0, 0, 0.2, 1);
   border: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 
   &:hover {
     filter: none;
@@ -313,8 +320,9 @@
 
 //product AI
 .product-ai {
+  background-color: $white;
   .ai-banner {
-    position: relative;
+    // position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("~/images/imgs/product/ai-banner.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -322,11 +330,11 @@
     height: 800px;
 
     .content-banner-ai {
-      width: 763px;
-      position: absolute;
-      left: 0;
-      top: 15%;
-      transform: translate(10%, 50%);
+      // width: 763px;
+      // position: absolute;
+      // left: 0;
+      // top: 15%;
+      transform: translate(10%, 85%);
 
       .title-banner {
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -422,6 +430,9 @@
     filter: grayscale(100%);
     transition: filter 0.1s cubic-bezier(0, 0, 0.2, 1);
     border: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 
     &:hover {
       filter: none;
@@ -462,6 +473,7 @@
 }
 
 .product-ielts {
+  background-color: $white;
   .btn-register {
     font-size: $font-20;
     font-weight: 600;
@@ -469,7 +481,6 @@
   }
 
   .ielts-banner {
-    position: relative;
     background-image: url("~/images/imgs/product/ielts-banner.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -477,11 +488,7 @@
     height: 800px;
 
     .content-banner-ai {
-      width: 887px;
-      position: absolute;
-      left: 0;
-      top: 15%;
-      transform: translate(10%, 50%);
+      transform: translate(10%, 75%);
 
       .title-banner {
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -489,7 +496,7 @@
       }
 
       .des-banner {
-        width: 602px;
+        max-width: 602px;
         text-align: justify;
       }
     }
@@ -758,6 +765,7 @@
 }
 
 .product-pro {
+  background-color: $white;
   .btn-register {
     font-size: $font-20;
     font-weight: 600;
@@ -1013,6 +1021,7 @@
       display: block;
       margin: 0 auto;
     }
+
     .carousel-indicators {
       bottom: -50px;
 
@@ -1031,13 +1040,16 @@
       }
     }
   }
+
   .pro-award {
     margin-top: 40px;
     padding-bottom: 67px;
-    .wizard .nav-tabs > li.active > a i {
+
+    .wizard .nav-tabs>li.active>a i {
       font-weight: 600;
     }
   }
+
   .pro-verify {
     .item-verify {
       padding: 0 20px;

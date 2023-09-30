@@ -82,7 +82,7 @@ Product Native
         </div>
         <div class="text-center position-relative" id="video_skill">
           <img class="img-fluid" srcset="{{ asset('images/imgs/product/img-video.png') }}" alt="img video" />
-          <div class="play-button cursor-pointer" onClick="showVideo()"></div>
+          <div class="play-button cursor-pointer" onClick="showVideo('video_skill')"></div>
         </div>
       </div>
     </div>
@@ -791,7 +791,7 @@ Product Native
               </div>
             </div>
           </div>
-          <div class="col-lg-12 mt-5 py-5">
+          <div class="col-lg-12 mt-5 div-chicken py-5">
             <div class="row">
               <div class="col-lg-7">
                 <div class="content-chicken-txt">
@@ -860,22 +860,70 @@ Product Native
 @endsection
 @push('scripts')
 <script>
-  function showVideo() {
-    $('#video_skill').
-      html(`<iframe class="embed-responsive embed-responsive-16by9" width="1020" height="533" src="https://www.youtube.com/embed/rAwGaTomeEw?si=Aq0hmWQnigAlk-Pm?autoplay=1&mute=1" title="YouTube video player" mute frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
-      )
+  function showVideo(idHtml) {
+    $(`#${idHtml} img`).remove();
+    $(`#${idHtml} div`).remove();
+    // create a new responsive video container
+    const videoID = "EVXFzZ2qA8g";
+
+    const responsiveVideoContainer = $("<div></div>").addClass(
+      "embed-responsive embed-responsive-16by9");
+
+    // create the iFrame with the video embed
+    const videoIframe = $("<iframe></iframe>").addClass("embed-responsive-item");
+
+    videoIframe.attr("src", `https://www.youtube.com/embed/${videoID}?autoplay=1`);
+    videoIframe.attr("allow", "autoplay");
+
+    // add the iFrame to the video container
+    responsiveVideoContainer.append(videoIframe);
+
+    // add the video container to the parent container
+    $(`#${idHtml}`).append(responsiveVideoContainer);
   }
 
   function showVideoPost(idHtml) {
-    $(`#${idHtml}`).
-      html(`<iframe class="embed-responsive embed-responsive-16by9" width="370" height="227" src="https://www.youtube.com/embed/rAwGaTomeEw?si=Aq0hmWQnigAlk-Pm?autoplay=1&mute=1" title="YouTube video player" mute frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
-      )
+    $(`#${idHtml} img`).remove();
+    $(`#${idHtml} div`).remove();
+    // create a new responsive video container
+    const videoID = "EVXFzZ2qA8g";
+
+    const responsiveVideoContainer = $("<div></div>").addClass(
+      "embed-responsive embed-responsive-16by9");
+
+    // create the iFrame with the video embed
+    const videoIframe = $("<iframe></iframe>").addClass("embed-responsive-item");
+
+    videoIframe.attr("src", `https://www.youtube.com/embed/${videoID}?autoplay=1`);
+    videoIframe.attr("allow", "autoplay");
+
+    // add the iFrame to the video container
+    responsiveVideoContainer.append(videoIframe);
+
+    // add the video container to the parent container
+    $(`#${idHtml}`).append(responsiveVideoContainer);
   }
 
   function showVideoVerify(idHtml) {
-    $(`#${idHtml}`).
-      html(`<iframe class="embed-responsive embed-responsive-16by9" width="492" height="349" src="https://www.youtube.com/embed/rAwGaTomeEw?si=Aq0hmWQnigAlk-Pm?autoplay=1&mute=1" title="YouTube video player" mute frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
-      )
+    $(`#${idHtml} img`).remove();
+    $('.play-button').remove();
+    // create a new responsive video container
+    const videoID = "EVXFzZ2qA8g";
+
+    const responsiveVideoContainer = $("<div></div>").addClass(
+      "embed-responsive embed-responsive-16by9");
+
+    // create the iFrame with the video embed
+    const videoIframe = $("<iframe></iframe>").addClass("embed-responsive-item");
+
+    videoIframe.attr("src", `https://www.youtube.com/embed/${videoID}?autoplay=1`);
+    videoIframe.attr("allow", "autoplay");
+
+    // add the iFrame to the video container
+    responsiveVideoContainer.append(videoIframe);
+
+    // add the video container to the parent container
+    $(`#${idHtml}`).append(responsiveVideoContainer);
   }
 </script>
 @endpush
