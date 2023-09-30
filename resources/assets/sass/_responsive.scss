@@ -800,48 +800,66 @@
       padding-right: 20px !important;
       padding-left: 20px !important;
     }
+
     .math-study-title {
       .text-font-size-36 {
         font-size: 31px;
       }
     }
+
     .math-reason {
       .content-reason {
         padding-left: 0 !important;
         padding-bottom: 30px;
       }
     }
-    .math-slide-teacher, .math-post {
+
+    .math-slide-teacher,
+    .math-post {
       .text-font-size-36 {
         font-size: $font-20;
       }
     }
+
     .content-chicken-txt {
       padding: 20px !important;
+
       .line-height-44 {
         line-height: 40px;
       }
     }
+
     .img-register {
       padding-top: 20px;
     }
-    .wizard .nav-tabs > li a i {
+
+    .wizard .nav-tabs>li a i {
       font-size: $font-20;
     }
+
     .math-verify {
       .title-verify {
         .text-font-size-36 {
           font-size: $font-20 !important;
         }
       }
+
       .item-verify {
         margin-top: 20px;
       }
+
       .text-font-size-26 {
         font-size: $font-16 !important;
       }
     }
-   
+
+    .carousel-control-next {
+      display: none !important;
+    }
+
+    .carousel-control-prev {
+      display: none !important;
+    }
   }
 }
 
