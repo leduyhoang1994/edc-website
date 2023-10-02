@@ -78,7 +78,7 @@ Vào Học
         </div>
       </div>
       {{-- tutor --}}
-      <div class="col">
+      {{-- <div class="col">
         <div class="logo d-flex justify-content-center align-items-center">
           <img src="{{ asset('images/icons/homepage/EdupiaTutor.png') }}" alt="EdupiaTutor">
         </div>
@@ -89,8 +89,24 @@ Vào Học
             <p class="m-0 text-white text-font-weight-600">VÀO HỌC</p>
           </div>
         </div>
+      </div> --}}
+			<div class="col">
+        <div class="classin-open">
+					<img src="{{ asset('images/icons/other/RingIcon.svg') }}" alt="RingIcon">
+					<div class="mt-2 mb-3 text-font-weight-400 text-font-size-18">
+						<p class="m-0">Vui lòng liên hệ</p>
+						<p class="m-0">ban giáo vụ để được hướng dẫn</p>
+						<p class="m-0">tham gia lớp học</p>
+					</div>
+					<div class="open-btn">
+						<span>Mở ClassIn</span>
+					</div>
+					<p class="mt-1 mb-8" href="#">Đăng ký học?</p>
+					<p>Lớp học sẽ diễn ra trên ClassIn</p>
+        </div>
       </div>
     </div>
   </section>
+	<div class="overlay"></div>
 </main>
 @endsection
