@@ -130,7 +130,7 @@ Chi tiết tuyển dụng
         </p>
         <div>
           <span>Chia sẻ job này:</span>
-          <img class="ml-2" src="{{ asset('images/icons/homepage/SocialIcon.svg') }}" alt="social-icon" />
+          <img class="ml-2" src="{{ asset('/images/icons/homepage/SocialIcon.svg') }}" alt="social-icon" />
         </div>
       </div>
     </div>
@@ -445,8 +445,8 @@ Chi tiết tuyển dụng
       slidesToShow: 4, // Shows a three slides at a time
       slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
       arrows: true, // Adds arrows to sides of slider
-      prevArrow:'<img class="slick-prev" src="images/icons/homepage/PrevIcon.svg" alt="PrevIcon" />',
-      nextArrow:'<img class="slick-next" src="images/icons/homepage/NextIcon.svg" alt="NextIcon" />',
+      prevArrow:'<img class="slick-prev" src="/images/icons/homepage/PrevIcon.svg" alt="PrevIcon" />',
+      nextArrow:'<img class="slick-next" src="/images/icons/homepage/NextIcon.svg" alt="NextIcon" />',
     });
   });
 
