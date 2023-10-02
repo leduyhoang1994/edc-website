@@ -23602,6 +23602,15 @@ a:hover {
   margin-top: 19px;
 }
 
+.go-learning .classin-open {
+  padding: 36px 28px 47px 28px;
+  border-radius: 20px;
+}
+
+.go-learning .classin-open .btn-classin-open {
+  background: #20BEC6;
+}
+
 .payment-method {
   margin-bottom: 43px;
 }
