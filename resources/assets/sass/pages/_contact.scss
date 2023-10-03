@@ -2,26 +2,14 @@
   .header-banner {
     height: 490px;
     padding-top: 380px;
-    padding-left: 345px;
-    position: relative;
+    // padding-left: 345px;
+    // position: relative;
     background-image: url("/images/imgs/other/contact-header.png");
     background-size: cover;
     background-repeat: no-repeat;
 
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 490px;
-      background-color: rgba(0, 0, 0, 0.20);
-      z-index: 1;
-    }
-
     .header-text {
-      position: absolute;
-      z-index: 2;
+
     }
   }
 
@@ -35,6 +23,8 @@
         border: none;
         border-bottom: 1px solid $gray-400;
         border-radius: 0;
+        background-color: transparent;
+        color: black;
       }
 
       .custom-file-upload {

@@ -7,13 +7,13 @@ Tài liệu chi tiết
   <section class="header-banner container-fluid">
     <div class="container edupia-mw-1230">
       <div class="row">
-        <div class="col-4 px-0">
+        <div class="col-sm-4 px-0">
           <div class="book-cover">
             <img width="100%" src="{{ asset('images/imgs/other/book-cover.png') }}" alt="book-cover" />
           </div>
         </div>
-        <div class="col-1"></div>
-        <div class="col-7 pl-2">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-7 pl-2">
           <div class="description">
             <p class="text-font-size-20 text-font-weight-600">Đâu là chương trình dạy học tiếng Anh Tiểu học chất lượng cao nên đầu tư cho con?</p>
             <div class="text-font-size-16 text-font-weight-300 category">
@@ -46,7 +46,7 @@ Tài liệu chi tiết
   <section class="ask-form container-fluid">
     <div class="container edupia-mw-1230">
       <div class="row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <div class="text-font-size-26 text-font-weight-600 text-white mb-4">
             <p class="m-0">Trẻ em cần được trao cơ hội để có thể học tập</p>
             <p class="m-0">và phát triển tốt hơn. Giúp con khai phá tiềm </p>
@@ -64,10 +64,10 @@ Tài liệu chi tiết
             </form>
           </div>
         </div>
-        <div class="col-1"></div>
-        <div class="col-5">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5">
           <div class="image-container">
-            <img src="{{ asset('images/imgs/other/chicken-kid.png') }}" alt="chicken-kid" class="image" />
+            <img class="w-100" src="{{ asset('images/imgs/other/chicken-kid.png') }}" alt="chicken-kid" class="image" />
           </div>
         </div>
       </div>
@@ -76,8 +76,8 @@ Tài liệu chi tiết
   </section>
   <section class="container edupia-mw-1230 other-document">
     <p class="text-center text-font-size-36 text-font-weight-500 mb-6">Tài liệu cho con đáng quan tâm khác</p>
-    <div class="row mb-6">
-      <div class="col-3">
+    <div class="row">
+      <div class="col-sm-3 mb-6">
         <div class="logo d-flex justify-content-center align-items-center">
           <img src="{{ asset('images/imgs/other/document-pic-1.png') }}" alt="document-pic-1">
         </div>
@@ -91,7 +91,7 @@ Tài liệu chi tiết
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-sm-3 mb-6">
         <div class="logo d-flex justify-content-center align-items-center">
           <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-1">
         </div>
@@ -105,7 +105,7 @@ Tài liệu chi tiết
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-sm-3 mb-6">
         <div class="logo d-flex justify-content-center align-items-center">
           <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-1">
         </div>
@@ -119,7 +119,7 @@ Tài liệu chi tiết
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-sm-3 mb-6">
         <div class="logo d-flex justify-content-center align-items-center">
           <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-1">
         </div>
@@ -135,7 +135,7 @@ Tài liệu chi tiết
       </div>
     </div>
     <div class="row">
-      <div class="col-3">
+      <div class="col-sm-3 mb-6">
         <div class="logo d-flex justify-content-center align-items-center">
           <img src="{{ asset('images/imgs/other/document-pic-1.png') }}" alt="document-pic-1">
         </div>
@@ -149,7 +149,7 @@ Tài liệu chi tiết
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-sm-3 mb-6">
         <div class="logo d-flex justify-content-center align-items-center">
           <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-1">
         </div>
@@ -163,7 +163,7 @@ Tài liệu chi tiết
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-sm-3 mb-6">
         <div class="logo d-flex justify-content-center align-items-center">
           <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-1">
         </div>
@@ -177,7 +177,7 @@ Tài liệu chi tiết
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-sm-3 mb-6">
         <div class="logo d-flex justify-content-center align-items-center">
           <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-1">
         </div>

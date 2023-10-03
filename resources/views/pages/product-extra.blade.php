@@ -1567,7 +1567,7 @@ Product Extra
             </div>
           </div>
         </section>
-        <section class="vietnamese-teachers container edupia-mw-1230 px-0">
+        <section class="vietnamese-teachers container edupia-mw-1230">
           <div class="row">
             <div class="col-sm text-center header-text text-font-weight-600 text-font-size-36">
               <div class="title">
@@ -1664,7 +1664,7 @@ Product Extra
             </div>
           </div>
         </section>
-        <section class="vietnamese-parrent-review container edupia-mw-1230 px-0">
+        <section class="vietnamese-parrent-review container edupia-mw-1230">
           <div class="row">
             <div class="col-sm text-center header-text text-font-weight-600 text-font-size-36">
               <div class="title">

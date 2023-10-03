@@ -24177,27 +24177,9 @@ a:hover {
 .contact .header-banner {
   height: 490px;
   padding-top: 380px;
-  padding-left: 345px;
-  position: relative;
   background-image: url("/images/imgs/other/contact-header.png");
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.contact .header-banner::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 490px;
-  background-color: rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.contact .header-banner .header-text {
-  position: absolute;
-  z-index: 2;
 }
 
 .contact .contact-form-detail {
@@ -24209,6 +24191,8 @@ a:hover {
   border: none;
   border-bottom: 1px solid #969696;
   border-radius: 0;
+  background-color: transparent;
+  color: black;
 }
 
 .contact .contact-form-detail .contact-form .custom-file-upload {
@@ -24725,11 +24709,6 @@ a:hover {
   border-radius: 15px;
 }
 
-.product-extra .extra-tab-content .vietnamese-middle-banner .banner .form-register {
-  padding-right: 85px;
-  padding-left: 0;
-}
-
 .product-extra .extra-tab-content .vietnamese-middle-banner .banner .form-register .form-group {
   margin-bottom: 24px;
 }
@@ -24926,6 +24905,7 @@ a:hover {
 }
 
 .document .header-banner .content .search-container .search-input {
+  width: 70%;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -24957,7 +24937,7 @@ a:hover {
   border: none;
   border-radius: 100px;
   cursor: pointer;
-  padding: 13px 43px 13px 43px;
+  padding: 13px 43px;
   font-weight: 400;
   font-size: 18px;
 }
@@ -25143,7 +25123,6 @@ a:hover {
 
 .handbook .preview {
   padding-top: 67px;
-  padding-bottom: 43px;
 }
 
 .handbook .preview .short-content {
@@ -25245,10 +25224,6 @@ a:hover {
   margin-bottom: 64px;
 }
 
-.handbook .other-handbook .handbook-list {
-  margin-bottom: 68px;
-}
-
 .handbook .other-handbook .pages {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25340,7 +25315,6 @@ a:hover {
 
 .news .preview {
   padding-top: 67px;
-  padding-bottom: 43px;
 }
 
 .news .preview .short-content {
@@ -25440,10 +25414,6 @@ a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 64px;
-}
-
-.news .other-news .news-list {
-  margin-bottom: 68px;
 }
 
 .news .other-news .pages {

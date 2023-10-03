@@ -11,9 +11,9 @@ Tin tức
   </section>
   <section class="container edupia-mw-1230 preview">
     <div class="row">
-      <div class="col-6">
+      <div class="col-sm-6 mb-5">
         <div>
-          <img width="100%" src="{{ asset('images/imgs/other/news-pic-1.png') }}" alt="news-pic-1" />
+          <img class="w-100" width="100%" src="{{ asset('images/imgs/other/news-pic-1.png') }}" alt="news-pic-1" />
         </div>
         <div class="short-content">
           <span class="title text-font-size-20 text-font-weight-600">MobiFone và Educa hợp tác chiến lược nâng tầm nền giáo dục số Việt Nam</span>
@@ -37,12 +37,12 @@ Tin tức
           </div>
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-sm-6">
         <div class="row mb-5">
-          <div class="col">
-            <img src="{{ asset('images/imgs/other/news-pic-2.png') }}" alt="news-pic-2" />
+          <div class="col-sm">
+            <img class="w-100" src="{{ asset('images/imgs/other/news-pic-2.png') }}" alt="news-pic-2" />
           </div>
-          <div class="col">
+          <div class="col-sm">
             <p>
               Startup Edtech Việt Nam Educa nhận đầu tư từ Quỹ đầu tư Singapore Redefine Capital Fund
             </p>
@@ -59,10 +59,10 @@ Tin tức
           </div>
         </div>
         <div class="row mb-5">
-          <div class="col">
-            <img src="{{ asset('images/imgs/other/news-pic-3.png') }}" alt="news-pic-3" />
+          <div class="col-sm">
+            <img class="w-100" src="{{ asset('images/imgs/other/news-pic-3.png') }}" alt="news-pic-3" />
           </div>
-          <div class="col">
+          <div class="col-sm">
             <p>
               EDUPIA nhận khoản đầu tư 14 triệu USD và hướng tới "xuất khẩu" Edtech ra thị trường Đông Nam Á
             </p>
@@ -78,11 +78,11 @@ Tin tức
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <img src="{{ asset('images/imgs/other/news-pic-4.png') }}" alt="news-pic-4" />
+        <div class="row mb-5">
+          <div class="col-sm">
+            <img class="w-100" src="{{ asset('images/imgs/other/news-pic-4.png') }}" alt="news-pic-4" />
           </div>
-          <div class="col">
+          <div class="col-sm">
             <p>
               Tổng giám đốc Educa nuôi giấc mơ 70% thế hệ trẻ Việt thạo tiếng Anh
             </p>
@@ -104,7 +104,7 @@ Tin tức
   <section class="ask-form container-fluid">
     <div class="container edupia-mw-1230">
       <div class="row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <div class="text-font-size-26 text-font-weight-600 text-white mb-4">
             <p class="m-0">Trẻ em cần được trao cơ hội để có thể học tập</p>
             <p class="m-0">và phát triển tốt hơn. Giúp con khai phá tiềm </p>
@@ -122,10 +122,10 @@ Tin tức
             </form>
           </div>
         </div>
-        <div class="col-1"></div>
-        <div class="col-5">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5">
           <div class="image-container">
-            <img src="{{ asset('images/imgs/other/chicken-kid.png') }}" alt="chicken-kid" class="image" />
+            <img class="w-100" src="{{ asset('images/imgs/other/chicken-kid.png') }}" alt="chicken-kid" class="image" />
           </div>
         </div>
       </div>
@@ -136,7 +136,7 @@ Tin tức
     {{-- page 1 --}}
     <div class="news-list page">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-3 mb-8">
           <div>
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
@@ -162,7 +162,7 @@ Tin tức
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 mb-8">
           <div>
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
@@ -188,7 +188,7 @@ Tin tức
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 mb-8">
           <div>
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
@@ -214,7 +214,7 @@ Tin tức
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 mb-8">
           <div>
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
