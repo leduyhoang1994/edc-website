@@ -179,3 +179,17 @@
   }
 }
 
+
+
+@media (max-width: 576px) {
+  .slick-carousel {
+    width: 100% !important;
+    .slick-prev {
+     display: none !important;
+    }
+    .slick-next {
+      display: none !important;
+
+    }
+  }
+}

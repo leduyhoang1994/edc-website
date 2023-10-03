@@ -23603,6 +23603,7 @@ a:hover {
 }
 
 .go-learning .classin-open {
+  display: none;
   position: relative;
   z-index: 1080;
   padding: 20px 28px 47px 28px;
@@ -23622,6 +23623,7 @@ a:hover {
 }
 
 .go-learning .overlay {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -23952,33 +23954,27 @@ a:hover {
           transform: translate(-50%, -50%);
 }
 
+@media (max-width: 576px) {
+  .slick-carousel {
+    width: 100% !important;
+  }
+
+  .slick-carousel .slick-prev {
+    display: none !important;
+  }
+
+  .slick-carousel .slick-next {
+    display: none !important;
+  }
+}
+
 .recruitment .header-banner {
   height: 490px;
   padding-top: 380px;
-  padding-left: 345px;
-  position: relative;
   background-image: url("/images/imgs/other/recruitment-header.png");
   background-size: cover;
   /* Hiển thị ảnh nền sao cho che phủ toàn bộ khu vực */
   background-repeat: no-repeat;
-}
-
-.recruitment .header-banner::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 490px;
-  background-color: rgba(0, 0, 0, 0.2);
-  /* Màu của lớp mờ (được đặt dưới dạng rgba với độ trong suốt) */
-  z-index: 1;
-  /* Đảm bảo lớp mờ nằm phía trên ảnh nền */
-}
-
-.recruitment .header-banner .header-text {
-  position: absolute;
-  z-index: 2;
 }
 
 .recruitment .header-title {
@@ -24032,6 +24028,7 @@ a:hover {
   border: none;
   outline: none;
   padding: 5px;
+  background: none;
 }
 
 .recruitment .header-title .search-container .search-button {

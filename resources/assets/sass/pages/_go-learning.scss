@@ -22,6 +22,7 @@
     }
   }
   .classin-open {
+    display: none;
     position: relative;
     z-index: 1080;
     padding: 20px 28px 47px 28px;
@@ -39,6 +40,7 @@
     }
   }
   .overlay {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;

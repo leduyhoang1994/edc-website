@@ -19,7 +19,7 @@ Tuyển dụng
       <p class="text-font-size-20 text-font-weight=600 mb-3">Bạn đang tìm kiếm công việc gì ?</p>
     </div>
     <div class="row align-items-center">
-      <div class="col-3">
+      <div class="col-sm-3 my-1">
         <div class="form-group">
           <select class="select-cus form-select rounded-pill w-100 text-font-size-18 text-font-weight-400" aria-label="Select Example">
             <option selected>Tất cả bộ phận</option>
@@ -33,7 +33,7 @@ Tuyển dụng
 
         </div>
       </div>
-      <div class="col-2">
+      <div class="col-sm-2 my-1">
         <div class="form-group">
           <select class="select-cus form-select rounded-pill w-100 text-font-size-18 text-font-weight-400" aria-label="Select Example">
             <option selected>Tất cả địa điểm</option>
@@ -47,7 +47,7 @@ Tuyển dụng
 
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-sm-3 my-1">
         <div class="form-group">
           <select class="select-cus form-select rounded-pill w-100 text-font-size-18 text-font-weight-400" aria-label="Select Example">
             <option selected>Hình thức làm việc</option>
@@ -61,7 +61,7 @@ Tuyển dụng
 
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-sm-4 my-1">
         <div class="search-container w-100">
           <div class="search-icon">
             <img src="{{ asset('images/icons/other/SearchIcon.svg') }}" alt="SearchIcon" />
@@ -77,7 +77,7 @@ Tuyển dụng
     <div class="position-list-job page">
       {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -89,10 +89,10 @@ Tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
@@ -101,7 +101,7 @@ Tuyển dụng
 
       {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -113,10 +113,10 @@ Tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
@@ -125,7 +125,7 @@ Tuyển dụng
 
       {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -137,10 +137,10 @@ Tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
@@ -149,7 +149,7 @@ Tuyển dụng
 
       {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -161,10 +161,10 @@ Tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
@@ -173,7 +173,7 @@ Tuyển dụng
 
       {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -185,10 +185,10 @@ Tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
@@ -198,7 +198,7 @@ Tuyển dụng
     <div class="position-list-job page">
       {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -210,10 +210,10 @@ Tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
@@ -222,31 +222,7 @@ Tuyển dụng
 
       {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
-          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
-            Junior</p>
-          <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
-            <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
-            <span>Hà nội</span>
-            <div class="label">
-              <span class="text-blue-primary">Phòng Marketing</span>
-            </div>
-          </div>
-
-        </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
-          <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
-        </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
-          <div class="recruitment-btn">
-            <span>Ứng tuyển</span>
-          </div>
-        </div>
-      </div>
-
-      {{-- job --}}
-      <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -258,10 +234,10 @@ Tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
@@ -270,7 +246,7 @@ Tuyển dụng
 
       {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -282,10 +258,10 @@ Tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
@@ -294,7 +270,7 @@ Tuyển dụng
 
       {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -306,10 +282,34 @@ Tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+          <div class="recruitment-btn">
+            <span>Ứng tuyển</span>
+          </div>
+        </div>
+      </div>
+
+      {{-- job --}}
+      <div class="position-item row">
+        <div class="col-sm-6">
+          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
+            Senior</p>
+          <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
+            <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
+            <span>Hà nội</span>
+            <div class="label">
+              <span class="text-blue-primary">Phòng Marketing</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+          <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
+        </div>
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
@@ -319,9 +319,9 @@ Tuyển dụng
     <div class="position-list-job page">
       {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
-            Fresher</p>
+            Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
             <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
             <span>Hà nội</span>
@@ -331,10 +331,10 @@ Tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
@@ -343,7 +343,7 @@ Tuyển dụng
 
       {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -355,19 +355,19 @@ Tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
         </div>
       </div>
 
-      {{-- job page 1--}}
+      {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -379,19 +379,19 @@ Tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
         </div>
       </div>
 
-      {{-- job page 2--}}
+      {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -403,19 +403,19 @@ Tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
         </div>
       </div>
 
-      {{-- job page 3--}}
+      {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -427,10 +427,10 @@ Tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>

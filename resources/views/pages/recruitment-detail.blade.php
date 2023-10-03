@@ -23,7 +23,7 @@ Chi tiết tuyển dụng
       </div>
     </div>
     <hr class="m-0" />
-    <div class="d-flex w-70 justify-content-center align-items-center desc-list">
+    <div class="d-flex flex-sm-row flex-column w-70 justify-content-center align-items-center desc-list">
       <div class="px-3">
         <img width="6" src="{{ asset('images/icons/homepage/DotIcon.svg') }}" alt="dot-icon" />
         <span>Địa điểm: Hà Nội</span>
@@ -135,11 +135,11 @@ Chi tiết tuyển dụng
       </div>
     </div>
     <div class="row">
-      <div class="col-2">
+      <div class="col-sm-2">
         <p>Ứng tuyển ngay</p>
         <p>với Edupia</p>
       </div>
-      <div class="col-10 recruitment-form">
+      <div class="col-sm-10 recruitment-form ">
         <form>
           <div class="form-group">
             <label for="hoTen">Họ và tên <span class="text-red text-font-size-600">*</span></label>
@@ -191,7 +191,7 @@ Chi tiết tuyển dụng
     <div class="position-list-job">
       {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -203,10 +203,10 @@ Chi tiết tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
@@ -215,7 +215,7 @@ Chi tiết tuyển dụng
 
       {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -227,10 +227,10 @@ Chi tiết tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
@@ -239,7 +239,7 @@ Chi tiết tuyển dụng
 
       {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -251,10 +251,10 @@ Chi tiết tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
@@ -263,7 +263,7 @@ Chi tiết tuyển dụng
 
       {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -275,19 +275,19 @@ Chi tiết tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
         </div>
       </div>
 
-      {{-- job --}}
+     {{-- job --}}
       <div class="position-item row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
@@ -299,10 +299,10 @@ Chi tiết tuyển dụng
           </div>
 
         </div>
-        <div class="col-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
+        <div class="col-sm-4 d-flex align-items-center text-font-weight-400 text-font-size-18">
           <p class="m-0">Lên đến 25.000.000 VNĐ/tháng</p>
         </div>
-        <div class="col-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
+        <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
             <span>Ứng tuyển</span>
           </div>
@@ -315,7 +315,7 @@ Chi tiết tuyển dụng
       <p class="m-0 text-center text-font-size-30 text-font-weight-600 text-white">Edupia - Công ty Edtech số 1
         tại Việt Nam hân hoan chào đón bạn!</p>
       <div class="content row">
-        <div class="col-4 d-flex flex-column align-items-center">
+        <div class="col-sm-4 d-flex flex-column align-items-center">
           <div class="icon d-flex justify-content-center align-items-center">
             <img src="{{ asset('images/icons/homepage/MemberIcon.svg') }}" alt="MemberIcon" />
           </div>
@@ -331,7 +331,7 @@ Chi tiết tuyển dụng
               hướng tới mục tiêu “Chương trình Tiếng Anh cho trẻ em phổ biến nhất Đông Nam Á”.</p>
           </div>
         </div>
-        <div class="col-4 d-flex flex-column align-items-center">
+        <div class="col-sm-4 d-flex flex-column align-items-center">
           <div class="icon d-flex justify-content-center align-items-center">
             <img src="{{ asset('images/icons/homepage/FlyIcon.svg') }}" alt="FlyIcon" />
           </div>
@@ -347,7 +347,7 @@ Chi tiết tuyển dụng
             </p>
           </div>
         </div>
-        <div class="col-4 d-flex flex-column align-items-center">
+        <div class="col-sm-4 d-flex flex-column align-items-center">
           <div class="icon d-flex justify-content-center align-items-center">
             <img src="{{ asset('images/icons/homepage/PigIcon.svg') }}" alt="PigIcon" />
           </div>
@@ -447,6 +447,26 @@ Chi tiết tuyển dụng
       arrows: true, // Adds arrows to sides of slider
       prevArrow:'<img class="slick-prev" src="/images/icons/homepage/PrevIcon.svg" alt="PrevIcon" />',
       nextArrow:'<img class="slick-next" src="/images/icons/homepage/NextIcon.svg" alt="NextIcon" />',
+      responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
     });
   });
 
