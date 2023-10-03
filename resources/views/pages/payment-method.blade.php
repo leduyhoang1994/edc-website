@@ -42,7 +42,7 @@ Thanh toán
   <section class="banking-info container-fluid py-2">
     <div class="container edupia-mw-1230 text-left">
       <div class="row">
-        <div class="col-2 qr-block">
+        <div class="col-sm-2 qr-block">
           <img class="w-100" src="{{ asset('images/icons/homepage/VnpayQR.png') }}" alt="qr-info" />
           <div class="mt-1 text-font-size-16 text-font-weight-500 text-gray-300 description text-center">
             <span>Quét mã QR hoặc</span>
@@ -50,7 +50,7 @@ Thanh toán
             <span>số tài khoản</span>
           </div>
         </div>
-        <div class="col-10 info-block">
+        <div class="col-sm-10 info-block">
           <p>Ngân hàng: <b>Quân đội MB - Chi nhánh Hoàn Kiếm</b></p>
           <hr/>
           <p class="mt-2">Số tài khoản: <b>0111 104 059 003</b></p>
