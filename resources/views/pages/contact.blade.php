@@ -11,7 +11,7 @@ Liên hệ
   </section>
   <section class="container edupia-mw-1230 info pt-9">
     <div class="row mb-5">
-      <div class="col-5">
+      <div class="col-sm-5">
         <p class="text-font-size-30 text-font-weight-500 mb-4">Thông tin liên hệ</p>
         <p class="text-font-size-20 text-font-weight-600">Công Ty Cổ Phần Giáo Dục Educa Corporation</p>
         <p class="text-font-size-18 text-font-weight-600">Văn phòng Hà nội:</p>
@@ -41,8 +41,8 @@ Liên hệ
           <span>Email: <b>donghanh@educa.vn</b></span>
         </div>
       </div>
-      <div class="col-2"></div>
-      <div class="col-5">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-5">
         <p class="text-font-size-30 text-font-weight-500 mb-5">Kết nối với chúng tôi</p>
         <div class="d-flex align-items-start mb-6">
           <img width="44" class="mr-2" src="{{ asset('images/icons/other/FacebookIcon.svg') }}" alt="FacebookIcon" />
@@ -71,11 +71,11 @@ Liên hệ
   </section>
   <section class="edupia-mw-1230 container contact-form-detail">
     <div class="row mb-9">
-      <div class="col-4 text-font-size-30 text-font-weight-500">
+      <div class="col-sm-4 text-font-size-30 text-font-weight-500">
         <p>Chúng tôi muốn nghe</p>
         <p>ý kiến ​​của bạn!</p>
       </div>
-      <div class="col-8 contact-form">
+      <div class="col-sm-8 contact-form">
         <form>
           <div class="form-group">
             <label for="hoTen">Họ và tên <span class="text-red text-font-size-600">*</span></label>
@@ -101,10 +101,10 @@ Liên hệ
     </div>
     <hr class="m-0"/>
     <div class="row pt-8">
-      <div class="col-4 text-font-size-30 text-font-weight-500">
+      <div class="col-sm-4 text-font-size-30 text-font-weight-500">
         <p>Câu hỏi thường gặp</p>
       </div>
-      <div class="col-8">
+      <div class="col-sm-8">
         <div class="d-flex justify-content-between collapsed" data-toggle="collapse" href="#collapseContent" aria-expanded="false" aria-controls="collapseContent">
           <span>Làm thế nào để đăng ký tài khoản học tại Edupia?</span>
           <img class="if-collapsed" src="{{ asset('images/icons/other/ShowContentIcon.svg') }}" alt="ShowContentIcon" />

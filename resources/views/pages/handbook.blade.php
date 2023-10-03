@@ -11,7 +11,7 @@ Cẩm nang
   </section>
   <section class="container edupia-mw-1230 preview">
     <div class="row">
-      <div class="col-6">
+      <div class="col-sm-6 mb-5">
         <div>
           <img width="100%" src="{{ asset('images/imgs/other/handbook-pic-1.png') }}" alt="handbook-pic-1" />
         </div>
@@ -40,12 +40,12 @@ Cẩm nang
           </div>
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-sm-6">
         <div class="row mb-5">
-          <div class="col">
-            <img src="{{ asset('images/imgs/other/handbook-pic-2.png') }}" alt="handbook-pic-1" />
+          <div class="col-sm">
+            <img class="w-100" src="{{ asset('images/imgs/other/handbook-pic-2.png') }}" alt="handbook-pic-1" />
           </div>
-          <div class="col">
+          <div class="col-sm">
             <p>
               Top 5 phần mềm học Tiếng Anh cho trẻ lớp 1 hot nhất hiện nay
             </p>
@@ -62,10 +62,10 @@ Cẩm nang
           </div>
         </div>
         <div class="row mb-5">
-          <div class="col">
-            <img src="{{ asset('images/imgs/other/handbook-pic-3.png') }}" alt="handbook-pic-1" />
+          <div class="col-sm">
+            <img class="w-100" src="{{ asset('images/imgs/other/handbook-pic-3.png') }}" alt="handbook-pic-1" />
           </div>
-          <div class="col">
+          <div class="col-sm">
             <p>
               EDUPIA nhận khoản đầu tư 14 triệu USD và hướng tới "xuất khẩu" Edtech ra thị trường Đông Nam Á
             </p>
@@ -81,11 +81,11 @@ Cẩm nang
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <img src="{{ asset('images/imgs/other/handbook-pic-4.png') }}" alt="handbook-pic-1" />
+        <div class="row mb-5">
+          <div class="col-sm">
+            <img class="w-100" src="{{ asset('images/imgs/other/handbook-pic-4.png') }}" alt="handbook-pic-1" />
           </div>
-          <div class="col">
+          <div class="col-sm">
             <p>
               Tổng hợp 5 cách học tiếng Anh online lớp 4 hiệu quả ngay tại nhà
             </p>
@@ -107,7 +107,7 @@ Cẩm nang
   <section class="ask-form container-fluid">
     <div class="container edupia-mw-1230">
       <div class="row">
-        <div class="col-6">
+        <div class="col-sm-6">
           <div class="text-font-size-26 text-font-weight-600 text-white mb-4">
             <p class="m-0">Trẻ em cần được trao cơ hội để có thể học tập</p>
             <p class="m-0">và phát triển tốt hơn. Giúp con khai phá tiềm </p>
@@ -125,10 +125,10 @@ Cẩm nang
             </form>
           </div>
         </div>
-        <div class="col-1"></div>
-        <div class="col-5">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5">
           <div class="image-container">
-            <img src="{{ asset('images/imgs/other/chicken-kid.png') }}" alt="chicken-kid" class="image" />
+            <img class="w-100" src="{{ asset('images/imgs/other/chicken-kid.png') }}" alt="chicken-kid" class="image" />
           </div>
         </div>
       </div>
@@ -139,7 +139,7 @@ Cẩm nang
     {{-- page 1 --}}
     <div class="handbook-list page">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-3 mb-8">
           <div>
             <img width="100%" src="{{ asset('images/imgs/other/other-handbook-1.png') }}" alt="other-handbook-1" />
           </div>
@@ -165,7 +165,7 @@ Cẩm nang
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 mb-8">
           <div>
             <img width="100%" src="{{ asset('images/imgs/other/other-handbook-1.png') }}" alt="other-handbook-1" />
           </div>
@@ -191,7 +191,7 @@ Cẩm nang
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 mb-8">
           <div>
             <img width="100%" src="{{ asset('images/imgs/other/other-handbook-1.png') }}" alt="other-handbook-1" />
           </div>
@@ -217,7 +217,7 @@ Cẩm nang
             </div>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 mb-8">
           <div>
             <img width="100%" src="{{ asset('images/imgs/other/other-handbook-1.png') }}" alt="other-handbook-1" />
           </div>
