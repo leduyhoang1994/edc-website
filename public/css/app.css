@@ -1,4 +1,65 @@
-/* vietnamese */
+@font-face {
+  font-family: 'SVN-Poppins';
+  src: url('/fonts/svn/ttf/SVN-Poppins-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SVN-Poppins';
+  src: url('/fonts/svn/ttf/SVN-Poppins-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SVN-Poppins';
+  src: url('/fonts/svn/ttf/SVN-Poppins-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SVN-Poppins';
+  src: url('/fonts/svn/ttf/SVN-Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SVN-Poppins';
+  src: url('/fonts/svn/ttf/SVN-Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SVN-Poppins';
+  src: url('/fonts/svn/ttf/SVN-Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SVN-Poppins';
+  src: url('/fonts/svn/ttf/SVN-Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SVN-Poppins';
+  src: url('/fonts/svn/ttf/SVN-Poppins-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SVN-Poppins';
+  src: url('/fonts/svn/ttf/SVN-Poppins-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}/* vietnamese */
 @font-face {
   font-family: 'Quicksand';
   font-style: normal;
@@ -370,6 +431,18 @@ html {
   font-size: 65px;
 }
 
+.text-font-weight-100 {
+  font-weight: 100;
+}
+
+.text-font-weight-200 {
+  font-weight: 200;
+}
+
+.text-font-weight-300 {
+  font-weight: 300;
+}
+
 .text-font-weight-400 {
   font-weight: 400;
 }
@@ -384,6 +457,10 @@ html {
 
 .text-font-weight-700 {
   font-weight: 700;
+}
+
+.text-font-weight-800 {
+  font-weight: 800;
 }
 
 .text-font-weight-900 {
@@ -708,7 +785,7 @@ section {
 
 body {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "SVN-Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5;
@@ -14501,7 +14578,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "SVN-Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -14626,7 +14703,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Quicksand", sans-serif;
+  font-family: "SVN-Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
