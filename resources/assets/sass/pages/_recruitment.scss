@@ -2,29 +2,14 @@
   .header-banner {
     height: 490px;
     padding-top: 380px;
-    // padding-left: 345px;
-    // position: relative;
     background-image: url("/images/imgs/other/recruitment-header.png");
     background-size: cover;
-    /* Hiển thị ảnh nền sao cho che phủ toàn bộ khu vực */
     background-repeat: no-repeat;
-
-    // &::before {
-    //   content: "";
-    //   position: absolute;
-    //   top: 0;
-    //   left: 0;
-    //   width: 100%;
-    //   height: 490px;
-    //   background-color: rgba(0, 0, 0, 0.20);
-    //   /* Màu của lớp mờ (được đặt dưới dạng rgba với độ trong suốt) */
-    //   z-index: 1;
-    //   /* Đảm bảo lớp mờ nằm phía trên ảnh nền */
-    // }
-
-    .header-text {
+    background-position: center;
+    // .header-text {
  
-    }
+    // }
+  
   }
 
   .header-title {
@@ -197,4 +182,14 @@
     padding-top: 30px;
     padding-bottom: 64px;
   }
+}
+
+@media (max-width: 576px) {
+  .recruitment {
+    .header-banner {
+      height: 245px;
+      padding-top: 150px;
+    }
+  }
+
 }

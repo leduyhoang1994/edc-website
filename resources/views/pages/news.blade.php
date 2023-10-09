@@ -17,7 +17,7 @@ Tin tức
         </div>
         <div class="short-content">
           <span class="title text-font-size-20 text-font-weight-600">MobiFone và Educa hợp tác chiến lược nâng tầm nền giáo dục số Việt Nam</span>
-          <div class="author d-flex text-font-size-16 text-font-weigh-300">
+          <div class="author d-flex text-font-size-16 text-font-weight-300">
             <div class="d-flex align-items-center mr-4">
               <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
               <span>Aladin</span>
@@ -46,7 +46,7 @@ Tin tức
             <p>
               Startup Edtech Việt Nam Educa nhận đầu tư từ Quỹ đầu tư Singapore Redefine Capital Fund
             </p>
-            <div class="author d-flex text-font-size-16 text-font-weigh-300">
+            <div class="author d-flex text-font-size-16 text-font-weight-300">
               <div class="d-flex align-items-center mr-4">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -66,7 +66,7 @@ Tin tức
             <p>
               EDUPIA nhận khoản đầu tư 14 triệu USD và hướng tới "xuất khẩu" Edtech ra thị trường Đông Nam Á
             </p>
-            <div class="author d-flex text-font-size-16 text-font-weigh-300">
+            <div class="author d-flex text-font-size-16 text-font-weight-300">
               <div class="d-flex align-items-center mr-4">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -86,7 +86,7 @@ Tin tức
             <p>
               Tổng giám đốc Educa nuôi giấc mơ 70% thế hệ trẻ Việt thạo tiếng Anh
             </p>
-            <div class="author d-flex text-font-size-16 text-font-weigh-300">
+            <div class="author d-flex text-font-size-16 text-font-weight-300">
               <div class="d-flex align-items-center mr-4">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -142,7 +142,7 @@ Tin tức
           </div>
           <div class="short-content">
             <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weigh-300">
+            <div class="author d-flex text-font-size-16 text-font-weight-300">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -168,7 +168,7 @@ Tin tức
           </div>
           <div class="short-content">
             <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weigh-300">
+            <div class="author d-flex text-font-size-16 text-font-weight-300">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -194,7 +194,7 @@ Tin tức
           </div>
           <div class="short-content">
             <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weigh-300">
+            <div class="author d-flex text-font-size-16 text-font-weight-300">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -220,7 +220,7 @@ Tin tức
           </div>
           <div class="short-content">
             <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weigh-300">
+            <div class="author d-flex text-font-size-16 text-font-weight-300">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
