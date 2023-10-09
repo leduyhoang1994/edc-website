@@ -101,20 +101,23 @@ Tin tức
       </div>
     </div>
   </section>
-  <section class="ask-form container edupia-mw-1230">
-    <p class="text-font-size-30 text-font-weight-300 text-white">BANNER 1230X152 </p>
+  <section class="container edupia-mw-1230">
+    <div class="ask-form">
+      <p class="text-font-size-30 text-font-weight-300 text-white">BANNER 1230X152 </p>
+    </div>
+    
   </section>
   <section class="container edupia-mw-1230 other-news">
     {{-- page 1 --}}
     <div class="news-list page">
       <div class="row">
-        <div class="col-sm-3 mb-8">
+        <div class="col-sm-3 news-item">
           <div>
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weight-300">
+            <p class="text-font-size-18 text-font-weight-500 mt-3">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
+            <div class="author d-flex text-font-size-16 text-font-weight-300 mb-2">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -130,17 +133,17 @@ Tin tức
               </p>
             </div>
             <div class="see-detail-btn">
-              <span class="text-font-size-18 text-font-weight-400 text-white">Xem chi tiết</span>
+              <span class="text-font-size-16 text-font-weight-400 text-white">Xem chi tiết</span>
             </div>
           </div>
         </div>
-        <div class="col-sm-3 mb-8">
+        <div class="col-sm-3 news-item">
           <div>
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weight-300">
+            <p class="text-font-size-18 text-font-weight-500 mt-3">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
+            <div class="author d-flex text-font-size-16 text-font-weight-300 mb-2">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -156,17 +159,17 @@ Tin tức
               </p>
             </div>
             <div class="see-detail-btn">
-              <span class="text-font-size-18 text-font-weight-400 text-white">Xem chi tiết</span>
+              <span class="text-font-size-16 text-font-weight-400 text-white">Xem chi tiết</span>
             </div>
           </div>
         </div>
-        <div class="col-sm-3 mb-8">
+        <div class="col-sm-3 news-item">
           <div>
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weight-300">
+            <p class="text-font-size-18 text-font-weight-500 mt-3">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
+            <div class="author d-flex text-font-size-16 text-font-weight-300 mb-2">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -182,17 +185,17 @@ Tin tức
               </p>
             </div>
             <div class="see-detail-btn">
-              <span class="text-font-size-18 text-font-weight-400 text-white">Xem chi tiết</span>
+              <span class="text-font-size-16 text-font-weight-400 text-white">Xem chi tiết</span>
             </div>
           </div>
         </div>
-        <div class="col-sm-3 mb-8">
+        <div class="col-sm-3 news-item">
           <div>
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weight-300">
+            <p class="text-font-size-18 text-font-weight-500 mt-3">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
+            <div class="author d-flex text-font-size-16 text-font-weight-300 mb-2">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -208,7 +211,7 @@ Tin tức
               </p>
             </div>
             <div class="see-detail-btn">
-              <span class="text-font-size-18 text-font-weight-400 text-white">Xem chi tiết</span>
+              <span class="text-font-size-16 text-font-weight-400 text-white">Xem chi tiết</span>
             </div>
           </div>
         </div>

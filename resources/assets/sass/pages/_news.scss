@@ -49,14 +49,8 @@
   .other-news {
     padding-top: 44px;
     .short-content {
-      padding-top: 24px;
-
       .title {
         display: block;
-      }
-
-      .author {
-        padding-bottom: 17px;
       }
 
       .see-detail-btn {
@@ -79,9 +73,22 @@
       margin-bottom: 64px;
     }
 
-    // .news-list {
-    //   margin-bottom: 68px;
-    // }
+    .news-list {
+      .news-item {
+        margin-bottom: 43px;
+        .see-detail-btn {
+          background: $blue-primary;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 38px;
+          width: 120px;
+          border-radius: 1000px;
+          cursor: pointer;
+          margin-top: 17px;
+        }
+      }
+    }
 
     .pages {
       display: flex;
