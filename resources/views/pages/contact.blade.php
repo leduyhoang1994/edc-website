@@ -10,8 +10,8 @@ Liên hệ
     </div>
   </section>
   <section class="container edupia-mw-1230 info pt-9">
-    <div class="row mb-5">
-      <div class="col-sm-5">
+    <div class="row">
+      <div class="col-sm-5 mb-5">
         <p class="text-font-size-30 text-font-weight-500 mb-4">Thông tin liên hệ</p>
         <p class="text-font-size-20 text-font-weight-600">Công Ty Cổ Phần Giáo Dục Educa Corporation</p>
         <p class="text-font-size-18 text-font-weight-600">Văn phòng Hà nội:</p>
@@ -42,7 +42,7 @@ Liên hệ
         </div>
       </div>
       <div class="col-sm-2"></div>
-      <div class="col-sm-5">
+      <div class="col-sm-5 mb-5">
         <p class="text-font-size-30 text-font-weight-500 mb-5">Kết nối với chúng tôi</p>
         <div class="d-flex align-items-start mb-6">
           <img width="44" class="mr-2" src="{{ asset('images/icons/other/FacebookIcon.svg') }}" alt="FacebookIcon" />
