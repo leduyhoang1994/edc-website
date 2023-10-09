@@ -2,11 +2,10 @@
   .header-banner {
     height: 490px;
     padding-top: 380px;
-    // padding-left: 345px;
-    // position: relative;
     background-image: url("/images/imgs/other/contact-header.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 
     .header-text {
 
@@ -58,7 +57,7 @@
       margin-bottom: 0;
     }
     [data-toggle="collapse"]:not(.collapsed) span {
-      font-weight: bold;
+      font-weight: $font-weight-600;
     }
     .card-answer {
       margin-top: 20px;
@@ -72,4 +71,14 @@
     }
 
   }
+}
+
+@media (max-width: 576px) {
+  .contact {
+    .header-banner {
+      height: 245px;
+      padding-top: 150px;
+    }
+  }
+
 }
