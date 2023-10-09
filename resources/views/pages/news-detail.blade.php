@@ -15,24 +15,24 @@ Bài viết chi tiết
           <a class="text-black-200" href="">MobiFone và Educa hợp tác chiến lược nâng tầm nền giáo dục số Việt Nam</a>
         </div>
         <p class="title m-0 text-font-weight-500 text-font-size-26">MobiFone và Educa hợp tác chiến lược nâng tầm nền giáo dục số Việt Nam</p>
-        <div class="d-flex flex-sm-row flex-column justify-content-between w-75 text-font-size-16 text-font-weight-300">
-          <div class="d-flex align-items-center text-font-weight-400">
+        <div class="social-list d-flex flex-sm-row flex-column justify-content-between text-font-size-16 text-font-weight-300">
+          <div class="d-flex align-items-center text-font-weight-400 mb-1">
             <img class="mr-1" width="13" height="14" src="{{ asset('images/icons/other/FolderIcon.svg') }}" alt="FolderIcon" />
             <span>Tin Tức</span>
           </div>
-          <div class="d-flex align-items-center">
+          <div class="d-flex align-items-center mb-1">
             <img class="mr-1" width="13" height="14" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
             <span>Aladin</span>
           </div>
-          <div class="d-flex align-items-center">
+          <div class="d-flex align-items-center mb-1">
             <img class="mr-1" width="13" height="14" src="{{ asset('images/icons/other/ClockIcon.svg') }}" alt="ClockIcon" />
             <span>Thứ 3, 13-05-2023</span>
           </div>
-          <div class="d-flex align-items-center">
+          <div class="d-flex align-items-center mb-1">
             <img class="mr-1" width="13" height="14" src="{{ asset('images/icons/other/EyeIcon.svg') }}" alt="EyeIcon" />
             <span>5678</span>
           </div>
-          <div class="d-flex align-items-center">
+          <div class="d-flex align-items-center mb-1">
             <span>Share to</span>
             <img class="ml-2" width="96px" src="{{ asset('images/icons/homepage/SocialIcon.svg') }}" alt="social-icon" />
           </div>
@@ -74,48 +74,48 @@ Bài viết chi tiết
         <div class="featured-article">
           <span class="text-font-size-26 text-font-weight-600 text-white">Bài viết nổi bật</span>
         </div>
-        <div class="row mb-4">
+        <div class="row mb-4 text-font-size-18 text-font-weight-500">
           <div class="col-sm">
             <img class="w-100" src="{{ asset('images/imgs/other/news-detail-pic-1.png') }}" alt="news-detail-pic-1" />
           </div>
-          <div class="col-sm">
+          <div class="col-sm right-item">
             <p>
-              Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu
+              Edupia nhận giải thương hiệu giáo dục toàn cầu
             </p>
           </div>
         </div>
-        <div class="row mb-4">
+        <div class="row mb-4 text-font-size-18 text-font-weight-500">
           <div class="col-sm">
             <img class="w-100" src="{{ asset('images/imgs/other/news-detail-pic-2.png') }}" alt="news-detail-pic-2" />
           </div>
-          <div class="col-sm">
+          <div class="col-sm right-item">
             <p>
-              Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu
+              Edupia nhận giải thương hiệu giáo dục toàn cầu
             </p>
           </div>
         </div>
-        <div class="row mb-4">
+        <div class="row mb-4 text-font-size-18 text-font-weight-500">
           <div class="col-sm">
             <img class="w-100" src="{{ asset('images/imgs/other/news-detail-pic-3.png') }}" alt="news-detail-pic-3" />
           </div>
-          <div class="col-sm">
+          <div class="col-sm right-item">
             <p>
-              Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu
+              Edupia nhận giải thương hiệu giáo dục toàn cầu
             </p>
           </div>
         </div>
-        <div class="row mb-4">
+        <div class="row mb-4 text-font-size-18 text-font-weight-500">
           <div class="col-sm">
             <img class="w-100" src="{{ asset('images/imgs/other/news-detail-pic-4.png') }}" alt="news-detail-pic-4" />
           </div>
-          <div class="col-sm">
+          <div class="col-sm right-item">
             <p>
-              Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu
+              Edupia nhận giải thương hiệu giáo dục toàn cầu
             </p>
           </div>
         </div>
-        <div class="row mb-4">
-          <div class="col-sm">
+        <div class="row mb-4 text-font-size-18 text-font-weight-500">
+          <div class="col-sm right-item">
             <img class="w-100" src="{{ asset('images/imgs/other/news-detail-pic-5.png') }}" alt="news-detail-pic-5" />
           </div>
           <div class="col-sm">
@@ -163,7 +163,7 @@ Bài viết chi tiết
       </div>
     </div>
   </section>
-  <section class="container edupia-mw-1230 ">
+  <section class="container edupia-mw-1230">
     <div class="news-list page">
       <p class="title text-font-weight-600 text-font-size-30 text-center m-0">Bài viết liên quan</p>
       <div class="row">
@@ -172,8 +172,8 @@ Bài viết chi tiết
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weight-300">
+            <p class="text-font-size-18 text-font-weight-500 mt-3">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
+            <div class="author d-flex text-font-size-16 text-font-weight-300 mb-2">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -189,7 +189,7 @@ Bài viết chi tiết
               </p>
             </div>
             <div class="see-detail-btn">
-              <span class="text-font-size-18 text-font-weight-400 text-white">Xem chi tiết</span>
+              <span class="text-font-size-16 text-font-weight-400 text-white">Xem chi tiết</span>
             </div>
           </div>
         </div>
@@ -198,8 +198,8 @@ Bài viết chi tiết
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weight-300">
+            <p class="text-font-size-18 text-font-weight-500 mt-3">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
+            <div class="author d-flex text-font-size-16 text-font-weight-300 mb-2">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -215,7 +215,7 @@ Bài viết chi tiết
               </p>
             </div>
             <div class="see-detail-btn">
-              <span class="text-font-size-18 text-font-weight-400 text-white">Xem chi tiết</span>
+              <span class="text-font-size-16 text-font-weight-400 text-white">Xem chi tiết</span>
             </div>
           </div>
         </div>
@@ -224,8 +224,8 @@ Bài viết chi tiết
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weight-300">
+            <p class="text-font-size-18 text-font-weight-500 mt-3">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
+            <div class="author d-flex text-font-size-16 text-font-weight-300 mb-2">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -241,7 +241,7 @@ Bài viết chi tiết
               </p>
             </div>
             <div class="see-detail-btn">
-              <span class="text-font-size-18 text-font-weight-400 text-white">Xem chi tiết</span>
+              <span class="text-font-size-16 text-font-weight-400 text-white">Xem chi tiết</span>
             </div>
           </div>
         </div>
@@ -250,8 +250,8 @@ Bài viết chi tiết
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weight-300">
+            <p class="text-font-size-18 text-font-weight-500 mt-3">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
+            <div class="author d-flex text-font-size-16 text-font-weight-300 mb-2">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -267,7 +267,7 @@ Bài viết chi tiết
               </p>
             </div>
             <div class="see-detail-btn">
-              <span class="text-font-size-18 text-font-weight-400 text-white">Xem chi tiết</span>
+              <span class="text-font-size-16 text-font-weight-400 text-white">Xem chi tiết</span>
             </div>
           </div>
         </div>
@@ -278,8 +278,8 @@ Bài viết chi tiết
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weight-300">
+            <p class="text-font-size-18 text-font-weight-500 mt-3">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
+            <div class="author d-flex text-font-size-16 text-font-weight-300 mb-2">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -295,7 +295,7 @@ Bài viết chi tiết
               </p>
             </div>
             <div class="see-detail-btn">
-              <span class="text-font-size-18 text-font-weight-400 text-white">Xem chi tiết</span>
+              <span class="text-font-size-16 text-font-weight-400 text-white">Xem chi tiết</span>
             </div>
           </div>
         </div>
@@ -304,8 +304,8 @@ Bài viết chi tiết
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weight-300">
+            <p class="text-font-size-18 text-font-weight-500 mt-3">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
+            <div class="author d-flex text-font-size-16 text-font-weight-300 mb-2">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -321,7 +321,7 @@ Bài viết chi tiết
               </p>
             </div>
             <div class="see-detail-btn">
-              <span class="text-font-size-18 text-font-weight-400 text-white">Xem chi tiết</span>
+              <span class="text-font-size-16 text-font-weight-400 text-white">Xem chi tiết</span>
             </div>
           </div>
         </div>
@@ -330,8 +330,8 @@ Bài viết chi tiết
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weight-300">
+            <p class="text-font-size-18 text-font-weight-500 mt-3">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
+            <div class="author d-flex text-font-size-16 text-font-weight-300 mb-2">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -347,7 +347,7 @@ Bài viết chi tiết
               </p>
             </div>
             <div class="see-detail-btn">
-              <span class="text-font-size-18 text-font-weight-400 text-white">Xem chi tiết</span>
+              <span class="text-font-size-16 text-font-weight-400 text-white">Xem chi tiết</span>
             </div>
           </div>
         </div>
@@ -356,8 +356,8 @@ Bài viết chi tiết
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weight-300">
+            <p class="text-font-size-18 text-font-weight-500 mt-3">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
+            <div class="author d-flex text-font-size-16 text-font-weight-300 mb-2">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -373,7 +373,7 @@ Bài viết chi tiết
               </p>
             </div>
             <div class="see-detail-btn">
-              <span class="text-font-size-18 text-font-weight-400 text-white">Xem chi tiết</span>
+              <span class="text-font-size-16 text-font-weight-400 text-white">Xem chi tiết</span>
             </div>
           </div>
         </div>

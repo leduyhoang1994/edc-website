@@ -1,10 +1,14 @@
 .news-detail {
   padding-top: 44px;
   padding-bottom: 74px;
+  
   .left-block {
     .title {
       padding-top: 19px;
       padding-bottom: 19px;
+    }
+    .social-list {
+      width: 90%;
     }
     .line {
       margin-top: 9px;
@@ -80,7 +84,7 @@
         justify-content: center;
         align-items: center;
         height: 38px;
-        width: 135px;
+        width: 120px;
         border-radius: 1000px;
         cursor: pointer;
         margin-top: 17px;
@@ -88,4 +92,13 @@
     }
    
   }
+}
+
+@media (max-width: 576px) {
+  .news-detail {
+    .right-item {
+      margin-top: 16px;
+    }
+  }
+
 }

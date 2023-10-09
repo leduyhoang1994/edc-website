@@ -5,6 +5,7 @@
     background-image: url("/images/imgs/other/news-header.png");
     background-size: cover;
     background-repeat: no-repeat;
+
   }
 
   .preview {
@@ -37,28 +38,16 @@
   }
 
   .ask-form {
-    padding-top: 49px;
-    padding-bottom: 54px;
-    background: $blue-primary;
-
-    .form-rounded {
-      border-radius: 1000px;
-      border: none;
-      font-size: $font-18;
-      font-weight: $font-weight-300;
-      height: 58px;
-      padding-left: 28px;
-    }
-
-    .custom-button {
-      border-radius: 1000px;
-      background: $yellow-400;
-    }
-
+    width: 100%;
+    height: 152px;
+    background: $yellow-400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .other-news {
-    padding-top: 74px;
+    padding-top: 44px;
     .short-content {
       padding-top: 24px;
 
@@ -161,5 +150,20 @@
     }
   }
 
+
+}
+
+@media (max-width: 576px) {
+  .news {
+    .header-banner {
+      height: 245px;
+      padding-top: 150px;
+      background-position: center;
+
+    }
+    .right-item {
+      margin-top: 16px;
+    }
+  }
 
 }

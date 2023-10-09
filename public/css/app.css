@@ -318,7 +318,7 @@ html {
 }
 
 .edupia-mw-1230 {
-  max-width: 1230px !important;
+  max-width: 1260px !important;
 }
 
 .w-45 {
@@ -24051,7 +24051,6 @@ a:hover {
   background-image: url("/images/imgs/other/recruitment-header.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
 }
 
 .recruitment .header-title {
@@ -24255,6 +24254,7 @@ a:hover {
   .recruitment .header-banner {
     height: 245px;
     padding-top: 150px;
+    background-position: center;
   }
 }
 
@@ -24264,7 +24264,6 @@ a:hover {
   background-image: url("/images/imgs/other/contact-header.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
 }
 
 .contact .contact-form-detail {
@@ -24330,6 +24329,7 @@ a:hover {
   .contact .header-banner {
     height: 245px;
     padding-top: 150px;
+    background-position: center;
   }
 }
 
@@ -25211,26 +25211,6 @@ a:hover {
   background-image: url("/images/imgs/other/handbook-header.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-}
-
-.handbook .title {
-  display: block;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  /* number of lines to show */
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
-}
-
-.handbook .content {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 6;
-  /* number of lines to show */
-  line-clamp: 6;
-  -webkit-box-orient: vertical;
 }
 
 .handbook .preview {
@@ -25413,6 +25393,7 @@ a:hover {
   .handbook .header-banner {
     height: 245px;
     padding-top: 150px;
+    background-position: center;
   }
 
   .handbook .right-item {
@@ -25464,27 +25445,22 @@ a:hover {
 }
 
 .news .ask-form {
-  padding-top: 49px;
-  padding-bottom: 54px;
-  background: #20BEC6;
-}
-
-.news .ask-form .form-rounded {
-  border-radius: 1000px;
-  border: none;
-  font-size: 18px;
-  font-weight: 300;
-  height: 58px;
-  padding-left: 28px;
-}
-
-.news .ask-form .custom-button {
-  border-radius: 1000px;
+  width: 100%;
+  height: 152px;
   background: #FFA800;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .news .other-news {
-  padding-top: 74px;
+  padding-top: 44px;
 }
 
 .news .other-news .short-content {
@@ -25612,6 +25588,18 @@ a:hover {
   letter-spacing: 0.3em;
 }
 
+@media (max-width: 576px) {
+  .news .header-banner {
+    height: 245px;
+    padding-top: 150px;
+    background-position: center;
+  }
+
+  .news .right-item {
+    margin-top: 16px;
+  }
+}
+
 .news-detail {
   padding-top: 44px;
   padding-bottom: 74px;
@@ -25620,6 +25608,10 @@ a:hover {
 .news-detail .left-block .title {
   padding-top: 19px;
   padding-bottom: 19px;
+}
+
+.news-detail .left-block .social-list {
+  width: 90%;
 }
 
 .news-detail .left-block .line {
@@ -25725,10 +25717,16 @@ a:hover {
       -ms-flex-align: center;
           align-items: center;
   height: 38px;
-  width: 135px;
+  width: 120px;
   border-radius: 1000px;
   cursor: pointer;
   margin-top: 17px;
+}
+
+@media (max-width: 576px) {
+  .news-detail .right-item {
+    margin-top: 16px;
+  }
 }
 
 @media (max-width: 480px) {
