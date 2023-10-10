@@ -1,11 +1,18 @@
 .recruitment-detail {
   margin-top: 41px;
-
+  line-height: 30px;
   .back-link {
     cursor: pointer;
   }
 
   .header-title {
+    .head {
+      margin-bottom: 10px !important;
+    }
+    .title {
+      margin-bottom: 10px !important;
+
+    }
     .desc-short {
       margin-top: 10px;
       margin-bottom: 26px;
@@ -13,7 +20,7 @@
       .label {
         border-radius: 100px;
         background: $gray-20;
-        padding: 8px 47px;
+        padding: 5px 30px;
         margin-left: 30px;
       }
     }
@@ -34,13 +41,26 @@
   .desc-detail {
     padding-top: 57px;
     padding-bottom: 57px;
-
+    .socical-share {
+      margin-top: 29px;
+      margin-bottom: 57px;
+    }
     .recruitment-form {
 
       .form-control {
         border: none;
         border-bottom: 1px solid $gray-400;
         border-radius: 0;
+      }
+      .form-group {
+        input {
+          height: 25px;
+          padding-left: 0;
+          background: none;
+        }
+        textarea {
+          padding-left: 0;
+        }
       }
 
       .custom-file-upload {
@@ -58,42 +78,42 @@
       .custom-button {
         border-radius: 1000px;
         background: $blue-primary;
-        padding: 12px 12px;
+        padding: 13.5px 12px;
       }
 
     }
   }
 
-  .contact {
-    padding-top: 45px;
-    padding-bottom: 48px;
-  }
 
   .other-position {
     padding-top: 46px;
 
     .position-list-job {
       padding-top: 45px;
-      padding-bottom: 98px;
+      padding-bottom: 73px;
 
       .position-item {
-        padding: 22px 23px 27px 39px;
+        padding: 19px 8px 23px 24px;
         border-radius: 10px;
         box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.05);
         margin-bottom: 25px;
-
         .label {
           border-radius: 20.5px;
           background: $gray-20;
-          padding: 4px 17px;
+          padding: 4px 17.5px;
           margin-left: 38px;
         }
 
         .recruitment-btn {
-          padding: 10px 25px;
-          border-radius: 26px;
+          padding: 8px 23px;
+          border-radius: 25.5px;
           border: 1px solid $blue-primary;
           cursor: pointer;
+          &:hover {
+            background: $yellow-500;
+            border: 1px solid $yellow-500;
+            color: white;
+          }
         }
       }
     }
@@ -108,7 +128,7 @@
     background-position: center top 36px;
     background-color: $blue-primary;
     padding-top: 47px;
-    padding-bottom: 90px;
+    padding-bottom: 52px;
 
     .content {
       margin-top: 44px;

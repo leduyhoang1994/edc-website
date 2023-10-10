@@ -803,6 +803,7 @@ ol li::marker {
   --gray-200: #DEE1E1;
   --gray-300: #C8C8C8;
   --gray-400: #969696;
+  --gray-450: #8F8F8F;
   --gray-500: #828282;
   --gray-700: #9B9B9B;
   --goldenrod: #FFBE44;
@@ -3579,6 +3580,28 @@ pre code {
   background-color: #d5d5d5;
 }
 
+.table-gray-450,
+.table-gray-450 > th,
+.table-gray-450 > td {
+  background-color: #e0e0e0;
+}
+
+.table-gray-450 th,
+.table-gray-450 td,
+.table-gray-450 thead th,
+.table-gray-450 tbody + tbody {
+  border-color: #c5c5c5;
+}
+
+.table-hover .table-gray-450:hover {
+  background-color: lightgray;
+}
+
+.table-hover .table-gray-450:hover > td,
+.table-hover .table-gray-450:hover > th {
+  background-color: lightgray;
+}
+
 .table-gray-500,
 .table-gray-500 > th,
 .table-gray-500 > td {
@@ -6084,6 +6107,49 @@ fieldset:disabled a.btn {
           box-shadow: 0 0 0 0.2rem rgba(132, 133, 134, 0.5);
 }
 
+.btn-gray-450 {
+  color: #FFFFFF;
+  background-color: #8F8F8F;
+  border-color: #8F8F8F;
+}
+
+.btn-gray-450:hover {
+  color: #FFFFFF;
+  background-color: #7c7c7c;
+  border-color: #767575;
+}
+
+.btn-gray-450:focus,
+.btn-gray-450.focus {
+  color: #FFFFFF;
+  background-color: #7c7c7c;
+  border-color: #767575;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(160, 160, 160, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(160, 160, 160, 0.5);
+}
+
+.btn-gray-450.disabled,
+.btn-gray-450:disabled {
+  color: #FFFFFF;
+  background-color: #8F8F8F;
+  border-color: #8F8F8F;
+}
+
+.btn-gray-450:not(:disabled):not(.disabled):active,
+.btn-gray-450:not(:disabled):not(.disabled).active,
+.show > .btn-gray-450.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #767575;
+  border-color: #6f6f6f;
+}
+
+.btn-gray-450:not(:disabled):not(.disabled):active:focus,
+.btn-gray-450:not(:disabled):not(.disabled).active:focus,
+.show > .btn-gray-450.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(160, 160, 160, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(160, 160, 160, 0.5);
+}
+
 .btn-gray-500 {
   color: #FFFFFF;
   background-color: #828282;
@@ -8269,6 +8335,44 @@ fieldset:disabled a.btn {
 .show > .btn-outline-gray-400.dropdown-toggle:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(150, 150, 150, 0.5);
           box-shadow: 0 0 0 0.2rem rgba(150, 150, 150, 0.5);
+}
+
+.btn-outline-gray-450 {
+  color: #8F8F8F;
+  border-color: #8F8F8F;
+}
+
+.btn-outline-gray-450:hover {
+  color: #FFFFFF;
+  background-color: #8F8F8F;
+  border-color: #8F8F8F;
+}
+
+.btn-outline-gray-450:focus,
+.btn-outline-gray-450.focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(143, 143, 143, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(143, 143, 143, 0.5);
+}
+
+.btn-outline-gray-450.disabled,
+.btn-outline-gray-450:disabled {
+  color: #8F8F8F;
+  background-color: transparent;
+}
+
+.btn-outline-gray-450:not(:disabled):not(.disabled):active,
+.btn-outline-gray-450:not(:disabled):not(.disabled).active,
+.show > .btn-outline-gray-450.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #8F8F8F;
+  border-color: #8F8F8F;
+}
+
+.btn-outline-gray-450:not(:disabled):not(.disabled):active:focus,
+.btn-outline-gray-450:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-gray-450.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(143, 143, 143, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(143, 143, 143, 0.5);
 }
 
 .btn-outline-gray-500 {
@@ -12075,6 +12179,24 @@ a.badge-gray-400.focus {
           box-shadow: 0 0 0 0.2rem rgba(150, 150, 150, 0.5);
 }
 
+.badge-gray-450 {
+  color: #FFFFFF;
+  background-color: #8F8F8F;
+}
+
+a.badge-gray-450:hover,
+a.badge-gray-450:focus {
+  color: #FFFFFF;
+  background-color: #767575;
+}
+
+a.badge-gray-450:focus,
+a.badge-gray-450.focus {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(143, 143, 143, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(143, 143, 143, 0.5);
+}
+
 .badge-gray-500 {
   color: #FFFFFF;
   background-color: #828282;
@@ -12985,6 +13107,20 @@ a.badge-neutral.focus {
 
 .alert-gray-400 .alert-link {
   color: #353434;
+}
+
+.alert-gray-450 {
+  color: #4a4a4a;
+  background-color: #e9e9e9;
+  border-color: #e0e0e0;
+}
+
+.alert-gray-450 hr {
+  border-top-color: lightgray;
+}
+
+.alert-gray-450 .alert-link {
+  color: #313030;
 }
 
 .alert-gray-500 {
@@ -14161,6 +14297,23 @@ a.badge-neutral.focus {
   color: #FFFFFF;
   background-color: #4e4e4e;
   border-color: #4e4e4e;
+}
+
+.list-group-item-gray-450 {
+  color: #4a4a4a;
+  background-color: #e0e0e0;
+}
+
+.list-group-item-gray-450.list-group-item-action:hover,
+.list-group-item-gray-450.list-group-item-action:focus {
+  color: #4a4a4a;
+  background-color: lightgray;
+}
+
+.list-group-item-gray-450.list-group-item-action.active {
+  color: #FFFFFF;
+  background-color: #4a4a4a;
+  border-color: #4a4a4a;
 }
 
 .list-group-item-gray-500 {
@@ -15887,6 +16040,17 @@ button.bg-gray-400:focus {
   background-color: #7d7c7c !important;
 }
 
+.bg-gray-450 {
+  background-color: #8F8F8F !important;
+}
+
+a.bg-gray-450:hover,
+a.bg-gray-450:focus,
+button.bg-gray-450:hover,
+button.bg-gray-450:focus {
+  background-color: #767575 !important;
+}
+
 .bg-gray-500 {
   background-color: #828282 !important;
 }
@@ -16338,6 +16502,10 @@ button.bg-neutral:focus {
 
 .border-gray-400 {
   border-color: #969696 !important;
+}
+
+.border-gray-450 {
+  border-color: #8F8F8F !important;
 }
 
 .border-gray-500 {
@@ -22353,6 +22521,15 @@ a.text-gray-400:focus {
   color: #707070 !important;
 }
 
+.text-gray-450 {
+  color: #8F8F8F !important;
+}
+
+a.text-gray-450:hover,
+a.text-gray-450:focus {
+  color: dimgray !important;
+}
+
 .text-gray-500 {
   color: #828282 !important;
 }
@@ -24670,7 +24847,8 @@ a:hover {
 }
 
 .privacy-policy {
-  margin-bottom: 63px;
+  margin-bottom: 79px;
+  line-height: normal;
 }
 
 .privacy-policy .privacy-title {
@@ -24758,10 +24936,19 @@ a:hover {
 
 .recruitment-detail {
   margin-top: 41px;
+  line-height: 30px;
 }
 
 .recruitment-detail .back-link {
   cursor: pointer;
+}
+
+.recruitment-detail .header-title .head {
+  margin-bottom: 10px !important;
+}
+
+.recruitment-detail .header-title .title {
+  margin-bottom: 10px !important;
 }
 
 .recruitment-detail .header-title .desc-short {
@@ -24772,7 +24959,7 @@ a:hover {
 .recruitment-detail .header-title .desc-short .label {
   border-radius: 100px;
   background: #F1F1F1;
-  padding: 8px 47px;
+  padding: 5px 30px;
   margin-left: 30px;
 }
 
@@ -24790,10 +24977,25 @@ a:hover {
   padding-bottom: 57px;
 }
 
+.recruitment-detail .desc-detail .socical-share {
+  margin-top: 29px;
+  margin-bottom: 57px;
+}
+
 .recruitment-detail .desc-detail .recruitment-form .form-control {
   border: none;
   border-bottom: 1px solid #969696;
   border-radius: 0;
+}
+
+.recruitment-detail .desc-detail .recruitment-form .form-group input {
+  height: 25px;
+  padding-left: 0;
+  background: none;
+}
+
+.recruitment-detail .desc-detail .recruitment-form .form-group textarea {
+  padding-left: 0;
 }
 
 .recruitment-detail .desc-detail .recruitment-form .custom-file-upload {
@@ -24810,12 +25012,7 @@ a:hover {
 .recruitment-detail .desc-detail .recruitment-form .custom-button {
   border-radius: 1000px;
   background: #20BEC6;
-  padding: 12px 12px;
-}
-
-.recruitment-detail .contact {
-  padding-top: 45px;
-  padding-bottom: 48px;
+  padding: 13.5px 12px;
 }
 
 .recruitment-detail .other-position {
@@ -24824,11 +25021,11 @@ a:hover {
 
 .recruitment-detail .other-position .position-list-job {
   padding-top: 45px;
-  padding-bottom: 98px;
+  padding-bottom: 73px;
 }
 
 .recruitment-detail .other-position .position-list-job .position-item {
-  padding: 22px 23px 27px 39px;
+  padding: 19px 8px 23px 24px;
   border-radius: 10px;
   -webkit-box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.05);
           box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.05);
@@ -24838,15 +25035,21 @@ a:hover {
 .recruitment-detail .other-position .position-list-job .position-item .label {
   border-radius: 20.5px;
   background: #F1F1F1;
-  padding: 4px 17px;
+  padding: 4px 17.5px;
   margin-left: 38px;
 }
 
 .recruitment-detail .other-position .position-list-job .position-item .recruitment-btn {
-  padding: 10px 25px;
-  border-radius: 26px;
+  padding: 8px 23px;
+  border-radius: 25.5px;
   border: 1px solid #20BEC6;
   cursor: pointer;
+}
+
+.recruitment-detail .other-position .position-list-job .position-item .recruitment-btn:hover {
+  background: #FF9900;
+  border: 1px solid #FF9900;
+  color: white;
 }
 
 .recruitment-detail .banner-body {
@@ -24857,7 +25060,7 @@ a:hover {
   background-position: center top 36px;
   background-color: #20BEC6;
   padding-top: 47px;
-  padding-bottom: 90px;
+  padding-bottom: 52px;
 }
 
 .recruitment-detail .banner-body .content {
