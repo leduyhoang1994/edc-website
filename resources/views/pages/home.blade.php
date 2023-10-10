@@ -45,13 +45,15 @@ Trang chủ
 	<!-- end banner slider -->
 	<!-- section 2 -->
 	<div class="section-2 edupia-container-lg">
-		<div class="row w-75 m-auto">
+		<div class="row w-80 m-auto">
 			<div class="col-12-lg mx-auto mb-6">
 				<p class="text-center text-font-size-36 text-font-weight-600">Edupia và những con số ấn tượng</p>
 				<p class="text-center text-font-size-18 text-font-weight-400">Là sản phẩm tiên phong đi đầu, từ khi ra mắt đến
 					nay EDUPIA đã đạt được những thành tựu ấn tượng
 				</p>
 			</div>
+		</div>
+		<div class="row w-75 m-auto">
 			<div class="col-12-lg mb-7 w-100 h-340 position-relative">
 				<div class="item-achievement-1 position-absolute">
 					<div class="position-relative">
@@ -84,7 +86,8 @@ Trang chủ
 							<p class="text-blue-200 d-flex align-items-baseline line-height-normal">
 								<span class="text-font-size-55 text-font-weight-700 line-height-30">5</span><span>nghìn</span>
 							</p>
-							<p class="mt-2 text-center text-blue-200 text-font-size-16 text-font-weight-500 white-space-nowrap">Bài giảng <br />& Luyện
+							<p class="mt-2 text-center text-blue-200 text-font-size-16 text-font-weight-500 white-space-nowrap">Bài
+								giảng <br />& Luyện
 								tập</p>
 						</div>
 					</div>
@@ -96,7 +99,8 @@ Trang chủ
 							<p class="text-white text-font-size-50 text-font-weight-600 line-height-normal text-center">
 								<span>#1</span>
 							</p>
-							<p class="text-center text-white white-space-nowrap text-font-size-16 text-font-weight-500">Ed-Tech <br />tại Việt Nam</p>
+							<p class="text-center text-white white-space-nowrap text-font-size-16 text-font-weight-500">Ed-Tech
+								<br />tại Việt Nam</p>
 						</div>
 					</div>
 				</div>
@@ -148,18 +152,18 @@ Trang chủ
 	<div class="w-100 section-3">
 		<div class="block-1 text-center">
 			<div class="row m-auto">
-				<div class="col-lg-12 mb-5">
-					<div class="edupia-container-lg mb-5">
+				<div class="col-lg-12">
+					<div class="edupia-container-lg title-section-3">
 						<p class="text-center text-font-size-36 text-font-weight-600">Hệ sinh thái sản phẩm Edupia</p>
 						<p class="text-center text-font-size-18 text-font-weight-400">
 							Giáo viên chuyên nghiệp - Giáo dục truyền cảm hứng - Cá nhân hoá học tập
 						</p>
 					</div>
 				</div>
-				<div class="col-12-lg mx-auto mb-7">
+				<div class="col-12-lg mx-auto mb-5">
 					<div class="container">
 						<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-							<ol class="carousel-indicators align-items-center">
+							<ol class="carousel-indicators align-items-center mb-0">
 								<li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
 								<li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
 								<li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
@@ -307,14 +311,14 @@ Trang chủ
 		<div class="block-1 text-center">
 			<div class="row m-auto">
 				<div class="col-lg-12">
-					<div class="edupia-container-lg mb-5">
-						<p class="text-center text-font-size-36 text-font-weight-600">Lý do để EDUPIA luôn là lựa chọn hàng đầu
+					<div class="edupia-container-lg title-section-4">
+						<p class="text-center text-font-size-36 text-font-weight-600 mb-0">Lý do để EDUPIA luôn là lựa chọn hàng đầu
 						</p>
 					</div>
 				</div>
 				<div class="col-lg-12 px-0">
-					<div class="pt-5">
-						<ul class="nav nav-pills mb-3 justify-content-center gap-25" id="pills-tab" role="tablist">
+					<div class="pt-0 menu-tab-section-4">
+						<ul class="nav nav-pills justify-content-center gap-25" id="pills-tab" role="tablist">
 							<li class="nav-item" role="presentation">
 								<button class="nav-link active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home"
 									type="button" role="tab" aria-controls="pills-home" aria-selected="true">
@@ -338,7 +342,7 @@ Trang chủ
 					<div class="tab-content" id="pills-tabContent">
 						<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 							<div class="text-left">
-								<img class="img-fluid" src="{{ asset('images/icons/homepage/slide-arrow.svg') }}" alt="slide-arrow" />
+								<img class="img-fluid arrow-tab1" src="{{ asset('images/icons/homepage/slide-arrow.svg') }}" alt="slide-arrow" />
 							</div>
 							<div class="bg-blue-100 pt-60">
 								<div class="container">
@@ -406,7 +410,7 @@ Trang chủ
 						</div>
 						<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
 							<div class="text-center">
-								<img src="{{ asset('images/icons/homepage/slide-arrow.svg') }}" alt="slide-arrow" />
+								<img class="arrow-tab2" src="{{ asset('images/icons/homepage/slide-arrow.svg') }}" alt="slide-arrow" />
 							</div>
 							<div class="bg-blue-100 pt-60">
 								<div class="container">
@@ -474,7 +478,7 @@ Trang chủ
 						</div>
 						<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
 							<div class="text-right">
-								<img src="{{ asset('images/icons/homepage/slide-arrow.svg') }}" alt="slide-arrow" />
+								<img class="arrow-tab3" src="{{ asset('images/icons/homepage/slide-arrow.svg') }}" alt="slide-arrow" />
 							</div>
 							<div class="bg-blue-100 pt-60">
 								<div class="container">

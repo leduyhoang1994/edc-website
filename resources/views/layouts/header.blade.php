@@ -6,8 +6,8 @@
       </a>
       <div class="d-flex gap-8 tag-logo position-absolute">
         <a href="#"
-          class="btn bg-yellow-200 font-weight-bold rounded-pill text-font-size-14 text-black-100 item-logo">Babilala</a>
-        <a href="#" class="btn bg-yellow-200 font-weight-bold rounded-pill text-font-size-14 text-black-100 item-logo">Edupia
+          class="btn bg-yellow-400 font-weight-500 rounded-pill text-font-size-14 text-black-100 item-logo">Babilala</a>
+        <a href="#" class="btn bg-yellow-400 font-weight-500 rounded-pill text-font-size-14 text-black-100 item-logo">Edupia
           Business</a>
       </div>
     </div>
@@ -20,13 +20,13 @@
       <ul class="navbar-nav mx-auto nav-primary">
         <li class="nav-item active">
           <a class="nav-link text-white" href="{{ route('about-us') }}">
-            <span class="d-inline-block d-lg-none icon-width "></span>Giới thiệu
+            <span class="d-inline-block d-lg-none icon-width text-font-size-16"></span>Giới thiệu
           </a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link text-white" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">
-            <span class="d-inline-block d-lg-none icon-width"></span>Sản phẩm
+            <span class="d-inline-block d-lg-none icon-width text-font-size-16"></span>Sản phẩm
             <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
               stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="6 9 12 15 18 9"></polyline>
@@ -72,7 +72,7 @@
         <a class="text-white mr-5 text-font-weight-400 item-nav-left" href="#">
           Kích hoạt tài khoản
         </a>
-        <a href="#" class="btn px-5 bg-orange-500 text-font-weight-500 text-white rounded-pill mr-5 item-nav-left">
+        <a href="#" class="btn px-5 bg-yellow-400 text-font-weight-500 text-white rounded-pill mr-5 item-nav-left">
           Vào học
         </a>
         <div class="cursor-pointer my-2 my-sm-0 item-nav-left">

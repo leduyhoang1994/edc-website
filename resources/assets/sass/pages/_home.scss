@@ -4,9 +4,13 @@
     margin: auto 0;
   }
 
+  .img-slider-banner {
+    height: 801px;
+  }
+
   .banner-content {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     z-index: 15;
   }
 
@@ -130,12 +134,33 @@
     .carousel-indicators {
       bottom: -45px;
     }
+
+    .title-section-3 {
+      margin-bottom: 66px;
+    }
   }
 
   .section-4 {
     background-color: $white;
-    padding-top: 76px;
+    padding-top: 68px;
 
+    .title-section-4 {
+      margin-bottom: 40px;
+    }
+
+    .menu-tab-section-4 {
+      margin-bottom: 27px;
+    }
+
+    .arrow-tab1 {
+      margin-left: 1%;
+    }
+    .arrow-tab2 {
+      margin-right: 6%;
+    }
+    .arrow-tab3 {
+      margin-right: 4%;
+    }
     .bg-gradient-choose {
       background: linear-gradient(90deg, #F90 -1.05%, rgba(255, 255, 255, 0.00) 96.6%);
       border-radius: 50px;
@@ -222,9 +247,10 @@
       justify-content: center;
       transition: all 0.2s ease;
 
-      img  {
+      img {
         filter: none;
       }
+
       &:hover {
         cursor: pointer;
       }
