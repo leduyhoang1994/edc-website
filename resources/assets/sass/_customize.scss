@@ -11,6 +11,10 @@ html {
   width: 45%;
 }
 
+.w-80 {
+  width: 80%;
+}
+
 // Margin
 .mb-3-2 {
   margin-bottom: 32px;
@@ -272,7 +276,6 @@ html {
 //nav tabs
 .nav-pills .nav-link {
   font-size: $font-18;
-  font-weight: $font-weight-700;
 }
 
 .nav-pills .nav-link.active,
@@ -281,7 +284,6 @@ html {
   border-radius: 100px;
   color: $white;
   font-size: $font-18;
-  font-weight: $font-weight-700;
 }
 
 //step-by-step

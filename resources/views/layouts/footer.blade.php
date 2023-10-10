@@ -21,7 +21,7 @@
         <div class="marin-top-70">
           <div>
             <a href="#"
-              class="btn bg-blue-500 px-5 py-0 text-font-weight-400 rounded-pill text-font-size-14 text-white mb-3">
+              class="btn btn-location rounded-pill mb-3">
               Hà Nội
             </a>
             <div>
@@ -69,7 +69,7 @@
           </div>
           <div>
             <a href="#"
-              class="btn bg-blue-500 px-5 py-0 text-font-weight-400 rounded-pill text-font-size-14 text-white mt-4 mb-3">
+              class="btn btn-location rounded-pill mt-4 mb-3">
               Tp. Hồ Chí Minh
             </a>
             <div>
