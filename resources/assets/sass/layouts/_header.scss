@@ -25,6 +25,7 @@
   -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
   padding-top: 5px;
   padding-bottom: 5px;
+
   .logo-header img {
     height: 40px;
     width: 232px;
@@ -39,15 +40,41 @@
   color: $white;
   background-color: $blue-primary;
 }
+
 .dropdown-item {
   color: $white !important;
   font-weight: 500;
+
   &:hover {
     background-color: $blue-primary;
     color: $yellow-200 !important;
   }
 }
 
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
   color: $yellow-200 !important;
+}
+
+.btn-study {
+  padding: 5px 20px;
+  color: $white;
+  background-color: $yellow-400;
+
+  &:hover,
+  &:focus {
+    color: $black !important;
+    background-color: $blue-primary !important;
+  }
+}
+
+.btn-logo-add {
+  color: $black-100;
+  background-color: $yellow-400;
+
+  &:hover,
+  &:focus {
+    color: $black !important;
+    background-color: $blue-primary !important;
+  }
 }

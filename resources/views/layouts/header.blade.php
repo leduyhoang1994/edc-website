@@ -6,8 +6,8 @@
       </a>
       <div class="d-flex gap-8 tag-logo position-absolute">
         <a href="#"
-          class="btn bg-yellow-400 font-weight-500 rounded-pill text-font-size-14 text-black-100 item-logo">Babilala</a>
-        <a href="#" class="btn bg-yellow-400 font-weight-500 rounded-pill text-font-size-14 text-black-100 item-logo">Edupia
+          class="btn btn-logo-add font-weight-500 rounded-pill text-font-size-14 item-logo">Babilala</a>
+        <a href="#" class="btn btn-logo-add font-weight-500 rounded-pill text-font-size-14 item-logo">Edupia
           Business</a>
       </div>
     </div>
@@ -72,10 +72,10 @@
         <a class="text-white mr-5 text-font-weight-400 item-nav-left" href="#">
           Kích hoạt tài khoản
         </a>
-        <a href="#" class="btn px-5 bg-yellow-400 text-font-weight-500 text-white rounded-pill mr-5 item-nav-left">
+        <a href="#" class="btn btn-study text-font-weight-500 rounded-pill mr-5 item-nav-left">
           Vào học
         </a>
-        <div class="cursor-pointer my-2 my-sm-0 item-nav-left">
+        <div class="cursor-pointer my-2 my-sm-0 item-nav-left mr-5">
           <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M11.3496 12.1484L15 15.8645" stroke="white" stroke-width="1.3" stroke-linecap="round"
               stroke-linejoin="round" />

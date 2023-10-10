@@ -628,7 +628,6 @@ html {
 
 .nav-pills .nav-link {
   font-size: 18px;
-  font-weight: 700;
 }
 
 .nav-pills .nav-link.active,
@@ -637,7 +636,6 @@ html {
   border-radius: 100px;
   color: #FFFFFF;
   font-size: 18px;
-  font-weight: 700;
 }
 
 .wizard .nav-tabs {
@@ -22484,6 +22482,29 @@ a:hover {
   color: #FFF0B8 !important;
 }
 
+.btn-study {
+  padding: 5px 20px;
+  color: #FFFFFF;
+  background-color: #FFA800;
+}
+
+.btn-study:hover,
+.btn-study:focus {
+  color: #000000 !important;
+  background-color: #20BEC6 !important;
+}
+
+.btn-logo-add {
+  color: #333333;
+  background-color: #FFA800;
+}
+
+.btn-logo-add:hover,
+.btn-logo-add:focus {
+  color: #000000 !important;
+  background-color: #20BEC6 !important;
+}
+
 .footer {
   padding-top: 85px;
   padding-bottom: 70px;
@@ -22496,6 +22517,14 @@ a:hover {
 .footer .hr {
   border-color: #F8F9F9;
   margin-top: 55px;
+}
+
+.footer .btn-location {
+  color: #FFFFFF;
+  background-color: #21BDC6;
+  padding: 4px 16px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .home .content-slide-item {
@@ -22583,8 +22612,16 @@ a:hover {
   background-color: #FFA800;
   border-color: #FFA800;
   border-radius: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 7px 37px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.home .more-btn:hover,
+.home .more-btn :focus {
+  color: #000000 !important;
+  background-color: #20BEC6 !important;
+  border-color: #20BEC6 !important;
 }
 
 .home .form-register {
@@ -22629,7 +22666,7 @@ a:hover {
 }
 
 .home .section-3 {
-  padding-top: 76px;
+  padding-top: 103px;
   background-color: #FFFFFF;
 }
 
@@ -22712,6 +22749,11 @@ a:hover {
   padding-top: 70px;
 }
 
+.home .section-5 .content-section-5 {
+  padding-bottom: 45px;
+  padding-top: 39px;
+}
+
 .home .section-5 .marquee {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -22735,11 +22777,6 @@ a:hover {
   margin-bottom: 10px;
 }
 
-.home .section-5 .marquee-content:not(.slide-item-2):hover {
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
-}
-
 .home .section-5 .marquee-content:is(.slide-item-2) {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22747,11 +22784,6 @@ a:hover {
   -webkit-animation: marquee2 60s linear infinite running;
           animation: marquee2 60s linear infinite running;
   margin-bottom: 10px;
-}
-
-.home .section-5 .marquee-content:is(.slide-item-2):hover {
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
 }
 
 .home .section-5 .marquee-tag {
@@ -22776,6 +22808,8 @@ a:hover {
 
 .home .section-5 .marquee-tag:hover {
   cursor: pointer;
+  -webkit-transform: none;
+          transform: none;
 }
 
 @keyframes marquee1 {

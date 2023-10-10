@@ -83,8 +83,16 @@
     background-color: $yellow-400;
     border-color: $yellow-400;
     border-radius: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 7px 37px;
+    font-size: 18px;
+    font-weight: 500;
+
+    &:hover,
+    :focus {
+      color: $black !important;
+      background-color: $blue-primary !important;
+      border-color: $blue-primary !important;
+    }
   }
 
   .form-register {
@@ -128,7 +136,7 @@
   }
 
   .section-3 {
-    padding-top: 76px;
+    padding-top: 103px;
     background-color: $white;
 
     .carousel-indicators {
@@ -155,12 +163,15 @@
     .arrow-tab1 {
       margin-left: 1%;
     }
+
     .arrow-tab2 {
       margin-right: 6%;
     }
+
     .arrow-tab3 {
       margin-right: 4%;
     }
+
     .bg-gradient-choose {
       background: linear-gradient(90deg, #F90 -1.05%, rgba(255, 255, 255, 0.00) 96.6%);
       border-radius: 50px;
@@ -211,6 +222,11 @@
   .section-5 {
     padding-top: 70px;
 
+    .content-section-5 {
+      padding-bottom: 45px;
+      padding-top: 39px;
+    }
+
     .marquee {
       box-sizing: border-box;
       padding: 0 15px;
@@ -226,7 +242,7 @@
       margin-bottom: 10px;
 
       &:hover {
-        animation-play-state: paused;
+        // animation-play-state: paused;
       }
     }
 
@@ -236,7 +252,7 @@
       margin-bottom: 10px;
 
       &:hover {
-        animation-play-state: paused;
+        // animation-play-state: paused;
       }
     }
 
@@ -253,6 +269,7 @@
 
       &:hover {
         cursor: pointer;
+        transform: none;
       }
     }
 
