@@ -10,8 +10,8 @@ Liên hệ
     </div>
   </section>
   <section class="container edupia-mw-1230 info pt-9">
-    <div class="row mb-5">
-      <div class="col-sm-5">
+    <div class="row">
+      <div class="col-sm-5 mb-5">
         <p class="text-font-size-30 text-font-weight-500 mb-4">Thông tin liên hệ</p>
         <p class="text-font-size-20 text-font-weight-600">Công Ty Cổ Phần Giáo Dục Educa Corporation</p>
         <p class="text-font-size-18 text-font-weight-600">Văn phòng Hà nội:</p>
@@ -34,15 +34,15 @@ Liên hệ
         </div>
         <div class="d-flex align-items-start mb-1">
           <img class="mr-1" width="24" src="{{ asset('images/icons/homepage/PhoneIcon.svg') }}" alt="PhoneIcon" />
-          <span>Điện thoại: <b>093.120.8686</b></span>
+          <span class="text-font-weight-400">Điện thoại: <span class="text-font-weight-600">093.120.8686</b></span>
         </div>
         <div class="d-flex align-items-start">
           <img class="mr-1" width="24" src="{{ asset('images/icons/other/EmailIcon.svg') }}" alt="EmailIcon" />
-          <span>Email: <b>donghanh@educa.vn</b></span>
+          <span class="text-font-weight-400">Email: <span class="text-font-weight-600">donghanh@educa.vn</b></span>
         </div>
       </div>
       <div class="col-sm-2"></div>
-      <div class="col-sm-5">
+      <div class="col-sm-5 mb-5">
         <p class="text-font-size-30 text-font-weight-500 mb-5">Kết nối với chúng tôi</p>
         <div class="d-flex align-items-start mb-6">
           <img width="44" class="mr-2" src="{{ asset('images/icons/other/FacebookIcon.svg') }}" alt="FacebookIcon" />
@@ -105,7 +105,7 @@ Liên hệ
         <p>Câu hỏi thường gặp</p>
       </div>
       <div class="col-sm-8">
-        <div class="d-flex justify-content-between collapsed" data-toggle="collapse" href="#collapseContent" aria-expanded="false" aria-controls="collapseContent">
+        <div class="d-flex justify-content-between collapsed text-font-weight-400 text-font-size-20" data-toggle="collapse" href="#collapseContent" aria-expanded="false" aria-controls="collapseContent">
           <span>Làm thế nào để đăng ký tài khoản học tại Edupia?</span>
           <img class="if-collapsed" src="{{ asset('images/icons/other/ShowContentIcon.svg') }}" alt="ShowContentIcon" />
           <img class="if-not-collapsed" src="{{ asset('images/icons/other/HidenContentIcon.svg') }}" alt="HidenContentIcon" />
@@ -116,7 +116,7 @@ Liên hệ
             <a href="#">Link hướng dẫn</a>
           </div>
         </div>
-        <div class="d-flex justify-content-between collapsed" data-toggle="collapse" href="#collapseContent2" aria-expanded="false" aria-controls="collapseContent">
+        <div class="d-flex justify-content-between collapsed text-font-weight-400 text-font-size-20" data-toggle="collapse" href="#collapseContent2" aria-expanded="false" aria-controls="collapseContent">
           <span>Edupia cam kết những gì cho học viên theo học?</span>
           <img class="if-collapsed" src="{{ asset('images/icons/other/ShowContentIcon.svg') }}" alt="ShowContentIcon" />
           <img class="if-not-collapsed" src="{{ asset('images/icons/other/HidenContentIcon.svg') }}" alt="HidenContentIcon" />
@@ -127,7 +127,7 @@ Liên hệ
             <a href="#">Link hướng dẫn</a>
           </div>
         </div>
-        <div class="d-flex justify-content-between collapsed" data-toggle="collapse" href="#collapseContent3" aria-expanded="false" aria-controls="collapseContent">
+        <div class="d-flex justify-content-between collapsed text-font-weight-400 text-font-size-20" data-toggle="collapse" href="#collapseContent3" aria-expanded="false" aria-controls="collapseContent">
           <span>Cách cài đặt ứng dụng và kích hoạt tài khoản học Edupia trên các thiết bị điện tử tại nhà?</span>
           <img class="if-collapsed" src="{{ asset('images/icons/other/ShowContentIcon.svg') }}" alt="ShowContentIcon" />
           <img class="if-not-collapsed" src="{{ asset('images/icons/other/HidenContentIcon.svg') }}" alt="HidenContentIcon" />
@@ -138,7 +138,7 @@ Liên hệ
             <a href="#">Link hướng dẫn</a>
           </div>
         </div>
-        <div class="d-flex justify-content-between collapsed" data-toggle="collapse" href="#collapseContent4" aria-expanded="false" aria-controls="collapseContent">
+        <div class="d-flex justify-content-between collapsed text-font-weight-400 text-font-size-20" data-toggle="collapse" href="#collapseContent4" aria-expanded="false" aria-controls="collapseContent">
           <span>Một tài khoản có sử dụng được cho nhiều học sinh hay không?</span>
           <img class="if-collapsed" src="{{ asset('images/icons/other/ShowContentIcon.svg') }}" alt="ShowContentIcon" />
           <img class="if-not-collapsed" src="{{ asset('images/icons/other/HidenContentIcon.svg') }}" alt="HidenContentIcon" />
@@ -149,7 +149,7 @@ Liên hệ
             <a href="#">Link hướng dẫn</a>
           </div>
         </div>
-        <div class="d-flex justify-content-between collapsed" data-toggle="collapse" href="#collapseContent5" aria-expanded="false" aria-controls="collapseContent">
+        <div class="d-flex justify-content-between collapsed text-font-weight-400 text-font-size-20" data-toggle="collapse" href="#collapseContent5" aria-expanded="false" aria-controls="collapseContent">
           <span>Làm thế nào khi quên tài khoản và mật khẩu đăng nhập?</span>
           <img class="if-collapsed" src="{{ asset('images/icons/other/ShowContentIcon.svg') }}" alt="ShowContentIcon" />
           <img class="if-not-collapsed" src="{{ asset('images/icons/other/HidenContentIcon.svg') }}" alt="HidenContentIcon" />

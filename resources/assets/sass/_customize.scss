@@ -4,7 +4,7 @@ html {
 
 // sizing
 .edupia-mw-1230 {
-  max-width: 1230px !important;
+  max-width: 1260px !important;
 }
 
 .w-45 {
@@ -51,6 +51,15 @@ html {
 // Display
 .d-inline-grid {
   display: inline-grid;
+}
+
+// Text family
+.text-font-family-quicksand {
+  font-family: $font-family-quicksand;
+}
+
+.text-font-family-inter {
+  font-family: $font-family-inter;
 }
 
 // Text font size

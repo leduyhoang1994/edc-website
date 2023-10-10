@@ -11,13 +11,13 @@ Tin tức
   </section>
   <section class="container edupia-mw-1230 preview">
     <div class="row">
-      <div class="col-sm-6 mb-5">
+      <div class="col-sm-6 mb-7">
         <div>
           <img class="w-100" width="100%" src="{{ asset('images/imgs/other/news-pic-1.png') }}" alt="news-pic-1" />
         </div>
         <div class="short-content">
           <span class="title text-font-size-20 text-font-weight-600">MobiFone và Educa hợp tác chiến lược nâng tầm nền giáo dục số Việt Nam</span>
-          <div class="author d-flex text-font-size-16 text-font-weigh-300">
+          <div class="author d-flex text-font-size-16 text-font-weight-300">
             <div class="d-flex align-items-center mr-4">
               <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
               <span>Aladin</span>
@@ -42,11 +42,11 @@ Tin tức
           <div class="col-sm">
             <img class="w-100" src="{{ asset('images/imgs/other/news-pic-2.png') }}" alt="news-pic-2" />
           </div>
-          <div class="col-sm">
+          <div class="col-sm right-item">
             <p>
               Startup Edtech Việt Nam Educa nhận đầu tư từ Quỹ đầu tư Singapore Redefine Capital Fund
             </p>
-            <div class="author d-flex text-font-size-16 text-font-weigh-300">
+            <div class="author d-flex text-font-size-16 text-font-weight-300">
               <div class="d-flex align-items-center mr-4">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -62,11 +62,11 @@ Tin tức
           <div class="col-sm">
             <img class="w-100" src="{{ asset('images/imgs/other/news-pic-3.png') }}" alt="news-pic-3" />
           </div>
-          <div class="col-sm">
+          <div class="col-sm right-item">
             <p>
               EDUPIA nhận khoản đầu tư 14 triệu USD và hướng tới "xuất khẩu" Edtech ra thị trường Đông Nam Á
             </p>
-            <div class="author d-flex text-font-size-16 text-font-weigh-300">
+            <div class="author d-flex text-font-size-16 text-font-weight-300">
               <div class="d-flex align-items-center mr-4">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -82,11 +82,11 @@ Tin tức
           <div class="col-sm">
             <img class="w-100" src="{{ asset('images/imgs/other/news-pic-4.png') }}" alt="news-pic-4" />
           </div>
-          <div class="col-sm">
+          <div class="col-sm right-item">
             <p>
               Tổng giám đốc Educa nuôi giấc mơ 70% thế hệ trẻ Việt thạo tiếng Anh
             </p>
-            <div class="author d-flex text-font-size-16 text-font-weigh-300">
+            <div class="author d-flex text-font-size-16 text-font-weight-300">
               <div class="d-flex align-items-center mr-4">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -101,48 +101,23 @@ Tin tức
       </div>
     </div>
   </section>
-  <section class="ask-form container-fluid">
-    <div class="container edupia-mw-1230">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="text-font-size-26 text-font-weight-600 text-white mb-4">
-            <p class="m-0">Trẻ em cần được trao cơ hội để có thể học tập</p>
-            <p class="m-0">và phát triển tốt hơn. Giúp con khai phá tiềm </p>
-            <p class="m-0">năng tư duy và ngôn ngữ ngay hôm nay.</p>
-          </div>
-          <div>
-            <p class="text-font-size-16 text-font-weight-400 text-white">Nhập tên và số điện thoại để được Edupia tư vấn lộ trình học cho bé!</p>
-            <form>
-              <div class="form-group">
-                <input type="text" class="form-control form-rounded" placeholder="Nhập tên và sdt của ba mẹ">
-              </div>
-              <button type="submit" class="btn btn-block custom-button py-2">
-                <span class="text-font-weight-600 text-font-size-18 text-white">Nhận tư vấn hỏi miễn phí</span>
-              </button>
-            </form>
-          </div>
-        </div>
-        <div class="col-sm-1"></div>
-        <div class="col-sm-5">
-          <div class="image-container">
-            <img class="w-100" src="{{ asset('images/imgs/other/chicken-kid.png') }}" alt="chicken-kid" class="image" />
-          </div>
-        </div>
-      </div>
+  <section class="container edupia-mw-1230">
+    <div class="ask-form">
+      <p class="text-font-size-30 text-font-weight-300 text-white">BANNER 1230X152 </p>
     </div>
-
+    
   </section>
   <section class="container edupia-mw-1230 other-news">
     {{-- page 1 --}}
     <div class="news-list page">
       <div class="row">
-        <div class="col-sm-3 mb-8">
+        <div class="col-sm-3 news-item">
           <div>
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weigh-300">
+            <p class="text-font-size-18 text-font-weight-500 mt-3">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
+            <div class="author d-flex text-font-size-16 text-font-weight-300 mb-2">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -158,17 +133,17 @@ Tin tức
               </p>
             </div>
             <div class="see-detail-btn">
-              <span class="text-font-size-18 text-font-weight-400 text-white">Xem chi tiết</span>
+              <span class="text-font-size-16 text-font-weight-400 text-white">Xem chi tiết</span>
             </div>
           </div>
         </div>
-        <div class="col-sm-3 mb-8">
+        <div class="col-sm-3 news-item">
           <div>
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weigh-300">
+            <p class="text-font-size-18 text-font-weight-500 mt-3">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
+            <div class="author d-flex text-font-size-16 text-font-weight-300 mb-2">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -184,17 +159,17 @@ Tin tức
               </p>
             </div>
             <div class="see-detail-btn">
-              <span class="text-font-size-18 text-font-weight-400 text-white">Xem chi tiết</span>
+              <span class="text-font-size-16 text-font-weight-400 text-white">Xem chi tiết</span>
             </div>
           </div>
         </div>
-        <div class="col-sm-3 mb-8">
+        <div class="col-sm-3 news-item">
           <div>
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weigh-300">
+            <p class="text-font-size-18 text-font-weight-500 mt-3">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
+            <div class="author d-flex text-font-size-16 text-font-weight-300 mb-2">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -210,17 +185,17 @@ Tin tức
               </p>
             </div>
             <div class="see-detail-btn">
-              <span class="text-font-size-18 text-font-weight-400 text-white">Xem chi tiết</span>
+              <span class="text-font-size-16 text-font-weight-400 text-white">Xem chi tiết</span>
             </div>
           </div>
         </div>
-        <div class="col-sm-3 mb-8">
+        <div class="col-sm-3 news-item">
           <div>
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
-            <p class="text-font-size-20 text-font-weight-600">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
-            <div class="author d-flex text-font-size-16 text-font-weigh-300">
+            <p class="text-font-size-18 text-font-weight-500 mt-3">Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu</p>
+            <div class="author d-flex text-font-size-16 text-font-weight-300 mb-2">
               <div class="d-flex align-items-center mr-3">
                 <img width="13" height="14" class="mr-1" src="{{ asset('images/icons/other/UserIcon.svg') }}" alt="UserIcon" />
                 <span>Aladin</span>
@@ -236,7 +211,7 @@ Tin tức
               </p>
             </div>
             <div class="see-detail-btn">
-              <span class="text-font-size-18 text-font-weight-400 text-white">Xem chi tiết</span>
+              <span class="text-font-size-16 text-font-weight-400 text-white">Xem chi tiết</span>
             </div>
           </div>
         </div>
