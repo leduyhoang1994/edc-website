@@ -49,6 +49,15 @@ html {
   display: inline-grid;
 }
 
+// Text family
+.text-font-family-quicksand {
+  font-family: $font-family-quicksand;
+}
+
+.text-font-family-inter {
+  font-family: $font-family-inter;
+}
+
 // Text font size
 .text-font-size-14 {
   font-size: $font-14 !important;

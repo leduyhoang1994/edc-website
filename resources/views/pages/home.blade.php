@@ -56,7 +56,7 @@ Trang chủ
 				<div class="item-achievement-1 position-absolute">
 					<div class="position-relative">
 						<img class="img-fluid" src="{{ asset('images/imgs/homepage/achievement-1.svg') }}" alt="achievement" />
-						<div class="position-absolute txt-item-achievement">
+						<div class="position-absolute txt-item-achievement text-font-family-inter">
 							<p class="text-white text-font-size-20 line-height-normal d-flex align-items-baseline">
 								<span class="text-font-size-50">5</span> <span class="ml-1">Triệu</span>
 							</p>
