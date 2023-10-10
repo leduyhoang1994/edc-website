@@ -7,7 +7,9 @@ $edupia-width-content: 1170px;
 
 // Typography
 $font-family-base: 'SVN-Poppins', sans-serif;
- 
+$font-family-quicksand: 'Quicksand', sans-serif; 
+$font-family-inter: 'Inter', sans-serif; 
+
 
 // Font Weights
 $font-weight-100: 100;
@@ -202,6 +204,7 @@ $spacers: (
   6: $spacer * 6,
   7: $spacer * 7,
   8: $spacer * 8,
-  9: $spacer * 9
+  9: $spacer * 9,
+  10: $spacer *10
 );
 
