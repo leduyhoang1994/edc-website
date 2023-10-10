@@ -16,7 +16,11 @@
   .banking-info {
     background: $blue-110;
     width: 100%;
-
+    .qr-block {
+      .description  {
+        width: 167px;
+      }
+    }
     .info-block {
       p {
         font-size: $font-18;
@@ -29,6 +33,7 @@
     .table-responsive {
       border-radius: 8px;
     }
+    
     .table th:first-child,
     .table td:first-child {
       width: 70px;
@@ -64,7 +69,21 @@
     .table-bordered>thead>tr>th {
       border: 1px solid #004F80;
     }
-
+    
 
   }
+}
+
+@media (max-width: 576px) {
+  .refund-policy {
+    .banking-info {
+      .qr-block {
+        .description {
+          width: 100%;
+          margin-bottom: 16px;
+        }
+      }
+    }
+  }
+
 }

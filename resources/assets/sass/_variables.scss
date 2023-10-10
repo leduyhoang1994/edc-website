@@ -89,6 +89,7 @@ $black: #000000;
 $violet: #BCA2F8;
 
 
+
 // fusv-disable
 // $blue-100: tint-color($blue, 80%) !default;
 // $blue-200: tint-color($blue, 60%) !default;
@@ -106,6 +107,7 @@ $blue-350: #52C7F1 !default;
 $blue-400: #40B8D5 !default;
 $blue-450: #20BEC6 !default;
 $blue-500: #21BDC6 !default;
+$blue-550: #005488 !default;
 $blue-600: #005487 !default;
 $blue-700: #01C0ED !default;
 $blue-900: #292D32 !default;
@@ -144,7 +146,7 @@ $green-100: #0B9785 !default;
 $violet-100: #5C2DC8 !default;
 $violet-200: #5D5A88 !default;
 $violet-300: #7650D1 !default;
-
+$neutral: #515E5F !default;
 
 $theme-colors: (
   blue-primary: $blue-primary,
@@ -153,6 +155,7 @@ $theme-colors: (
   blue-300: $blue-300,
   blue-400: $blue-400,
   blue-500: $blue-500,
+  blue-550: $blue-550,
   blue-600: $blue-600,
   blue-700: $blue-700,
   blue-900: $blue-900,
@@ -191,6 +194,7 @@ $theme-colors: (
   violet-100: $violet-100,
   violet-200: $violet-200,
   violet-300: $violet-300,
+  neutral: $neutral,
 );
 // Spacing 
 $spacer: 8px !default;

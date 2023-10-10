@@ -1,5 +1,5 @@
 .payment-method {
-  margin-bottom: 43px;
+  margin-bottom: 59px;
   .payment-title {
     padding-top: 82px;
     padding-bottom: 48px;
@@ -24,6 +24,11 @@
   .banking-info {
     background: $blue-110;
     width: 100%;
+    .qr-block {
+      .description  {
+        width: 167px;
+      }
+    }
     .info-block {
       p{
         font-size: $font-18;
@@ -31,15 +36,35 @@
       }
     }
   }
-  .text-noitice {
-    margin-top: 23px;
+  .text-noitice-1 {
+    margin-top: 28px;
     margin-bottom: 7px;
     font-size: $font-18;
-    font-weight: $font-weight-800;
+    font-weight: $font-weight-600;
+  }
+  .text-noitice-2 {
+    margin-top: 23px;
+    margin-bottom: 9px;
+    font-size: $font-18;
+    font-weight: $font-weight-600;
   }
   .vnpay-block {
     .vnpay-title {
       margin-bottom: 9px;
     }
   }
+}
+
+@media (max-width: 576px) {
+  .payment-method {
+    .banking-info {
+      .qr-block {
+        .description {
+          width: 100%;
+          margin-bottom: 16px;
+        }
+      }
+    }
+  }
+
 }

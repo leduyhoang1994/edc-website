@@ -42,20 +42,20 @@ Thanh toán
       <div class="row">
         <div class="col-sm-2 qr-block">
           <img class="w-100" src="{{ asset('images/icons/homepage/VnpayQR.png') }}" alt="qr-info" />
-          <div class="mt-1 text-font-size-16 text-font-weight-500 text-gray-300 description text-center">
+          <div class="mt-1 text-font-size-16 text-font-weight-500 text-neutral description text-center">
             <span>Quét mã QR hoặc</span>
-            <span>hoặc chuyển khoản theo</span>
+            <span>chuyển khoản theo</span>
             <span>số tài khoản</span>
           </div>
         </div>
         <div class="col-sm-10 info-block">
-          <p>Ngân hàng: <b>Quân đội MB - Chi nhánh Hoàn Kiếm</b></p>
-          <hr/>
-          <p class="mt-2">Số tài khoản: <b>0111 104 059 003</b></p>
-          <hr/>
-          <p class="mt-2">Chủ tài khoản: <b>CONG TY CP GIAO DUC EDUCA CORPORATION</b></p>
-          <hr/>
-          <p class="mt-2">Ví dụ: <b>0985004386 Nguyen Van A</b></p>
+          <p >Ngân hàng: <span class="text-font-weight-600">Quân đội MB - Chi nhánh Hoàn Kiếm</span></p>
+          <hr class="mb-2 mt-2"/>
+          <p>Số tài khoản: <span class="text-font-weight-600">0111 104 059 003</span></p>
+          <hr class="mb-2 mt-2" />
+          <p>Chủ tài khoản: <span class="text-font-weight-600">CONG TY CP GIAO DUC EDUCA CORPORATION</span></p>
+          <hr class="mb-2 mt-2" />
+          <p>Ví dụ: <span class="text-font-weight-600">0985004386 Nguyen Van A</span></p>
         </div>
       </div>
     </div>
@@ -64,8 +64,8 @@ Thanh toán
   <section class="container edupia-mw-1230 text-left">
     <div class="row">
       <div class="col">
-        <p class="tex-left text-noitice">Lưu ý:</p>
-        <ul class="text-font-size-18 text-font-weight-400 pl-4">
+        <p class="tex-left text-noitice-1">Lưu ý:</p>
+        <ul class="text-font-size-18 text-font-weight-400 pl-4 mb-3">
           <li>
             <p>
               Nếu phụ huynh thực hiện chuyển khoản không đúng cú pháp nêu trên, vui lòng lên hệ tổng đài
@@ -89,8 +89,8 @@ Thanh toán
           với hầu hết các loại thẻ tín dụng và thẻ ATM do các ngân hàng nội địa phát hành.</p>
         <div class="row">
           <div class="col">
-            <p class="tex-left text-noitice">Lưu ý:</p>
-            <ul class="text-font-size-18 text-font-weight-400 pl-4">
+            <p class="tex-left text-noitice-2">Lưu ý:</p>
+            <ul class="text-font-size-18 text-font-weight-400 pl-4 mb-0">
               <li>
                 <p>
                   Đối với hình thức chuyển khoản và thanh toán trực tuyến: Sau khi hoàn tất các bước thanh toán theo hướng dẫn, nếu sau quá 30 phút Phụ huynh không nhận được bất cứ thông báo nào. Phụ huynh vui lòng liên hệ với chúng tôi để nhận được kết quả giao dịch. Phụ huynh không nên thực hiện tiếp giao dịch để tránh trường hợp bị trừ tiền thêm một lần.
