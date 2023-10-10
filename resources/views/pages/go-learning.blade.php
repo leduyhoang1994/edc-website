@@ -11,51 +11,10 @@ Vào Học
   <section class="container edupia-mw-1230">
     <div class="row">
       {{-- tieu-hoc --}}
-      <div class="col mb-9">
-        <div class="logo d-flex justify-content-center align-items-center">
-          <img src="{{ asset('images/icons/homepage/EdupiaLogo.svg') }}" alt="EdupiaMath">
-        </div>
-        <div class="btn-action">
-          <p class="text-font-weight-600 text-font-size-22 mb-1">EDUPIA AI - TIỂU HỌC</p>
-          <p class="text-font-weight-300 text-font-size-18 m-0">Tiếng Anh online lớp 1-5</p>
-          <div class="mx-auto btn-go-learning text-font-size-20">
-            <p class="m-0 text-white text-font-weight-600">VÀO HỌC</p>
-          </div>
-        </div>
-      </div>
-      {{-- thcs --}}
-      <div class="col mb-9">
-        <div class="logo d-flex justify-content-center align-items-center">
-          <img src="{{ asset('images/icons/homepage/EdupiaTHCS.svg') }}" alt="EdupiaMath">
-        </div>
-        <div class="btn-action">
-          <p class="text-font-weight-600 text-font-size-22 mb-1">EDUPIA AI - THCS</p>
-          <p class="text-font-weight-300 text-font-size-18 m-0">Tiếng Anh online lớp 6-9</p>
-          <div class="mx-auto btn-go-learning text-font-size-20">
-            <p class="m-0 text-white text-font-weight-600">VÀO HỌC</p>
-          </div>
-        </div>
-      </div>
-      {{-- math --}}
-      <div class="col mb-9">
-        <div class="logo d-flex justify-content-center align-items-center">
-          <img width="184" src="{{ asset('images/icons/homepage/EdupiaMath.png') }}" alt="EdupiaMath">
-        </div>
-        <div class="btn-action">
-          <p class="text-font-weight-600 text-font-size-22 mb-1">EDUPIA EXTRA - TOÁN</p>
-          <p class="text-font-weight-300 text-font-size-18 m-0">Toán online lớp 3-5</p>
-          <div class="mx-auto btn-go-learning text-font-size-20">
-            <p class="m-0 text-white text-font-weight-600">VÀO HỌC</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      {{-- tieng viet --}}
       <div class="col">
-        <div class="classin-open">
+        <div class="classin-open mb-9">
           <img src="{{ asset('images/icons/other/RingIcon.svg') }}" alt="RingIcon">
-          <div class="mt-2 mb-3 text-font-weight-400 text-font-size-18">
+          <div class="mt-2 mb-3 text-font-weight-300 text-font-size-18">
             <p class="m-0">Vui lòng liên hệ</p>
             <p class="m-0">ban giáo vụ để được hướng dẫn</p>
             <p class="m-0">tham gia lớp học</p>
@@ -63,8 +22,95 @@ Vào Học
           <div class="open-btn">
             <span>Mở ClassIn</span>
           </div>
-          <p class="mt-1 mb-8" href="#">Đăng ký học?</p>
-          <p>Lớp học sẽ diễn ra trên ClassIn</p>
+          <a class="d-block text-under-line text-black text-font-size-18 text-font-weight-500 text-font-family-quicksand mt-1 mb-8" href="#">Đăng ký học?</a>
+          <p class="m-0 text-font-size-20 text-font-weight-600">Lớp học sẽ diễn ra trên ClassIn</p>
+        </div>
+        <div class="classin-item mb-9">
+          <div class="logo d-flex justify-content-center align-items-center">
+            <img src="{{ asset('images/icons/homepage/EdupiaLogo.svg') }}" alt="EdupiaMath">
+          </div>
+          <div class="btn-action">
+            <p class="text-font-weight-600 text-font-size-22 mb-1">EDUPIA AI - TIỂU HỌC</p>
+            <p class="text-font-weight-300 text-font-size-18 m-0">Tiếng Anh online lớp 1-5</p>
+            <div class="mx-auto btn-go-learning text-font-size-20">
+              <p class="m-0 text-white text-font-weight-600">VÀO HỌC</p>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+      {{-- thcs --}}
+      <div class="col">
+        <div class="classin-open mb-9">
+          <img src="{{ asset('images/icons/other/RingIcon.svg') }}" alt="RingIcon">
+          <div class="mt-2 mb-3 text-font-weight-300 text-font-size-18">
+            <p class="m-0">Vui lòng liên hệ</p>
+            <p class="m-0">ban giáo vụ để được hướng dẫn</p>
+            <p class="m-0">tham gia lớp học</p>
+          </div>
+          <div class="open-btn">
+            <span>Mở ClassIn</span>
+          </div>
+          <a class="d-block text-under-line text-black text-font-size-18 text-font-weight-500 text-font-family-quicksand mt-1 mb-8" href="#">Đăng ký học?</a>
+          <p class="m-0 text-font-size-20 text-font-weight-600">Lớp học sẽ diễn ra trên ClassIn</p>
+        </div>
+        <div class="classin-item mb-9">
+          <div class="logo d-flex justify-content-center align-items-center">
+            <img src="{{ asset('images/icons/homepage/EdupiaTHCS.svg') }}" alt="EdupiaMath">
+          </div>
+          <div class="btn-action">
+            <p class="text-font-weight-600 text-font-size-22 mb-1">EDUPIA AI - THCS</p>
+            <p class="text-font-weight-300 text-font-size-18 m-0">Tiếng Anh online lớp 6-9</p>
+            <div class="mx-auto btn-go-learning text-font-size-20">
+              <p class="m-0 text-white text-font-weight-600">VÀO HỌC</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{-- math --}}
+      <div class="col">
+        <div class="classin-open mb-9">
+          <img src="{{ asset('images/icons/other/RingIcon.svg') }}" alt="RingIcon">
+          <div class="mt-2 mb-3 text-font-weight-300 text-font-size-18">
+            <p class="m-0">Vui lòng liên hệ</p>
+            <p class="m-0">ban giáo vụ để được hướng dẫn</p>
+            <p class="m-0">tham gia lớp học</p>
+          </div>
+          <div class="open-btn">
+            <span>Mở ClassIn</span>
+          </div>
+          <a class="d-block text-under-line text-black text-font-size-18 text-font-weight-500 text-font-family-quicksand mt-1 mb-8" href="#">Đăng ký học?</a>
+          <p class="m-0 text-font-size-20 text-font-weight-600">Lớp học sẽ diễn ra trên ClassIn</p>
+        </div>
+        <div class="classin-item mb-9">
+          <div class="logo d-flex justify-content-center align-items-center">
+            <img width="184" src="{{ asset('images/icons/homepage/EdupiaMath.png') }}" alt="EdupiaMath">
+          </div>
+          <div class="btn-action">
+            <p class="text-font-weight-600 text-font-size-22 mb-1">EDUPIA EXTRA - TOÁN</p>
+            <p class="text-font-weight-300 text-font-size-18 m-0">Toán online lớp 3-5</p>
+            <div class="mx-auto btn-go-learning text-font-size-20">
+              <p class="m-0 text-white text-font-weight-600">VÀO HỌC</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      {{-- tieng viet --}}
+      <div class="col">
+        <div class="classin-open mb-9">
+          <img src="{{ asset('images/icons/other/RingIcon.svg') }}" alt="RingIcon">
+          <div class="mt-2 mb-3 text-font-weight-300 text-font-size-18">
+            <p class="m-0">Vui lòng liên hệ</p>
+            <p class="m-0">ban giáo vụ để được hướng dẫn</p>
+            <p class="m-0">tham gia lớp học</p>
+          </div>
+          <div class="open-btn">
+            <span>Mở ClassIn</span>
+          </div>
+          <a class="d-block text-under-line text-black text-font-size-18 text-font-weight-500 text-font-family-quicksand mt-1 mb-8" href="#">Đăng ký học?</a>
+          <p class="m-0 text-font-size-20 text-font-weight-600">Lớp học sẽ diễn ra trên ClassIn</p>
         </div>
         <div class="classin-item mb-9">
           <div class="logo d-flex justify-content-center align-items-center">
@@ -81,9 +127,9 @@ Vào Học
       </div>
       {{-- ielts --}}
       <div class="col">
-        <div class="classin-open">
+        <div class="classin-open mb-9">
           <img src="{{ asset('images/icons/other/RingIcon.svg') }}" alt="RingIcon">
-          <div class="mt-2 mb-3 text-font-weight-400 text-font-size-18">
+          <div class="mt-2 mb-3 text-font-weight-300 text-font-size-18">
             <p class="m-0">Vui lòng liên hệ</p>
             <p class="m-0">ban giáo vụ để được hướng dẫn</p>
             <p class="m-0">tham gia lớp học</p>
@@ -91,8 +137,8 @@ Vào Học
           <div class="open-btn">
             <span>Mở ClassIn</span>
           </div>
-          <p class="mt-1 mb-8" href="#">Đăng ký học?</p>
-          <p>Lớp học sẽ diễn ra trên ClassIn</p>
+          <a class="d-block text-under-line text-black text-font-size-18 text-font-weight-500 text-font-family-quicksand mt-1 mb-8" href="#">Đăng ký học?</a>
+          <p class="m-0 text-font-size-20 text-font-weight-600">Lớp học sẽ diễn ra trên ClassIn</p>
         </div>
         <div class="classin-item mb-9">
           <div class="logo d-flex justify-content-center align-items-center">
@@ -109,9 +155,9 @@ Vào Học
       </div>
       {{-- tutor --}}
       <div class="col">
-        <div class="classin-open">
+        <div class="classin-open mb-9">
           <img src="{{ asset('images/icons/other/RingIcon.svg') }}" alt="RingIcon">
-          <div class="mt-2 mb-3 text-font-weight-400 text-font-size-18">
+          <div class="mt-2 mb-3 text-font-weight-300 text-font-size-18">
             <p class="m-0">Vui lòng liên hệ</p>
             <p class="m-0">ban giáo vụ để được hướng dẫn</p>
             <p class="m-0">tham gia lớp học</p>
@@ -119,8 +165,8 @@ Vào Học
           <div class="open-btn">
             <span>Mở ClassIn</span>
           </div>
-          <p class="mt-1 mb-8" href="#">Đăng ký học?</p>
-          <p>Lớp học sẽ diễn ra trên ClassIn</p>
+          <a class="d-block text-under-line text-black text-font-size-18 text-font-weight-500 text-font-family-quicksand mt-1 mb-8" href="#">Đăng ký học?</a>
+          <p class="m-0 text-font-size-20 text-font-weight-600">Lớp học sẽ diễn ra trên ClassIn</p>
         </div>
         <div class="classin-item mb-9">
           <div class="logo d-flex justify-content-center align-items-center">
@@ -144,8 +190,6 @@ Vào Học
 <script>
   $(document).ready(function() {
     $(".btn-go-learning").click(function() {
-      // const classinOpen = $(this).closest(".classin-open");
-      // const classinItem = $(this).closest(".classin-item");
       $(this).closest(".col").find(".classin-open").show();
       // Hiển thị classin-item
       $(this).closest(".col").find(".classin-item").hide();

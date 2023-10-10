@@ -4,15 +4,13 @@ Thanh toán
 @endsection
 @section('content')
 <main class="payment-method text-center">
-  <section class="mx-auto payment-title">
-    <p class="m-0 text-font-size-36">Hình Thức Thanh Toán</p>
+  <section class="mx-auto payment-title container edupia-mw-1230">
+    <p class="m-0 text-font-size-40">Hình Thức Thanh Toán</p>
   </section>
   <section class="container edupia-mw-1230 text-left cod-method">
     <div class="row">
       <div class="col">
-        <span class="tex-left text-font-weight-600 text-font-size-18 cod-head">Để tiến hành thanh toán, Phụ huynh vui
-          lòng chọn gói học muốn mua và chọn một
-          trong các hình thức thanh toán sau:</span>
+        <span class="tex-left text-font-weight-400 text-font-size-18 cod-head">Để tiến hành thanh toán, Phụ huynh vui lòng chọn gói học muốn mua và chọn một trong các hình thức thanh toán sau:</span>
         <p class="text-font-size-24 text-blue-300 cod-title">1. Thanh toán khi nhận hàng (COD)</p>
         <ul class="text-font-size-18 text-font-weight-400 pl-3">
           <li>
@@ -34,8 +32,8 @@ Thanh toán
     </div>
     <div class="row banking-block">
       <div class="col">
-        <p class="text-font-size-24 text-blue-300 banking-title">2. Chuyển khoản qua tài khoản ngân hàng</p>
-        <p class="text-font-size-18 text-font-weight-400">Vui lòng chuyển khoản theo thông tin dưới đây:</p>
+        <p class="text-font-size-24 text-blue-300 banking-title mb-3">2. Chuyển khoản qua tài khoản ngân hàng</p>
+        <p class="text-font-size-18 text-font-weight-400 mb-4">Vui lòng chuyển khoản theo thông tin dưới đây:</p>
       </div>
     </div>
   </section>

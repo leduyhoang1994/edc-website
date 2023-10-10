@@ -536,6 +536,11 @@ html {
   font-weight: 900;
 }
 
+.text-under-line {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
 .line-height-28 {
   line-height: 28px;
 }
@@ -24082,6 +24087,10 @@ a:hover {
   padding: 0 20px;
 }
 
+.go-learning {
+  padding-bottom: 73px;
+}
+
 .go-learning .learning-title {
   margin-top: 45px;
   margin-bottom: 62px;
@@ -24092,6 +24101,10 @@ a:hover {
   border-radius: 20px;
   background-color: #F5F5F5;
   margin-bottom: 48px;
+}
+
+.go-learning .btn-action {
+  padding-bottom: 4px;
 }
 
 .go-learning .btn-action .btn-go-learning {
@@ -24134,8 +24147,8 @@ a:hover {
   background: rgba(0, 0, 0, 0.5);
   /* Màu nền mờ */
   opacity: 0.5;
-  pointer-events: none;
-  /* Không ảnh hưởng tới sự tương tác chuột */
+  pointer-events: all;
+  /* sự tương tác chuột */
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
   /* Hiệu ứng mờ */
