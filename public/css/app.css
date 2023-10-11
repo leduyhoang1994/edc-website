@@ -26787,6 +26787,10 @@ a:hover {
   }
 }
 
+.handbook {
+  line-height: normal;
+}
+
 .handbook .header-banner {
   height: 490px;
   padding-top: 380px;
@@ -26845,8 +26849,8 @@ a:hover {
 }
 
 .handbook .ask-form {
-  padding-top: 49px;
-  padding-bottom: 54px;
+  padding-top: 38px;
+  padding-bottom: 25px;
   background: #20BEC6;
 }
 
@@ -26857,9 +26861,27 @@ a:hover {
   font-weight: 300;
   height: 58px;
   padding-left: 28px;
+  color: #000000;
+}
+
+.handbook .ask-form .form-rounded::-webkit-input-placeholder {
+  color: #333333;
+}
+
+.handbook .ask-form .form-rounded::-moz-placeholder {
+  color: #333333;
+}
+
+.handbook .ask-form .form-rounded::-ms-input-placeholder {
+  color: #333333;
+}
+
+.handbook .ask-form .form-rounded::placeholder {
+  color: #333333;
 }
 
 .handbook .ask-form .custom-button {
+  padding: 15px 0;
   border-radius: 1000px;
   background: #FFA800;
 }
@@ -27221,7 +27243,7 @@ a:hover {
 
 .news-detail .left-block .title {
   padding-top: 19px;
-  padding-bottom: 19px;
+  padding-bottom: 24px;
 }
 
 .news-detail .left-block .social-list {
@@ -27340,6 +27362,12 @@ a:hover {
 @media (max-width: 576px) {
   .news-detail .right-item {
     margin-top: 16px;
+  }
+
+  .news-detail .social-list {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
   }
 }
 
