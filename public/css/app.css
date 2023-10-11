@@ -25391,7 +25391,7 @@ a:hover {
 }
 
 .recruitment-detail .other-position .position-list-job .position-item {
-  padding: 19px 8px 23px 24px;
+  padding: 21px 8px 23px 24px;
   border-radius: 10px;
   -webkit-box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.05);
           box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.05);
@@ -25520,6 +25520,10 @@ a:hover {
   }
 }
 
+.recruitment {
+  line-height: normal;
+}
+
 .recruitment .header-banner {
   height: 490px;
   padding-top: 380px;
@@ -25548,7 +25552,7 @@ a:hover {
 
 .recruitment .header-title .custom-icon {
   position: absolute;
-  top: 40%;
+  top: 50%;
   right: 10%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -25599,12 +25603,8 @@ a:hover {
   padding-top: 49px;
 }
 
-.recruitment .other-position .position-list-job {
-  padding-bottom: 64px;
-}
-
 .recruitment .other-position .position-list-job .position-item {
-  padding: 22px 23px 27px 39px;
+  padding: 22px 8px 31px 24px;
   border-radius: 10px;
   -webkit-box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.05);
           box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.05);
@@ -25614,15 +25614,21 @@ a:hover {
 .recruitment .other-position .position-list-job .position-item .label {
   border-radius: 20.5px;
   background: #F1F1F1;
-  padding: 4px 17px;
+  padding: 4px 17.5px;
   margin-left: 38px;
 }
 
 .recruitment .other-position .position-list-job .position-item .recruitment-btn {
-  padding: 10px 25px;
-  border-radius: 26px;
+  padding: 8px 23px;
+  border-radius: 25.5px;
   border: 1px solid #20BEC6;
   cursor: pointer;
+}
+
+.recruitment .other-position .position-list-job .position-item .recruitment-btn:hover {
+  background: #FF9900;
+  border: 1px solid #FF9900;
+  color: white;
 }
 
 .recruitment .other-position .pagination {
@@ -25636,6 +25642,7 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 64px;
   margin-bottom: 64px;
 }
 
@@ -25728,8 +25735,13 @@ a:hover {
 @media (max-width: 576px) {
   .recruitment .header-banner {
     height: 245px;
-    padding-top: 150px;
+    padding-top: 120px;
     background-position: center;
+  }
+
+  .recruitment .select-location {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 }
 
@@ -25754,6 +25766,17 @@ a:hover {
   color: black;
 }
 
+.contact .contact-form-detail .contact-form .form-group input {
+  height: 25px;
+  padding-left: 0;
+  background: none;
+}
+
+.contact .contact-form-detail .contact-form .form-group textarea {
+  padding-left: 0;
+  background: none;
+}
+
 .contact .contact-form-detail .contact-form .custom-file-upload {
   width: 100%;
   display: inline-block;
@@ -25768,7 +25791,7 @@ a:hover {
 .contact .contact-form-detail .contact-form .custom-button {
   border-radius: 1000px;
   background: #20BEC6;
-  padding: 6px;
+  padding: 16px 0;
 }
 
 .contact .contact-form-detail [data-toggle="collapse"].collapsed .if-not-collapsed,
@@ -25805,6 +25828,10 @@ a:hover {
     height: 245px;
     padding-top: 150px;
     background-position: center;
+  }
+
+  .contact .connect-us {
+    font-size: 16px !important;
   }
 }
 

@@ -311,7 +311,7 @@ Chi tiết tuyển dụng
     </div>
   </section>
   <section class="banner-body container-fluid">
-    <div class="edupia-mw-1230 container w-75">
+    <div class="edupia-mw-1230 container">
       <p class="m-0 text-center text-font-size-30 text-font-weight-600 text-white">Edupia - Công ty Edtech số 1
         tại Việt Nam hân hoan chào đón bạn!</p>
       <div class="content row">

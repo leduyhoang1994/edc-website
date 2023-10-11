@@ -16,7 +16,7 @@ Liên hệ
         <p class="text-font-size-20 text-font-weight-600">Công Ty Cổ Phần Giáo Dục Educa Corporation</p>
         <p class="text-font-size-18 text-font-weight-600">Văn phòng Hà nội:</p>
         <div class="d-flex flex-column text-font-weight-300 my-2">
-          <div class="d-flex align-items-start">
+          <div class="d-flex align-items-start mb-1">
             <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
             <span>Tầng 6, Tòa nhà Báo Sinh Viên - Hoa Học Trò, Yên Hòa, Cầu Giấy, Hà Nội</span>
           </div>
@@ -48,21 +48,21 @@ Liên hệ
           <img width="44" class="mr-2" src="{{ asset('images/icons/other/FacebookIcon.svg') }}" alt="FacebookIcon" />
           <div class="text-font-weight-500">
             <p class="m-0 text-font-size-15 text-gray-500">FACEBOOK</p>
-            <p class="m-0 text-font-size-18">facebook.com/Edupia.vn</p>
+            <p class="m-0 text-font-size-18 connect-us">facebook.com/Edupia.vn</p>
           </div>
         </div>
         <div class="d-flex align-items-start mb-6">
           <img width="44" class="mr-2" src="{{ asset('images/icons/other/InstagramIcon.svg') }}" alt="InstagramIcon" />
           <div class="text-font-weight-500">
             <p class="m-0 text-font-size-15 text-gray-500">INSTAGRAM</p>
-            <p class="m-0 text-font-size-18">instagram.com.com/Edupia.vn</p>
+            <p class="m-0 text-font-size-18 connect-us">instagram.com.com/Edupia.vn</p>
           </div>
         </div>
         <div class="d-flex align-items-start mb-6">
           <img width="44" class="mr-2" src="{{ asset('images/icons/other/YoutubeIcon.svg') }}" alt="YoutubeIcon" />
           <div class="text-font-weight-500">
             <p class="m-0 text-font-size-15 text-gray-500">YOUTUBE</p>
-            <p class="m-0 text-font-size-18">youtube.com/TienganhonlineEdupia</p>
+            <p class="m-0 text-font-size-18 connect-us">youtube.com/TienganhonlineEdupia</p>
           </div>
         </div>
       </div>
@@ -75,25 +75,25 @@ Liên hệ
         <p>Chúng tôi muốn nghe</p>
         <p>ý kiến ​​của bạn!</p>
       </div>
-      <div class="col-sm-8 contact-form">
+      <div class="col-sm-8 contact-form text-font-size-18 text-font-weight-500">
         <form>
           <div class="form-group">
-            <label for="hoTen">Họ và tên <span class="text-red text-font-size-600">*</span></label>
-            <input type="text" class="form-control" id="hoTen" required>
+            <label for="hoTen">Họ và tên <span class="text-red">*</span></label>
+            <input type="text" class="form-control shadow-none" id="hoTen" required>
           </div>
           <div class="form-row">
             <div class="form-group col-md-6">
-              <label for="soDienThoai">Số Điện thoại <span class="text-red text-font-size-600">*</span></label>
-              <input type="tel" class="form-control" id="soDienThoai" required>
+              <label for="soDienThoai">Số Điện thoại <span class="text-red">*</span></label>
+              <input type="tel" class="form-control shadow-none" id="soDienThoai" required>
             </div>
             <div class="form-group col-md-6">
               <label for="email">Email</label>
-              <input type="email" class="form-control" id="email">
+              <input type="email" class="form-control shadow-none" id="email">
             </div>
           </div>
           <div class="form-group mb-5">
-            <label for="nguonTin">Lời nhắn đến Edupia <span class="text-red text-font-size-600">*</span></label>
-            <textarea class="form-control" id="nguonTin" rows="2" required></textarea>
+            <label for="nguonTin">Lời nhắn đến Edupia <span class="text-red">*</span></label>
+            <textarea class="form-control shadow-none" id="nguonTin" rows="2" required></textarea>
           </div>
           <button type="submit" class="btn btn-block custom-button"><span class="text-font-weight-600 text-font-size-18 text-white">GỬI ĐI</span></button>
         </form>
