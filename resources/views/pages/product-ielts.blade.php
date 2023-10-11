@@ -25,16 +25,16 @@ Product IELTS
     <div class="container">
       <div class="edupia-container-lg bg-blue-910 div-register">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 position-relative">
             <div class="img-register">
               <img class="img-fluid" src="{{ asset('images/imgs/product/img-register-ielts.png') }}"
                 alt="img register" />
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 px-0">
             <div class="div-form-register">
               <form>
-                <p class="text-center text-white text-font-size-30 text-font-weight-600 mb-0">Học thử miễn phí ngay hôm
+                <p class="text-center text-white text-font-size-30 text-font-weight-600 mb-0 title-register">Học thử miễn phí ngay hôm
                   nay</p>
                 <p class="text-center text-white text-font-size-18 text-font-weight-400 mb-3">Để lại thông tin để ban
                   giáo vụ
@@ -51,8 +51,8 @@ Product IELTS
                 <div class="form-group">
                   <input class="form-control input-customer" type="text" placeholder="Năm sinh của con" />
                 </div>
-                <div class="text-center">
-                  <button type="submit" class="btn btn-primary more-btn btn-register">Đăng ký học thử</button>
+                <div class="text-center div-button-form">
+                  <button type="submit" class="btn btn-primary more-btn btn-register">Đăng ký ngay</button>
                 </div>
               </form>
             </div>
@@ -101,7 +101,7 @@ Product IELTS
                 </div>
               </div>
               <div class="col-lg-5">
-                <div>
+                <div class="img-chance">
                   <img src="{{ asset('images/imgs/product/img-chance.png') }}" class="img-fluid" alt="img-chance" />
                 </div>
               </div>
@@ -121,13 +121,13 @@ Product IELTS
                 cao với điểm IELTS 8.0 trở lên</p>
             </div>
           </div>
-          <div class="col-lg-12 mb-5">
+          <div class="col-lg-12">
             <div class="bg-green-100 item-teacher">
               <div class="row">
                 <div class="col-lg-5">
                   <div class="pl-5 avt-teacher text-center">
                     <img class="img-fluid" src="{{ asset('images/imgs/product/teacher-1.png') }}" alt="teacher" />
-                    <div>
+                    <div class="title-teacher">
                       <p class="mb-0 text-white text-font-size-30 text-font-weight-700 ">Thạc sĩ Thanh Hương</p>
                       <p class="mb-0 text-yellow-600 text-font-size-30 text-font-weight-700 ">8.0 IELTS Overall</p>
                     </div>
@@ -160,13 +160,13 @@ Product IELTS
               </div>
             </div>
           </div>
-          <div class="col-lg-12 mb-5">
+          <div class="col-lg-12">
             <div class="bg-green-100 item-teacher">
               <div class="row">
                 <div class="col-lg-5">
                   <div class="pl-5 avt-teacher text-center">
                     <img class="img-fluid" src="{{ asset('images/imgs/product/teacher-2.png') }}" alt="teacher" />
-                    <div>
+                    <div class="title-teacher">
                       <p class="mb-0 text-white text-font-size-30 text-font-weight-700 ">Thạc sĩ Hồng Nhung</p>
                       <p class="mb-0 text-yellow-600 text-font-size-30 text-font-weight-700 ">8.0 IELTS Overall</p>
                     </div>
@@ -236,7 +236,7 @@ Product IELTS
                 <div class="d-flex justify-content-center">
                   <div class="card border-0 item-procedure align-items-center" style="width: 100%;">
                     <img class="card-img" src="{{ asset('images/imgs/product/produce-1.svg') }}" alt="Card image cap">
-                    <div class="card-body">
+                    <div class="card-body px-0 py-0 item-content-procedure">
                       <h5 class="text-center card-title text-white text-font-size-24 text-font-weight-700 mb-1">
                         LÊN KẾ HOẠCH
                       </h5>
@@ -251,12 +251,12 @@ Product IELTS
                 <div class="d-flex justify-content-center">
                   <div class="card border-0 item-procedure align-items-center" style="width: 100%;">
                     <img class="card-img" src="{{ asset('images/imgs/product/produce-2.svg') }}" alt="Card image cap">
-                    <div class="card-body">
+                    <div class="card-body px-0 py-0 item-content-procedure">
                       <h5 class="text-center card-title text-white text-font-size-24 text-font-weight-700 mb-1">
                         TIẾN HÀNH
                       </h5>
                       <p class="text-center text-font-size-18 text-font-weight-400 text-white">
-                        Bắt đầu khoan sâu hơn từng chút một
+                        Bắt đầu khoan sâu hơn<br /> từng chút một
                       </p>
                     </div>
                   </div>
@@ -266,7 +266,7 @@ Product IELTS
                 <div class="d-flex justify-content-center">
                   <div class="card border-0 item-procedure align-items-center" style="width: 100%;">
                     <img class="card-img" src="{{ asset('images/imgs/product/produce-3.svg') }}" alt="Card image cap">
-                    <div class="card-body">
+                    <div class="card-body px-0 py-0 item-content-procedure">
                       <h5 class="text-center card-title text-white text-font-size-24 text-font-weight-700 mb-1">
                         PHÁT TRIỂN
                       </h5>
@@ -286,20 +286,20 @@ Product IELTS
   <section class="ielts-trip">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 mb-4">
-          <div class="text-center">
+        <div class="col-lg-12">
+          <div class="text-center btn-trip-register">
             <button type="submit" class="btn btn-primary more-btn btn-register">Đăng ký tư vấn</button>
           </div>
         </div>
-        <div class="col-lg-12 my-5">
+        <div class="col-lg-12">
           <div>
-            <p class="text-black text-center text-font-size-36 text-font-weight-600">Lộ trình cá nhân hóa phù hợp
+            <p class="text-black text-center text-font-size-36 text-font-weight-600 title-trip">Lộ trình cá nhân hóa phù hợp
               với từng học sinh</p>
             <p class="text-black text-center text-font-size-18 text-font-weight-400">với mục tiêu giúp các em đạt
               6.0+ ngay từ cấp 2</p>
           </div>
         </div>
-        <div class="col-lg-12">
+        <div class="col-lg-12 img-trip-content">
           <div class="row align-items-center">
             <div class="col-lg-5">
               <div>
@@ -346,7 +346,7 @@ Product IELTS
     <div class="container">
       <div class="edupia-container-lg">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-12 title-feedback1">
             <div>
               <p class="text-black text-font-size-36 text-font-weight-600 text-center">
                 EDUPIA IELTS là nền móng vững chắc của<br />
@@ -374,7 +374,7 @@ Product IELTS
                               <h5 class="mb-0 card-title text-blue-920 text-font-size-20 text-font-weight-600">Chị Minh
                                 Ngọc</h5>
                               <p class="card-text text-font-size-16 text-font-weight-600">Phụ huynh em Minh Huyền</p>
-                              <div class="text-center my-1">
+                              <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
@@ -400,7 +400,7 @@ Product IELTS
                               <h5 class="mb-0 card-title text-blue-920 text-font-size-20 text-font-weight-600">Chị Dung
                                 (Mẹ Mi Mi)</h5>
                               <p class="card-text text-font-size-16 text-font-weight-600">Nhân viên Kế Toán</p>
-                              <div class="text-center my-1">
+                              <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
@@ -431,7 +431,7 @@ Product IELTS
                               <h5 class="mb-0 card-title text-blue-920 text-font-size-20 text-font-weight-600">Chị Dung
                                 (Mẹ Mi Mi)</h5>
                               <p class="card-text text-font-size-16 text-font-weight-600">Nhân viên Kế Toán</p>
-                              <div class="text-center my-1">
+                              <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
@@ -458,7 +458,7 @@ Product IELTS
                               <h5 class="mb-0 card-title text-blue-920 text-font-size-20 text-font-weight-600">Chị Minh
                                 Ngọc</h5>
                               <p class="card-text text-font-size-16 text-font-weight-600">Phụ huynh em Minh Huyền</p>
-                              <div class="text-center my-1">
+                              <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
@@ -488,7 +488,7 @@ Product IELTS
                               <h5 class="mb-0 card-title text-blue-920 text-font-size-20 text-font-weight-600">Chị Minh
                                 Ngọc</h5>
                               <p class="card-text text-font-size-16 text-font-weight-600">Phụ huynh em Minh Huyền</p>
-                              <div class="text-center my-1">
+                              <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
@@ -514,7 +514,7 @@ Product IELTS
                               <h5 class="mb-0 card-title text-blue-920 text-font-size-20 text-font-weight-600">Chị Dung
                                 (Mẹ Mi Mi)</h5>
                               <p class="card-text text-font-size-16 text-font-weight-600">Nhân viên Kế Toán</p>
-                              <div class="text-center my-1">
+                              <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
@@ -1062,7 +1062,7 @@ Product IELTS
     <div class="container">
       <div class="edupia-container-lg">
         <div class="row">
-          <div class="col-lg-12 mb-5">
+          <div class="col-lg-12">
             <div class="title-verify">
               <p class="text-black text-center text-font-size-36 text-font-weight-600">Được kiểm chứng bởi truyền
                 thông, báo chí toàn quốc</p>
@@ -1085,8 +1085,8 @@ Product IELTS
                         </div>
                       </div>
                     </div>
-                    <div class="card-body pl-0 pr-0">
-                      <p class="text-black text-center text-font-size-18 text-font-weight-400">
+                    <div class="card-body px-0 py-0 des-video">
+                      <p class="text-black text-center text-font-size-16 text-font-weight-400">
                         VTV Đánh giá Edupia là khoá học DUY NHẤT đồng hành giúp hơn 1 TRIỆU học sinh từ yếu kém lên khá,
                         giỏi Tiếng Anh
                       </p>
@@ -1109,8 +1109,8 @@ Product IELTS
                         </div>
                       </div>
                     </div>
-                    <div class="card-body pl-0 pr-0">
-                      <p class="text-black text-center text-font-size-18 text-font-weight-400">
+                    <div class="card-body px-0 py-0 des-video">
+                      <p class="text-black text-center text-font-size-16 text-font-weight-400">
                         Edupia là chương trình Tiếng Anh ĐẦU TIÊN có
                         thầy cô giáo đồng hành theo sát tiến bộ của con 24/7
                       </p>
@@ -1120,7 +1120,7 @@ Product IELTS
               </div>
             </div>
           </div>
-          <div class="col-lg-12 mb-5 pb-5">
+          <div class="col-lg-12 slide-social">
             <div class="marquee">
               <div class="marquee-content">
                 <div class="marquee-tag">
@@ -1180,14 +1180,14 @@ Product IELTS
               </div>
             </div>
           </div>
-          <div class="col-lg-12 mt-5 py-5">
+          <div class="col-lg-12 chicken-div-content">
             <div class="row">
               <div class="col-lg-7">
                 <div class="content-chicken-txt">
-                  <p class="text-left text-blue-920 text-font-size-45 text-font-weight-600 line-height-44 mb-2">
+                  <p class="text-left text-blue-920 text-font-size-45 text-font-weight-600 line-height-44 title-chicken">
                     Chỉ từ 175k/buổi
                   </p>
-                  <p class="text-left text-green-100 text-font-size-36 text-font-weight-600">
+                  <p class="text-left text-green-100 text-font-size-36 text-font-weight-600 des-chicken">
                     Miễn phí kiểm tra đầu vào
                   </p>
                   <p
@@ -1195,8 +1195,8 @@ Product IELTS
                     Edupia Native mang lại sự hài lòng và an tâm tuyệt đối cho hàng ngàn phụ huynh.<br />
                     Chúng tôi cam kết hoàn 100% học phí nếu sau 3 tháng con không tiến bộ.
                   </p>
-                  <div>
-                    <button class="btn btn-primary more-btn mt-4">Đăng ký tư vấn</button>
+                  <div class="btn-chicken-verify">
+                    <button class="btn btn-primary more-btn btn-resize">Đăng ký tư vấn</button>
                   </div>
                 </div>
               </div>
@@ -1212,20 +1212,20 @@ Product IELTS
       </div>
     </div>
   </section>
-  <section class="ielts-register">
+  <section class="ielts-register form-register-bottom">
     <div class="container">
       <div class="edupia-container-lg bg-blue-910 div-register">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 position-relative">
             <div class="img-register">
               <img class="img-fluid" src="{{ asset('images/imgs/product/img-register-ielts.png') }}"
                 alt="img register" />
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 px-0">
             <div class="div-form-register">
               <form>
-                <p class="text-center text-white text-font-size-30 text-font-weight-600 mb-0">Học thử miễn phí ngay hôm
+                <p class="text-center text-white text-font-size-30 text-font-weight-600 mb-0 title-register">Học thử miễn phí ngay hôm
                   nay</p>
                 <p class="text-center text-white text-font-size-18 text-font-weight-400 mb-3">Để lại thông tin để ban
                   giáo vụ
@@ -1242,7 +1242,7 @@ Product IELTS
                 <div class="form-group">
                   <input class="form-control input-customer" type="text" placeholder="Năm sinh của con" />
                 </div>
-                <div class="text-center">
+                <div class="text-center div-button-form">
                   <button type="submit" class="btn btn-primary more-btn btn-register">Đăng ký ngay</button>
                 </div>
               </form>

@@ -5,22 +5,22 @@ Product Pro
 @section('content')
 <div class="product-pro">
   <section class="pro-header-banner">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 title-banner">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-lg-5 title-banner px-0">
           <div class="center">
-            <p class="text-white text-font-size-40 text-font-weight-700">EDUPIA PRO</p>
-            <p class="text-white text-font-size-36 text-font-weight-700 line-height-44">Cán đích điểm 10 tiếng Anh
+            <p class="text-white text-font-size-40 text-font-weight-700 txt-banner-pro">EDUPIA PRO</p>
+            <p class="text-white text-font-size-36 text-font-weight-700 line-height-44 des-banber-pro1">Cán đích điểm 10 tiếng Anh
               <br />
               cùng gia sư trực tuyến hàng đầu
             </p>
-            <p class="text-white text-font-size-20 text-font-weight-700 mt-3">
+            <p class="text-white text-font-size-20 text-font-weight-700 des-banner-pro2">
               Con tự tin chinh phục các kỳ thi tiếng Anh quan trọng cùng gia sư chất lượng cao, có thành
               tích giảng dạy xuất sắc.
             </p>
           </div>
         </div>
-        <div class="col-lg-7">
+        <div class="col-lg-7 position-relative">
           <div class="img-banner">
             <img src="{{ asset('images/imgs/product/pro-banner.png') }}" class="img-fluid" alt="img banner" />
           </div>
@@ -32,12 +32,12 @@ Product Pro
     <div class="container">
       <div class="edupia-container-lg bg-purple div-register">
         <div class="row">
-          <div class="col-lg-7">
+          <div class="col-lg-6">
             <div class="img-register">
               <img class="img-fluid" src="{{ asset('images/imgs/product/pro-register.png') }}" alt="img register" />
             </div>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-6">
             <div class="div-form-register">
               <form>
                 <p class="text-center text-white text-font-size-26 text-font-weight-600 mb-0">Học thử miễn phí ngay hôm
@@ -210,10 +210,10 @@ Product Pro
               </p>
             </div>
           </div>
-          <div class="col-lg-12">
+          <div class="col-lg-12 px-0">
             <div>
-              <div class="pt-5">
-                <ul class="nav nav-pills mb-3 justify-content-between" id="pills-tab" role="tablist">
+              <div class="menu-tabs">
+                <ul class="nav nav-pills justify-content-between" id="pills-tab" role="tablist">
                   <li class="nav-item" role="presentation">
                     <button class="nav-link active class-btn-e" id="pills-home-tab" data-toggle="pill"
                       data-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
@@ -887,14 +887,14 @@ Product Pro
     <div class="container">
       <div class="edupia-container-lg">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-12 title-postshare">
             <div>
               <p class="text-center text-black text-font-size-36 text-font-weight-600">
                 Chia sẻ của phụ huynh, học sinh về EDUPIA
               </p>
             </div>
           </div>
-          <div class="col-lg-12 mt-5">
+          <div class="col-lg-12">
             <div class="row">
               <div class="col-lg-6 px-5">
                 <div class="item-post">
@@ -910,7 +910,7 @@ Product Pro
                       <p class="text-center text-font-size-16 text-font-weight-600">
                         Nhân viên Kế Toán
                       </p>
-                      <div class="text-center my-1">
+                      <div class="text-center list-star">
                         <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                         <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                         <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
@@ -940,7 +940,7 @@ Product Pro
                       <p class="text-center text-font-size-16 text-font-weight-600">
                         Nhân viên Kế Toán
                       </p>
-                      <div class="text-center my-1">
+                      <div class="text-center list-star">
                         <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                         <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                         <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
@@ -990,7 +990,7 @@ Product Pro
                               <p class="text-center text-font-size-16 text-font-weight-600">
                                 Nhân viên Kế Toán
                               </p>
-                              <div class="text-center my-1">
+                              <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
@@ -1021,7 +1021,7 @@ Product Pro
                               <p class="text-center text-font-size-16 text-font-weight-600">
                                 Nhân viên Kế Toán
                               </p>
-                              <div class="text-center my-1">
+                              <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
@@ -1056,7 +1056,7 @@ Product Pro
                               <p class="text-center text-font-size-16 text-font-weight-600">
                                 Nhân viên Kế Toán
                               </p>
-                              <div class="text-center my-1">
+                              <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
@@ -1087,7 +1087,7 @@ Product Pro
                               <p class="text-center text-font-size-16 text-font-weight-600">
                                 Nhân viên Kế Toán
                               </p>
-                              <div class="text-center my-1">
+                              <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
@@ -1122,7 +1122,7 @@ Product Pro
                               <p class="text-center text-font-size-16 text-font-weight-600">
                                 Nhân viên Kế Toán
                               </p>
-                              <div class="text-center my-1">
+                              <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
@@ -1153,7 +1153,7 @@ Product Pro
                               <p class="text-center text-font-size-16 text-font-weight-600">
                                 Nhân viên Kế Toán
                               </p>
-                              <div class="text-center my-1">
+                              <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
@@ -1185,7 +1185,7 @@ Product Pro
     <div class="container">
       <div class="edupia-container-lg">
         <div class="col-lg-12">
-          <div>
+          <div class="title-award">
             <p class="text-black text-center text-font-size-36 text-font-weight-700">
               EDUPIA tự hào là chương trình tiếng Anh Tiểu học<br />
               số 1 Việt Nam với thành tích xuất sắc
@@ -1523,7 +1523,7 @@ Product Pro
     <div class="container">
       <div class="edupia-container-lg">
         <div class="row">
-          <div class="col-lg-12 mb-5">
+          <div class="col-lg-12">
             <div class="title-verify">
               <p class="text-black text-center text-font-size-36 text-font-weight-700">
                 Được kiểm chứng bởi truyền thông, <br /> báo chí toàn quốc</p>
@@ -1557,14 +1557,14 @@ Product Pro
             </div>
           </div>
           <div class="col-lg-12">
-            <div class="my-5">
+            <div class="des-video-verify">
               <p class="text-center text-font-size-26 text-font-weight-700">
                 VTV đánh giá Edupia là khóa học DUY NHẤT đồng hành giúp hơn 1 TRIỆU học sinh<br /> từ yếu kém lên khá,
                 giỏi Tiếng Anh
               </p>
             </div>
           </div>
-          <div class="col-lg-12 mb-5 pb-5">
+          <div class="col-lg-12 slide-social">
             <div class="marquee">
               <div class="marquee-content">
                 <div class="marquee-tag">
@@ -1624,7 +1624,7 @@ Product Pro
               </div>
             </div>
           </div>
-          <div class="col-lg-12 mt-5 py-5">
+          <div class="col-lg-12 chicken-div-verify">
             <div class="row">
               <div class="col-lg-7">
                 <div class="content-chicken-txt">
@@ -1656,16 +1656,16 @@ Product Pro
       </div>
     </div>
   </section>
-  <section class="pro-register mb-5 pb-5">
+  <section class="pro-register bottom-register">
     <div class="container">
       <div class="edupia-container-lg bg-purple div-register">
         <div class="row">
-          <div class="col-lg-7">
+          <div class="col-lg-6">
             <div class="img-register">
               <img class="img-fluid" src="{{ asset('images/imgs/product/pro-register.png') }}" alt="img register" />
             </div>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-6">
             <div class="div-form-register">
               <form>
                 <p class="text-center text-white text-font-size-26 text-font-weight-600 mb-0">Học thử miễn phí ngay hôm
