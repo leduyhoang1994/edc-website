@@ -4,11 +4,11 @@ Tài liệu
 @endsection
 @section('content')
 <main class="document">
-  <section class="header-banner container-fluid">
+  <section class="header-banner container-fluid text-black">
     <div class="container edupia-mw-1230">
       <div class="content text-center mx-auto">
         <p class="text-font-weight-600 text-font-size-36">Học Liệu Cho Bé</p>
-        <p class="text-font-weight-400 text-font-size-18">Những bài tập và tài liệu Tiếng Anh, Toán, Tiếng Việt
+        <p class="text-font-weight-400 text-font-size-18 mb-0">Những bài tập và tài liệu Tiếng Anh, Toán, Tiếng Việt
           hỗ trợ bé học tập toàn diện.</p>
         <div class="search-container w-100">
           <div class="search-icon">
@@ -18,9 +18,9 @@ Tài liệu
           <button class="search-button text-font-size-18 text-font-weight-600">Tìm kiếm</button>
         </div>
         <span class="text-font-size-16 text-font-weight-400">Các tìm kiếm phổ biến:
-          <i class="ml-2">Cùng con học Tiếng Anh</i>
-          <i class="ml-2">Nâng cao trí tuệ</i>
-          <i class="ml-2">Ở nhà cùng con</i>
+          <i class="ml-2 text-black-100">Cùng con học Tiếng Anh</i>
+          <i class="ml-2 text-black-100">Nâng cao trí tuệ</i>
+          <i class="ml-2 text-black-100">Ở nhà cùng con</i>
         </span>
       </div>
     </div>
@@ -35,9 +35,8 @@ Tài liệu
         <div class="form-group">
           <select class="select-cus form-select w-100 text-font-size-18 text-font-weight-400" aria-label="Select Example">
             <option selected>Chọn môn học</option>
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-            <option value="option3">Option 3</option>
+            <option value="option1">Tiếng Anh</option>
+            <option value="option2">Toán</option>
           </select>
           <span class="custom-icon">
             <img src="{{ asset('images/icons/other/DownIcon.svg') }}" alt="DownIcon" />
@@ -47,15 +46,13 @@ Tài liệu
       </div>
       <div class="col-sm-2"></div>
       <div class="col-sm-2 pb-2 text-font-size-20 text-font-weight-600">
-        <p>Mới nhất</p>
+        <p class="text-sm-right">Sắp xếp theo</p>
       </div>
       <div class="col-sm-3">
         <div class="form-group">
-          <select class="select-cus form-select w-100 text-font-size-18 text-font-weight-400" aria-label="Select Example">
+          <select class="select-cus shadow-none form-select w-100 text-font-size-18 text-font-weight-400" aria-label="Select Example">
             <option selected>Mới nhất</option>
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-            <option value="option3">Option 3</option>
+            <option value="option1">Cũ nhất</option>
           </select>
           <span class="custom-icon">
             <img src="{{ asset('images/icons/other/DownIcon.svg') }}" alt="DownIcon" />
@@ -71,8 +68,8 @@ Tài liệu
           <div class="logo d-flex justify-content-center align-items-center">
             <img src="{{ asset('images/imgs/other/document-pic-1.png') }}" alt="document-pic-1">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -83,10 +80,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-2">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -97,10 +94,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-3">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -111,10 +108,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-4">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -129,8 +126,8 @@ Tài liệu
           <div class="logo d-flex justify-content-center align-items-center">
             <img src="{{ asset('images/imgs/other/document-pic-1.png') }}" alt="document-pic-1">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -141,10 +138,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-2">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -155,10 +152,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-3">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -169,10 +166,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-4">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -190,8 +187,8 @@ Tài liệu
           <div class="logo d-flex justify-content-center align-items-center">
             <img src="{{ asset('images/imgs/other/document-pic-1.png') }}" alt="document-pic-1">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -202,10 +199,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-2">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -216,10 +213,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-3">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -230,10 +227,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-4">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -248,8 +245,8 @@ Tài liệu
           <div class="logo d-flex justify-content-center align-items-center">
             <img src="{{ asset('images/imgs/other/document-pic-1.png') }}" alt="document-pic-1">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -260,10 +257,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-2">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -274,10 +271,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-3">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -288,10 +285,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-4">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -309,8 +306,8 @@ Tài liệu
           <div class="logo d-flex justify-content-center align-items-center">
             <img src="{{ asset('images/imgs/other/document-pic-1.png') }}" alt="document-pic-1">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -321,10 +318,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-2">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -335,10 +332,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-3">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -349,10 +346,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-4">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -367,8 +364,8 @@ Tài liệu
           <div class="logo d-flex justify-content-center align-items-center">
             <img src="{{ asset('images/imgs/other/document-pic-1.png') }}" alt="document-pic-1">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -379,10 +376,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-2">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -393,10 +390,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-3">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -407,10 +404,10 @@ Tài liệu
         </div>
         <div class="col-sm-3 mb-6">
           <div class="logo d-flex justify-content-center align-items-center">
-            <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-1">
+            <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-4">
           </div>
-          <div class="btn-action">
-            <p class="text-font-weight-400 text-font-size-16">
+          <div class="btn-action mt-3">
+            <p class="text-font-weight-400 text-font-size-16 m-0">
               Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
             </p>
             <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">

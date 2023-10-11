@@ -7,15 +7,14 @@ Tài liệu chi tiết
   <section class="header-banner container-fluid">
     <div class="container edupia-mw-1230">
       <div class="row">
-        <div class="col-sm-4 px-0">
+        <div class="col-sm-5 px-0">
           <div class="book-cover">
-            <img width="100%" src="{{ asset('images/imgs/other/book-cover.png') }}" alt="book-cover" />
+            <img src="{{ asset('images/imgs/other/book-cover.png') }}" alt="book-cover" />
           </div>
         </div>
-        <div class="col-sm-1"></div>
-        <div class="col-sm-7 pl-2">
+        <div class="col-sm-7">
           <div class="description">
-            <p class="text-font-size-20 text-font-weight-600">Đâu là chương trình dạy học tiếng Anh Tiểu học chất lượng cao nên đầu tư cho con?</p>
+            <p class="text-font-size-20 text-font-weight-600 mb-0">Đâu là chương trình dạy học tiếng Anh Tiểu học chất lượng cao nên đầu tư cho con?</p>
             <div class="text-font-size-16 text-font-weight-300 category">
               <span>Tiếng Anh</span>
             </div>
@@ -30,7 +29,7 @@ Tài liệu chi tiết
                 Edupia chúc ba mẹ và các bé học tập thật vui và hiệu quả!
               </p>
             </div>
-            <button type="submit" class="btn btn-block custom-button py-2 mb-5">
+            <button class="btn btn-block custom-button py-2 mb-5">
               <img src="{{ asset('images/icons/other/DownloadIcon.svg') }}" alt="DownloadIcon" />
               <span class="text-font-weight-600 text-font-size-18 text-white">Tải ngay</span>
             </button>
@@ -46,14 +45,12 @@ Tài liệu chi tiết
   <section class="ask-form container-fluid">
     <div class="container edupia-mw-1230">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-7 px-6">
           <div class="text-font-size-26 text-font-weight-600 text-white mb-4">
-            <p class="m-0">Trẻ em cần được trao cơ hội để có thể học tập</p>
-            <p class="m-0">và phát triển tốt hơn. Giúp con khai phá tiềm </p>
-            <p class="m-0">năng tư duy và ngôn ngữ ngay hôm nay.</p>
+            <p class="m-0">Trẻ em cần được trao cơ hội để có thể học tập và phát triển tốt hơn. Giúp con khai phá tiềm năng tư duy và ngôn ngữ ngay hôm nay.</p>
           </div>
           <div>
-            <p class="text-font-size-16 text-font-weight-400 text-white">Nhập tên và số điện thoại để được Edupia tư vấn lộ trình học cho bé!</p>
+            <p class="text-font-size-16 text-font-weight-400 text-white mb-0">Nhập tên và số điện thoại để được Edupia tư vấn lộ trình học cho bé!</p>
             <form>
               <div class="form-group">
                 <input type="text" class="form-control form-rounded" placeholder="Nhập tên và sdt của ba mẹ">
@@ -64,7 +61,6 @@ Tài liệu chi tiết
             </form>
           </div>
         </div>
-        <div class="col-sm-1"></div>
         <div class="col-sm-5">
           <div class="image-container">
             <img class="w-100" src="{{ asset('images/imgs/other/chicken-kid.png') }}" alt="chicken-kid" class="image" />
@@ -81,8 +77,8 @@ Tài liệu chi tiết
         <div class="logo d-flex justify-content-center align-items-center">
           <img src="{{ asset('images/imgs/other/document-pic-1.png') }}" alt="document-pic-1">
         </div>
-        <div class="btn-action">
-          <p class="text-font-weight-400 text-font-size-16">
+        <div class="btn-action mt-3">
+          <p class="text-font-weight-400 text-font-size-16 m-0">
             Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
           </p>
           <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -93,10 +89,10 @@ Tài liệu chi tiết
       </div>
       <div class="col-sm-3 mb-6">
         <div class="logo d-flex justify-content-center align-items-center">
-          <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-1">
+          <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-2">
         </div>
-        <div class="btn-action">
-          <p class="text-font-weight-400 text-font-size-16">
+        <div class="btn-action mt-3">
+          <p class="text-font-weight-400 text-font-size-16 m-0">
             Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
           </p>
           <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -107,10 +103,10 @@ Tài liệu chi tiết
       </div>
       <div class="col-sm-3 mb-6">
         <div class="logo d-flex justify-content-center align-items-center">
-          <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-1">
+          <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-3">
         </div>
-        <div class="btn-action">
-          <p class="text-font-weight-400 text-font-size-16">
+        <div class="btn-action mt-3">
+          <p class="text-font-weight-400 text-font-size-16 m-0">
             Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
           </p>
           <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -121,10 +117,10 @@ Tài liệu chi tiết
       </div>
       <div class="col-sm-3 mb-6">
         <div class="logo d-flex justify-content-center align-items-center">
-          <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-1">
+          <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-4">
         </div>
-        <div class="btn-action">
-          <p class="text-font-weight-400 text-font-size-16">
+        <div class="btn-action mt-3">
+          <p class="text-font-weight-400 text-font-size-16 m-0">
             Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
           </p>
           <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -139,8 +135,8 @@ Tài liệu chi tiết
         <div class="logo d-flex justify-content-center align-items-center">
           <img src="{{ asset('images/imgs/other/document-pic-1.png') }}" alt="document-pic-1">
         </div>
-        <div class="btn-action">
-          <p class="text-font-weight-400 text-font-size-16">
+        <div class="btn-action mt-3">
+          <p class="text-font-weight-400 text-font-size-16 m-0">
             Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
           </p>
           <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -151,10 +147,10 @@ Tài liệu chi tiết
       </div>
       <div class="col-sm-3 mb-6">
         <div class="logo d-flex justify-content-center align-items-center">
-          <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-1">
+          <img src="{{ asset('images/imgs/other/document-pic-2.png') }}" alt="document-pic-2">
         </div>
-        <div class="btn-action">
-          <p class="text-font-weight-400 text-font-size-16">
+        <div class="btn-action mt-3">
+          <p class="text-font-weight-400 text-font-size-16 m-0">
             Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
           </p>
           <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -165,10 +161,10 @@ Tài liệu chi tiết
       </div>
       <div class="col-sm-3 mb-6">
         <div class="logo d-flex justify-content-center align-items-center">
-          <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-1">
+          <img src="{{ asset('images/imgs/other/document-pic-3.png') }}" alt="document-pic-3">
         </div>
-        <div class="btn-action">
-          <p class="text-font-weight-400 text-font-size-16">
+        <div class="btn-action mt-3">
+          <p class="text-font-weight-400 text-font-size-16 m-0">
             Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
           </p>
           <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -179,10 +175,10 @@ Tài liệu chi tiết
       </div>
       <div class="col-sm-3 mb-6">
         <div class="logo d-flex justify-content-center align-items-center">
-          <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-1">
+          <img src="{{ asset('images/imgs/other/document-pic-4.png') }}" alt="document-pic-4">
         </div>
-        <div class="btn-action">
-          <p class="text-font-weight-400 text-font-size-16">
+        <div class="btn-action mt-3">
+          <p class="text-font-weight-400 text-font-size-16 m-0">
             Enspire Start - cùng con học tiếng Anh đúng chuẩn Bộ Giáo dục
           </p>
           <div class="mx-auto btn-download" data-toggle="modal" data-target="#documentModal">
@@ -204,12 +200,12 @@ Tài liệu chi tiết
           <div class="modal-body">
             <div class="row">
               <!-- Phần bên trái (hình ảnh) -->
-              <div class="col-md-5">
+              <div class="col-md-4">
                 <img src="{{ asset('images/icons/other/DocumentModalIcon.svg') }}" alt="DocumentModalIcon">
               </div>
               <!-- Phần bên phải (form) -->
-              <div class="col-md-7">
-                <p class="text-font-size-18 text-font-weight-700 text-white ml-1 mb-2">Vui lòng đăng ký thông tin để nhận tài liệu!</p>
+              <div class="col-md-8 pl-2">
+                <p class="text-font-size-18 text-font-weight-700 text-white ml-2 mb-2">Vui lòng đăng ký thông tin để nhận tài liệu!</p>
                 <form>
                   <div class="form-group">
                     <input type="text" class="form-control form-rounded" placeholder="Họ và tên phụ huynh">
@@ -217,7 +213,7 @@ Tài liệu chi tiết
                   <div class="form-group">
                     <input type="text" class="form-control form-rounded" placeholder="Số điện thoại phụ huynh">
                   </div>
-                  <button type="submit" class="btn btn-block custom-button py-2">
+                  <button type="submit" class="btn btn-block custom-button">
                     <span class="text-font-weight-600 text-font-size-18 text-white">ĐĂNG KÝ</span>
                   </button>
                 </form>

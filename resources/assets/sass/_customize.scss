@@ -394,6 +394,14 @@ p {
   margin-bottom: 8px !important;
 }
 
-li::marker {
-  font-size: 20px;
+ul {
+  li::marker {
+    font-size: $font-18;
+  }
+}
+ol {
+  li::marker {
+    font-size: $font-18;
+    color: #000;
+  }
 }
