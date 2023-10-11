@@ -1,4 +1,5 @@
 .go-learning {
+  padding-bottom: 73px;
   .learning-title {
     margin-top: 45px;
     margin-bottom: 62px;
@@ -11,6 +12,7 @@
   }
   .btn-action {
     // height: 250px;
+    padding-bottom: 4px;
     .btn-go-learning {
       width: 240px;
       background-color: $blue-primary;
@@ -48,7 +50,7 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.50); /* Màu nền mờ */
     opacity: 0.5;
-    pointer-events: none; /* Không ảnh hưởng tới sự tương tác chuột */
+    pointer-events: all; /* sự tương tác chuột */
     transition: opacity 0.3s ease; /* Hiệu ứng mờ */
     z-index: 1050; /* Giữ lớp overlay trên modal (z-index của modal thường là 1040) */
   }
