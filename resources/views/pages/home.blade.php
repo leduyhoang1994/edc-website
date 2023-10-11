@@ -100,7 +100,8 @@ Trang chủ
 								<span>#1</span>
 							</p>
 							<p class="text-center text-white white-space-nowrap text-font-size-16 text-font-weight-500">Ed-Tech
-								<br />tại Việt Nam</p>
+								<br />tại Việt Nam
+							</p>
 						</div>
 					</div>
 				</div>
@@ -320,30 +321,41 @@ Trang chủ
 					<div class="pt-0 menu-tab-section-4">
 						<ul class="nav nav-pills justify-content-center gap-25" id="pills-tab" role="tablist">
 							<li class="nav-item" role="presentation">
-								<button class="nav-link active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home"
-									type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+								<button class="nav-link tab1 active position-relative" id="pills-home-tab" data-toggle="pill"
+									data-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
 									Công nghệ trí tuệ nhân tạo
+									<div class="text-right position-absolute div-arrow">
+										<img class="arrow-tab3" src="{{ asset('images/icons/homepage/slide-arrow.svg') }}"
+											alt="slide-arrow" />
+									</div>
 								</button>
 							</li>
 							<li class="nav-item" role="presentation">
-								<button class="nav-link" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile"
-									type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+								<button class="nav-link tab2 position-relative" id="pills-profile-tab" data-toggle="pill"
+									data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+									aria-selected="false">
 									Lựa chọn bởi chuyên gia
+									<div class="text-right position-absolute div-arrow2">
+										<img class="arrow-tab3" src="{{ asset('images/icons/homepage/slide-arrow.svg') }}"
+											alt="slide-arrow" />
+									</div>
 								</button>
 							</li>
 							<li class="nav-item" role="presentation">
-								<button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#pills-contact"
-									type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+								<button class="nav-link tab3 position-relative" id="pills-contact-tab" data-toggle="pill"
+									data-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+									aria-selected="false">
 									Phương pháp học tập Happy Learning
+									<div class="text-right position-absolute div-arrow3">
+										<img class="arrow-tab3" src="{{ asset('images/icons/homepage/slide-arrow.svg') }}"
+											alt="slide-arrow" />
+									</div>
 								</button>
 							</li>
 						</ul>
 					</div>
 					<div class="tab-content" id="pills-tabContent">
 						<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-							<div class="text-left">
-								<img class="img-fluid arrow-tab1" src="{{ asset('images/icons/homepage/slide-arrow.svg') }}" alt="slide-arrow" />
-							</div>
 							<div class="bg-blue-100 pt-60">
 								<div class="container">
 									<div class="row">
@@ -409,9 +421,6 @@ Trang chủ
 							</div>
 						</div>
 						<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-							<div class="text-center">
-								<img class="arrow-tab2" src="{{ asset('images/icons/homepage/slide-arrow.svg') }}" alt="slide-arrow" />
-							</div>
 							<div class="bg-blue-100 pt-60">
 								<div class="container">
 									<div class="row">
@@ -477,9 +486,6 @@ Trang chủ
 							</div>
 						</div>
 						<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-							<div class="text-right">
-								<img class="arrow-tab3" src="{{ asset('images/icons/homepage/slide-arrow.svg') }}" alt="slide-arrow" />
-							</div>
 							<div class="bg-blue-100 pt-60">
 								<div class="container">
 									<div class="row">
@@ -566,44 +572,51 @@ Trang chủ
 				<div class="content-section-5">
 					<ul class="nav nav-pills mb-3 justify-content-center gap-25" id="pills-tab" role="tablist">
 						<li class="nav-item" role="presentation">
-							<button class="nav-link active text-font-size-18 text-font-weight-500" id="pills-home2-tab" data-toggle="pill" data-target="#pills-home2"
-								type="button" role="tab" aria-controls="pills-home2" aria-selected="true">
+							<button class="nav-link active text-font-size-18 text-font-weight-500" id="pills-home2-tab"
+								data-toggle="pill" data-target="#pills-home2" type="button" role="tab" aria-controls="pills-home2"
+								aria-selected="true">
 								Tất cả
 							</button>
 						</li>
 						<li class="nav-item" role="presentation">
-							<button class="nav-link text-font-size-18 text-font-weight-500" id="pills-profile2-tab" data-toggle="pill" data-target="#pills-profile2"
-								type="button" role="tab" aria-controls="pills-profile2" aria-selected="false">
+							<button class="nav-link text-font-size-18 text-font-weight-500" id="pills-profile2-tab" data-toggle="pill"
+								data-target="#pills-profile2" type="button" role="tab" aria-controls="pills-profile2"
+								aria-selected="false">
 								Hà Giang
 							</button>
 						</li>
 						<li class="nav-item" role="presentation">
-							<button class="nav-link text-font-size-18 text-font-weight-500" id="pills-contact1-tab" data-toggle="pill" data-target="#pills-contact1"
-								type="button" role="tab" aria-controls="pills-contact1" aria-selected="false">
+							<button class="nav-link text-font-size-18 text-font-weight-500" id="pills-contact1-tab" data-toggle="pill"
+								data-target="#pills-contact1" type="button" role="tab" aria-controls="pills-contact1"
+								aria-selected="false">
 								Yên Bái
 							</button>
 						</li>
 						<li class="nav-item" role="presentation">
-							<button class="nav-link text-font-size-18 text-font-weight-500" id="pills-contact2-tab" data-toggle="pill" data-target="#pills-contact2"
-								type="button" role="tab" aria-controls="pills-contact2" aria-selected="false">
+							<button class="nav-link text-font-size-18 text-font-weight-500" id="pills-contact2-tab" data-toggle="pill"
+								data-target="#pills-contact2" type="button" role="tab" aria-controls="pills-contact2"
+								aria-selected="false">
 								Tuyên Quang
 							</button>
 						</li>
 						<li class="nav-item" role="presentation">
-							<button class="nav-link text-font-size-18 text-font-weight-500" id="pills-contact3-tab" data-toggle="pill" data-target="#pills-contact3"
-								type="button" role="tab" aria-controls="pills-contact3" aria-selected="false">
+							<button class="nav-link text-font-size-18 text-font-weight-500" id="pills-contact3-tab" data-toggle="pill"
+								data-target="#pills-contact3" type="button" role="tab" aria-controls="pills-contact3"
+								aria-selected="false">
 								Hoà Bình
 							</button>
 						</li>
 						<li class="nav-item" role="presentation">
-							<button class="nav-link text-font-size-18 text-font-weight-500" id="pills-contact4-tab" data-toggle="pill" data-target="#pills-contact4"
-								type="button" role="tab" aria-controls="pills-contact4" aria-selected="false">
+							<button class="nav-link text-font-size-18 text-font-weight-500" id="pills-contact4-tab" data-toggle="pill"
+								data-target="#pills-contact4" type="button" role="tab" aria-controls="pills-contact4"
+								aria-selected="false">
 								Sơn La
 							</button>
 						</li>
 						<li class="nav-item" role="presentation">
-							<button class="nav-link text-font-size-18 text-font-weight-500" id="pills-contact5-tab" data-toggle="pill" data-target="#pills-contact5"
-								type="button" role="tab" aria-controls="pills-contact5" aria-selected="false">
+							<button class="nav-link text-font-size-18 text-font-weight-500" id="pills-contact5-tab" data-toggle="pill"
+								data-target="#pills-contact5" type="button" role="tab" aria-controls="pills-contact5"
+								aria-selected="false">
 								Lai Châu
 							</button>
 						</li>
