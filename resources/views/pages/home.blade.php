@@ -2448,11 +2448,11 @@ Trang chủ
 	<!-- end section 7 -->
 	<!-- section 8 -->
 	<div class="section-8 w-100">
-		<div class="container pb-5">
+		<div class="container title-section-8">
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="edupia-container-lg">
-						<p class="text-center text-font-size-36 text-font-weight-600 mb-3">Tin tức sự kiện</p>
+						<p class="text-center text-font-size-36 text-font-weight-600">Tin tức sự kiện</p>
 						<p class="text-center text-font-size-18 text-font-weight-400">
 							Cùng theo dõi và cập nhật thông tin mới nhất về EDUPIA
 						</p>
@@ -2460,11 +2460,11 @@ Trang chủ
 				</div>
 			</div>
 		</div>
-		<div class="container mt-5">
+		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
 					<div class="mt-3">
-						<div class="card border-0" style="width: 100%;">
+						<div class="card border-0 post-item" style="width: 100%;">
 							<img class="card-img-top" src="{{ asset('images/imgs/homepage/post-1.png') }}" alt="Card image cap">
 							<div class="card-body px-0">
 								<h5 class="card-title text-font-size-18 text-font-weight-600 text-left">EDUPIA ra mắt phiên bản mới -

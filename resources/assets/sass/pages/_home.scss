@@ -369,7 +369,6 @@
 
   .section-7 {
     padding-top: 80px;
-    padding-bottom: 40px;
 
     .marquee {
       box-sizing: border-box;
@@ -453,8 +452,14 @@
 
   .section-8 {
     background-color: $white;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 115px;
+    padding-bottom: 60px;
+    .title-section-8 {
+      margin-bottom: 48px;
+    }
+    .post-item {
+      
+    }
   }
 
   .section-9 {

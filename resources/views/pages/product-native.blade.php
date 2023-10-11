@@ -9,14 +9,13 @@ Product Native
       <div class="row">
         <div class="col-lg-6">
           <div>
-            <h1 class="text-black text-font-size-36 text-font-weight-400 text-uppercase">Edupia Native</h1>
-            <p class="line-height-50 text-black text-font-size-45 text-font-weight-600">Chinh phục tiếng Anh cùng gia
-              sư
-              bản xứ 100%</p>
+            <h1 class="text-black text-font-size-36 text-font-weight-400 text-uppercase title-native">Edupia Native</h1>
+            <p class="line-height-50 text-black text-font-size-45 text-font-weight-600 des-native">
+              Chinh phục tiếng Anh cùng gia sư bản xứ 100%</p>
             <p class="text-black text-font-size-20 text-font-weight-500">Con tự tin giao tiếp tiếng Anh, đạt điểm
               10
               tiếng Anh với chương trình gia sư bản xứ 1-1.</p>
-            <button class="btn btn-primary more-btn mt-4">Đăng ký tư vấn</button>
+            <a class="btn btn-primary more-btn mt-4">Đăng ký tư vấn</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -31,17 +30,17 @@ Product Native
     <div class="container">
       <div class="edupia-container-lg bg-blue-700 div-register">
         <div class="row">
-          <div class="col-lg-6">
-            <div class="img-register">
+          <div class="col-lg-6 position-relative">
+            <div class="img-register position-absolute">
               <img class="img-fluid" src="{{ asset('images/imgs/product/img-register.png') }}" alt="img register" />
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 px-0">
             <div class="div-form-register">
               <form>
-                <p class="text-center text-white text-font-size-30 text-font-weight-600 mb-0">Học thử miễn phí ngay hôm
+                <p class="text-center text-white text-font-size-30 text-font-weight-600 mb-0 title-register-top">Học thử miễn phí ngay hôm
                   nay</p>
-                <p class="text-center text-white text-font-size-18 text-font-weight-400">Để lại thông tin để ban giáo vụ
+                <p class="text-center text-white text-font-size-18 text-font-weight-400 des-register-top">Để lại thông tin để ban giáo vụ
                   có thể hỗ trợ phụ huynh lên lịch và chọn khóa học phù hợp</p>
                 <div class="form-group">
                   <input class="form-control input-customer" type="text" placeholder="Họ tên phụ huynh" />
@@ -74,9 +73,9 @@ Product Native
     <div class="container">
       <div class="edupia-container-lg">
         <div class="title-skill">
-          <p class="text-center text-font-size-36 text-font-weight-600 line-height-44">Phát triển toàn diện 4 kỹ
-            năng<br /> Nghe - Nói - Đọc - Viết </p>
-          <p class="text-center text-font-size-18 text-font-weight-400">EDUPIA NATIVE là chương trình học tiếng Anh
+          <p class="text-center text-font-size-36 text-font-weight-600 line-height-44 title-skill">
+            Phát triển toàn diện 4 kỹ năng<br /> Nghe - Nói - Đọc - Viết </p>
+          <p class="text-center text-font-size-18 text-font-weight-400 des-skill">EDUPIA NATIVE là chương trình học tiếng Anh
             với thầy cô bản xứ chất lượng cao,<br />
             giúp con phát triển kỹ năng tiếng Anh toàn diện, tự tin giao tiếp trong môi trường quốc tế</p>
         </div>
@@ -127,7 +126,7 @@ Product Native
     <div class="container">
       <div class="edupia-container-lg">
         <div class="title-commit">
-          <p class="text-center text-black text-font-size-36 text-font-weight-600 line-height-44">EDUPIA NATIVE cam kết
+          <p class="text-center text-black text-font-size-36 text-font-weight-600 line-height-44 mb-0">EDUPIA NATIVE cam kết
             đảm bảo đầu ra cho học sinh sau 3-6 tháng</p>
         </div>
         <div class="row">
@@ -141,13 +140,13 @@ Product Native
                   </h5>
                   <div class="list-item-result item-card-commit">
                     <ul>
-                      <li class="text-font-size-20">
+                      <li class="text-font-size-18 text-font-weight-500">
                         Biết nói và nhớ các từ, cấu trúc của bài học
                       </li>
-                      <li class="text-font-size-20">
+                      <li class="text-font-size-18 text-font-weight-500">
                         Nghe hiểu các chỉ dẫn cơ bản
                       </li>
-                      <li class="text-font-size-20">
+                      <li class="text-font-size-18 text-font-weight-500">
                         Làm quen với dạng bài thi Cambridge Starters
                       </li>
                     </ul>
@@ -166,13 +165,13 @@ Product Native
                   </h5>
                   <div class="list-item-result item-card-commit">
                     <ul>
-                      <li class="text-font-size-20">
+                      <li class="text-font-size-18 text-font-weight-500">
                         Khả năng vận dụng tiếng Anh ở trình độ cao
                       </li>
-                      <li class="text-font-size-20">
+                      <li class="text-font-size-18 text-font-weight-500">
                         Chủ động sử dụng tiếng Anh theo tình huống
                       </li>
-                      <li class="text-font-size-20">
+                      <li class="text-font-size-18 text-font-weight-500">
                         Đạt chuẩn đầu ra 4 kỹ năng của bộ GD&ĐT
                       </li>
                     </ul>
@@ -182,7 +181,7 @@ Product Native
             </div>
           </div>
         </div>
-        <div class="my-4 text-center">
+        <div class="text-center btn-commit">
           <button class="btn btn-primary more-btn btn-register">Đăng ký tư vấn</button>
         </div>
       </div>
@@ -204,7 +203,7 @@ Product Native
                 <ol class="carousel-indicators align-items-center">
                   <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                  <!-- <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li> -->
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -486,13 +485,13 @@ Product Native
       <div class="edupia-container-lg">
         <div class="row">
           <div class="col-lg-12">
-            <div>
+            <div class="title-post">
               <p class="text-center text-black text-font-size-36 text-font-weight-600">Chia sẻ của phụ huynh, học
                 sinh về
                 Edupia Native</p>
             </div>
           </div>
-          <div class="col-lg-12 my-5">
+          <div class="col-lg-12">
             <div class="row">
               <div class="col-lg-4 px-3">
                 <div class="item-post">
@@ -503,7 +502,7 @@ Product Native
                       <div class="play-button-post" onclick="showVideoPost('video1')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
-                      <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+                      <h5 class="text-center card-title text-blue-primary text-font-size-18 text-font-weight-400 mb-0">
                         Em Thái Phương Vy (Lớp 7)
                       </h5>
                       <div class="text-center my-1">
@@ -530,7 +529,7 @@ Product Native
                       <div class="play-button-post" onclick="showVideoPost('video2')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
-                      <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+                      <h5 class="text-center card-title text-blue-primary text-font-size-18 text-font-weight-400 mb-0">
                         Em Thái Phương Vy (Lớp 7)
                       </h5>
                       <div class="text-center my-1">
@@ -558,7 +557,7 @@ Product Native
                       <div class="play-button-post" onclick="showVideoPost('video3')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
-                      <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+                      <h5 class="text-center card-title text-blue-primary text-font-size-18 text-font-weight-400 mb-0">
                         Em Thái Phương Vy (Lớp 7)
                       </h5>
                       <div class="text-center my-1">
@@ -585,7 +584,7 @@ Product Native
                       <div class="play-button-post" onclick="showVideoPost('video4')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
-                      <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+                      <h5 class="text-center card-title text-blue-primary text-font-size-18 text-font-weight-600 mb-0">
                         Em Thái Phương Vy (Lớp 7)
                       </h5>
                       <div class="text-center my-1">
@@ -612,7 +611,7 @@ Product Native
                       <div class="play-button-post" onclick="showVideoPost('video5')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
-                      <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+                      <h5 class="text-center card-title text-blue-primary text-font-size-18 text-font-weight-600 mb-0">
                         Em Thái Phương Vy (Lớp 7)
                       </h5>
                       <div class="text-center my-1">
@@ -640,7 +639,7 @@ Product Native
                       <div class="play-button-post" onclick="showVideoPost('video6')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
-                      <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+                      <h5 class="text-center card-title text-blue-primary text-font-size-18 text-font-weight-600 mb-0">
                         Em Thái Phương Vy (Lớp 7)
                       </h5>
                       <div class="text-center my-1">
@@ -662,7 +661,7 @@ Product Native
           </div>
           <div class="col-lg-12">
             <div class="text-center">
-              <button class="btn btn-primary more-btn mt-4 btn-register">Đăng ký tư vấn</button>
+              <button class="btn btn-primary more-btn mt-4 btn-register btn-resize">Đăng ký tư vấn</button>
             </div>
           </div>
         </div>
@@ -673,7 +672,7 @@ Product Native
     <div class="container">
       <div class="edupia-container-lg">
         <div class="row">
-          <div class="col-lg-12 mb-5">
+          <div class="col-lg-12">
             <div class="title-verify">
               <p class="text-black text-center text-font-size-36 text-font-weight-600">Được kiểm chứng bởi truyền
                 thông, báo chí toàn quốc</p>
@@ -696,8 +695,8 @@ Product Native
                         </div>
                       </div>
                     </div>
-                    <div class="card-body pl-0 pr-0">
-                      <p class="text-black text-center text-font-size-18 text-font-weight-400">
+                    <div class="card-body des-video py-0 px-0">
+                      <p class="text-black text-center text-font-size-16 text-font-weight-400">
                         VTV Đánh giá Edupia là khoá học DUY NHẤT đồng hành giúp hơn 1 TRIỆU học sinh từ yếu kém lên khá,
                         giỏi Tiếng Anh
                       </p>
@@ -720,8 +719,8 @@ Product Native
                         </div>
                       </div>
                     </div>
-                    <div class="card-body pl-0 pr-0">
-                      <p class="text-black text-center text-font-size-18 text-font-weight-400">
+                    <div class="card-body des-video py-0 px-0">
+                      <p class="text-black text-center text-font-size-16 text-font-weight-400">
                         Edupia là chương trình Tiếng Anh ĐẦU TIÊN có
                         thầy cô giáo đồng hành theo sát tiến bộ của con 24/7
                       </p>
@@ -731,7 +730,7 @@ Product Native
               </div>
             </div>
           </div>
-          <div class="col-lg-12 mb-5 pb-5">
+          <div class="col-lg-12 slide-social">
             <div class="marquee">
               <div class="marquee-content">
                 <div class="marquee-tag">
@@ -791,7 +790,7 @@ Product Native
               </div>
             </div>
           </div>
-          <div class="col-lg-12 mt-5 div-chicken py-5">
+          <div class="col-lg-12 div-chicken chicken-content">
             <div class="row">
               <div class="col-lg-7">
                 <div class="content-chicken-txt">
@@ -803,8 +802,8 @@ Product Native
                     Edupia Native mang lại sự hài lòng và an tâm tuyệt đối cho hàng ngàn phụ huynh. Chúng
                     tôi cam kết hoàn 100% học phí nếu sau 3 tháng con không tiến bộ.
                   </p>
-                  <div>
-                    <button class="btn btn-primary more-btn mt-4">Đăng ký ngay</button>
+                  <div class="btn-chicken-div">
+                    <button class="btn btn-primary more-btn btn-resize">Đăng ký ngay</button>
                   </div>
                 </div>
               </div>
@@ -815,21 +814,21 @@ Product Native
               </div>
             </div>
           </div>
-          <div class="col-lg-12 mt-5">
+          <div class="col-lg-12 register-bottom">
             <div class="about-register-content bg-blue-700">
               <div class="row">
-                <div class="col-lg-6">
-                  <div class="text-center">
+                <div class="col-lg-6 position-relative">
+                  <div class="text-center about-register-content-1">
                     <img class="img-fluid" src="{{ asset('images/imgs/product/img-form-register.png') }}"
                       alt="img register" />
                   </div>
                 </div>
                 <div class="col-lg-6">
-                  <div>
+                  <div class="about-register-content-2">
                     <p class="text-center text-white text-font-size-26 text-font-weight-600 mb-1">
                       Đăng ký tư vấn
                     </p>
-                    <p class="text-center text-white text-font-size-18 text-font-weight-400">Ba mẹ hãy đăng ký để được
+                    <p class="text-center text-white text-font-size-18 text-font-weight-400 mb-2">Ba mẹ hãy đăng ký để được
                       các thầy cô tại EDUPIA
                       tư vấn về lộ trình học cho con nhé!
                     </p>
@@ -844,7 +843,7 @@ Product Native
                         <input class="form-control input-customer" type="number" placeholder="Bé học lớp mấy?" />
                       </div>
                       <div class="text-center">
-                        <button type="submit" class="btn btn-primary more-btn btn-register">Đăng ký ngay</button>
+                        <button type="submit" class="btn btn-primary more-btn btn-register btn-resize">Đăng ký ngay</button>
                       </div>
                     </form>
                   </div>

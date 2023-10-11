@@ -34,10 +34,11 @@ Product AI
                 </div>
                 <div class="col-lg-6">
                   <div class="title-form-register">
-                    <p class="text-center text-white text-font-size-26 text-font-weight-600 mb-1">
+                    <p class="text-center text-white text-font-size-26 text-font-weight-600 mb-0">
                       Đăng ký tư vấn
                     </p>
-                    <p class="text-center text-white text-font-size-18 text-font-weight-400">Ba mẹ hãy đăng ký để được
+                    <p class="text-center text-white text-font-size-18 text-font-weight-400 mb-2">Ba mẹ hãy đăng ký để
+                      được
                       các thầy cô tại EDUPIA
                       tư vấn về lộ trình học cho con nhé!
                     </p>
@@ -81,7 +82,7 @@ Product AI
                 năng ngay từ lớp 1.</p>
             </div>
           </div>
-          <div class="col-lg-12 mt-5 pt-5">
+          <div class="col-lg-12 div-contentroadmap">
             <div class="row">
               <div class="col-lg-6">
                 <div class="item-img-right">
@@ -105,12 +106,13 @@ Product AI
             <div class="row">
               <div class="col-lg-6">
                 <div class="item-txt-left">
-                  <p class="text-blue-primary text-font-size-30 text-font-weight-600">Nền tảng vững chắc với EDUPIA
-                    Tiểu Học</p>
+                  <p class="text-blue-primary text-font-size-30 text-font-weight-600">
+                    Chắp cánh tương lai với EDUPIA THCS
+                  </p>
                   <hr width="30%" />
                   <p class="text-black text-font-size-18 text-font-weight-400">
-                    Tạo cho con một thói quen, sở thích học tiếng Anh chủ động với nhiều trò chơi tương tác
-                    dưới dạng video, hoạt hình, đối thoại.
+                    Cùng con vượt qua các kỳ thi tiếng Anh quan trọng với hệ thống
+                    bài giảng chuyên sâu, bài tập và thư viện đề thi đa đạng.
                   </p>
                 </div>
               </div>
@@ -128,7 +130,7 @@ Product AI
   <section class="ai-ispeak">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 pr-5">
+        <div class="col-lg-6 video-ispeak">
           <div class="position-relative">
             <img class="card-img" src="{{ asset('images/imgs/product/i-speak.png') }}" alt="Card image cap">
             <div class="video-verify">
@@ -140,7 +142,7 @@ Product AI
             </div>
           </div>
         </div>
-        <div class="col-lg-6 pl-5">
+        <div class="col-lg-6 px-0">
           <div>
             <p class="text-white text-font-size-36 text-font-weight-600 mt-2">Con “lột xác” hoàn toàn môn tiếng Anh
               trong 3 tháng với EDUPIA AI
@@ -179,12 +181,12 @@ Product AI
       </div>
     </div>
   </section>
-  <section class="ai-study-online my-5 py-4">
+  <section class="ai-study-online">
     <div class="container">
       <div class="edupia-container-lg">
         <div class="col-lg-12">
           <div>
-            <p class="text-center text-font-size-36 text-font-weight-600">Lo con học trực tuyến không hiệu
+            <p class="text-center text-font-size-36 text-font-weight-600 title-study-online">Lo con học trực tuyến không hiệu
               quả?<br />
               Bố mẹ yên tâm vì đã có đội ngũ giáo vụ tận tình từ EDUPIA AI
             </p>
@@ -193,7 +195,7 @@ Product AI
               được cập nhật hàng tuần bởi giáo viên chủ nhiệm các lớp</p>
           </div>
         </div>
-        <div class="col-lg-12 mt-5">
+        <div class="col-lg-12 video-study-online">
           <div>
             <div class="text-center position-relative" id="video_skill">
               <img class="img-fluid thumb-video-ai" srcset="{{ asset('images/imgs/product/ai-thumb-video.png') }}"
@@ -202,7 +204,7 @@ Product AI
             </div>
           </div>
           <div class="text-center">
-            <button class="btn btn-primary more-btn mt-4 btn-register">Đăng ký tư vấn</button>
+            <button class="btn btn-primary more-btn mt-4 btn-study-online">Đăng ký tư vấn</button>
           </div>
         </div>
       </div>
@@ -225,12 +227,12 @@ Product AI
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative" id="video1">
-                      <img class="card-img" src="{{ asset('images/imgs/product/img-post-native.png') }}"
+                      <img class="card-img" src="{{ asset('images/imgs/product/ai-post-1.png') }}"
                         alt="Card image cap">
                       <div class="play-button-post" onclick="showVideoPost('video1')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
-                      <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+                      <h5 class="text-center card-title text-blue-primary text-font-size-18 text-font-weight-400 mb-0">
                         Em Thái Phương Vy (Lớp 7)
                       </h5>
                       <div class="text-center my-1">
@@ -252,12 +254,12 @@ Product AI
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative" id="video2">
-                      <img class="card-img" src="{{ asset('images/imgs/product/img-post-native-2.png') }}"
+                      <img class="card-img" src="{{ asset('images/imgs/product/ai-post-2.png') }}"
                         alt="Card image cap">
                       <div class="play-button-post" onclick="showVideoPost('video2')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
-                      <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+                      <h5 class="text-center card-title text-blue-primary text-font-size-18 text-font-weight-400 mb-0">
                         Em Thái Phương Vy (Lớp 7)
                       </h5>
                       <div class="text-center my-1">
@@ -280,12 +282,12 @@ Product AI
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative" id="video3">
-                      <img class="card-img" src="{{ asset('images/imgs/product/img-post-native-3.png') }}"
+                      <img class="card-img" src="{{ asset('images/imgs/product/ai-post-1.png') }}"
                         alt="Card image cap">
                       <div class="play-button-post" onclick="showVideoPost('video3')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
-                      <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+                      <h5 class="text-center card-title text-blue-primary text-font-size-18 text-font-weight-400 mb-0">
                         Em Thái Phương Vy (Lớp 7)
                       </h5>
                       <div class="text-center my-1">
@@ -307,12 +309,12 @@ Product AI
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative" id="video4">
-                      <img class="card-img" src="{{ asset('images/imgs/product/img-post-native.png') }}"
+                      <img class="card-img" src="{{ asset('images/imgs/product/ai-post-1.png') }}"
                         alt="Card image cap">
                       <div class="play-button-post" onclick="showVideoPost('video4')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
-                      <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+                      <h5 class="text-center card-title text-blue-primary text-font-size-18 text-font-weight-400 mb-0">
                         Em Thái Phương Vy (Lớp 7)
                       </h5>
                       <div class="text-center my-1">
@@ -334,12 +336,12 @@ Product AI
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative" id="video5">
-                      <img class="card-img" src="{{ asset('images/imgs/product/img-post-native-2.png') }}"
+                      <img class="card-img" src="{{ asset('images/imgs/product/ai-post-2.png') }}"
                         alt="Card image cap">
                       <div class="play-button-post" onclick="showVideoPost('video5')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
-                      <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+                      <h5 class="text-center card-title text-blue-primary text-font-size-18 text-font-weight-400 mb-0">
                         Em Thái Phương Vy (Lớp 7)
                       </h5>
                       <div class="text-center my-1">
@@ -362,12 +364,12 @@ Product AI
                 <div class="item-post">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative" id="video6">
-                      <img class="card-img" src="{{ asset('images/imgs/product/img-post-native-3.png') }}"
+                      <img class="card-img" src="{{ asset('images/imgs/product/ai-post-1.png') }}"
                         alt="Card image cap">
                       <div class="play-button-post" onclick="showVideoPost('video6')"></div>
                     </div>
                     <div class="card-body pl-0 pr-0">
-                      <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
+                      <h5 class="text-center card-title text-blue-primary text-font-size-18 text-font-weight-400 mb-0">
                         Em Thái Phương Vy (Lớp 7)
                       </h5>
                       <div class="text-center my-1">
@@ -389,7 +391,7 @@ Product AI
           </div>
           <div class="col-lg-12">
             <div class="text-center">
-              <button class="btn btn-primary more-btn btn-register">Đăng ký tư vấn</button>
+              <button class="btn btn-primary more-btn btn-study-online">Đăng ký tư vấn</button>
             </div>
           </div>
         </div>
@@ -408,7 +410,7 @@ Product AI
           </div>
           <div class="col-lg-12">
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-6 pl-0">
                 <div class="">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative item-verify">
@@ -423,7 +425,7 @@ Product AI
                         </div>
                       </div>
                     </div>
-                    <div class="card-body pl-0 pr-0">
+                    <div class="card-body px-0 py-0 des-video-verify">
                       <div class="d-flex">
                         <img class="img-fluid" src="{{ asset('images/icons/product/vtv.svg') }}" alt="VTV">
                         <p class="text-black text-left text-font-size-16 text-font-weight-400">
@@ -435,7 +437,7 @@ Product AI
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 pr-0">
                 <div class="">
                   <div class="card border-0" style="width: 100%;">
                     <div class="position-relative item-verify">
@@ -450,10 +452,10 @@ Product AI
                         </div>
                       </div>
                     </div>
-                    <div class="card-body pl-0 pr-0">
+                    <div class="card-body px-0 py-0 des-video-verify">
                       <div class="d-flex">
                         <img class="img-fluid" src="{{ asset('images/icons/product/thvl.svg') }}" alt="THVL">
-                        <p class="text-black text-center text-font-size-16 text-font-weight-400">
+                        <p class="text-black text-left text-font-size-16 text-font-weight-400">
                           Edupia là chương trình Tiếng Anh ĐẦU TIÊN có
                           thầy cô giáo đồng hành theo sát tiến bộ của con 24/7
                         </p>
@@ -464,7 +466,7 @@ Product AI
               </div>
             </div>
           </div>
-          <div class="col-lg-12 mb-5 pb-5">
+          <div class="col-lg-12 slide-social">
             <div class="marquee">
               <div class="marquee-content">
                 <div class="marquee-tag">
@@ -524,7 +526,7 @@ Product AI
               </div>
             </div>
           </div>
-          <div class="col-lg-12 div-chicken mt-5 py-5">
+          <div class="col-lg-12 div-chicken">
             <div class="row">
               <div class="col-lg-7">
                 <div class="content-chicken-txt">
@@ -553,7 +555,7 @@ Product AI
               </div>
             </div>
           </div>
-          <div class="col-lg-12 mt-5">
+          <div class="col-lg-12 div-register-bottom">
             <div class="about-register-content bg-blue-primary">
               <div class="row">
                 <div class="col-lg-6">
@@ -582,7 +584,7 @@ Product AI
                         <input class="form-control input-customer" type="text" placeholder="Lớp của con" />
                       </div>
                       <div class="text-center">
-                        <button type="submit" class="btn btn-primary more-btn btn-register">Đăng ký ngay</button>
+                        <button type="submit" class="btn btn-primary more-btn btn-register-bottom">Đăng ký ngay</button>
                       </div>
                     </form>
                   </div>
