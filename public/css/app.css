@@ -22977,7 +22977,7 @@ a:hover {
 }
 
 .header-area .nav-primary {
-  padding-left: 100px;
+  padding-left: 140px;
   gap: 40px;
 }
 
@@ -23415,7 +23415,6 @@ a:hover {
 
 .home .section-7 {
   padding-top: 80px;
-  padding-bottom: 40px;
 }
 
 .home .section-7 .marquee {
@@ -23502,8 +23501,12 @@ a:hover {
 
 .home .section-8 {
   background-color: #FFFFFF;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 115px;
+  padding-bottom: 60px;
+}
+
+.home .section-8 .title-section-8 {
+  margin-bottom: 48px;
 }
 
 .home .section-9 {
@@ -23516,13 +23519,25 @@ a:hover {
   text-align: center;
 }
 
+.about-us .title-about {
+  margin-bottom: 28px;
+}
+
+.about-us .btn-about {
+  margin-top: 35px;
+}
+
 .about-us .title-about-us {
   left: 20%;
   bottom: 10%;
 }
 
-.about-us p {
-  margin-bottom: 0;
+.about-us .img-padding-top {
+  padding-top: 35px;
+}
+
+.about-us .img-padding-top img {
+  height: 345px;
 }
 
 .about-us .item-about-content {
@@ -23535,15 +23550,28 @@ a:hover {
 }
 
 .about-us .about-item-2 {
-  margin-top: 60px;
+  margin-top: 97px;
+}
+
+.about-us .h-345 {
+  height: 345px;
+}
+
+.about-us .about-item-3 {
+  margin-top: 67px;
+}
+
+.about-us .about-item-3 .title-item-3 {
+  margin-bottom: 16px;
 }
 
 .about-us .more-btn {
   background-color: #FFA800;
   border-color: #FFA800;
   border-radius: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 12px 35px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .about-us .div-left-about {
@@ -23580,7 +23608,7 @@ a:hover {
 
 .about-us .item-bottom-1 {
   position: absolute;
-  top: 114px;
+  top: 135px;
   font-style: normal;
   left: 0;
   -webkit-transform: translate(-50%, -50%);
@@ -23591,7 +23619,7 @@ a:hover {
 
 .about-us .item-bottom-2 {
   position: absolute;
-  bottom: -85px;
+  bottom: -110px;
   font-style: normal;
   left: 0;
   -webkit-transform: translate(-50%, -50%);
@@ -23623,8 +23651,25 @@ a:hover {
 }
 
 .about-us .about-register-content {
-  padding: 48px 20px 35px 75px;
   border-radius: 15px;
+}
+
+.about-us .about-register-content-1 {
+  padding: 48px 20px 35px 75px;
+}
+
+.about-us .about-register-content-2 {
+  position: relative;
+}
+
+.about-us .about-register-content-2 .div-img {
+  position: absolute;
+  bottom: 0;
+}
+
+.about-us .about-register-content-2 .div-img img {
+  width: 724px;
+  height: 482px;
 }
 
 .about-us .input-customer {
@@ -23642,8 +23687,20 @@ a:hover {
   font-weight: 600;
 }
 
+.about-us .about-team .card-img {
+  height: 365px;
+}
+
 .product-native {
   background-color: #FFFFFF;
+}
+
+.product-native .title-native {
+  margin-bottom: 19px;
+}
+
+.product-native .des-native {
+  margin-bottom: 23px !important;
 }
 
 .product-native .native-banner {
@@ -23661,12 +23718,34 @@ a:hover {
   margin-bottom: 78px;
 }
 
+.product-native .des-register-top {
+  margin-bottom: 18px;
+}
+
+.product-native .title-register-top {
+  white-space: nowrap;
+}
+
 .product-native .img-register {
+  bottom: 0;
   padding: 50px 50px 0 55px;
+}
+
+.product-native .img-register img {
+  height: 497px;
 }
 
 .product-native .div-form-register {
   padding: 14px 114px 37px 0;
+}
+
+.product-native .title-skill {
+  margin-bottom: 19px !important;
+}
+
+.product-native .des-skill {
+  margin-bottom: 37px !important;
+  line-height: 28px;
 }
 
 .product-native .video_youtube {
@@ -23675,7 +23754,11 @@ a:hover {
 }
 
 .product-native .native-result {
-  margin: 100px 0;
+  margin-top: 101px;
+}
+
+.product-native .native-result .list-item-result ul {
+  padding-left: 20px;
 }
 
 .product-native li::marker {
@@ -23694,10 +23777,11 @@ a:hover {
 }
 
 .product-native .native-commit {
-  margin: 115px 0;
+  margin-top: 127px;
 }
 
 .product-native .item-card-commit {
+  margin-top: 10px;
   padding: 0 23px;
 }
 
@@ -23707,10 +23791,20 @@ a:hover {
 
 .product-native .title-commit {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .product-native .title-commit p {
   padding: 0 15%;
+}
+
+.product-native .btn-commit {
+  margin-top: 44px;
+}
+
+.product-native .native-teams {
+  padding-top: 68px;
+  padding-bottom: 40px;
 }
 
 .product-native .title-native-teams {
@@ -23720,10 +23814,6 @@ a:hover {
 
 .product-native .title-native-teams p {
   padding: 0 21%;
-}
-
-.product-native .native-teams {
-  padding-bottom: 60px;
 }
 
 .product-native .carousel-control-prev {
@@ -23750,12 +23840,24 @@ a:hover {
   bottom: -50px;
 }
 
+.product-native .carousel-indicators .active {
+  background-color: #01C0ED !important;
+}
+
 .product-native .carousel-indicators li {
   background-color: #E6E4F7;
 }
 
 .product-native .native-postshare {
-  margin: 50px 0;
+  margin-top: 93px;
+}
+
+.product-native .native-postshare .title-post {
+  margin-bottom: 46px;
+}
+
+.product-native .native-postshare .btn-resize {
+  font-size: 18px;
 }
 
 .product-native .card-img {
@@ -23763,7 +23865,35 @@ a:hover {
 }
 
 .product-native .native-verify {
-  margin-top: 62px;
+  margin-top: 53px;
+}
+
+.product-native .native-verify .title-verify {
+  margin-bottom: 31px;
+}
+
+.product-native .native-verify .des-video {
+  margin-top: 13px;
+}
+
+.product-native .native-verify .slide-social {
+  margin-top: 73px;
+}
+
+.product-native .native-verify .chicken-content {
+  margin-top: 89px;
+}
+
+.product-native .native-verify .btn-resize {
+  font-size: 18px;
+}
+
+.product-native .native-verify .btn-chicken-div {
+  margin-top: 42px;
+}
+
+.product-native .native-verify .register-bottom {
+  margin-top: 54px;
   margin-bottom: 107px;
 }
 
@@ -23781,15 +23911,25 @@ a:hover {
 }
 
 .product-native .about-register-content {
-  padding: 48px 20px 35px 75px;
   border-radius: 15px;
+}
+
+.product-native .about-register-content-1 {
+  padding-left: 21px;
+  padding-top: 65px;
+  position: absolute;
+  bottom: 0;
+}
+
+.product-native .about-register-content-2 {
+  padding: 33px 74px 38px 46px;
 }
 
 .product-native .img-card-slide {
   border-radius: 20px;
   width: 285px;
   height: 365px;
-  padding: 24px 41px 0 30px;
+  padding: 32px 33px 0 30px;
 }
 
 .product-native .img-card-slide-cayman {
@@ -23895,9 +24035,9 @@ a:hover {
   background-color: #FFA800;
   border-color: #FFA800;
   border-radius: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 15px 41px;
   font-weight: 600;
+  font-size: 20px;
 }
 
 .input-customer {
@@ -23981,16 +24121,17 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 800px;
+  height: 801px;
 }
 
 .product-ai .ai-banner .content-banner-ai {
-  -webkit-transform: translate(10%, 85%);
-          transform: translate(10%, 85%);
+  -webkit-transform: translate(10%, 112%);
+          transform: translate(10%, 112%);
 }
 
 .product-ai .ai-banner .content-banner-ai .title-banner {
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: 60px;
+  margin-bottom: 24px !important;
 }
 
 .product-ai .about-register-content {
@@ -24000,17 +24141,24 @@ a:hover {
 
 .product-ai .ai-form-register {
   margin-top: 86px;
-  margin-bottom: 72px;
 }
 
 .product-ai .btn-register {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
-  padding: 15px 41px;
+  padding: 15px 57px;
 }
 
 .product-ai .title-form-register {
   padding-top: 38px;
+}
+
+.product-ai .ai-roadmap {
+  margin-top: 75px;
+}
+
+.product-ai .ai-roadmap .div-contentroadmap {
+  margin-top: 128px;
 }
 
 .product-ai .item-txt-right {
@@ -24018,13 +24166,19 @@ a:hover {
   margin-top: 80px;
 }
 
+.product-ai hr {
+  margin-top: 10px;
+  margin-bottom: 23px;
+  width: 285px;
+}
+
 .product-ai .item-img-right {
-  padding-right: 60px;
+  padding-right: 50px;
 }
 
 .product-ai .item-txt-left {
-  padding-right: 60px;
-  margin-top: 80px;
+  padding-right: 40px;
+  margin-top: 149px;
 }
 
 .product-ai .item-img-left {
@@ -24044,8 +24198,8 @@ a:hover {
   position: absolute;
   top: 37px;
   left: 20px;
-  max-width: 614px;
-  max-height: 457px;
+  max-width: 595px;
+  max-height: 443px;
   width: 100%;
   height: 100%;
 }
@@ -24065,6 +24219,32 @@ a:hover {
   height: 15px;
   border-radius: 50%;
   background-color: #D9D9D9;
+}
+
+.product-ai .ai-ispeak .video-ispeak {
+  padding-right: 60px;
+}
+
+.product-ai .ai-study-online {
+  margin-top: 75px;
+}
+
+.product-ai .ai-study-online .title-study-online {
+  margin-bottom: 17px;
+}
+
+.product-ai .ai-study-online .video-study-online {
+  margin-top: 46px;
+}
+
+.product-ai .btn-study-online {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 49px;
+}
+
+.product-ai .ai-postshare {
+  margin-top: 95px;
 }
 
 .product-ai .play-button-ai {
@@ -24112,19 +24292,40 @@ a:hover {
   position: absolute;
   top: 28px;
   left: 14px;
-  max-width: 453px;
+  max-width: 468px;
   max-height: 337px;
   width: 100%;
   height: 100%;
 }
 
 .product-ai .content-chicken-txt {
-  padding-top: 70px;
+  padding-top: 135px;
 }
 
 .product-ai .ai-verify {
   margin-top: 89px;
-  margin-bottom: 90px;
+}
+
+.product-ai .ai-verify .des-video-verify {
+  margin-top: 16px;
+}
+
+.product-ai .ai-verify .slide-social {
+  margin-top: 47px;
+}
+
+.product-ai .ai-verify .div-chicken {
+  margin-top: 102px;
+}
+
+.product-ai .ai-verify .div-register-bottom {
+  margin-top: 120px;
+  margin-bottom: 91px;
+}
+
+.product-ai .ai-verify .btn-register-bottom {
+  padding: 17px 57px;
+  font-size: 18px;
 }
 
 .product-ielts {
@@ -24132,9 +24333,9 @@ a:hover {
 }
 
 .product-ielts .btn-register {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
-  padding: 15px 41px;
+  padding: 17px 57px;
 }
 
 .product-ielts .ielts-banner {
@@ -24153,6 +24354,7 @@ a:hover {
 .product-ielts .ielts-banner .content-banner-ai .title-banner {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   line-height: 60px;
+  margin-bottom: 24px !important;
 }
 
 .product-ielts .ielts-banner .content-banner-ai .des-banner {
@@ -24161,8 +24363,7 @@ a:hover {
 }
 
 .product-ielts .ielts-register {
-  margin-top: 78px;
-  margin-bottom: 78px;
+  margin-top: 86px;
 }
 
 .product-ielts .ielts-register .div-register {
@@ -24170,17 +24371,35 @@ a:hover {
 }
 
 .product-ielts .ielts-register .img-register {
-  padding: 50px 50px 0 55px;
+  position: absolute;
+  bottom: 0;
+  padding: 8px 0 0 29px;
 }
 
 .product-ielts .ielts-register .div-form-register {
   padding: 38px 114px 37px 0;
 }
 
+.product-ielts .ielts-register .div-form-register .title-register {
+  white-space: nowrap;
+}
+
+.product-ielts .ielts-register .div-form-register .div-button-form {
+  margin-top: 29px;
+}
+
+.product-ielts .ielts-chance {
+  margin-top: 76px;
+}
+
 .product-ielts .ielts-chance .title-content-chance {
   padding-left: 16px;
   border-left: 4px solid #005487;
   line-height: normal;
+}
+
+.product-ielts .ielts-chance .img-chance {
+  padding-left: 15px;
 }
 
 .product-ielts .ielts-chance .hr-chance {
@@ -24193,7 +24412,12 @@ a:hover {
   margin-top: 77px;
 }
 
+.product-ielts .ielts-teacher .title-teacher {
+  margin-top: 29px;
+}
+
 .product-ielts .ielts-teacher .item-teacher {
+  margin-bottom: 57px;
   border-radius: 45px;
 }
 
@@ -24227,6 +24451,10 @@ a:hover {
   margin-bottom: 70px;
 }
 
+.product-ielts .ielts-procedure .item-content-procedure {
+  margin-top: 29px;
+}
+
 .product-ielts .ielts-procedure .item-procedure {
   background-color: transparent;
   max-width: 305px;
@@ -24239,6 +24467,18 @@ a:hover {
 
 .product-ielts .ielts-procedure .content-procedure {
   margin-top: 98px;
+}
+
+.product-ielts .ielts-trip .btn-trip-register {
+  margin-bottom: 48px;
+}
+
+.product-ielts .ielts-trip .title-trip {
+  margin-bottom: 13px !important;
+}
+
+.product-ielts .ielts-trip .img-trip-content {
+  margin-top: 22px;
 }
 
 .product-ielts .ielts-trip .title-item-trip-1 {
@@ -24273,7 +24513,16 @@ a:hover {
 
 .product-ielts .ielts-feedback1 {
   margin-top: 87px;
-  padding-bottom: 70px;
+  padding-bottom: 35px;
+}
+
+.product-ielts .ielts-feedback1 .title-feedback1 {
+  margin-bottom: 23px;
+}
+
+.product-ielts .ielts-feedback1 .list-star {
+  margin-top: 13px;
+  margin-bottom: 18px;
 }
 
 .product-ielts .ielts-feedback1 .card-img {
@@ -24304,6 +24553,7 @@ a:hover {
 }
 
 .product-ielts .ielts-banner-mid {
+  margin-top: 79px;
   background-image: url("/images/imgs/product/bg-banner-mid-ie.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -24383,8 +24633,8 @@ a:hover {
 }
 
 .product-ielts .ielts-award {
-  margin-top: 100px;
-  padding-bottom: 111px;
+  margin-top: 104px;
+  padding-bottom: 20px;
 }
 
 .product-ielts .ielts-award .wizard .nav-tabs > li.active > a i {
@@ -24394,7 +24644,11 @@ a:hover {
 }
 
 .product-ielts .ielts-verify {
-  padding: 67px 0;
+  padding-top: 111px;
+}
+
+.product-ielts .ielts-verify .title-verify {
+  margin-bottom: 31px;
 }
 
 .product-ielts .ielts-verify .video-verify {
@@ -24412,18 +24666,58 @@ a:hover {
   padding-right: 40px;
 }
 
+.product-ielts .ielts-verify .des-video {
+  margin-top: 13px;
+}
+
+.product-ielts .ielts-verify .slide-social {
+  margin-top: 73px;
+}
+
+.product-ielts .ielts-verify .chicken-div-content {
+  margin-top: 146px;
+}
+
+.product-ielts .ielts-verify .content-chicken-txt {
+  padding-top: 85px;
+}
+
+.product-ielts .ielts-verify .btn-resize {
+  padding: 8px 44px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.product-ielts .ielts-verify .btn-chicken-verify {
+  margin-top: 28px;
+}
+
+.product-ielts .ielts-verify .title-chicken {
+  margin-bottom: 23px !important;
+}
+
+.product-ielts .ielts-verify .des-chicken {
+  margin-bottom: 24px !important;
+}
+
+.product-ielts .form-register-bottom {
+  margin-top: 64px;
+  margin-bottom: 67px;
+}
+
 .product-pro {
   background-color: #FFFFFF;
 }
 
 .product-pro .btn-register {
-  font-size: 20px;
-  font-weight: 600;
-  padding: 15px 41px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 17px 42px;
 }
 
 .product-pro .pro-header-banner {
   background-color: #BCA2F8;
+  height: 711px;
 }
 
 .product-pro .pro-header-banner .center {
@@ -24435,7 +24729,20 @@ a:hover {
 }
 
 .product-pro .pro-header-banner .img-banner {
-  padding-top: 88px;
+  position: absolute;
+  bottom: 0;
+}
+
+.product-pro .pro-header-banner .img-banner img {
+  height: 623px;
+}
+
+.product-pro .pro-header-banner .txt-banner-pro {
+  margin-bottom: 14px !important;
+}
+
+.product-pro .pro-header-banner .des-banber-pro1 {
+  margin-bottom: 21px !important;
 }
 
 .product-pro .pro-register {
@@ -24461,6 +24768,7 @@ a:hover {
 .product-pro .pro-register .div-form-register {
   padding-top: 47px;
   padding-right: 70px;
+  padding-left: 70px;
   padding-bottom: 44px;
 }
 
@@ -24474,12 +24782,12 @@ a:hover {
 
 .product-pro .pro-question .question-1 {
   top: 18%;
-  right: 11%;
+  right: 8%;
 }
 
 .product-pro .pro-question .question-2 {
   top: 44%;
-  right: 4%;
+  right: 2%;
 }
 
 .product-pro .pro-question .question-3 {
@@ -24489,7 +24797,7 @@ a:hover {
 
 .product-pro .pro-question .question-4 {
   top: 87%;
-  right: 9%;
+  right: 7%;
 }
 
 .product-pro .pro-about {
@@ -24518,7 +24826,7 @@ a:hover {
 
 .product-pro .pro-class {
   margin-top: 70px;
-  padding-bottom: 76px;
+  padding-bottom: 35px;
 }
 
 .product-pro .pro-class .content-class {
@@ -24542,6 +24850,14 @@ a:hover {
 .product-pro .pro-class li::marker {
   color: #FFA800;
   font-size: 25px;
+}
+
+.product-pro .pro-procedure {
+  margin-top: 67px;
+}
+
+.product-pro .pro-procedure .menu-tabs {
+  margin-top: 38px;
 }
 
 .product-pro .pro-procedure .nav-pills .nav-link.active,
@@ -24612,11 +24928,15 @@ a:hover {
   padding-bottom: 60px;
 }
 
+.product-pro .pro-teacher .slider-native-teams {
+  margin-top: 48px;
+}
+
 .product-pro .pro-teacher .img-card-slide {
   border-radius: 20px;
   width: 285px;
   height: 343px;
-  padding-top: 13px;
+  padding-top: 26px;
 }
 
 .product-pro .pro-teacher .img-card-slide-cayman {
@@ -24652,12 +24972,27 @@ a:hover {
   border: none !important;
 }
 
+.product-pro .pro-postshare .title-postshare {
+  margin-bottom: 52px;
+}
+
 .product-pro .pro-postshare img {
   border-radius: 16px;
 }
 
+.product-pro .pro-postshare .list-star {
+  margin-top: 13px;
+  margin-bottom: 18px;
+}
+
 .product-pro .pro-slide-post {
-  padding-bottom: 60px;
+  margin-top: 48px;
+  padding-bottom: 40px;
+}
+
+.product-pro .pro-slide-post .list-star {
+  margin-top: 13px;
+  margin-bottom: 18px;
 }
 
 .product-pro .pro-slide-post .img-post-slide {
@@ -24686,16 +25021,46 @@ a:hover {
 }
 
 .product-pro .pro-award {
-  margin-top: 40px;
-  padding-bottom: 67px;
+  margin-top: 66px;
+  padding-bottom: 26px;
+}
+
+.product-pro .pro-award .title-award {
+  margin-bottom: 67px;
 }
 
 .product-pro .pro-award .wizard .nav-tabs > li.active > a i {
   font-weight: 600;
 }
 
+.product-pro .pro-verify {
+  margin-top: 67px;
+}
+
+.product-pro .pro-verify .title-verify {
+  margin-bottom: 69px;
+}
+
+.product-pro .pro-verify .des-video-verify {
+  margin-top: 43px;
+  margin-bottom: 47px;
+}
+
 .product-pro .pro-verify .item-verify {
   padding: 0 20px;
+}
+
+.product-pro .pro-verify .chicken-div-verify {
+  margin-top: 129px;
+}
+
+.product-pro .pro-verify .content-chicken-txt {
+  padding-top: 105px;
+}
+
+.product-pro .bottom-register {
+  margin-top: 110px;
+  margin-bottom: 110px;
 }
 
 .go-learning {

@@ -19,19 +19,19 @@ About us
 				<div class="row about-item-1">
 					<div class="col-lg-6">
 						<div>
-							<h1 class="text-font-size-36 text-font-weight-700 mb-5">Giới thiệu chung</h1>
-							<p class="text-font-size-18 text-font-weight-400 text-justify">Bắt nguồn từ mong muốn mang chất lượng dạy
+							<h1 class="text-font-size-36 text-font-weight-700 title-about">Giới thiệu chung</h1>
+							<p class="text-font-size-18 text-font-weight-400 text-justify mb-0">Bắt nguồn từ mong muốn mang chất lượng dạy
 								Tiếng Anh tại Trường Quốc tế đến với mọi học sinh Việt Nam,
 								để các bạn nhỏ dù không có điều kiện kinh tế theo học tại các Trường Quốc Tế hay Trung Tâm đắt tiền vẫn
 								có thể sử dụng Tiếng Anh tốt như người bản ngữ. Đây chính là hành trang chuẩn bị cho các em tương lai
 								vươn ra thế giới. Chính vì lý do trên, đội ngũ sáng lập đã bắt tay vào xây dựng sản phẩm đầu tiên có tên
 								“Chương trình học Tiếng Anh Online EDUPIA”.
 							</p>
-							<button class="btn btn-primary more-btn mt-4">Xem thêm cuộc thi</button>
+							<button class="btn btn-primary more-btn btn-about">Tìm hiểu thêm</button>
 						</div>
 					</div>
 					<div class="col-lg-6">
-						<div class="div-left-about">
+						<div class="div-left-about img-padding-top">
 							<div class="item-about-content">
 								<img class="img-fluid" src="{{ asset('images/imgs/aboutus/about-content-1.png') }}" alt="item 1" />
 							</div>
@@ -42,7 +42,7 @@ About us
 					<div class="col-lg-6">
 						<div class="div-right-about">
 							<div class="item-about-content">
-								<img class="img-fluid" src="{{ asset('images/imgs/aboutus/about-content-2.png') }}" alt="item 2" />
+								<img class="img-fluid h-345" src="{{ asset('images/imgs/aboutus/about-content-2.png') }}" alt="item 2" />
 							</div>
 						</div>
 					</div>
@@ -59,10 +59,10 @@ About us
 						</div>
 					</div>
 				</div>
-				<div class="row about-item-1">
+				<div class="row about-item-3">
 					<div class="col-lg-6">
 						<div>
-							<h1 class="text-font-size-30 text-font-weight-600">Sứ mệnh</h1>
+							<h1 class="text-font-size-30 text-font-weight-600 title-item-3">Sứ mệnh</h1>
 							<p class="text-font-size-18 text-font-weight-400 text-justify">Thông qua việc sử dụng công nghệ để mang
 								chất lượng giáo dục từ trường quốc tế đến mọi học sinh, chúng
 								tôi tin rằng ngoại ngữ là một trong những con đường nhanh nhất để mọi công dân có thể tiếp cận các tri
@@ -73,7 +73,7 @@ About us
 					<div class="col-lg-6">
 						<div class="div-left-about">
 							<div class="item-about-content">
-								<img class="img-fluid" src="{{ asset('images/imgs/aboutus/about-content-3.png') }}" alt="item 3" />
+								<img class="img-fluid h-345" src="{{ asset('images/imgs/aboutus/about-content-3.png') }}" alt="item 3" />
 							</div>
 						</div>
 					</div>
@@ -222,7 +222,7 @@ About us
 						</div>
 						<div class="col-lg-3">
 							<div class="card border-0" style="width: 100%;">
-								<img class="card-img" src="{{ asset('images/imgs/aboutus/avt-adam.png') }}" alt="Card image cap">
+								<img class="card-img" src="{{ asset('images/imgs/aboutus/avt-cayman.png') }}" alt="Card image cap">
 								<div class="card-body pl-0 pr-0">
 									<h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
 										<span class="text-font-weight-400">Thầy</span> Adam Lewis
@@ -273,7 +273,7 @@ About us
 						</div>
 						<div class="col-lg-3">
 							<div class="card border-0" style="width: 100%;">
-								<img class="card-img" src="{{ asset('images/imgs/aboutus/avt-cayman.png') }}" alt="Card image cap">
+								<img class="card-img" src="{{ asset('images/imgs/aboutus/avt-adam.png') }}" alt="Card image cap">
 								<div class="card-body pl-0 pr-0">
 									<h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
 										<span class="text-font-weight-400">Cô</span> Cayman Fitzhugh
@@ -301,12 +301,12 @@ About us
 			</div>
 		</div>
 	</section>
-	<section class="about-register py-5">
+	<section class="about-register">
 		<div class="container">
 			<div class="edupia-container-lg">
-				<div class="about-register-content bg-blue-primary">
+				<div class="bg-blue-primary about-register-content">
 					<div class="row">
-						<div class="col-lg-6">
+						<div class="col-lg-6 about-register-content-1">
 							<div>
 								<p class="text-white text-font-size-26 text-font-weight-600 mb-4">Đặc biệt! Tặng 100 ba mẹ đăng ký đầu
 									tiên bộ quà trị giá 2 triệu
@@ -328,8 +328,8 @@ About us
 							</div>
 
 						</div>
-						<div class="col-lg-6">
-							<div class="text-center">
+						<div class="col-lg-6 about-register-content-2">
+							<div class="text-center div-img">
 								<img class="img-fluid" src="{{ asset('images/imgs/aboutus/img-register.png') }}" alt="img register" />
 							</div>
 						</div>
