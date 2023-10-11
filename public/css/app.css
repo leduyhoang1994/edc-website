@@ -24996,6 +24996,7 @@ a:hover {
 
 .recruitment-detail .desc-detail .recruitment-form .form-group textarea {
   padding-left: 0;
+  background: none;
 }
 
 .recruitment-detail .desc-detail .recruitment-form .custom-file-upload {
