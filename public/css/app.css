@@ -25836,7 +25836,8 @@ a:hover {
 }
 
 .document-detail {
-  padding-bottom: 87px;
+  padding-bottom: 39px;
+  line-height: normal;
 }
 
 .document-detail .header-banner {
@@ -25846,13 +25847,21 @@ a:hover {
 }
 
 .document-detail .header-banner .book-cover {
+  max-width: 487px;
   padding: 22px 33px;
   background: #FFFFFF;
   border-radius: 10px;
   border: 1px solid #E9E9E9;
+  -webkit-box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.document-detail .header-banner .book-cover img {
+  max-width: 421px;
 }
 
 .document-detail .header-banner .description {
+  padding-left: 80px;
   max-width: 631px;
 }
 
@@ -25867,10 +25876,36 @@ a:hover {
       flex-shrink: 0;
 }
 
+.document-detail .header-banner .description .custom-button {
+  border-radius: 1000px;
+  background: #FFA800;
+}
+
 .document-detail .ask-form {
   padding-top: 49px;
-  padding-bottom: 54px;
+  padding-bottom: 25px;
   background: #20BEC6;
+}
+
+.document-detail .ask-form .form-group {
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+
+.document-detail .ask-form .form-control::-webkit-input-placeholder {
+  color: #5A5A5A;
+}
+
+.document-detail .ask-form .form-control::-moz-placeholder {
+  color: #5A5A5A;
+}
+
+.document-detail .ask-form .form-control::-ms-input-placeholder {
+  color: #5A5A5A;
+}
+
+.document-detail .ask-form .form-control::placeholder {
+  color: #5A5A5A;
 }
 
 .document-detail .ask-form .form-rounded {
@@ -25892,11 +25927,11 @@ a:hover {
 }
 
 .document-detail .other-document .btn-action {
-  margin-top: 11px;
   text-align: center;
 }
 
 .document-detail .other-document .btn-action .btn-download {
+  margin-top: 11px;
   width: 143px;
   padding: 5px 18px;
   background: #EAEAEA;
@@ -25905,9 +25940,13 @@ a:hover {
   cursor: pointer;
 }
 
+.document-detail #documentModal .modal-dialog.modal-dialog-centered.modal-lg {
+  max-width: 857px;
+}
+
 .document-detail #documentModal .modal-content {
   background: #20BEC6;
-  padding: 17px 22px 42px 41px;
+  padding: 17px 22px 41px 40px;
   border-radius: 14px;
 }
 
@@ -25923,13 +25962,33 @@ a:hover {
   opacity: 1;
 }
 
+.document-detail #documentModal .modal-content .modal-body {
+  padding: 0;
+}
+
 .document-detail #documentModal .modal-content .modal-body .form-rounded {
   border-radius: 1000px;
   border: none;
   font-size: 18px;
   font-weight: 300;
-  height: 58px;
+  height: 56px;
   padding-left: 28px;
+}
+
+.document-detail #documentModal .modal-content .modal-body .custom-button {
+  border-radius: 1000px;
+  background: #FF9213;
+  padding: 11px 0;
+}
+
+@media (max-width: 576px) {
+  .document-detail .book-cover img {
+    width: 100%;
+  }
+
+  .document-detail .description {
+    padding-left: 0 !important;
+  }
 }
 
 .product-extra {

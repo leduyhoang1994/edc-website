@@ -1,18 +1,26 @@
 .document-detail {
-  padding-bottom: 87px;
+  padding-bottom: 39px;
+  line-height: normal;
   .header-banner {
     padding-top: 79px;
     padding-bottom: 87px;
     background: $gray-150;
 
     .book-cover {
+      max-width: 487px;
       padding: 22px 33px;
       background: $white;
       border-radius: 10px;
       border: 1px solid $gray-10;
+      box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.05);
+
+      img {
+        max-width: 421px;
+      }
     }
 
     .description {
+      padding-left: 80px;
       max-width: 631px;
 
       .category {
@@ -24,14 +32,26 @@
         margin-bottom: 43px;
         flex-shrink: 0;
       }
+      .custom-button {
+        border-radius: 1000px;
+        background: $yellow-400;
+      }
     }
   }
 
   .ask-form {
     padding-top: 49px;
-    padding-bottom: 54px;
+    padding-bottom: 25px;
     background: $blue-primary;
-
+    .form-group {
+      margin-top: 10px;
+      margin-bottom: 13px;
+    }
+    .form-control {
+      &::placeholder {
+        color: #5A5A5A;
+      }
+    }
     .form-rounded {
       border-radius: 1000px;
       border: none;
@@ -44,7 +64,6 @@
     .custom-button {
       border-radius: 1000px;
       background: $yellow-400;
-  
     }
   }
 
@@ -54,10 +73,10 @@
     padding-top: 71px;
 
     .btn-action {
-      margin-top: 11px;
       text-align: center;
 
       .btn-download {
+        margin-top: 11px;
         width: 143px;
         padding: 5px 18px;
         background: $gray-80;
@@ -69,10 +88,12 @@
   }
 
   #documentModal {
-
+    .modal-dialog.modal-dialog-centered.modal-lg {
+      max-width: 857px;
+    }
     .modal-content {
       background: $blue-450;
-      padding: 17px 22px 42px 41px;
+      padding: 17px 22px 41px 40px;
       border-radius: 14px;
 
       .modal-header {
@@ -88,18 +109,40 @@
       }
 
       .modal-body {
-
+        padding: 0;
         .form-rounded {
           border-radius: 1000px;
           border: none;
           font-size: $font-18;
           font-weight: $font-weight-300;
-          height: 58px;
+          height: 56px;
           padding-left: 28px;
+        }
+        .custom-button {
+          border-radius: 1000px;
+          background: $orange-500;
+          padding: 11px 0;
         }
       }
     }
 
+  }
+
+
+
+}
+
+
+@media (max-width: 576px) {
+  .document-detail {
+    .book-cover {
+      img {
+        width: 100%;
+      }
+    }
+    .description {
+      padding-left: 0 !important;
+    }
   }
 
 
