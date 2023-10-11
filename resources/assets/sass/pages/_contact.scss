@@ -24,6 +24,17 @@
         background-color: transparent;
         color: black;
       }
+      .form-group {
+        input {
+          height: 25px;
+          padding-left: 0;
+          background: none;
+        }
+        textarea {
+          padding-left: 0;
+          background: none;
+        }
+      }
 
       .custom-file-upload {
         width: 100%;
@@ -40,7 +51,7 @@
       .custom-button {
         border-radius: 1000px;
         background: $blue-primary;
-        padding: 6px;
+        padding: 16px 0;
       }
 
     }
@@ -80,6 +91,10 @@
       background-position: center;
 
     }
+    .connect-us {
+      font-size: $font-16 !important;
+    }
+
   }
 
 }

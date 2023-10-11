@@ -107,7 +107,7 @@ Cẩm nang
   <section class="ask-form container-fluid">
     <div class="container edupia-mw-1230">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-7">
           <div class="text-font-size-26 text-font-weight-600 text-white mb-4">
             <p class="m-0">Trẻ em cần được trao cơ hội để có thể học tập và phát triển tốt hơn. Giúp con khai phá tiềm năng tư duy và ngôn ngữ ngay hôm nay.</p>
           </div>
@@ -117,13 +117,12 @@ Cẩm nang
               <div class="form-group">
                 <input type="text" class="form-control form-rounded" placeholder="Nhập tên và sdt của ba mẹ">
               </div>
-              <button type="submit" class="btn btn-block custom-button py-2">
+              <button type="submit" class="btn btn-block custom-button">
                 <span class="text-font-weight-600 text-font-size-18 text-white">Nhận tư vấn hỏi miễn phí</span>
               </button>
             </form>
           </div>
         </div>
-        <div class="col-sm-1"></div>
         <div class="col-sm-5">
           <div class="image-container">
             <img class="w-100" src="{{ asset('images/imgs/other/chicken-kid.png') }}" alt="chicken-kid" class="image" />

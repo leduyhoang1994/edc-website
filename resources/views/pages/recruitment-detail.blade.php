@@ -5,55 +5,55 @@ Chi tiết tuyển dụng
 @section('content')
 <main class="recruitment-detail">
   <section class="container edupia-mw-1230 text-left">
-    <a class="back-link text-blue-primary">
+    <a class="back-link d-flex align-items-center text-blue-primary text-font-size-16 text-font-weight-400" href="/recruitment">
       <img class="mr-1" src="{{ asset('images/icons/homepage/BackArrows.svg') }}" alt="back-arows" />
       Trở về
     </a>
   </section>
   <section class="container edupia-mw-1230 text-center header-title">
-    <p class="m-0 text-font-size-20">Tuyển Dụng</p>
-    <p class="m-0 text-font-size-30 text-uppercase">
+    <p class="text-font-size-20 head">Tuyển Dụng</p>
+    <p class="text-font-size-30 text-uppercase title">
       Content Social Marketing Senior
     </p>
-    <div class="d-flex justify-content-center align-items-center desc-short">
+    <div class="d-flex justify-content-center align-items-center desc-short text-font-size-18 text-font-weight-400">
       <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
       <span>Hà nội</span>
-      <div class="label">
+      <div class="label text-blue-primary">
         <span>Phòng Marketing</span>
       </div>
     </div>
     <hr class="m-0" />
-    <div class="d-flex flex-sm-row flex-column w-70 justify-content-center align-items-center desc-list">
+    <div class="d-flex flex-sm-row flex-column w-70 justify-content-center align-items-center desc-list text-font-size-18 text-font-weight-400">
       <div class="px-3">
         <img width="6" src="{{ asset('images/icons/homepage/DotIcon.svg') }}" alt="dot-icon" />
-        <span>Địa điểm: Hà Nội</span>
+        <span>Địa điểm: <span class="text-font-weight-600"> Hà Nội</span></span>
       </div>
       <div class="px-3">
         <img width="6" src="{{ asset('images/icons/homepage/DotIcon.svg') }}" alt="dot-icon" />
-        <span>Bộ phận: Phòng Marketing</span>
+        <span>Bộ phận: <span class="text-font-weight-600">Phòng Marketing</span></span>
       </div>
       <div class="px-3">
         <img width="6" src="{{ asset('images/icons/homepage/DotIcon.svg') }}" alt="dot-icon" />
-        <span>Hạn nộp hồ sơ: 30/10/2023</span>
+        <span>Hạn nộp hồ sơ: <span class="text-font-weight-600">30/10/2023</span></span>
       </div>
       <div class="px-3">
         <img width="6" src="{{ asset('images/icons/homepage/DotIcon.svg') }}" alt="dot-icon" />
         <span>
-          Hình thức làm việc: Toàn thời gian
+          Hình thức làm việc: <span class="text-font-weight-600">Toàn thời gian</span>
         </span>
       </div>
     </div>
     <div class="text-center text-blue-primary text-font-size-20 text-font-weight-600 desc-salary">
-      <p>Lên đến 25.000.000 VNĐ/tháng</p>
+      <p class="mb-0">Lên đến 25.000.000 VNĐ/tháng</p>
     </div>
     <hr class="m-0" />
   </section>
-  <section class="desc-detail edupia-mw-1230 container">
+  <section class="desc-detail edupia-mw-1230 container text-font-size-18 text-font-weight-400">
     <div class="row mb-2">
-      <div class="col-2">
-        <p>Mô tả</p>
+      <div class="col-sm-2">
+        <p class="text-font-size-20 text-font-weight-600">Mô tả</p>
       </div>
-      <div class="col-10">
+      <div class="col-sm-10">
         <p>
           - Lên kế hoạch nội dung phát triển kênh social ( Fanpage, tiktok , youtube) của công ty theo
           KPI cụ thể tháng, quý, năm.
@@ -67,10 +67,10 @@ Chi tiết tuyển dụng
       </div>
     </div>
     <div class="row mb-2">
-      <div class="col-2">
-        <p>Yêu cầu ứng viên</p>
+      <div class="col-sm-2">
+        <p class="text-font-size-20 text-font-weight-600">Yêu cầu ứng viên</p>
       </div>
-      <div class="col-10">
+      <div class="col-sm-10">
         <p>
           - Ưu tiên tốt nghiệp Báo chí, nhân văn, KTQD
         </p>
@@ -87,11 +87,11 @@ Chi tiết tuyển dụng
       </div>
     </div>
     <div class="row mb-2">
-      <div class="col-2">
+      <div class="col-sm-2 text-font-size-20 text-font-weight-600">
         <p>Quyền lợi</p>
         <p>được hưởng</p>
       </div>
-      <div class="col-10">
+      <div class="col-sm-10">
         <p>
           Các quyền lợi của công ty:
         </p>
@@ -128,41 +128,41 @@ Chi tiết tuyển dụng
         <p>
           - Cơ hội thăng tiến lên leader
         </p>
-        <div>
-          <span>Chia sẻ job này:</span>
+        <div class="socical-share">
+          <span class="text-font-size-16">Chia sẻ job này:</span>
           <img class="ml-2" src="{{ asset('/images/icons/homepage/SocialIcon.svg') }}" alt="social-icon" />
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-2">
+      <div class="col-sm-2 text-font-size-20 text-font-weight-600">
         <p>Ứng tuyển ngay</p>
         <p>với Edupia</p>
       </div>
-      <div class="col-sm-10 recruitment-form ">
+      <div class="col-sm-10 recruitment-form text-font-weight-500">
         <form>
           <div class="form-group">
             <label for="hoTen">Họ và tên <span class="text-red text-font-size-600">*</span></label>
-            <input type="text" class="form-control" id="hoTen" required>
+            <input type="text" class="form-control shadow-none text-black" id="hoTen" required>
           </div>
           <div class="form-row">
             <div class="form-group col-md-6">
-              <label for="soDienThoai">Số Điện thoại <span class="text-red text-font-size-600">*</span></label>
-              <input type="tel" class="form-control" id="soDienThoai" required>
+              <label for="soDienThoai">Số Điện thoại <span class="text-red">*</span></label>
+              <input type="tel" class="form-control shadow-none text-black" id="soDienThoai" required>
             </div>
             <div class="form-group col-md-6">
               <label for="email">Email</label>
-              <input type="email" class="form-control" id="email">
+              <input type="email" class="form-control shadow-none text-black" id="email">
             </div>
           </div>
           <div class="form-group">
             <label for="nguonTin">Bạn biết đến tin tuyển dụng này từ đâu? <span class="text-red text-font-size-600">*</span></label>
-            <textarea class="form-control" id="nguonTin" rows="1" required></textarea>
+            <textarea class="form-control shadow-none text-black" id="nguonTin" rows="1" required></textarea>
           </div>
           <div class="form-group">
             <label for="email">Upload CV của bạn (nếu có)</label>
-            <label for="cv" class="custom-file-upload">
-              <span> <span class="text-red">Tải lên </span>( doc, docx, pdf, cv, Max size &lt; 5MB)</span>
+            <label for="cv" class="custom-file-upload mt-2">
+              <span class="text-font-weight-400 text-gray-450"> <span class="text-red">Tải lên </span>( doc, docx, pdf, cv, Max size &lt; 5MB)</span>
             </label>
             <input type="file" class="form-control-file d-none" id="cv">
           </div>
@@ -171,28 +171,28 @@ Chi tiết tuyển dụng
       </div>
     </div>
   </section>
-  <hr class="m-0" />
   <section class="contact edupia-mw-1230 container">
-    <div class="text-center">
-      <p>Số điện thoại liên hệ tuyển dụng:</p>
-      <div class="d-flex justify-content-center align-items-center">
-        <img class="mr-1" width="23" src="{{ asset('images/icons/homepage/PhoneIcon.svg') }}" alt="PhoneIcon" />
-        <span class="text-blue-500 text-font-size-30 text-font-weight-700">024 6295 4629</span>
+    <hr class="mt-0 mb-6" />
+    <div class="text-center text-font-size-18 text-font-weight-400 text-black">
+      <p class="mb-2">Số điện thoại liên hệ tuyển dụng:</p>
+      <div class="d-flex justify-content-center align-items-center mb-1">
+        <img class="mr-2" width="28" src="{{ asset('images/icons/homepage/PhoneIcon.svg') }}" alt="PhoneIcon" />
+        <span class="text-blue-500 text-font-size-30 text-font-weight-600">024 6295 4629</span>
       </div>
       <p>Thời giờ làm việc:</p>
       <p>- Sáng: 8h00 - 12h00</p>
       <p>- Chiều: 13h30 - 17h30</p>
       <p>- Nghỉ: Chủ nhật và các ngày Lễ, Tết</p>
     </div>
+    <hr class="mb-0 mt-6" />
   </section>
-  <hr class="m-0" />
-  <section class="other-position edupia-mw-1230 container">
+  <section class="other-position container edupia-mw-1230 ">
     <p class="text-center text-font-size-30 text-font-weight-600 m-0">Xem Thêm Các Vị Trí Khác</p>
-    <div class="position-list-job">
+    <div class="position-list-job container edupia-mw-1230">
       {{-- job --}}
       <div class="position-item row">
         <div class="col-sm-6">
-          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
+          <p class="mb-1 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
             <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
@@ -208,7 +208,7 @@ Chi tiết tuyển dụng
         </div>
         <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
-            <span>Ứng tuyển</span>
+            <span class="text-center">Ứng tuyển</span>
           </div>
         </div>
       </div>
@@ -216,7 +216,7 @@ Chi tiết tuyển dụng
       {{-- job --}}
       <div class="position-item row">
         <div class="col-sm-6">
-          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
+          <p class="mb-1 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
             <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
@@ -232,7 +232,7 @@ Chi tiết tuyển dụng
         </div>
         <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
-            <span>Ứng tuyển</span>
+            <span class="text-center">Ứng tuyển</span>
           </div>
         </div>
       </div>
@@ -240,7 +240,7 @@ Chi tiết tuyển dụng
       {{-- job --}}
       <div class="position-item row">
         <div class="col-sm-6">
-          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
+          <p class="mb-1 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
             <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
@@ -256,15 +256,15 @@ Chi tiết tuyển dụng
         </div>
         <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
-            <span>Ứng tuyển</span>
+            <span class="text-center">Ứng tuyển</span>
           </div>
         </div>
       </div>
-
+      
       {{-- job --}}
       <div class="position-item row">
         <div class="col-sm-6">
-          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
+          <p class="mb-1 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
             <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
@@ -280,15 +280,15 @@ Chi tiết tuyển dụng
         </div>
         <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
-            <span>Ứng tuyển</span>
+            <span class="text-center">Ứng tuyển</span>
           </div>
         </div>
       </div>
 
-     {{-- job --}}
-      <div class="position-item row">
+       {{-- job --}}
+       <div class="position-item row">
         <div class="col-sm-6">
-          <p class="mb-2 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
+          <p class="mb-1 text-font-weight-600 text-font-size-18 text-uppercase">Content Social Marketing
             Senior</p>
           <div class="d-flex align-items-center text-font-weight-400 text-font-size-16">
             <img width="24" class="mr-1" src="{{ asset('images/icons/homepage/LocationIcon.svg') }}" alt="location-icon" />
@@ -304,18 +304,18 @@ Chi tiết tuyển dụng
         </div>
         <div class="col-sm-2 d-flex align-items-center text-font-weight-400 text-font-size-18 text-blue-primary">
           <div class="recruitment-btn">
-            <span>Ứng tuyển</span>
+            <span class="text-center">Ứng tuyển</span>
           </div>
         </div>
       </div>
     </div>
   </section>
   <section class="banner-body container-fluid">
-    <div class="edupia-mw-1230 container w-75">
+    <div class="edupia-mw-1230 container">
       <p class="m-0 text-center text-font-size-30 text-font-weight-600 text-white">Edupia - Công ty Edtech số 1
         tại Việt Nam hân hoan chào đón bạn!</p>
       <div class="content row">
-        <div class="col-sm-4 d-flex flex-column align-items-center">
+        <div class="col-sm-4 d-flex flex-column align-items-center mb-6">
           <div class="icon d-flex justify-content-center align-items-center">
             <img src="{{ asset('images/icons/homepage/MemberIcon.svg') }}" alt="MemberIcon" />
           </div>
@@ -324,14 +324,14 @@ Chi tiết tuyển dụng
               <p>Chính sách phát</p>
               <p>triển nhân lực</p>
             </div>
-            <p class="text-font-size-18 text-font-weight-400">"Con người là tài sản quý giá nhất" - tại
+            <p class="text-font-size-18 text-font-weight-300 mb-0">"Con người là tài sản quý giá nhất" - tại
               EDUPIA, chúng tôi định hướng rõ ràng lộ trình phát triển cho từng thành viên và tin tưởng
               các thành viên sẽ phát huy tối đa tinh thần làm việc tận tâm, cầu thị, khả năng tự học hỏi,
               không ngại xông pha và tinh thần tập thể để tạo sức mạnh, động lực thúc đẩy sự phát triển và
               hướng tới mục tiêu “Chương trình Tiếng Anh cho trẻ em phổ biến nhất Đông Nam Á”.</p>
           </div>
         </div>
-        <div class="col-sm-4 d-flex flex-column align-items-center">
+        <div class="col-sm-4 d-flex flex-column align-items-center mb-6">
           <div class="icon d-flex justify-content-center align-items-center">
             <img src="{{ asset('images/icons/homepage/FlyIcon.svg') }}" alt="FlyIcon" />
           </div>
@@ -339,7 +339,7 @@ Chi tiết tuyển dụng
             <div class="text-font-size-24 text-font-weight-600 title">
               <p>Cơ hội thăng tiến</p>
             </div>
-            <p class="text-font-size-18 text-font-weight-400">
+            <p class="text-font-size-18 text-font-weight-300 mb-0">
               EDUPIA là môi trường lý tưởng để các bạn trẻ khám phá bản thân và phát huy tối đa sở trường,
               năng lực cá nhân. Tất cả nhân sự có cơ hội bình đẳng để phát triển lên quản lý cấp cao hoặc
               trở thành chuyên gia trong lĩnh vực của mình chỉ sau 03-06 tháng, cùng với sự gia tăng về
@@ -347,7 +347,7 @@ Chi tiết tuyển dụng
             </p>
           </div>
         </div>
-        <div class="col-sm-4 d-flex flex-column align-items-center">
+        <div class="col-sm-4 d-flex flex-column align-items-center mb-6">
           <div class="icon d-flex justify-content-center align-items-center">
             <img src="{{ asset('images/icons/homepage/PigIcon.svg') }}" alt="PigIcon" />
           </div>
@@ -356,7 +356,7 @@ Chi tiết tuyển dụng
               <p>Lương, thưởng,</p>
               <p>lợi nhuận</p>
             </div>
-            <p class="text-font-size-18 text-font-weight-400">
+            <p class="text-font-size-18 text-font-weight-300 mb-0">
               Khi làm việc tại EDUPIA, các thành viên thường xuyên có cơ hội tham gia các khóa đào tạo về
               chuyên môn và kỹ năng mềm từ các chuyên gia hàng đầu thị trường, giúp các bạn luôn được phát
               triển & nâng cao năng lực bản thân. Ngoài ra, EDUPIA rất đề cao trải nghiệm cá nhân và
@@ -370,7 +370,7 @@ Chi tiết tuyển dụng
 
   </section>
   <section class="activity edupia-mw-1230 container">
-    <p class="text-center text-font-size-30 text-font-weight-600">
+    <p class="text-center text-font-size-30 text-font-weight-600 mb-0">
       Cuộc sống ở Edupia
     </p>
     <div class="video-container">
@@ -380,7 +380,7 @@ Chi tiết tuyển dụng
       </div>
 
     </div>
-    <p class="text-center text-font-size-30 text-font-weight-500 m-0">[DU LỊCH HÈ 2023]: DẤU ẤN EDUCA-ERS TẠI HẠ LONG
+    <p class="text-center text-font-size-26 text-font-weight-500 m-0">[DU LỊCH HÈ 2023]: DẤU ẤN EDUCA-ERS TẠI HẠ LONG
     </p>
 
   </section>

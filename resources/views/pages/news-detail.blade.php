@@ -115,10 +115,10 @@ Bài viết chi tiết
           </div>
         </div>
         <div class="row mb-4 text-font-size-18 text-font-weight-500">
-          <div class="col-sm right-item">
+          <div class="col-sm">
             <img class="w-100" src="{{ asset('images/imgs/other/news-detail-pic-5.png') }}" alt="news-detail-pic-5" />
           </div>
-          <div class="col-sm">
+          <div class="col-sm right-item">
             <p>
               Edupia nhận giải thưởng thương hiệu giáo dục toàn cầu
             </p>
