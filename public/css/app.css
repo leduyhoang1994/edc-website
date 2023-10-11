@@ -26547,7 +26547,7 @@ a:hover {
   border: 0.5px solid #20BEC6;
   border-radius: 100px;
   width: 300px;
-  padding: 5px 7px 5px 26px;
+  padding: 4px 7px 4px 26px;
   margin-top: 37px;
   margin-bottom: 37px;
   background: white;
@@ -26612,6 +26612,10 @@ a:hover {
   border: 1px solid #EAEAEA;
 }
 
+.document .other-document .select-cus:focus-visible {
+  outline: none;
+}
+
 .document .other-document .custom-icon {
   position: absolute;
   top: 40%;
@@ -26627,6 +26631,7 @@ a:hover {
 }
 
 .document .other-document .btn-action .btn-download {
+  margin-top: 11px;
   width: 143px;
   padding: 5px 18px;
   background: #EAEAEA;
@@ -26650,7 +26655,7 @@ a:hover {
 }
 
 .document .other-document .document-list {
-  margin-bottom: 68px;
+  margin-bottom: 15px;
 }
 
 .document .other-document .pages {
@@ -26734,9 +26739,13 @@ a:hover {
   letter-spacing: 0.3em;
 }
 
+.document #documentModal .modal-dialog.modal-dialog-centered.modal-lg {
+  max-width: 857px;
+}
+
 .document #documentModal .modal-content {
   background: #20BEC6;
-  padding: 17px 22px 42px 41px;
+  padding: 17px 22px 41px 40px;
   border-radius: 14px;
 }
 
@@ -26752,18 +26761,30 @@ a:hover {
   opacity: 1;
 }
 
+.document #documentModal .modal-content .modal-body {
+  padding: 0;
+}
+
 .document #documentModal .modal-content .modal-body .form-rounded {
   border-radius: 1000px;
   border: none;
   font-size: 18px;
   font-weight: 300;
-  height: 58px;
+  height: 56px;
   padding-left: 28px;
 }
 
-.document .custom-button {
+.document #documentModal .modal-content .modal-body .custom-button {
   border-radius: 1000px;
-  background: #FFA800;
+  background: #FF9213;
+  padding: 11px 0;
+}
+
+@media (max-width: 576px) {
+  .document .header-banner .content .search-container .search-button {
+    padding: 5px;
+    font-size: 14px !important;
+  }
 }
 
 .handbook .header-banner {
