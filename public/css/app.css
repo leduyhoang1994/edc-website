@@ -22442,7 +22442,7 @@ a:hover {
 
 .header-area .nav-primary {
   padding-left: 140px;
-  gap: 40px;
+  gap: 30px;
 }
 
 .sticky {
@@ -25314,6 +25314,11 @@ a:hover {
 
 .product-extra .extra-header-banner {
   background-color: #FF9D00B2;
+  height: 711px;
+}
+
+.product-extra .extra-header-banner .des-banner {
+  margin-top: 21px;
 }
 
 .product-extra .extra-header-banner .content {
@@ -25329,11 +25334,20 @@ a:hover {
 }
 
 .product-extra .extra-header-banner .img-banner {
-  padding-top: 88px;
+  position: absolute;
+  bottom: 0;
+}
+
+.product-extra .extra-header-banner .img-banner img {
+  height: 659px;
 }
 
 .product-extra .extra-option-product {
   margin-top: 83px;
+}
+
+.product-extra .extra-option-product .menu-tabs {
+  margin-top: 32px;
 }
 
 .product-extra .extra-option-product .nav-pills {
@@ -25370,9 +25384,14 @@ a:hover {
   color: #FFFFFF;
 }
 
+.product-extra .extra-tab-content {
+  margin-top: 67px;
+}
+
 .product-extra .extra-tab-content .math-study-title {
   max-width: 729px;
   margin: 0 auto;
+  margin-bottom: 47px;
 }
 
 .product-extra .extra-tab-content .math-study-title .p-630 {
@@ -25385,9 +25404,26 @@ a:hover {
   height: 82px;
 }
 
+.product-extra .extra-tab-content .math-study .title-math {
+  margin-bottom: 32px !important;
+}
+
+.product-extra .extra-tab-content .list-award {
+  margin-top: 63px;
+}
+
 .product-extra .extra-tab-content .math-reason {
   background-color: #015488;
-  padding-top: 43px;
+  margin-top: 40px;
+}
+
+.product-extra .extra-tab-content .math-reason .content-reason {
+  padding: 57px 0 71px 10px;
+}
+
+.product-extra .extra-tab-content .math-reason .img-reason {
+  position: absolute;
+  bottom: 0;
 }
 
 .product-extra .extra-tab-content .math-reason .list-item-result {
@@ -25403,19 +25439,40 @@ a:hover {
   font-size: 20px;
 }
 
+.product-extra .extra-tab-content .math-reason .btn-reason-div {
+  margin-top: 40px;
+}
+
+.product-extra .extra-tab-content .btn-register-math {
+  padding: 7px 44px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 .product-extra .extra-tab-content .math-rme {
   margin-top: 68px;
-  margin-bottom: 76px;
+}
+
+.product-extra .extra-tab-content .math-rme .title-rme {
+  margin-bottom: 39px;
+}
+
+.product-extra .extra-tab-content .math-rme .btn-rme-div {
+  margin-top: 52px;
 }
 
 .product-extra .extra-tab-content .math-slide-teacher {
-  padding-bottom: 76px;
+  margin-top: 76px;
+}
+
+.product-extra .extra-tab-content .math-slide-teacher .title-slide-teacher {
+  margin-bottom: 32px;
 }
 
 .product-extra .extra-tab-content .math-slide-teacher .img-card-slide {
   border-radius: 20px;
   width: 285px;
-  height: 339px;
+  height: 343px;
   padding-top: 13px;
   padding-left: 10px;
   padding-right: 10px;
@@ -25424,7 +25481,7 @@ a:hover {
 .product-extra .extra-tab-content .math-slide-teacher .img-card-slide-cayman {
   border-radius: 20px;
   width: 285px;
-  height: 339px;
+  height: 343px;
   padding-left: 45px;
   padding-right: 45px;
   padding-top: 13px;
@@ -25467,8 +25524,31 @@ a:hover {
   background-color: #E6E4F7;
 }
 
+.product-extra .extra-tab-content .math-slide-teacher .card-title {
+  margin-top: 32px;
+}
+
+.product-extra .extra-tab-content .math-slide-teacher .div-slide-teacher {
+  padding-bottom: 35px;
+}
+
+.product-extra .extra-tab-content .math-slide-teacher .div-btn-teacher {
+  margin-top: 38px;
+}
+
 .product-extra .extra-tab-content .math-post {
+  margin-top: 68px;
+  padding-top: 54px;
   padding-bottom: 60px;
+  background-color: #F0F9FF;
+}
+
+.product-extra .extra-tab-content .math-post .title-post {
+  margin-bottom: 68px;
+}
+
+.product-extra .extra-tab-content .math-post .card {
+  background-color: transparent;
 }
 
 .product-extra .extra-tab-content .math-post .img-post-slide {
@@ -25476,6 +25556,11 @@ a:hover {
   height: 214px;
   display: block;
   margin: 0 auto;
+}
+
+.product-extra .extra-tab-content .math-post .list-star {
+  margin-top: 13px;
+  margin-bottom: 18px;
 }
 
 .product-extra .extra-tab-content .math-post .carousel-indicators {
@@ -25500,13 +25585,29 @@ a:hover {
   margin-top: 68px;
 }
 
+.product-extra .extra-tab-content .math-family .img-family img {
+  height: 575px;
+}
+
+.product-extra .extra-tab-content .math-family .title-chicken {
+  margin-bottom: 41px !important;
+}
+
+.product-extra .extra-tab-content .math-family .des-chicken {
+  margin-bottom: 25px !important;
+}
+
 .product-extra .extra-tab-content .math-family .content-chicken-txt {
-  padding-left: 50px;
-  padding-top: 70px;
+  padding-left: 30px;
+  padding-top: 135px;
+}
+
+.product-extra .extra-tab-content .math-family .btn-chicken-div {
+  margin-top: 51px;
 }
 
 .product-extra .extra-tab-content .math-register {
-  margin-top: 68px;
+  margin-top: 88px;
 }
 
 .product-extra .extra-tab-content .math-register .div-register {
@@ -25529,9 +25630,9 @@ a:hover {
 }
 
 .product-extra .extra-tab-content .math-register .btn-register {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
-  padding: 15px 41px;
+  padding: 17px 57px;
 }
 
 .product-extra .extra-tab-content .math-register .form-group {
@@ -25539,20 +25640,37 @@ a:hover {
 }
 
 .product-extra .extra-tab-content .math-award {
-  margin-top: 40px;
-  padding-bottom: 67px;
+  margin-top: 73px;
+  padding-bottom: 30px;
 }
 
 .product-extra .extra-tab-content .math-award .wizard .nav-tabs > li.active > a i {
   font-weight: 600;
 }
 
+.product-extra .extra-tab-content .math-award .title-award {
+  margin-bottom: 67px;
+}
+
 .product-extra .extra-tab-content .math-verify {
-  margin-top: 38px;
+  margin-top: 73px;
+}
+
+.product-extra .extra-tab-content .math-verify .title-verify {
+  margin-bottom: 69px;
 }
 
 .product-extra .extra-tab-content .math-verify .item-verify {
   padding: 0 20px;
+}
+
+.product-extra .extra-tab-content .math-verify .des-video-verify {
+  margin-top: 43px;
+}
+
+.product-extra .extra-tab-content .math-verify .slide-social {
+  margin-top: 47px;
+  margin-bottom: 74px;
 }
 
 .product-extra .extra-tab-content .vietnamese-study {
@@ -25585,10 +25703,11 @@ a:hover {
 
 .product-extra .extra-tab-content .vietnamese-more-info .info {
   margin-top: 14px;
+  padding-left: 20px;
 }
 
 .product-extra .extra-tab-content .vietnamese-more-info .info .title {
-  margin-bottom: 28px;
+  margin-bottom: 21px;
 }
 
 .product-extra .extra-tab-content .vietnamese-more-info .info .list-group {
@@ -25616,7 +25735,7 @@ a:hover {
 }
 
 .product-extra .extra-tab-content .vietnamese-teachers .title {
-  margin-bottom: 45px;
+  margin-bottom: 35px;
 }
 
 .product-extra .extra-tab-content .vietnamese-teachers .list-group-2 {
@@ -25631,9 +25750,19 @@ a:hover {
   color: black;
 }
 
+.product-extra .extra-tab-content .vietnamese-teachers .div-button-teacher {
+  margin-top: 39px;
+}
+
+.product-extra .extra-tab-content .vietnamese-teachers .card-title {
+  margin-top: 17px;
+  margin-bottom: 7px;
+}
+
 .product-extra .extra-tab-content .vietnamese-teachers .btn-register {
   padding: 7px 44px 8px 44px;
   background: #FFA800;
+  border: none;
   border-radius: 100px;
   color: white;
   cursor: pointer;
@@ -25644,12 +25773,28 @@ a:hover {
 }
 
 .product-extra .extra-tab-content .vietnamese-parrent-review .title {
-  margin-bottom: 100px;
+  margin-bottom: 110px;
+}
+
+.product-extra .extra-tab-content .vietnamese-parrent-review .txt-name-parent {
+  margin-top: 43px;
+}
+
+.product-extra .extra-tab-content .vietnamese-parrent-review .img-line {
+  margin-bottom: 26px;
 }
 
 .product-extra .extra-tab-content .vietnamese-ads {
   max-width: 1163px;
   margin-bottom: 62px;
+}
+
+.product-extra .extra-tab-content .vietnamese-ads .title-ads {
+  margin-bottom: 26px !important;
+}
+
+.product-extra .extra-tab-content .vietnamese-ads .des-ads {
+  margin-bottom: 10px !important;
 }
 
 .product-extra .extra-tab-content .vietnamese-ads .content {
@@ -25658,7 +25803,7 @@ a:hover {
 
 .product-extra .extra-tab-content .vietnamese-ads .content .commit {
   line-height: 44px;
-  margin-bottom: 22px;
+  margin-bottom: 22px !important;
 }
 
 .product-extra .extra-tab-content .vietnamese-ads .btn-register {
@@ -25670,13 +25815,17 @@ a:hover {
 }
 
 .product-extra .extra-tab-content .vietnamese-middle-banner {
-  margin-bottom: 90px;
+  margin-bottom: 91px;
 }
 
 .product-extra .extra-tab-content .vietnamese-middle-banner .banner {
   padding-top: 47px;
   background: #52C7F1;
   border-radius: 15px;
+}
+
+.product-extra .extra-tab-content .vietnamese-middle-banner .banner .form-register {
+  padding-right: 68px;
 }
 
 .product-extra .extra-tab-content .vietnamese-middle-banner .banner .form-register .form-group {
@@ -25769,10 +25918,77 @@ a:hover {
   padding-top: 88px;
 }
 
+.product-extra .extra-tab-content .learning-pack-content .list-learning-pack {
+  margin-top: 76px;
+}
+
+.product-extra .extra-tab-content .learning-pack-content .list-learning-pack-2 {
+  margin-top: 76px;
+}
+
+.product-extra .extra-tab-content .learning-pack-content .list-learning-pack-3 {
+  margin-top: 37px;
+}
+
+.product-extra .extra-tab-content .learning-pack-content .list-learning-pack-4 {
+  margin-top: 41px;
+}
+
+.product-extra .extra-tab-content .learning-pack-content .list-learning-pack-5 {
+  margin-top: 66px;
+}
+
+.product-extra .extra-tab-content .learning-pack-content .img-learning-pack {
+  padding-right: 55px;
+}
+
+.product-extra .extra-tab-content .learning-pack-content .txt-learning-pack {
+  padding-left: 90px;
+}
+
+.product-extra .extra-tab-content .learning-pack-content .txt-learning-pack .title-book {
+  margin-bottom: 16px !important;
+}
+
+.product-extra .extra-tab-content .learning-pack-content .txt-learning-pack-2 {
+  padding-left: 140px;
+}
+
+.product-extra .extra-tab-content .learning-pack-content .txt-learning-pack-2 .title-book {
+  margin-bottom: 26px !important;
+}
+
+.product-extra .extra-tab-content .learning-pack-content .txt-learning-pack-3 {
+  padding-left: 130px;
+}
+
+.product-extra .extra-tab-content .learning-pack-content .txt-learning-pack-3 .title-book {
+  margin-bottom: 29px !important;
+}
+
+.product-extra .extra-tab-content .learning-pack-content .txt-learning-pack-4 {
+  padding-left: 140px;
+}
+
+.product-extra .extra-tab-content .learning-pack-content .txt-learning-pack-4 .title-book {
+  margin-bottom: 27px !important;
+}
+
+.product-extra .extra-tab-content .learning-pack-content .txt-learning-pack-5 {
+  padding-left: 50px;
+}
+
+.product-extra .extra-tab-content .learning-pack-content .txt-learning-pack-5 .title-book {
+  margin-bottom: 27px !important;
+}
+
 .product-extra .extra-tab-content .learning-pack-content .middle-img {
-  width: 66%;
   padding-top: 154px;
   padding-bottom: 115px;
+}
+
+.product-extra .extra-tab-content .learning-pack-content .middle-img .div-img-middle {
+  width: 66%;
 }
 
 .product-extra .extra-tab-content .learning-pack-content .middle-img p {
@@ -25835,13 +26051,47 @@ a:hover {
   width: 235px;
 }
 
+.product-extra .learning-pack-award {
+  margin-top: 99px;
+  padding-bottom: 30px;
+}
+
+.product-extra .learning-pack-award .title-award {
+  margin-bottom: 67px;
+}
+
 .product-extra .pro-award {
   margin-top: 40px;
-  padding-bottom: 67px;
+  padding-bottom: 30px;
+}
+
+.product-extra .pro-award .trip-award {
+  margin-top: 67px;
 }
 
 .product-extra .pro-award .wizard .nav-tabs > li.active > a i {
   font-weight: 600;
+}
+
+.product-extra .pro-verify {
+  margin-top: 73px;
+}
+
+.product-extra .pro-verify .title-verify {
+  margin-bottom: 69px;
+}
+
+.product-extra .pro-verify .item-verify {
+  padding: 0 20px;
+}
+
+.product-extra .pro-verify .des-video-verify {
+  margin-top: 43px;
+  margin-bottom: 47px;
+}
+
+.product-extra .pro-verify .slide-social {
+  margin-bottom: 74px;
 }
 
 .document .header-banner {
@@ -26644,12 +26894,20 @@ a:hover {
     padding: 10px !important;
   }
 
+  .nav-primary {
+    gap: 0px !important;
+  }
+
+  form.form-inline {
+    gap: 10px !important;
+  }
+
   .logo-header {
-    width: 60% !important;
+    width: 55% !important;
   }
 
   .tag-logo {
-    right: -75px !important;
+    right: -52px !important;
   }
 
   .item-logo {
@@ -26730,7 +26988,7 @@ a:hover {
   }
 
   .home .img-slider-banner {
-    height: 400px;
+    height: 300px;
   }
 
   .home .section-2 {
@@ -26943,6 +27201,23 @@ a:hover {
     padding: 46px 20px 35px 20px;
   }
 
+  .about-us .about-team .card-img {
+    height: auto !important;
+  }
+
+  .about-us .about-register-content-2 .div-img {
+    position: relative;
+  }
+
+  .about-us .about-register-content-2 .div-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-us .about-register-content-1 {
+    padding: 20px;
+  }
+
   .product-native .text-font-size-36 {
     font-size: 22px;
   }
@@ -26965,6 +27240,31 @@ a:hover {
 
   .product-native .img-register {
     padding: 20px;
+    position: relative !important;
+  }
+
+  .product-native .img-register img {
+    width: 100%;
+    height: auto;
+  }
+
+  .product-native .title-register-top {
+    white-space: normal;
+  }
+
+  .product-native .img-card-slide {
+    width: 100%;
+    height: auto;
+  }
+
+  .product-native .img-card-slide-cayman {
+    width: 100%;
+    height: auto;
+  }
+
+  .product-native .carousel-control-prev,
+  .product-native .carousel-control-next {
+    display: none;
   }
 
   .product-native .div-form-register {
@@ -27019,16 +27319,22 @@ a:hover {
     margin-top: 0 !important;
   }
 
-  .product-native .content-chicken-txt {
-    padding-top: 0 !important;
-  }
-
   .product-native .content-chicken-description {
     padding-right: 0 !important;
   }
 
   .product-native .about-register-content {
     padding: 48px 20px 35px 20px;
+  }
+
+  .product-native .about-register-content-1 {
+    position: relative;
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  .product-native .about-register-content-2 {
+    padding: 10px;
   }
 
   .product-ai .btn-register {
@@ -27080,6 +27386,10 @@ a:hover {
     padding-left: 0;
   }
 
+  .product-ai .ai-ispeak .video-ispeak {
+    padding-right: 15px;
+  }
+
   .product-ai .ai-ispeak .pr-5 {
     padding-right: 15px !important;
   }
@@ -27107,6 +27417,14 @@ a:hover {
 
   .product-ai .ai-ispeak .list-item-result li {
     list-style-type: disc;
+  }
+
+  .product-ai .ai-verify .pl-0 {
+    padding-left: 15px !important;
+  }
+
+  .product-ai .ai-verify .pr-0 {
+    padding-right: 15px !important;
   }
 
   .product-ai .ai-study-online .text-font-size-36 {
@@ -27158,7 +27476,7 @@ a:hover {
   }
 
   .product-ielts .ielts-banner {
-    height: 568px;
+    height: 418px;
   }
 
   .product-ielts .ielts-banner .content-banner-ai {
@@ -27176,11 +27494,16 @@ a:hover {
   }
 
   .product-ielts .ielts-register .img-register {
+    position: relative;
     padding: 20px;
   }
 
   .product-ielts .ielts-register .div-form-register {
     padding: 20px;
+  }
+
+  .product-ielts .ielts-register .title-register {
+    white-space: normal !important;
   }
 
   .product-ielts .ielts-teacher .avt-teacher {
@@ -27293,8 +27616,18 @@ a:hover {
     line-height: 35px;
   }
 
+  .product-pro .title-banner {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
   .product-pro .img-banner {
     padding-top: 0;
+  }
+
+  .product-pro .img-banner img {
+    width: 100%;
+    height: auto !important;
   }
 
   .product-pro .img-register {
@@ -27354,6 +27687,39 @@ a:hover {
     padding-right: 0 !important;
   }
 
+  .product-pro .pro-teacher .img-card-slide {
+    width: 100%;
+    height: auto;
+  }
+
+  .product-extra .extra-header-banner .img-banner img {
+    height: auto;
+  }
+
+  .product-extra .extra-tab-content .math-reason .img-reason {
+    height: auto;
+    position: relative;
+    padding-top: 30px;
+  }
+
+  .product-extra .extra-tab-content .math-reason .content-reason {
+    padding: 20px;
+  }
+
+  .product-extra .img-rme {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .product-extra .img-family {
+    text-align: center;
+  }
+
+  .product-extra .extra-tab-content .math-slide-teacher .img-card-slide,
+  .product-extra .extra-tab-content .math-slide-teacher .img-card-slide-cayman {
+    height: auto;
+  }
+
   .product-extra .btn-register {
     font-size: 15px;
   }
@@ -27401,7 +27767,6 @@ a:hover {
   }
 
   .product-extra .math-reason .content-reason {
-    padding-left: 0 !important;
     padding-bottom: 30px;
   }
 
@@ -27444,6 +27809,47 @@ a:hover {
 
   .product-extra .carousel-control-prev {
     display: none !important;
+  }
+
+  .product-extra img[alt='vietnamese-banner'] {
+    margin-top: 20px;
+  }
+
+  .product-extra img[alt='extra-vietnamese-ads'] {
+    margin-top: 40px;
+  }
+
+  .product-extra .extra-tab-content .vietnamese-middle-banner .banner .form-register {
+    padding-right: 15px !important;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .product-extra .pro-verify .item-verify {
+    margin-bottom: 20px;
+  }
+
+  .product-extra .extra-tab-content .learning-pack-banner .banner {
+    padding-bottom: 20px;
+  }
+
+  .product-extra .extra-tab-content .learning-pack-content .txt-learning-pack {
+    padding-left: 15px;
+  }
+
+  .product-extra .extra-tab-content .learning-pack-content .txt-learning-pack-2,
+  .product-extra .extra-tab-content .learning-pack-content .txt-learning-pack-3,
+  .product-extra .extra-tab-content .learning-pack-content .txt-learning-pack-4,
+  .product-extra .extra-tab-content .learning-pack-content .txt-learning-pack-5 {
+    padding-left: 15px;
+  }
+
+  .product-extra .extra-tab-content .learning-pack-content .middle-img .div-img-middle {
+    width: 100%;
+  }
+
+  .product-extra .extra-tab-content .learning-pack-content .middle-banner .form-register {
+    padding: 20px !important;
   }
 }
 

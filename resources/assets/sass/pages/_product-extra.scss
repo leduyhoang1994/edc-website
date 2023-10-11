@@ -1,7 +1,13 @@
 .product-extra {
   background-color: $white;
+
   .extra-header-banner {
     background-color: $yellow-900;
+    height: 711px;
+
+    .des-banner {
+      margin-top: 21px;
+    }
 
     .content {
       max-width: 1685px;
@@ -16,12 +22,22 @@
     }
 
     .img-banner {
-      padding-top: 88px;
+      // padding-top: 88px;
+      position: absolute;
+      bottom: 0;
+
+      img {
+        height: 659px;
+      }
     }
   }
 
   .extra-option-product {
     margin-top: 83px;
+
+    .menu-tabs {
+      margin-top: 32px;
+    }
 
     .nav-pills {
       justify-content: center;
@@ -57,10 +73,13 @@
   }
 
   .extra-tab-content {
+    margin-top: 67px;
+
     .math-study {
       &-title {
         max-width: 729px;
         margin: 0 auto;
+        margin-bottom: 47px;
 
         .p-630 {
           max-width: 630px;
@@ -72,11 +91,28 @@
         width: 85px;
         height: 82px;
       }
+
+      .title-math {
+        margin-bottom: 32px !important;
+      }
+    }
+
+    .list-award {
+      margin-top: 63px;
     }
 
     .math-reason {
       background-color: $blue-930;
-      padding-top: 43px;
+      margin-top: 40px;
+
+      .content-reason {
+        padding: 57px 0 71px 10px;
+      }
+
+      .img-reason {
+        position: absolute;
+        bottom: 0;
+      }
 
       .list-item-result {
         padding-left: 20px;
@@ -90,20 +126,41 @@
         color: $yellow-400;
         font-size: 20px;
       }
+
+      .btn-reason-div {
+        margin-top: 40px;
+      }
+    }
+
+    .btn-register-math {
+      padding: 7px 44px;
+      font-size: $font-18;
+      font-weight: $font-weight-500;
     }
 
     .math-rme {
       margin-top: 68px;
-      margin-bottom: 76px;
+
+      .title-rme {
+        margin-bottom: 39px;
+      }
+
+      .btn-rme-div {
+        margin-top: 52px;
+      }
     }
 
     .math-slide-teacher {
-      padding-bottom: 76px;
+      margin-top: 76px;
+
+      .title-slide-teacher {
+        margin-bottom: 32px;
+      }
 
       .img-card-slide {
         border-radius: 20px;
         width: 285px;
-        height: 339px;
+        height: 343px;
         padding-top: 13px;
         padding-left: 10px;
         padding-right: 10px;
@@ -111,7 +168,7 @@
         &-cayman {
           border-radius: 20px;
           width: 285px;
-          height: 339px;
+          height: 343px;
           padding-left: 45px;
           padding-right: 45px;
           padding-top: 13px;
@@ -154,16 +211,44 @@
       .carousel-indicators li {
         background-color: #E6E4F7;
       }
+
+      .card-title {
+        margin-top: 32px;
+      }
+
+      .div-slide-teacher {
+        padding-bottom: 35px;
+      }
+
+      .div-btn-teacher {
+        margin-top: 38px;
+      }
     }
 
     .math-post {
+      margin-top: 68px;
+      padding-top: 54px;
       padding-bottom: 60px;
+      background-color: #F0F9FF;
+
+      .title-post {
+        margin-bottom: 68px;
+      }
+
+      .card {
+        background-color: transparent;
+      }
 
       .img-post-slide {
         width: 214px;
         height: 214px;
         display: block;
         margin: 0 auto;
+      }
+
+      .list-star {
+        margin-top: 13px;
+        margin-bottom: 18px;
       }
 
       .carousel-indicators {
@@ -188,14 +273,32 @@
     .math-family {
       margin-top: 68px;
 
+      .img-family {
+        img {
+          height: 575px;
+        }
+      }
+
+      .title-chicken {
+        margin-bottom: 41px !important;
+      }
+
+      .des-chicken {
+        margin-bottom: 25px !important;
+      }
+
       .content-chicken-txt {
-        padding-left: 50px;
-        padding-top: 70px;
+        padding-left: 30px;
+        padding-top: 135px;
+      }
+
+      .btn-chicken-div {
+        margin-top: 51px;
       }
     }
 
     .math-register {
-      margin-top: 68px;
+      margin-top: 88px;
 
       .div-register {
         border-radius: 15px;
@@ -217,9 +320,9 @@
       }
 
       .btn-register {
-        font-size: $font-20;
+        font-size: $font-18;
         font-weight: 600;
-        padding: 15px 41px;
+        padding: 17px 57px;
       }
 
       .form-group {
@@ -228,18 +331,36 @@
     }
 
     .math-award {
-      margin-top: 40px;
-      padding-bottom: 67px;
+      margin-top: 73px;
+      padding-bottom: 30px;
 
       .wizard .nav-tabs>li.active>a i {
         font-weight: 600;
       }
+
+      .title-award {
+        margin-bottom: 67px;
+      }
     }
 
     .math-verify {
-      margin-top: 38px;
+      margin-top: 73px;
+
+      .title-verify {
+        margin-bottom: 69px;
+      }
+
       .item-verify {
         padding: 0 20px;
+      }
+
+      .des-video-verify {
+        margin-top: 43px;
+      }
+
+      .slide-social {
+        margin-top: 47px;
+        margin-bottom: 74px;
       }
     }
 
@@ -270,10 +391,13 @@
       max-width: 1190px;
       padding-top: 108px;
       margin-bottom: 41px;
+
       .info {
         margin-top: 14px;
+        padding-left: 20px;
+
         .title {
-          margin-bottom: 28px;
+          margin-bottom: 21px;
         }
 
         .list-group {
@@ -301,44 +425,79 @@
 
     .vietnamese-teachers {
       margin-bottom: 66px;
+
       .title {
-        margin-bottom: 45px;
+        margin-bottom: 35px;
       }
+
       .list-group-2 {
         margin-bottom: 0;
+
         li {
           color: $blue-primary;
+
           p {
             color: black;
           }
         }
       }
+
+      .div-button-teacher {
+        margin-top: 39px;
+      }
+
+      .card-title {
+        margin-top: 17px;
+        margin-bottom: 7px;
+      }
+
       .btn-register {
         padding: 7px 44px 8px 44px;
         background: $yellow-400;
+        border: none;
         border-radius: 100px;
         color: white;
         cursor: pointer;
       }
     }
+
     .vietnamese-parrent-review {
       margin-bottom: 62px;
+
       .title {
-        margin-bottom: 100px;
+        margin-bottom: 110px;
+      }
+
+      .txt-name-parent {
+        margin-top: 43px;
+      }
+
+      .img-line {
+        margin-bottom: 26px;
       }
     }
 
     .vietnamese-ads {
       max-width: 1163px;
       margin-bottom: 62px;
+
+      .title-ads {
+        margin-bottom: 26px !important;
+      }
+
+      .des-ads {
+        margin-bottom: 10px !important;
+      }
+
       .content {
         padding-top: 56px;
+
         .commit {
           line-height: 44px;
-          margin-bottom: 22px;
+          margin-bottom: 22px !important;
         }
       }
-   
+
       .btn-register {
         padding: 7px 44px 8px 44px;
         background: $yellow-400;
@@ -349,14 +508,15 @@
     }
 
     .vietnamese-middle-banner {
-      margin-bottom: 90px;
+      margin-bottom: 91px;
+
       .banner {
         padding-top: 47px;
         background: $blue-350;
         border-radius: 15px;
 
         .form-register {
-          // padding-right: 85px;
+          padding-right: 68px;
           // padding-left: 0;
 
           .form-group {
@@ -385,6 +545,7 @@
             padding: 16px 0;
             width: 235px;
           }
+
           .select-cus {
             padding: 14px 0 14px 19px;
             -webkit-appearance: none;
@@ -394,7 +555,7 @@
             border: 1px solid $gray-80;
             color: #B0B6B7;
           }
-      
+
           .custom-icon {
             position: absolute;
             top: 50%;
@@ -431,11 +592,77 @@
     .learning-pack-content {
       padding-top: 88px;
 
+      .list-learning-pack {
+        margin-top: 76px;
+
+        &-2 {
+          margin-top: 76px;
+        }
+
+        &-3 {
+          margin-top: 37px;
+        }
+
+        &-4 {
+          margin-top: 41px;
+        }
+
+        &-5 {
+          margin-top: 66px;
+        }
+      }
+
+      .img-learning-pack {
+        padding-right: 55px;
+      }
+
+      .txt-learning-pack {
+        padding-left: 90px;
+
+        .title-book {
+          margin-bottom: 16px !important;
+        }
+
+        &-2 {
+          padding-left: 140px;
+
+          .title-book {
+            margin-bottom: 26px !important;
+          }
+        }
+
+        &-3 {
+          padding-left: 130px;
+
+          .title-book {
+            margin-bottom: 29px !important;
+          }
+        }
+
+        &-4 {
+          padding-left: 140px;
+
+          .title-book {
+            margin-bottom: 27px !important;
+          }
+        }
+
+        &-5 {
+          padding-left: 50px;
+
+          .title-book {
+            margin-bottom: 27px !important;
+          }
+        }
+      }
+
       .middle-img {
-        width: 66%;
         padding-top: 154px;
         padding-bottom: 115px;
+        .div-img-middle {
+          width: 66%;
 
+        }
         p {
           margin-bottom: 118px !important;
         }
@@ -480,13 +707,45 @@
       }
     }
   }
+  .learning-pack-award {
+    margin-top: 99px;
+    padding-bottom: 30px;
+    .title-award {
+      margin-bottom: 67px;
+    }
+  }
 
   .pro-award {
     margin-top: 40px;
-    padding-bottom: 67px;
+    padding-bottom: 30px;
+
+    .trip-award {
+      margin-top: 67px;
+    }
 
     .wizard .nav-tabs>li.active>a i {
       font-weight: 600;
+    }
+  }
+
+  .pro-verify {
+    margin-top: 73px;
+
+    .title-verify {
+      margin-bottom: 69px;
+    }
+
+    .item-verify {
+      padding: 0 20px;
+    }
+
+    .des-video-verify {
+      margin-top: 43px;
+      margin-bottom: 47px;
+    }
+
+    .slide-social {
+      margin-bottom: 74px;
     }
   }
 }

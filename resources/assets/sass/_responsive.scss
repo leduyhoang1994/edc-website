@@ -5,12 +5,20 @@
     padding: 10px !important;
   }
 
+  .nav-primary {
+    gap: 0px !important;
+  }
+
+  form.form-inline {
+    gap: 10px !important;
+  }
+
   .logo-header {
-    width: 60% !important;
+    width: 55% !important;
   }
 
   .tag-logo {
-    right: -75px !important;
+    right: -52px !important;
   }
 
   .item-logo {
@@ -84,7 +92,7 @@
     }
 
     .img-slider-banner {
-      height: 400px;
+      height: 300px;
     }
 
     //section 2
@@ -313,6 +321,24 @@
     .about-register-content {
       padding: 46px 20px 35px 20px;
     }
+
+    .about-team .card-img {
+      height: auto !important;
+    }
+
+    .about-register-content-2 .div-img {
+      position: relative;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+    }
+
+    .about-register-content-1 {
+      padding: 20px;
+    }
   }
 
   .product-native {
@@ -338,6 +364,31 @@
 
     .img-register {
       padding: 20px;
+      position: relative !important;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .title-register-top {
+      white-space: normal;
+    }
+
+    .img-card-slide {
+      width: 100%;
+      height: auto;
+    }
+
+    .img-card-slide-cayman {
+      width: 100%;
+      height: auto;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: none;
     }
 
     .div-form-register {
@@ -398,16 +449,22 @@
       margin-top: 0 !important;
     }
 
-    .content-chicken-txt {
-      padding-top: 0 !important;
-    }
-
     .content-chicken-description {
       padding-right: 0 !important;
     }
 
     .about-register-content {
       padding: 48px 20px 35px 20px;
+    }
+
+    .about-register-content-1 {
+      position: relative;
+      padding-left: 0;
+      padding-top: 0;
+    }
+
+    .about-register-content-2 {
+      padding: 10px;
     }
   }
 
@@ -461,6 +518,10 @@
     }
 
     .ai-ispeak {
+      .video-ispeak {
+        padding-right: 15px;
+      }
+
       .pr-5 {
         padding-right: 15px !important;
       }
@@ -488,6 +549,16 @@
         li {
           list-style-type: disc;
         }
+      }
+    }
+
+    .ai-verify {
+      .pl-0 {
+        padding-left: 15px !important;
+      }
+
+      .pr-0 {
+        padding-right: 15px !important;
       }
     }
 
@@ -544,7 +615,7 @@
     }
 
     .ielts-banner {
-      height: 568px;
+      height: 418px;
 
       .content-banner-ai {
         transform: translate(5%, 80%);
@@ -562,11 +633,16 @@
 
     .ielts-register {
       .img-register {
+        position: relative;
         padding: 20px;
       }
 
       .div-form-register {
         padding: 20px;
+      }
+
+      .title-register {
+        white-space: normal !important;
       }
     }
 
@@ -695,8 +771,18 @@
       line-height: 35px;
     }
 
+    .title-banner {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+
     .img-banner {
       padding-top: 0;
+
+      img {
+        width: 100%;
+        height: auto !important;
+      }
     }
 
     .img-register {
@@ -756,9 +842,42 @@
     .content-chicken-description {
       padding-right: 0 !important;
     }
+
+    .pro-teacher .img-card-slide {
+      width: 100%;
+      height: auto;
+    }
   }
 
   .product-extra {
+    .extra-header-banner .img-banner img {
+      height: auto;
+    }
+
+    .extra-tab-content .math-reason .img-reason {
+      height: auto;
+      position: relative;
+      padding-top: 30px;
+    }
+
+    .extra-tab-content .math-reason .content-reason {
+      padding: 20px;
+    }
+
+    .img-rme {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .img-family {
+      text-align: center;
+    }
+
+    .extra-tab-content .math-slide-teacher .img-card-slide,
+    .extra-tab-content .math-slide-teacher .img-card-slide-cayman {
+      height: auto;
+    }
+
     .btn-register {
       font-size: 15px;
     }
@@ -809,7 +928,6 @@
 
     .math-reason {
       .content-reason {
-        padding-left: 0 !important;
         padding-bottom: 30px;
       }
     }
@@ -859,6 +977,46 @@
 
     .carousel-control-prev {
       display: none !important;
+    }
+
+    img[alt='vietnamese-banner'] {
+      margin-top: 20px;
+    }
+
+    img[alt='extra-vietnamese-ads'] {
+      margin-top: 40px;
+    }
+
+    .extra-tab-content .vietnamese-middle-banner .banner .form-register {
+      padding-right: 15px !important;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    .pro-verify .item-verify {
+      margin-bottom: 20px;
+    }
+
+    .extra-tab-content .learning-pack-banner .banner {
+      padding-bottom: 20px;
+    }
+
+    .extra-tab-content {
+      .learning-pack-content {
+        .txt-learning-pack {
+          padding-left: 15px;
+          &-2, &-3, &-4, &-5 {
+          padding-left: 15px;
+
+          }
+        }
+        .middle-img .div-img-middle {
+          width: 100%;
+        }
+        .middle-banner .form-register {
+          padding: 20px !important;
+        }
+      }
     }
   }
 }

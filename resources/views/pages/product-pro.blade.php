@@ -10,7 +10,8 @@ Product Pro
         <div class="col-lg-5 title-banner px-0">
           <div class="center">
             <p class="text-white text-font-size-40 text-font-weight-700 txt-banner-pro">EDUPIA PRO</p>
-            <p class="text-white text-font-size-36 text-font-weight-700 line-height-44 des-banber-pro1">Cán đích điểm 10 tiếng Anh
+            <p class="text-white text-font-size-36 text-font-weight-700 line-height-44 des-banber-pro1">Cán đích điểm
+              10 tiếng Anh
               <br />
               cùng gia sư trực tuyến hàng đầu
             </p>
@@ -244,134 +245,150 @@ Product Pro
                   </li>
                 </ul>
               </div>
-              <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="pr-3">
-                        <p class="text-violet-100 text-font-size-40 text-font-weight-400">E - Engage</p>
-                        <p class="text-black text-font-size-36 text-font-weight-600">GIAI ĐOẠN TƯƠNG TÁC</p>
-                        <hr class="pro-hr" />
-                        <div class="list-item-result">
-                          <ul>
-                            <li class="text-font-size-18 text-black text-font-weight-400">
-                              Xóa đi sự ngại ngùng và xa cách trong lớp học
-                            </li>
-                            <li class="text-font-size-18 text-black text-font-weight-400">
-                              Dẫn dắt tất cả học sinh hình thành tư duy về chủ đề học
-                            </li>
-                            <li class="text-font-size-18 text-black text-font-weight-400">
-                              Xóa đi sự ngại ngùng và xa cách trong lớp học
-                            </li>
-                            <li class="text-font-size-18 text-black text-font-weight-400">
-                              Dẫn dắt tất cả học sinh hình thành tư duy về chủ đề học
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div>
-                        <img src="{{ asset('images/imgs/product/pro-e.png') }}" class="img-fluid" alt="img procedure" />
-                      </div>
-                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="container">
+          <div class="edupia-container-lg">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="pr-3">
+                  <p class="text-violet-100 text-font-size-40 text-font-weight-400">E - Engage</p>
+                  <p class="text-black text-font-size-36 text-font-weight-600">GIAI ĐOẠN TƯƠNG TÁC</p>
+                  <hr class="pro-hr" />
+                  <div class="list-item-result">
+                    <ul>
+                      <li class="text-font-size-18 text-black text-font-weight-400">
+                        Xóa đi sự ngại ngùng và xa cách trong lớp học
+                      </li>
+                      <li class="text-font-size-18 text-black text-font-weight-400">
+                        Dẫn dắt tất cả học sinh hình thành tư duy về chủ đề học
+                      </li>
+                      <li class="text-font-size-18 text-black text-font-weight-400">
+                        Xóa đi sự ngại ngùng và xa cách trong lớp học
+                      </li>
+                      <li class="text-font-size-18 text-black text-font-weight-400">
+                        Dẫn dắt tất cả học sinh hình thành tư duy về chủ đề học
+                      </li>
+                    </ul>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="pr-3">
-                        <p class="text-violet-100 text-font-size-40 text-font-weight-400">P - Present & Study</p>
-                        <p class="text-black text-font-size-36 text-font-weight-600">GIAI ĐOẠN TƯƠNG TÁC</p>
-                        <hr class="pro-hr" />
-                        <div class="list-item-result">
-                          <ul>
-                            <li class="text-font-size-18 text-black text-font-weight-400">
-                              Xóa đi sự ngại ngùng và xa cách trong lớp học
-                            </li>
-                            <li class="text-font-size-18 text-black text-font-weight-400">
-                              Dẫn dắt tất cả học sinh hình thành tư duy về chủ đề học
-                            </li>
-                            <li class="text-font-size-18 text-black text-font-weight-400">
-                              Xóa đi sự ngại ngùng và xa cách trong lớp học
-                            </li>
-                            <li class="text-font-size-18 text-black text-font-weight-400">
-                              Dẫn dắt tất cả học sinh hình thành tư duy về chủ đề học
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div>
-                        <img src="{{ asset('images/imgs/product/pro-p.png') }}" class="img-fluid" alt="img procedure" />
-                      </div>
-                    </div>
+              </div>
+              <div class="col-lg-6">
+                <div>
+                  <img src="{{ asset('images/imgs/product/pro-e.png') }}" class="img-fluid" alt="img procedure" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+        <div class="container">
+          <div class="edupia-container-lg">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="pr-3">
+                  <p class="text-violet-100 text-font-size-40 text-font-weight-400">P - Present & Study</p>
+                  <p class="text-black text-font-size-36 text-font-weight-600">GIAI ĐOẠN TƯƠNG TÁC</p>
+                  <hr class="pro-hr" />
+                  <div class="list-item-result">
+                    <ul>
+                      <li class="text-font-size-18 text-black text-font-weight-400">
+                        Xóa đi sự ngại ngùng và xa cách trong lớp học
+                      </li>
+                      <li class="text-font-size-18 text-black text-font-weight-400">
+                        Dẫn dắt tất cả học sinh hình thành tư duy về chủ đề học
+                      </li>
+                      <li class="text-font-size-18 text-black text-font-weight-400">
+                        Xóa đi sự ngại ngùng và xa cách trong lớp học
+                      </li>
+                      <li class="text-font-size-18 text-black text-font-weight-400">
+                        Dẫn dắt tất cả học sinh hình thành tư duy về chủ đề học
+                      </li>
+                    </ul>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="pr-3">
-                        <p class="text-violet-100 text-font-size-40 text-font-weight-400">A - Active</p>
-                        <p class="text-black text-font-size-36 text-font-weight-600">GIAI ĐOẠN TƯƠNG TÁC</p>
-                        <hr class="pro-hr" />
-                        <div class="list-item-result">
-                          <ul>
-                            <li class="text-font-size-18 text-black text-font-weight-400">
-                              Xóa đi sự ngại ngùng và xa cách trong lớp học
-                            </li>
-                            <li class="text-font-size-18 text-black text-font-weight-400">
-                              Dẫn dắt tất cả học sinh hình thành tư duy về chủ đề học
-                            </li>
-                            <li class="text-font-size-18 text-black text-font-weight-400">
-                              Xóa đi sự ngại ngùng và xa cách trong lớp học
-                            </li>
-                            <li class="text-font-size-18 text-black text-font-weight-400">
-                              Dẫn dắt tất cả học sinh hình thành tư duy về chủ đề học
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div>
-                        <img src="{{ asset('images/imgs/product/pro-a.png') }}" class="img-fluid" alt="img procedure" />
-                      </div>
-                    </div>
+              </div>
+              <div class="col-lg-6">
+                <div>
+                  <img src="{{ asset('images/imgs/product/pro-p.png') }}" class="img-fluid" alt="img procedure" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+        <div class="container">
+          <div class="edupia-container-lg">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="pr-3">
+                  <p class="text-violet-100 text-font-size-40 text-font-weight-400">A - Active</p>
+                  <p class="text-black text-font-size-36 text-font-weight-600">GIAI ĐOẠN TƯƠNG TÁC</p>
+                  <hr class="pro-hr" />
+                  <div class="list-item-result">
+                    <ul>
+                      <li class="text-font-size-18 text-black text-font-weight-400">
+                        Xóa đi sự ngại ngùng và xa cách trong lớp học
+                      </li>
+                      <li class="text-font-size-18 text-black text-font-weight-400">
+                        Dẫn dắt tất cả học sinh hình thành tư duy về chủ đề học
+                      </li>
+                      <li class="text-font-size-18 text-black text-font-weight-400">
+                        Xóa đi sự ngại ngùng và xa cách trong lớp học
+                      </li>
+                      <li class="text-font-size-18 text-black text-font-weight-400">
+                        Dẫn dắt tất cả học sinh hình thành tư duy về chủ đề học
+                      </li>
+                    </ul>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="pills-learning" role="tabpanel" aria-labelledby="pills-learning-tab">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="pr-3">
-                        <p class="text-violet-100 text-font-size-40 text-font-weight-400">Self-Learning</p>
-                        <p class="text-black text-font-size-36 text-font-weight-600">GIAI ĐOẠN TƯƠNG TÁC</p>
-                        <hr class="pro-hr" />
-                        <div class="list-item-result">
-                          <ul>
-                            <li class="text-font-size-18 text-black text-font-weight-400">
-                              Xóa đi sự ngại ngùng và xa cách trong lớp học
-                            </li>
-                            <li class="text-font-size-18 text-black text-font-weight-400">
-                              Dẫn dắt tất cả học sinh hình thành tư duy về chủ đề học
-                            </li>
-                            <li class="text-font-size-18 text-black text-font-weight-400">
-                              Xóa đi sự ngại ngùng và xa cách trong lớp học
-                            </li>
-                            <li class="text-font-size-18 text-black text-font-weight-400">
-                              Dẫn dắt tất cả học sinh hình thành tư duy về chủ đề học
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div>
-                        <img src="{{ asset('images/imgs/product/pro-s.png') }}" class="img-fluid" alt="img procedure" />
-                      </div>
-                    </div>
+              </div>
+              <div class="col-lg-6">
+                <div>
+                  <img src="{{ asset('images/imgs/product/pro-a.png') }}" class="img-fluid" alt="img procedure" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-learning" role="tabpanel" aria-labelledby="pills-learning-tab">
+        <div class="container">
+          <div class="edupia-container-lg">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="pr-3">
+                  <p class="text-violet-100 text-font-size-40 text-font-weight-400">Self-Learning</p>
+                  <p class="text-black text-font-size-36 text-font-weight-600">GIAI ĐOẠN TƯƠNG TÁC</p>
+                  <hr class="pro-hr" />
+                  <div class="list-item-result">
+                    <ul>
+                      <li class="text-font-size-18 text-black text-font-weight-400">
+                        Xóa đi sự ngại ngùng và xa cách trong lớp học
+                      </li>
+                      <li class="text-font-size-18 text-black text-font-weight-400">
+                        Dẫn dắt tất cả học sinh hình thành tư duy về chủ đề học
+                      </li>
+                      <li class="text-font-size-18 text-black text-font-weight-400">
+                        Xóa đi sự ngại ngùng và xa cách trong lớp học
+                      </li>
+                      <li class="text-font-size-18 text-black text-font-weight-400">
+                        Dẫn dắt tất cả học sinh hình thành tư duy về chủ đề học
+                      </li>
+                    </ul>
                   </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div>
+                  <img src="{{ asset('images/imgs/product/pro-s.png') }}" class="img-fluid" alt="img procedure" />
                 </div>
               </div>
             </div>
@@ -911,11 +928,7 @@ Product Pro
                         Nhân viên Kế Toán
                       </p>
                       <div class="text-center list-star">
-                        <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                        <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                        <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                        <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                        <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
+                        <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                       </div>
                       <p class="text-black text-center text-font-size-18 text-font-weight-400">
                         "Giáo viên tận tâm, dạy dễ hiểu nên điểm số Thái Anh nhà mình đã cải thiện lên nhiều. Ngoài ra
@@ -941,11 +954,7 @@ Product Pro
                         Nhân viên Kế Toán
                       </p>
                       <div class="text-center list-star">
-                        <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                        <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                        <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                        <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                        <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
+                        <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                       </div>
                       <p class="text-black text-center text-font-size-18 text-font-weight-400">
                         "Giáo viên tận tâm, dạy dễ hiểu nên điểm số Thái Anh nhà mình đã cải thiện lên nhiều. Ngoài ra
@@ -991,11 +1000,7 @@ Product Pro
                                 Nhân viên Kế Toán
                               </p>
                               <div class="text-center list-star">
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
+                                <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                               </div>
                               <p class="text-black text-center text-font-size-18 text-font-weight-400">
                                 "Giáo viên tận tâm, dạy dễ hiểu nên điểm số Thái Anh nhà mình đã cải thiện lên nhiều.
@@ -1022,11 +1027,7 @@ Product Pro
                                 Nhân viên Kế Toán
                               </p>
                               <div class="text-center list-star">
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
+                                <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                               </div>
                               <p class="text-black text-center text-font-size-18 text-font-weight-400">
                                 "Giáo viên tận tâm, dạy dễ hiểu nên điểm số Thái Anh nhà mình đã cải thiện lên nhiều.
@@ -1057,11 +1058,7 @@ Product Pro
                                 Nhân viên Kế Toán
                               </p>
                               <div class="text-center list-star">
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
+                                <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                               </div>
                               <p class="text-black text-center text-font-size-18 text-font-weight-400">
                                 "Giáo viên tận tâm, dạy dễ hiểu nên điểm số Thái Anh nhà mình đã cải thiện lên nhiều.
@@ -1088,11 +1085,7 @@ Product Pro
                                 Nhân viên Kế Toán
                               </p>
                               <div class="text-center list-star">
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
+                                <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                               </div>
                               <p class="text-black text-center text-font-size-18 text-font-weight-400">
                                 "Giáo viên tận tâm, dạy dễ hiểu nên điểm số Thái Anh nhà mình đã cải thiện lên nhiều.
@@ -1123,11 +1116,7 @@ Product Pro
                                 Nhân viên Kế Toán
                               </p>
                               <div class="text-center list-star">
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
+                                <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                               </div>
                               <p class="text-black text-center text-font-size-18 text-font-weight-400">
                                 "Giáo viên tận tâm, dạy dễ hiểu nên điểm số Thái Anh nhà mình đã cải thiện lên nhiều.
@@ -1154,11 +1143,7 @@ Product Pro
                                 Nhân viên Kế Toán
                               </p>
                               <div class="text-center list-star">
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
+                                <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                               </div>
                               <p class="text-black text-center text-font-size-18 text-font-weight-400">
                                 "Giáo viên tận tâm, dạy dễ hiểu nên điểm số Thái Anh nhà mình đã cải thiện lên nhiều.
@@ -1646,8 +1631,7 @@ Product Pro
               </div>
               <div class="col-lg-5">
                 <div class="text-left">
-                  <img class="img-fluid" src="{{ asset('images/imgs/product/pro-gd.png') }}"
-                    alt="img banner bottom" />
+                  <img class="img-fluid" src="{{ asset('images/imgs/product/pro-gd.png') }}" alt="img banner bottom" />
                 </div>
               </div>
             </div>

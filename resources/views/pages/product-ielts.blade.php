@@ -375,11 +375,7 @@ Product IELTS
                                 Ngọc</h5>
                               <p class="card-text text-font-size-16 text-font-weight-600">Phụ huynh em Minh Huyền</p>
                               <div class="text-center list-star">
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
+                                <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                               </div>
                               <p class="text-black text-font-size-16 text-font-weight-400">“ Mi Mi nhà mình năm nay lên
                                 lớp 3, không muốn bắt con học quá nhiều nhưng mình biết
@@ -401,11 +397,7 @@ Product IELTS
                                 (Mẹ Mi Mi)</h5>
                               <p class="card-text text-font-size-16 text-font-weight-600">Nhân viên Kế Toán</p>
                               <div class="text-center list-star">
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
+                                <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                               </div>
                               <p class="text-black text-font-size-16 text-font-weight-400">
                                 “ Nhà mình đi làm đều bận cả ngày thậm chí buổi tối càng bận, mà con năm nay cũng lên
