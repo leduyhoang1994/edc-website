@@ -157,19 +157,37 @@
     }
 
     .menu-tab-section-4 {
-      margin-bottom: 27px;
+      margin-bottom: 47px;
     }
 
-    .arrow-tab1 {
-      margin-left: 1%;
+    .tab1.active {
+      .div-arrow {
+        display: block;
+        left: -132%;
+        top: 150%;
+      }
     }
 
-    .arrow-tab2 {
-      margin-right: 6%;
+    .tab2.active {
+      .div-arrow2 {
+        display: block;
+        left: -150%;
+        top: 150%;
+      }
     }
 
-    .arrow-tab3 {
-      margin-right: 4%;
+    .tab3.active {
+      .div-arrow3 {
+        display: block;
+        left: -85%;
+        top: 150%;
+      }
+    }
+
+    .div-arrow,
+    .div-arrow2,
+    .div-arrow3 {
+      display: none;
     }
 
     .bg-gradient-choose {
@@ -454,11 +472,9 @@
     background-color: $white;
     padding-top: 115px;
     padding-bottom: 60px;
+
     .title-section-8 {
       margin-bottom: 48px;
-    }
-    .post-item {
-      
     }
   }
 

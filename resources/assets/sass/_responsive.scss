@@ -189,6 +189,12 @@
       .text-font-size-20 {
         font-size: $font-16 !important;
       }
+
+      .div-arrow,
+      .div-arrow2,
+      .div-arrow3 {
+        display: none !important;
+      }
     }
 
     //section 5
@@ -1005,14 +1011,20 @@
       .learning-pack-content {
         .txt-learning-pack {
           padding-left: 15px;
-          &-2, &-3, &-4, &-5 {
-          padding-left: 15px;
+
+          &-2,
+          &-3,
+          &-4,
+          &-5 {
+            padding-left: 15px;
 
           }
         }
+
         .middle-img .div-img-middle {
           width: 100%;
         }
+
         .middle-banner .form-register {
           padding: 20px !important;
         }

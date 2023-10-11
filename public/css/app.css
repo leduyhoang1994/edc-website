@@ -23229,19 +23229,31 @@ a:hover {
 }
 
 .home .section-4 .menu-tab-section-4 {
-  margin-bottom: 27px;
+  margin-bottom: 47px;
 }
 
-.home .section-4 .arrow-tab1 {
-  margin-left: 1%;
+.home .section-4 .tab1.active .div-arrow {
+  display: block;
+  left: -132%;
+  top: 150%;
 }
 
-.home .section-4 .arrow-tab2 {
-  margin-right: 6%;
+.home .section-4 .tab2.active .div-arrow2 {
+  display: block;
+  left: -150%;
+  top: 150%;
 }
 
-.home .section-4 .arrow-tab3 {
-  margin-right: 4%;
+.home .section-4 .tab3.active .div-arrow3 {
+  display: block;
+  left: -85%;
+  top: 150%;
+}
+
+.home .section-4 .div-arrow,
+.home .section-4 .div-arrow2,
+.home .section-4 .div-arrow3 {
+  display: none;
 }
 
 .home .section-4 .bg-gradient-choose {
@@ -27812,6 +27824,12 @@ a:hover {
 
   .home .section-4 .text-font-size-20 {
     font-size: 16px !important;
+  }
+
+  .home .section-4 .div-arrow,
+  .home .section-4 .div-arrow2,
+  .home .section-4 .div-arrow3 {
+    display: none !important;
   }
 
   .home .section-5 .text-font-size-36 {
