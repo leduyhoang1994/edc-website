@@ -11,8 +11,8 @@ Tin tức
   </section>
   <section class="container edupia-mw-1230 preview">
     <div class="row">
-      <div class="col-sm-6 mb-7">
-        <div>
+      <div class="col-sm-6 mb-7 main-news-item">
+        <div class="zoom">
           <img class="w-100" width="100%" src="{{ asset('images/imgs/other/news-pic-1.png') }}" alt="news-pic-1" />
         </div>
         <div class="short-content">
@@ -38,8 +38,8 @@ Tin tức
         </div>
       </div>
       <div class="col-sm-6">
-        <div class="row mb-5">
-          <div class="col-sm">
+        <div class="row mb-5 right-news">
+          <div class="col-sm zoom">
             <img class="w-100" src="{{ asset('images/imgs/other/news-pic-2.png') }}" alt="news-pic-2" />
           </div>
           <div class="col-sm right-item">
@@ -58,8 +58,8 @@ Tin tức
             </div>
           </div>
         </div>
-        <div class="row mb-5">
-          <div class="col-sm">
+        <div class="row mb-5 right-news">
+          <div class="col-sm zoom">
             <img class="w-100" src="{{ asset('images/imgs/other/news-pic-3.png') }}" alt="news-pic-3" />
           </div>
           <div class="col-sm right-item">
@@ -78,8 +78,8 @@ Tin tức
             </div>
           </div>
         </div>
-        <div class="row mb-5">
-          <div class="col-sm">
+        <div class="row mb-5 right-news">
+          <div class="col-sm zoom">
             <img class="w-100" src="{{ asset('images/imgs/other/news-pic-4.png') }}" alt="news-pic-4" />
           </div>
           <div class="col-sm right-item">
