@@ -441,7 +441,7 @@ Chi tiết tuyển dụng
 
     $('.slick-carousel').slick({
       infinite: true,
-      autoplay:true,
+      autoplay:false,
       slidesToShow: 4, // Shows a three slides at a time
       slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
       arrows: true, // Adds arrows to sides of slider

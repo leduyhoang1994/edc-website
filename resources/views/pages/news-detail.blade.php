@@ -168,7 +168,7 @@ Bài viết chi tiết
       <p class="title text-font-weight-600 text-font-size-30 text-center m-0">Bài viết liên quan</p>
       <div class="row">
         <div class="col-sm-3 news-item">
-          <div>
+          <div class="zoom">
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
@@ -194,7 +194,7 @@ Bài viết chi tiết
           </div>
         </div>
         <div class="col-sm-3 news-item">
-          <div>
+          <div class="zoom">
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
@@ -220,7 +220,7 @@ Bài viết chi tiết
           </div>
         </div>
         <div class="col-sm-3 news-item">
-          <div>
+          <div class="zoom">
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
@@ -246,7 +246,7 @@ Bài viết chi tiết
           </div>
         </div>
         <div class="col-sm-3 news-item">
-          <div>
+          <div class="zoom">
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
@@ -274,7 +274,7 @@ Bài viết chi tiết
       </div>
       <div class="row">
         <div class="col-sm-3 news-item">
-          <div>
+          <div class="zoom">
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
@@ -300,7 +300,7 @@ Bài viết chi tiết
           </div>
         </div>
         <div class="col-sm-3 news-item">
-          <div>
+          <div class="zoom">
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
@@ -326,7 +326,7 @@ Bài viết chi tiết
           </div>
         </div>
         <div class="col-sm-3 news-item">
-          <div>
+          <div class="zoom">
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
@@ -352,7 +352,7 @@ Bài viết chi tiết
           </div>
         </div>
         <div class="col-sm-3 news-item">
-          <div>
+          <div class="zoom">
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">

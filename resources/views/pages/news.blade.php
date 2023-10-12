@@ -112,7 +112,7 @@ Tin tức
     <div class="news-list page">
       <div class="row">
         <div class="col-sm-3 news-item">
-          <div>
+          <div class="zoom">
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
@@ -138,7 +138,7 @@ Tin tức
           </div>
         </div>
         <div class="col-sm-3 news-item">
-          <div>
+          <div class="zoom">
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
@@ -164,7 +164,7 @@ Tin tức
           </div>
         </div>
         <div class="col-sm-3 news-item">
-          <div>
+          <div class="zoom">
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
@@ -190,7 +190,7 @@ Tin tức
           </div>
         </div>
         <div class="col-sm-3 news-item">
-          <div>
+          <div class="zoom">
             <img width="100%" src="{{ asset('images/imgs/other/other-news-1.png') }}" alt="other-news-1" />
           </div>
           <div class="short-content">
