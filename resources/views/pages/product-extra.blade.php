@@ -5,20 +5,20 @@ Product Extra
 @section('content')
 <div class="product-extra">
   <section class="extra-header-banner">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 title-banner">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-lg-5 col-12 title-banner">
           <div class="center">
             <p class="text-black text-font-size-36 text-font-weight-700 line-height-44">
               EDUPIA EXTRA: Gói học tập<br /> toàn diện cho học sinh tiểu học
             </p>
-            <p class="text-black text-font-size-18 text-font-weight-400 mt-3">
+            <p class="text-black text-font-size-18 text-font-weight-400 des-banner">
               Gói kết hợp giữa các chương trình học online và hộp sản phẩm tiếng Anh bao gồm: truyện
               tranh, trò chơi, flashcard, tạo cho con cảm hứng học để đạt kết quả tốt hơn.
             </p>
           </div>
         </div>
-        <div class="col-lg-7">
+        <div class="col-lg-7 col-12 position-relative">
           <div class="img-banner">
             <img src="{{ asset('images/imgs/product/extra-banner.png') }}" class="img-fluid" alt="img banner" />
           </div>
@@ -32,15 +32,15 @@ Product Extra
         <div class="row">
           <div class="col-lg-12">
             <div>
-              <p class="text-center text-black text-font-size-36 text-font-weight-600">
+              <p class="text-center text-black text-font-size-36 text-font-weight-600 mb-0">
                 Cùng khám phá các sản phẩm trong EDUPIA EXTRA
               </p>
             </div>
           </div>
           <div class="col-lg-12">
             <div>
-              <div class="pt-5">
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <div class="menu-tabs">
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
                   <li class="nav-item" role="presentation">
                     <button class="nav-link active class-btn-math" id="pills-home-tab" data-toggle="pill"
                       data-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
@@ -80,7 +80,8 @@ Product Extra
               <div class="row">
                 <div class="col-lg-12">
                   <div class="math-study-title">
-                    <p class="text-blue-primary text-font-size-36 text-font-weight-700 line-height-44 text-center">
+                    <p
+                      class="title-math text-blue-primary text-font-size-36 text-font-weight-700 line-height-44 text-center mb-0">
                       EDUPIA MATH - Chương trình học toán<br /> online với giáo viên trường điểm
                     </p>
                     <p class="text-center text-black text-font-size-18 text-font-weight-400 p-630">
@@ -89,7 +90,6 @@ Product Extra
                       nghiệm và hiệu quả hơn cả 1 lớp học truyền thống.
                     </p>
                   </div>
-
                 </div>
                 <div class="col-lg-12">
                   <div class="text-center position-relative" id="video_skill">
@@ -98,8 +98,8 @@ Product Extra
                     <div class="play-button cursor-pointer" onClick="showVideo('video_skill')"></div>
                   </div>
                 </div>
-                <div class="col-lg-12 mt-5">
-                  <div class="row mt-5">
+                <div class="col-lg-12 list-award">
+                  <div class="row">
                     <div class="col-lg-3">
                       <div>
                         <div class="card border-0 align-items-center" style="width: 100%;">
@@ -165,17 +165,17 @@ Product Extra
             </div>
           </div>
         </section>
-        <section class="math-reason mt-5">
+        <section class="math-reason">
           <div class="container">
             <div class="edupia-container-lg">
               <div class="row">
-                <div class="col-lg-5">
-                  <div>
+                <div class="col-lg-5 px-0 position-relative">
+                  <div class="img-reason">
                     <img class="img-fluid" src="{{ asset('images/imgs/product/extra-reason.png') }}" alt="img reason" />
                   </div>
                 </div>
-                <div class="col-lg-7">
-                  <div class="pl-4 content-reason">
+                <div class="col-lg-7 px-0">
+                  <div class="content-reason">
                     <p class="text-white text-font-size-36 text-font-weight-700">4 lý do Con học giỏi toán hơn với
                       EDUPIA MATH</p>
                     <div class="list-item-result">
@@ -194,8 +194,8 @@ Product Extra
                         </li>
                       </ul>
                     </div>
-                    <div class="text-left">
-                      <button type="submit" class="btn btn-primary more-btn btn-register">Đăng ký tư vấn</button>
+                    <div class="text-left btn-reason-div">
+                      <button type="submit" class="btn btn-primary more-btn btn-register-math">Đăng ký tư vấn</button>
                     </div>
                   </div>
                 </div>
@@ -208,35 +208,35 @@ Product Extra
             <div class="edupia-container-lg">
               <div class="row">
                 <div class="col-lg-12">
-                  <div>
+                  <div class="title-rme">
                     <p class="text-center text-font-size-36 text-font-weight-600 text-black">
                       Phương pháp dạy học RME (Realistic Math Education)<br />
                       giúp con ứng dụng ngay kiến thức toán vào thực tế
                     </p>
                   </div>
                 </div>
-                <div class="col-lg-12 mt-4">
+                <div class="col-lg-12">
                   <div class="row">
                     <div class="col-lg-4">
-                      <div>
+                      <div class="img-rme">
                         <img class="img-fluid" src="{{ asset('images/imgs/product/extra-rme1.png') }}" alt="img rme" />
                       </div>
                     </div>
                     <div class="col-lg-4">
-                      <div>
+                      <div class="img-rme">
                         <img class="img-fluid" src="{{ asset('images/imgs/product/extra-rme2.png') }}" alt="img rme" />
                       </div>
                     </div>
                     <div class="col-lg-4">
-                      <div>
+                      <div class="img-rme">
                         <img class="img-fluid" src="{{ asset('images/imgs/product/extra-rme3.png') }}" alt="img rme" />
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-12 mt-5">
-                  <div class="text-center">
-                    <button type="submit" class="btn btn-primary more-btn btn-register">Đăng ký tư vấn</button>
+                <div class="col-lg-12">
+                  <div class="text-center btn-rme-div">
+                    <button type="submit" class="btn btn-primary more-btn btn-register-math">Đăng ký tư vấn</button>
                   </div>
                 </div>
               </div>
@@ -247,13 +247,13 @@ Product Extra
           <div class="container">
             <div class="edupia-container-lg">
               <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 title-slide-teacher">
                   <p class="text-center text-black text-font-size-36 text-font-weight-600 line-height-44">
                     Đội ngữ giáo viên giàu kinh nghiệm<br />
                     đồng hành cùng con
                   </p>
                 </div>
-                <div class="col-lg-12">
+                <div class="col-lg-12 div-slide-teacher">
                   <div>
                     <div class="slider-native-teams">
                       <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
@@ -271,7 +271,7 @@ Product Extra
                                     <img class="card-img img-fluid"
                                       src="{{ asset('images/imgs/product/math-slide-1.png') }}" alt="Card image cap">
                                   </div>
-                                  <div class="card-body pl-0 pr-0">
+                                  <div class="card-body pl-0 pr-0 pt-0">
                                     <h5
                                       class="text-center card-title text-black-100 text-font-size-20 text-font-weight-600 mb-0">
                                       Th.S Nguyễn Thủy Chung
@@ -309,7 +309,7 @@ Product Extra
                                     <img class="card-img img-fluid"
                                       src="{{ asset('images/imgs/product/math-slide-2.png') }}" alt="Card image cap">
                                   </div>
-                                  <div class="card-body pl-0 pr-0">
+                                  <div class="card-body pl-0 pr-0 pt-0">
                                     <h5
                                       class="text-center card-title text-black-100 text-font-size-20 text-font-weight-600 mb-0">
                                       T.S Thiều Quang Tùng
@@ -347,7 +347,7 @@ Product Extra
                                     <img class="card-img img-fluid"
                                       src="{{ asset('images/imgs/product/math-slide-3.png') }}" alt="Card image cap">
                                   </div>
-                                  <div class="card-body pl-0 pr-0">
+                                  <div class="card-body pl-0 pr-0 pt-0">
                                     <h5
                                       class="text-center card-title text-black-100 text-font-size-20 text-font-weight-600 mb-0">
                                       Cô Phạm Kiểu Trà My
@@ -386,7 +386,7 @@ Product Extra
                                     <img class="card-img img-fluid"
                                       src="{{ asset('images/imgs/product/math-slide-4.png') }}" alt="Card image cap">
                                   </div>
-                                  <div class="card-body pl-0 pr-0">
+                                  <div class="card-body pl-0 pr-0 pt-0">
                                     <h5
                                       class="text-center card-title text-black-100 text-font-size-20 text-font-weight-600 mb-0">
                                       Cô Nguyễn Thuỳ Trang
@@ -428,7 +428,7 @@ Product Extra
                                     <img class="card-img img-fluid"
                                       src="{{ asset('images/imgs/product/math-slide-1.png') }}" alt="Card image cap">
                                   </div>
-                                  <div class="card-body pl-0 pr-0">
+                                  <div class="card-body pl-0 pr-0 pt-0">
                                     <h5
                                       class="text-center card-title text-black-100 text-font-size-20 text-font-weight-600 mb-0">
                                       Th.S Nguyễn Thủy Chung
@@ -466,7 +466,7 @@ Product Extra
                                     <img class="card-img img-fluid"
                                       src="{{ asset('images/imgs/product/math-slide-2.png') }}" alt="Card image cap">
                                   </div>
-                                  <div class="card-body pl-0 pr-0">
+                                  <div class="card-body pl-0 pr-0 pt-0">
                                     <h5
                                       class="text-center card-title text-black-100 text-font-size-20 text-font-weight-600 mb-0">
                                       T.S Thiều Quang Tùng
@@ -504,7 +504,7 @@ Product Extra
                                     <img class="card-img img-fluid"
                                       src="{{ asset('images/imgs/product/math-slide-3.png') }}" alt="Card image cap">
                                   </div>
-                                  <div class="card-body pl-0 pr-0">
+                                  <div class="card-body pl-0 pr-0 pt-0">
                                     <h5
                                       class="text-center card-title text-black-100 text-font-size-20 text-font-weight-600 mb-0">
                                       Cô Phạm Kiểu Trà My
@@ -543,7 +543,7 @@ Product Extra
                                     <img class="card-img img-fluid"
                                       src="{{ asset('images/imgs/product/math-slide-4.png') }}" alt="Card image cap">
                                   </div>
-                                  <div class="card-body pl-0 pr-0">
+                                  <div class="card-body pl-0 pr-0 pt-0">
                                     <h5
                                       class="text-center card-title text-black-100 text-font-size-20 text-font-weight-600 mb-0">
                                       Cô Nguyễn Thuỳ Trang
@@ -585,7 +585,7 @@ Product Extra
                                     <img class="card-img img-fluid"
                                       src="{{ asset('images/imgs/product/math-slide-1.png') }}" alt="Card image cap">
                                   </div>
-                                  <div class="card-body pl-0 pr-0">
+                                  <div class="card-body pl-0 pr-0 pt-0">
                                     <h5
                                       class="text-center card-title text-black-100 text-font-size-20 text-font-weight-600 mb-0">
                                       Th.S Nguyễn Thủy Chung
@@ -623,7 +623,7 @@ Product Extra
                                     <img class="card-img img-fluid"
                                       src="{{ asset('images/imgs/product/math-slide-2.png') }}" alt="Card image cap">
                                   </div>
-                                  <div class="card-body pl-0 pr-0">
+                                  <div class="card-body pl-0 pr-0 pt-0">
                                     <h5
                                       class="text-center card-title text-black-100 text-font-size-20 text-font-weight-600 mb-0">
                                       T.S Thiều Quang Tùng
@@ -661,7 +661,7 @@ Product Extra
                                     <img class="card-img img-fluid"
                                       src="{{ asset('images/imgs/product/math-slide-3.png') }}" alt="Card image cap">
                                   </div>
-                                  <div class="card-body pl-0 pr-0">
+                                  <div class="card-body pl-0 pr-0 pt-0">
                                     <h5
                                       class="text-center card-title text-black-100 text-font-size-20 text-font-weight-600 mb-0">
                                       Cô Phạm Kiểu Trà My
@@ -700,7 +700,7 @@ Product Extra
                                     <img class="card-img img-fluid"
                                       src="{{ asset('images/imgs/product/math-slide-4.png') }}" alt="Card image cap">
                                   </div>
-                                  <div class="card-body pl-0 pr-0">
+                                  <div class="card-body pl-0 pr-0 pt-0">
                                     <h5
                                       class="text-center card-title text-black-100 text-font-size-20 text-font-weight-600 mb-0">
                                       Cô Nguyễn Thuỳ Trang
@@ -749,12 +749,11 @@ Product Extra
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-12 mt-5 pt-4">
+                <div class="col-lg-12 div-btn-teacher">
                   <div class="text-center">
-                    <button type="submit" class="btn btn-primary more-btn btn-register">Đăng ký tư vấn</button>
+                    <button type="submit" class="btn btn-primary more-btn btn-register-math">Đăng ký tư vấn</button>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -763,7 +762,7 @@ Product Extra
           <div class="container">
             <div class="edupia-container-lg">
               <div class="row">
-                <div class="col-lg-12 mb-4">
+                <div class="col-lg-12 title-post">
                   <p class="text-center text-font-size-36 text-font-weight-600 line-height-44">
                     Phụ huynh nói gì về EDUPIA MATH?
                   </p>
@@ -792,12 +791,8 @@ Product Extra
                                     <p class="text-center text-font-size-16 text-font-weight-600 text-black">
                                       Nhân viên Kế Toán
                                     </p>
-                                    <div class="text-center my-1">
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
+                                    <div class="text-center list-star">
+                                      <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                                     </div>
                                     <p class="text-black text-center text-font-size-16 text-font-weight-400">
                                       “ Mi Mi nhà mình năm nay lên lớp 3, không muốn bắt con học quá nhiều nhưng mình
@@ -823,12 +818,8 @@ Product Extra
                                     <p class="text-center text-font-size-16 text-font-weight-600">
                                       Nhân viên Kế Toán
                                     </p>
-                                    <div class="text-center my-1">
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
+                                    <div class="text-center list-star">
+                                      <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                                     </div>
                                     <p class="text-black text-center text-font-size-16 text-font-weight-400">
                                       “ Nhà mình đi làm đều bận cả ngày thậm chí buổi tối càng bận, mà con năm nay cũng
@@ -858,12 +849,8 @@ Product Extra
                                     <p class="text-center text-font-size-16 text-font-weight-600 text-black">
                                       Nhân viên Kế Toán
                                     </p>
-                                    <div class="text-center my-1">
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
+                                    <div class="text-center list-star">
+                                      <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                                     </div>
                                     <p class="text-black text-center text-font-size-16 text-font-weight-400">
                                       “ Mi Mi nhà mình năm nay lên lớp 3, không muốn bắt con học quá nhiều nhưng mình
@@ -889,12 +876,8 @@ Product Extra
                                     <p class="text-center text-font-size-16 text-font-weight-600">
                                       Nhân viên Kế Toán
                                     </p>
-                                    <div class="text-center my-1">
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
+                                    <div class="text-center list-star">
+                                      <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                                     </div>
                                     <p class="text-black text-center text-font-size-16 text-font-weight-400">
                                       “ Nhà mình đi làm đều bận cả ngày thậm chí buổi tối càng bận, mà con năm nay cũng
@@ -924,12 +907,8 @@ Product Extra
                                     <p class="text-center text-font-size-16 text-font-weight-600 text-black">
                                       Nhân viên Kế Toán
                                     </p>
-                                    <div class="text-center my-1">
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
+                                    <div class="text-center list-star">
+                                      <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                                     </div>
                                     <p class="text-black text-center text-font-size-16 text-font-weight-400">
                                       “ Mi Mi nhà mình năm nay lên lớp 3, không muốn bắt con học quá nhiều nhưng mình
@@ -955,12 +934,8 @@ Product Extra
                                     <p class="text-center text-font-size-16 text-font-weight-600">
                                       Nhân viên Kế Toán
                                     </p>
-                                    <div class="text-center my-1">
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
-                                      <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
+                                    <div class="text-center list-star">
+                                      <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                                     </div>
                                     <p class="text-black text-center text-font-size-16 text-font-weight-400">
                                       “ Nhà mình đi làm đều bận cả ngày thậm chí buổi tối càng bận, mà con năm nay cũng
@@ -988,26 +963,27 @@ Product Extra
             <div class="edupia-container-lg">
               <div class="row">
                 <div class="col-lg-4">
-                  <div>
+                  <div class="img-family">
                     <img class="img-fluid" src="{{ asset('images/imgs/product/math-family.png') }}" alt="img family" />
                   </div>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-8 px-0">
                   <div class="content-chicken-txt">
-                    <p class="text-left text-blue-primary text-font-size-48 text-font-weight-600 line-height-44 mb-2">
+                    <p
+                      class="text-left text-blue-primary text-font-size-48 text-font-weight-600 line-height-44 title-chicken">
                       Chỉ từ 100k/tháng
                     </p>
-                    <p class="text-left text-black-100 text-font-size-36 text-font-weight-600">
+                    <p class="text-left text-black-100 text-font-size-36 text-font-weight-600 des-chicken">
                       Hoàn tiền 100% nếu không tiến bộ
                     </p>
                     <p
-                      class="text-left text-font-size-20 text-font-weight-400 line-height-28 content-chicken-description pr-5">
+                      class="text-left text-font-size-20 text-font-weight-400 line-height-28 content-chicken-description mb-0">
                       EDUPIA mang lại sự hài lòng và an tâm tuyệt đối cho hàng ngàn phụ huynh.
                       <br />
                       Chúng tôi cam kết hoàn 100% học phí nếu sau 3 tháng con không tiến bộ.
                     </p>
-                    <div>
-                      <button class="btn btn-primary more-btn mt-4 btn-register">Đăng ký tư vấn</button>
+                    <div class="btn-chicken-div">
+                      <button class="btn btn-primary more-btn btn-register-math">Đăng ký tư vấn</button>
                     </div>
                   </div>
                 </div>
@@ -1015,7 +991,7 @@ Product Extra
             </div>
           </div>
         </section>
-        <section class="math-register mb-5 pb-5">
+        <section class="math-register">
           <div class="container">
             <div class="edupia-container-lg bg-blue-930 div-register">
               <div class="row">
@@ -1061,8 +1037,8 @@ Product Extra
           <div class="container">
             <div class="edupia-container-lg">
               <div class="col-lg-12">
-                <div>
-                  <p class="text-black text-center text-font-size-36 text-font-weight-700">
+                <div class="title-award">
+                  <p class="text-black text-center text-font-size-36 text-font-weight-700 mb-0">
                     EDUPIA tự hào là chương trình tiếng Anh Tiểu học<br />
                     số 1 Việt Nam với thành tích xuất sắc
                   </p>
@@ -1399,9 +1375,9 @@ Product Extra
           <div class="container">
             <div class="edupia-container-lg">
               <div class="row">
-                <div class="col-lg-12 mb-5">
+                <div class="col-lg-12">
                   <div class="title-verify">
-                    <p class="text-black text-center text-font-size-36 text-font-weight-700">
+                    <p class="text-black text-center text-font-size-36 text-font-weight-700 mb-0">
                       Được kiểm chứng bởi truyền thông, <br /> báo chí toàn quốc</p>
                   </div>
                 </div>
@@ -1434,15 +1410,15 @@ Product Extra
                   </div>
                 </div>
                 <div class="col-lg-12">
-                  <div class="my-5">
-                    <p class="text-center text-font-size-26 text-font-weight-700">
+                  <div class="des-video-verify">
+                    <p class="text-center text-font-size-26 text-font-weight-700 mb-0">
                       VTV đánh giá Edupia là khóa học DUY NHẤT đồng hành giúp hơn 1 TRIỆU học sinh<br /> từ yếu kém lên
                       khá,
                       giỏi Tiếng Anh
                     </p>
                   </div>
                 </div>
-                <div class="col-lg-12 mb-5 pb-5">
+                <div class="col-lg-12 slide-social">
                   <div class="marquee">
                     <div class="marquee-content">
                       <div class="marquee-tag">
@@ -1512,7 +1488,7 @@ Product Extra
         <section class="vietnamese-study container-fluid">
           <div class="container banner">
             <div class="row">
-              <div class="col-sm-6 d-flex align-items-center">
+              <div class="col-sm-6 d-flex align-items-center px-0">
                 <div class="text-white text-font-size-18 text-font-weight-400">
                   <div class="text-font-weight-700 text-font-size-36">
                     <p class="m-0 ">EDUPIA Tiếng Việt - Chương trình học</p>
@@ -1581,7 +1557,7 @@ Product Extra
               <div class=" border-0" style="width: 100%;">
                 <img class="w-100" src="{{ asset('images/imgs/product/extra-teacher-1.png') }}" alt="extra-teacher-1">
                 <div class="pl-0 pr-0">
-                  <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-1 mt-2">
+                  <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600">
                     <span>Cô Hoàng Thùy Dương</span>
                   </h5>
                   <ul class="ml-2 list-group-2 text-font-size-6 text-font-weight-500">
@@ -1601,7 +1577,7 @@ Product Extra
               <div class="border-0" style="width: 100%;">
                 <img class="w-100" src="{{ asset('images/imgs/product/extra-teacher-2.png') }}" alt="extra-teacher-2">
                 <div class="pl-0 pr-0">
-                  <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-1 mt-2">
+                  <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600">
                     <span>Cô Nguyễn Minh Hằng</span>
                   </h5>
                   <ul class="ml-2 list-group-2 text-font-size-6 text-font-weight-500">
@@ -1621,7 +1597,7 @@ Product Extra
               <div class="border-0" style="width: 100%;">
                 <img class="w-100" src="{{ asset('images/imgs/product/extra-teacher-3.png') }}" alt="extra-teacher-3">
                 <div class="pl-0 pr-0">
-                  <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-1 mt-2">
+                  <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600">
                     <span>Cô Nguyễn Phương Thảo</span>
                   </h5>
                   <ul class="ml-2 list-group-2 text-font-size-6 text-font-weight-500">
@@ -1641,7 +1617,7 @@ Product Extra
               <div class="border-0" style="width: 100%;">
                 <img class="w-100" src="{{ asset('images/imgs/product/extra-teacher-4.png') }}" alt="extra-teacher-4">
                 <div class="dpl-0 pr-0">
-                  <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-1 mt-2">
+                  <h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600">
                     <span>Cô Trần Phương Anh</span>
                   </h5>
                   <ul class="ml-2 list-group-2 text-font-size-6 text-font-weight-500">
@@ -1658,9 +1634,9 @@ Product Extra
               </div>
             </div>
           </div>
-          <div class="row mt-5">
+          <div class="row div-button-teacher">
             <div class="col-sm text-center">
-              <span class="btn-register text-font-weight-500">Đăng ký tư vấn</span>
+              <button class="btn-register text-font-weight-500">Đăng ký tư vấn</button>
             </div>
           </div>
         </section>
@@ -1678,11 +1654,11 @@ Product Extra
               <div class="w-100">
                 <img src="{{ asset('images/imgs/product/parrent-1.png') }}" alt="parrent-1">
                 <div>
-                  <div class="text-center text-blue-primary text-font-size-20 text-font-weight-600 mt-2">
+                  <div class="text-center text-blue-primary text-font-size-20 text-font-weight-600 txt-name-parent">
                     <p class="m-0">Mẹ Thùy Linh</p>
                     <p>Em Hoàng Anh (Lớp 1)</p>
                   </div>
-                  <img class="mb-3" src="{{ asset('images/imgs/product/line-2.svg') }}" alt="line-2">
+                  <img class="img-line" src="{{ asset('images/imgs/product/line-2.svg') }}" alt="line-2">
 
                   <div class="text-font-size-18 text-font-weight-400">
                     <span>
@@ -1697,11 +1673,11 @@ Product Extra
               <div class="w-100">
                 <img src="{{ asset('images/imgs/product/parrent-2.png') }}" alt="parrent-3">
                 <div>
-                  <div class="text-center text-blue-primary text-font-size-20 text-font-weight-600 mt-2">
+                  <div class="text-center text-blue-primary text-font-size-20 text-font-weight-600 txt-name-parent">
                     <p class="m-0">Bố Hồng Hà</p>
                     <p>Em Thị Mỹ (Lớp 1)</p>
                   </div>
-                  <img class="mb-3" src="{{ asset('images/imgs/product/line-2.svg') }}" alt="line-2">
+                  <img class="img-line" src="{{ asset('images/imgs/product/line-2.svg') }}" alt="line-2">
 
                   <div class="text-font-size-18 text-font-weight-400">
                     <span>
@@ -1714,13 +1690,13 @@ Product Extra
             </div>
             <div class="col-sm-4 text-center">
               <div class="w-100">
-                <img src="{{ asset('images/imgs/product/parrent-1.png') }}" alt="parrent-1">
+                <img src="{{ asset('images/imgs/product/parrent-3.png') }}" alt="parrent-1">
                 <div>
-                  <div class="text-center text-blue-primary text-font-size-20 text-font-weight-600 mt-2">
+                  <div class="text-center text-blue-primary text-font-size-20 text-font-weight-600 txt-name-parent">
                     <p class="m-0">Mẹ Mai Phương</p>
                     <p>Em Minh Lâm (Lớp 2)</p>
                   </div>
-                  <img class="mb-3" src="{{ asset('images/imgs/product/line-2.svg') }}" alt="line-2">
+                  <img class="img-line" src="{{ asset('images/imgs/product/line-2.svg') }}" alt="line-2">
 
                   <div class="text-font-size-18 text-font-weight-400">
                     <span>
@@ -1735,17 +1711,16 @@ Product Extra
         </section>
         <section class="vietnamese-ads container mx-auto">
           <div class="row text-font-size-18 mx-auto">
-            <div class="col-sm-6 content">
-              <p class="text-font-size-48 text-font-weight-600 text-blue-700 mb-2">Chỉ từ 80k/tháng</p>
+            <div class="col-sm-7 content">
+              <p class="text-font-size-48 text-font-weight-600 text-blue-700 title-ads">Chỉ từ 80k/tháng</p>
               <p class="text-font-size-36 text-font-weight-600 commit">Hoàn tiền 100% nếu không tiến bộ sau 3 tháng
               </p>
-              <p class="text-font-weight-400">
+              <p class="text-font-weight-400 des-ads">
                 EDUPIA mang lại sự hài lòng và an tâm tuyệt đối cho hàng ngàn phụ huynh.
               </p>
               <span class="btn-register text-font-weight-500">Đăng ký tư vấn</span>
 
             </div>
-            <div class="col-sm-1"></div>
             <div class="col-sm-5">
               <img class="w-100" src="{{ asset('images/imgs/product/extra-vietnamese-ads.png') }}"
                 alt="extra-vietnamese-ads" />
@@ -1760,7 +1735,8 @@ Product Extra
             <div class="col-sm-5 form-register">
               <div class="text-white mx-auto">
                 <p class="text-font-size-26 text-font-weight-600">Học Thử Miễn Phí Ngay Hôm Nay</p>
-                <p class="mb-3 text-font-size-18 text-font-weight-400">Để lại thông tin để ban giáo vụ có thể hỗ trợ phụ
+                <p class="mb-3 text-font-size-18 text-font-weight-400">Để lại thông tin để ban giáo vụ có thể hỗ
+                  trợ<br /> phụ
                   huynh lên lịch và chọn khóa học phù hợp</p>
                 <form class="mx-auto">
                   <div class="form-group">
@@ -1781,7 +1757,7 @@ Product Extra
                       <option value="option3">Option 3</option>
                     </select>
                     <span class="custom-icon">
-                      <img src="https://edc-website.dev/images/icons/other/DownIcon2.svg" alt="DownIcon2">
+                      <img src="{{ asset('images/icons/other/DownIcon2.svg') }}" alt="DownIcon2">
                     </span>
                   </div>
                   <button type="submit" class="btn btn-block custom-button mx-auto">
@@ -1804,7 +1780,7 @@ Product Extra
                 </div>
               </div>
               <div class="col-lg-12">
-                <div class="mt-5">
+                <div class="trip-award">
                   <div class="wizard">
                     <!-- tab giai thuong -->
                     <div class="mb-5">
@@ -2134,7 +2110,7 @@ Product Extra
           <div class="container">
             <div class="edupia-container-lg">
               <div class="row">
-                <div class="col-lg-12 mb-5">
+                <div class="col-lg-12">
                   <div class="title-verify">
                     <div class="text-black text-center text-font-size-36 text-font-weight-700">
                       <p class="m-0">Được kiểm chứng bởi truyền thông,</p>
@@ -2172,7 +2148,7 @@ Product Extra
                   </div>
                 </div>
                 <div class="col-lg-12">
-                  <div class="my-5">
+                  <div class="des-video-verify">
                     <p class="text-center text-font-size-26 text-font-weight-700">
                       VTV đánh giá Edupia là khóa học DUY NHẤT đồng hành giúp hơn 1 TRIỆU học sinh<br /> từ yếu kém lên
                       khá,
@@ -2180,7 +2156,7 @@ Product Extra
                     </p>
                   </div>
                 </div>
-                <div class="col-lg-12 mb-5 pb-5">
+                <div class="col-lg-12 slide-social">
                   <div class="marquee">
                     <div class="marquee-content">
                       <div class="marquee-tag">
@@ -2261,131 +2237,140 @@ Product Extra
                     Learning Pack</p>
                   <p class="m-0  middle-text">EDUPIA Learning Package là gói học tập bao gồm các trò chơi,
                     truyện tranh, sách giấy... tạo cảm hứng và xỏa bỏ nỗi sợ tiếng Anh cho con từ lớp 1 -
-                    5 </p>
-                  <span class="btn-register text-font-weight-500">Đăng ký tư vấn</span>
+                    5
+                  </p>
+                  <div>
+                    <button class="btn btn-register text-white text-font-weight-500">Đăng ký tư vấn</button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section class="edupia-mw-1230 container learning-pack-content">
-          <div class="row">
-            <div class="col-sm">
-              <div class="text-center text-font-weight-700 text-font-size-36">
-                <p>Tạo cảm hứng cho con học tiếng Anh với</p>
-                <p>hình thức sống động</p>
-              </div>
-            </div>
-          </div>
-          <div class="row align-items-center text-font-size-20 w-75 mx-auto">
-            <div class="col-sm-5">
-              <img class="w-100" src="{{ asset('images/imgs/product/vocab-book.png') }}" alt="vocab-book" />
-            </div>
-            <div class="col-sm-1"></div>
-            <div class="col-sm-6">
-              <p class="text-font-size-36 text-font-weight-700 text-blue-primary mb-2">Sách từ vựng</p>
-              <p class="text-font-weight-400">
-                Sách từ vựng giúp trẻ luyện thêm bài tập nhằm nắm vững kiến thức về từ vựng và mẫu câu học sinh đã
-                được học ở trên ứng dụng.
-              </p>
-            </div>
-          </div>
-          <div class="row align-items-center text-font-size-18 w-75 mx-auto">
-            <div class="col-sm-5">
-              <p class="text-font-size-36 text-font-weight-700 text-blue-primary mb-2">Sách ngữ pháp</p>
-              <p class="text-font-weight-400">
-                Sách ngữ pháp cung cấp các bài tập thực tế giúp con luyện tập làm các mẫu câu cơ bản
-                đến phức tạp trong các bài thi.
-              </p>
-            </div>
-            <div class="col-sm-1"></div>
-            <div class="col-sm-6">
-              <img class="w-100" src="{{ asset('images/imgs/product/structure-book.png') }}" alt="structure-book" />
-            </div>
-          </div>
-          <div class="row align-items-center text-font-size-18">
-            <div class="col-sm-6">
-              <img class="w-100" src="{{ asset('images/imgs/product/story-book.png') }}" alt="story-book" />
-            </div>
-            <div class="col-sm-6">
-              <p class="text-font-size-36 text-font-weight-700 text-blue-primary mb-2">10 quyển truyện tranh</p>
-              <p class="text-font-weight-400">
-                Truyện tranh song ngữ Edupia được thiết kế giúp học sinh vận dụng ngay kiến thức vừa học trong thực tế.
-                Ngoài là, bố mẹ dễ dàng học cùng con.
-              </p>
-            </div>
-          </div>
-          <div class="row align-items-center text-font-size-18 w-75 mx-auto">
-            <div class="col-sm-6">
-              <p class="text-font-size-36 text-font-weight-700 text-blue-primary mb-2">2 bộ Flashcard</p>
-              <p class="text-font-weight-400">
-                Truyện tranh song ngữ Edupia được thiết kế giúp học sinh vận dụng ngay kiến thức vừa học trong thực tế.
-                Ngoài là, bố mẹ dễ dàng học cùng con.
-              </p>
-            </div>
-            <div class="col-sm-6">
-              <img class="w-100" src="{{ asset('images/imgs/product/flashcard-box.png') }}" alt="flashcard-box" />
-            </div>
-          </div>
-          <div class="row align-items-center text-font-size-18">
-            <div class="col-sm-6">
-              <img class="w-100" src="{{ asset('images/imgs/product/boardgame.png') }}" alt="boardgame" />
-            </div>
-            <div class="col-sm-6">
-              <p class="text-font-size-36 text-font-weight-700 text-blue-primary mb-2">EDUPIA Boardgame</p>
-              <p class="text-font-weight-400">
-                Giúp con cùng các bạn vui chơi gắn kết với trò chơi trí tuệ vô cùng hấp dẫn. Từ đó, Giảm nguy cơ trẻ
-                bị cận thị và bị ảnh hưởng xấu từ các nội dung tiêu cực trên điện thoại, ti vi.
-              </p>
-            </div>
-          </div>
-          <div class="row mx-auto middle-img">
-            <div class="col-sm">
-              <p class="text-font-size-36 text-font-weight-700 text-center">Con chưa bao giờ học tiếng Anh vui đến
-                thế</p>
-              <img class="w-100" src="{{ asset('images/imgs/product/person.png') }}" alt="person" />
-            </div>
-          </div>
-          <div class="row middle-banner">
-            <div class="col-sm-7">
-              <img class="w-100" src="{{ asset('images/imgs/product/middle-banner-pic.png') }}"
-                alt="middle-banner-pic" />
-            </div>
-            <div class="col-sm-5 form-register">
-              <div class="text-center text-white mx-auto">
-                <p class="text-font-size-48 text-font-weight-600 mb-3">
-                  Chỉ với 485k/bộ
-                </p>
-                <p class="mb-1 text-font-size-26 text-font-weight-600">Đăng ký đặt hàng</p>
-                <div class="mb-3 text-font-weight-400">
-                  <p class="m-0">Số lượng có hạn, ba mẹ nhanh tay đặt hàng để</p>
-                  <p class="m-0">tạo cảm hứng cho con học tiếng Anh nhé!</p>
+        <section class="learning-pack-content">
+          <div class="container">
+            <div class="edupia-container-lg">
+              <div class="row">
+                <div class="col-sm">
+                  <div class="text-center text-font-weight-700 text-font-size-36">
+                    <p>Tạo cảm hứng cho con học tiếng Anh với</p>
+                    <p>hình thức sống động</p>
+                  </div>
                 </div>
-
-                <form class="mx-auto">
-                  <div class="form-group">
-                    <input type="text" class="form-control form-rounded" placeholder="Họ tên phụ huynh">
+              </div>
+              <div class="row align-items-center list-learning-pack">
+                <div class="col-sm-6">
+                  <div class="img-learning-pack">
+                    <img class="w-100" src="{{ asset('images/imgs/product/vocab-book.png') }}" alt="vocab-book" />
                   </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control form-rounded" placeholder="Số điện thoại phụ huynh">
+                </div>
+                <div class="col-sm-6 txt-learning-pack">
+                  <p class="text-font-size-36 text-font-weight-700 text-blue-primary title-book">Sách từ vựng</p>
+                  <p class="text-font-weight-400 text-font-size-20">
+                    Sách từ vựng giúp trẻ luyện thêm bài tập nhằm nắm vững kiến thức về từ vựng và mẫu câu học sinh đã
+                    được học ở trên ứng dụng.
+                  </p>
+                </div>
+              </div>
+              <div class="row align-items-center list-learning-pack-2">
+                <div class="col-sm-6 txt-learning-pack-2">
+                  <p class="text-font-size-36 text-font-weight-700 text-blue-primary title-book">Sách ngữ pháp</p>
+                  <p class="text-font-weight-400 text-font-size-18">
+                    Sách ngữ pháp cung cấp các bài tập thực tế giúp con luyện tập làm các mẫu câu cơ bản
+                    đến phức tạp trong các bài thi.
+                  </p>
+                </div>
+                <div class="col-sm-6">
+                  <img class="w-100" src="{{ asset('images/imgs/product/structure-book.png') }}" alt="structure-book" />
+                </div>
+              </div>
+              <div class="row align-items-center list-learning-pack-3">
+                <div class="col-sm-6">
+                  <img class="w-100" src="{{ asset('images/imgs/product/story-book.png') }}" alt="story-book" />
+                </div>
+                <div class="col-sm-6 txt-learning-pack-3">
+                  <p class="text-font-size-36 text-font-weight-700 text-blue-primary title-book">10 quyển truyện tranh</p>
+                  <p class="text-font-weight-400 text-font-size-18">
+                    Truyện tranh song ngữ Edupia được thiết kế giúp học sinh vận dụng ngay kiến thức vừa học trong thực tế.
+                    Ngoài là, bố mẹ dễ dàng học cùng con.
+                  </p>
+                </div>
+              </div>
+              <div class="row align-items-center list-learning-pack-4">
+                <div class="col-sm-6 txt-learning-pack-4">
+                  <p class="text-font-size-36 text-font-weight-700 text-blue-primary title-book">2 bộ Flashcard</p>
+                  <p class="text-font-weight-400 text-font-size-18">
+                    Truyện tranh song ngữ Edupia được thiết kế giúp học sinh vận dụng ngay kiến thức vừa học trong thực tế.
+                    Ngoài là, bố mẹ dễ dàng học cùng con.
+                  </p>
+                </div>
+                <div class="col-sm-6">
+                  <img class="w-100" src="{{ asset('images/imgs/product/flashcard-box.png') }}" alt="flashcard-box" />
+                </div>
+              </div>
+              <div class="row align-items-center list-learning-pack-5">
+                <div class="col-sm-6">
+                  <img class="w-100" src="{{ asset('images/imgs/product/boardgame.png') }}" alt="boardgame" />
+                </div>
+                <div class="col-sm-6 txt-learning-pack-5">
+                  <p class="text-font-size-36 text-font-weight-700 text-blue-primary title-book">EDUPIA Boardgame</p>
+                  <p class="text-font-weight-400 text-font-size-18">
+                    Giúp con cùng các bạn vui chơi gắn kết với trò chơi trí tuệ vô cùng hấp dẫn. Từ đó, Giảm nguy cơ trẻ
+                    bị cận thị và bị ảnh hưởng xấu từ các nội dung tiêu cực trên điện thoại, ti vi.
+                  </p>
+                </div>
+              </div>
+              <div class="row middle-img">
+                <div class="col-sm">
+                  <p class="text-font-size-36 text-font-weight-700 text-center">Con chưa bao giờ học tiếng Anh vui đến
+                    thế</p>
+                  <div class="div-img-middle  mx-auto ">
+                    <img class="w-100" src="{{ asset('images/imgs/product/person.png') }}" alt="person" />
                   </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control form-rounded" placeholder="Địa chỉ">
+                </div>
+              </div>
+              <div class="row middle-banner">
+                <div class="col-sm-7">
+                  <img class="w-100" src="{{ asset('images/imgs/product/middle-banner-pic.png') }}"
+                    alt="middle-banner-pic" />
+                </div>
+                <div class="col-sm-5 form-register">
+                  <div class="text-center text-white mx-auto">
+                    <p class="text-font-size-48 text-font-weight-600 mb-3">
+                      Chỉ với 485k/bộ
+                    </p>
+                    <p class="mb-1 text-font-size-26 text-font-weight-600">Đăng ký đặt hàng</p>
+                    <div class="mb-3 text-font-weight-400">
+                      <p class="m-0">Số lượng có hạn, ba mẹ nhanh tay đặt hàng để</p>
+                      <p class="m-0">tạo cảm hứng cho con học tiếng Anh nhé!</p>
+                    </div>
+    
+                    <form class="mx-auto">
+                      <div class="form-group">
+                        <input type="text" class="form-control form-rounded" placeholder="Họ tên phụ huynh">
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control form-rounded" placeholder="Số điện thoại phụ huynh">
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control form-rounded" placeholder="Địa chỉ">
+                      </div>
+                      <button type="submit" class="btn btn-block custom-button mx-auto">
+                        <span class="text-font-weight-600 text-font-size-18 text-white">Đăng ký ngay</span>
+                      </button>
+                    </form>
                   </div>
-                  <button type="submit" class="btn btn-block custom-button mx-auto">
-                    <span class="text-font-weight-600 text-font-size-18 text-white">Đăng ký ngay</span>
-                  </button>
-                </form>
+                </div>
               </div>
             </div>
           </div>
         </section>
-        <section class="pro-award">
+        <section class="learning-pack-award">
           <div class="container">
             <div class="edupia-container-lg">
               <div class="col-lg-12">
-                <div>
-                  <p class="text-black text-center text-font-size-36 text-font-weight-700">
+                <div class="title-award">
+                  <p class="text-black text-center text-font-size-36 text-font-weight-700 mb-0">
                     EDUPIA tự hào là chương trình tiếng Anh Tiểu học<br />
                     số 1 Việt Nam với thành tích xuất sắc
                   </p>
@@ -2722,7 +2707,7 @@ Product Extra
           <div class="container">
             <div class="edupia-container-lg">
               <div class="row">
-                <div class="col-lg-12 mb-5">
+                <div class="col-lg-12">
                   <div class="title-verify">
                     <div class="text-black text-center text-font-size-36 text-font-weight-700">
                       <p class="m-0">Được kiểm chứng bởi truyền thông,</p>
