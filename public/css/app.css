@@ -23046,6 +23046,14 @@ a:hover {
   background-color: #20BEC6 !important;
 }
 
+.item-logo {
+  font-weight: 500 !important;
+}
+
+.icon-width {
+  font-weight: 700 !important;
+}
+
 .footer {
   padding-top: 85px;
   padding-bottom: 70px;
@@ -23134,6 +23142,11 @@ a:hover {
   left: 50%;
   -webkit-transform: translate(-50%, -50%) !important;
           transform: translate(-50%, -50%) !important;
+}
+
+.home .txt-100-percent {
+  margin-left: 10px;
+  margin-top: 15px;
 }
 
 .home .carousel-indicators li {
@@ -23226,6 +23239,11 @@ a:hover {
 
 .home .section-4 .title-section-4 {
   margin-bottom: 40px;
+}
+
+.home .section-4 .nav-pills .nav-link.active,
+.home .section-4 .nav-pills .show > .nav-link {
+  font-weight: 700;
 }
 
 .home .section-4 .menu-tab-section-4 {

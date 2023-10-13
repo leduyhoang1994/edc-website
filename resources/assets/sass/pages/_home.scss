@@ -65,6 +65,11 @@
     transform: translate(-50%, -50%) !important;
   }
 
+  .txt-100-percent {
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
   .carousel-indicators li {
     background-color: $grey;
   }
@@ -154,6 +159,11 @@
 
     .title-section-4 {
       margin-bottom: 40px;
+    }
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+      font-weight: $font-weight-700;
     }
 
     .menu-tab-section-4 {

@@ -6,8 +6,8 @@
       </a>
       <div class="d-flex gap-8 tag-logo position-absolute">
         <a href="#"
-          class="btn btn-logo-add font-weight-500 rounded-pill text-font-size-14 item-logo">Babilala</a>
-        <a href="#" class="btn btn-logo-add font-weight-500 rounded-pill text-font-size-14 item-logo">Edupia
+          class="btn btn-logo-add text-font-weight-500 rounded-pill text-font-size-14 item-logo">Babilala</a>
+        <a href="#" class="btn btn-logo-add text-font-weight-500 rounded-pill text-font-size-14 item-logo">Edupia
           Business</a>
       </div>
     </div>

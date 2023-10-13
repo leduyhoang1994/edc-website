@@ -109,9 +109,9 @@ Trang chủ
 					<div class="position-relative">
 						<img class="img-fluid" src="{{ asset('images/imgs/homepage/achievement-3.svg') }}" alt="achievement" />
 						<div class="position-absolute txt-item-achievement text-font-family-inter">
-							<p class="text-blue-200 text-center  white-space-nowrap line-height-normal">
+							<p class="text-blue-200 text-center  white-space-nowrap line-height-normal mb-0 txt-100-percent">
 								<span class="text-font-size-55 text-font-weight-700">100</span>
-								<span class="text-font-size-25">%</span>
+								<span class="text-font-size-25 text-font-weight-700">%</span>
 							</p>
 							<p class="text-center text-blue-200 text-font-size-16 text-font-weight-500">Bài học được <br />thiết kế
 								riêng</p>
@@ -321,7 +321,7 @@ Trang chủ
 					<div class="pt-0 menu-tab-section-4">
 						<ul class="nav nav-pills justify-content-center gap-25" id="pills-tab" role="tablist">
 							<li class="nav-item" role="presentation">
-								<button class="nav-link tab1 active position-relative" id="pills-home-tab" data-toggle="pill"
+								<button class="nav-link tab1 active position-relative text-font-weight-600" id="pills-home-tab" data-toggle="pill"
 									data-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
 									Công nghệ trí tuệ nhân tạo
 									<div class="text-right position-absolute div-arrow">
@@ -331,7 +331,7 @@ Trang chủ
 								</button>
 							</li>
 							<li class="nav-item" role="presentation">
-								<button class="nav-link tab2 position-relative" id="pills-profile-tab" data-toggle="pill"
+								<button class="nav-link tab2 position-relative text-font-weight-600" id="pills-profile-tab" data-toggle="pill"
 									data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
 									aria-selected="false">
 									Lựa chọn bởi chuyên gia
@@ -342,7 +342,7 @@ Trang chủ
 								</button>
 							</li>
 							<li class="nav-item" role="presentation">
-								<button class="nav-link tab3 position-relative" id="pills-contact-tab" data-toggle="pill"
+								<button class="nav-link tab3 position-relative text-font-weight-600" id="pills-contact-tab" data-toggle="pill"
 									data-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
 									aria-selected="false">
 									Phương pháp học tập Happy Learning
@@ -374,7 +374,7 @@ Trang chủ
 																xmlns="http://www.w3.org/2000/svg">
 																<circle cx="5" cy="5" r="5" fill="white" />
 															</svg>
-															<span class="text-font-size-18 ml-1">Cải thiện rõ rệt kỹ năng năng giao tiếp</span>
+															<span class="text-font-size-18 ml-1 text-font-weight-500">Cải thiện rõ rệt kỹ năng năng giao tiếp</span>
 														</div>
 													</li>
 													<li class="mb-4-0">
@@ -383,7 +383,7 @@ Trang chủ
 																xmlns="http://www.w3.org/2000/svg">
 																<circle cx="5" cy="5" r="5" fill="white" />
 															</svg>
-															<span class="text-font-size-18 ml-1">Phát âm chuẩn xác</span>
+															<span class="text-font-size-18 ml-1 text-font-weight-500">Phát âm chuẩn xác</span>
 														</div>
 													</li>
 													<li class="mb-4-0">
@@ -392,7 +392,7 @@ Trang chủ
 																xmlns="http://www.w3.org/2000/svg">
 																<circle cx="5" cy="5" r="5" fill="white" />
 															</svg>
-															<span class="text-font-size-18 ml-1">Tương tác đa chiều</span>
+															<span class="text-font-size-18 ml-1 text-font-weight-500">Tương tác đa chiều</span>
 														</div>
 													</li>
 													<li class="mb-4-0">
@@ -401,7 +401,7 @@ Trang chủ
 																xmlns="http://www.w3.org/2000/svg">
 																<circle cx="5" cy="5" r="5" fill="white" />
 															</svg>
-															<span class="text-font-size-18 ml-1">So sánh có giống với giọng đọc bản ngữ </span>
+															<span class="text-font-size-18 ml-1 text-font-weight-500">So sánh có giống với giọng đọc bản ngữ </span>
 														</div>
 													</li>
 													<li class="mb-4-0">
@@ -410,7 +410,7 @@ Trang chủ
 																xmlns="http://www.w3.org/2000/svg">
 																<circle cx="5" cy="5" r="5" fill="white" />
 															</svg>
-															<span class="text-font-size-18 ml-1">Hơn 3 triệu phụ huynh đã tin tưởng</span>
+															<span class="text-font-size-18 ml-1 text-font-weight-500">Hơn 3 triệu phụ huynh đã tin tưởng</span>
 														</div>
 													</li>
 												</ul>
