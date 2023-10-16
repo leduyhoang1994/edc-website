@@ -23583,6 +23583,10 @@ a:hover {
   margin-top: 97px;
 }
 
+.about-us .about-item-2-title {
+  margin-bottom: 11px;
+}
+
 .about-us .h-345 {
   height: 345px;
 }
@@ -23647,15 +23651,31 @@ a:hover {
   width: 243px;
 }
 
+.about-us .item-bottom-1-title {
+  margin-bottom: 19px !important;
+}
+
 .about-us .item-bottom-2 {
   position: absolute;
-  bottom: -110px;
+  bottom: -100px;
   font-style: normal;
   left: 0;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   color: #000000;
   width: 243px;
+}
+
+.about-us .item-bottom-2-title {
+  margin-bottom: 13px !important;
+}
+
+.about-us .item-bottom-2-description {
+  margin-bottom: 23px !important;
+}
+
+.about-us .trip-2-thcs {
+  bottom: -90px;
 }
 
 .about-us .wizard .nav-tabs > li {
@@ -23749,7 +23769,7 @@ a:hover {
 }
 
 .product-native .des-register-top {
-  margin-bottom: 18px;
+  margin-bottom: 18px !important;
 }
 
 .product-native .title-register-top {
@@ -23758,7 +23778,7 @@ a:hover {
 
 .product-native .img-register {
   bottom: 0;
-  padding: 50px 50px 0 55px;
+  padding: 50px 67px 0 55px;
 }
 
 .product-native .img-register img {
@@ -23766,7 +23786,7 @@ a:hover {
 }
 
 .product-native .div-form-register {
-  padding: 14px 114px 37px 0;
+  padding: 14px 119px 37px 0;
 }
 
 .product-native .title-skill {
@@ -24187,6 +24207,10 @@ a:hover {
   margin-top: 75px;
 }
 
+.product-ai .ai-roadmap .title-roadmap {
+  margin-bottom: 16px !important;
+}
+
 .product-ai .ai-roadmap .div-contentroadmap {
   margin-top: 128px;
 }
@@ -24260,7 +24284,7 @@ a:hover {
 }
 
 .product-ai .ai-study-online .title-study-online {
-  margin-bottom: 17px;
+  margin-bottom: 17px !important;
 }
 
 .product-ai .ai-study-online .video-study-online {
@@ -24275,6 +24299,10 @@ a:hover {
 
 .product-ai .ai-postshare {
   margin-top: 95px;
+}
+
+.product-ai .ai-postshare .div-title-postshare {
+  margin-bottom: 46px !important;
 }
 
 .product-ai .play-button-ai {
@@ -24360,6 +24388,10 @@ a:hover {
 
 .product-ielts {
   background-color: #FFFFFF;
+}
+
+.product-ielts .txt-postion-review {
+  margin-top: 4px !important;
 }
 
 .product-ielts .btn-register {
@@ -26025,6 +26057,10 @@ a:hover {
   background-color: #FFFFFF;
 }
 
+.product-extra .txt-postion-review {
+  margin-top: 4px !important;
+}
+
 .product-extra .extra-header-banner {
   background-color: #FF9D00B2;
   height: 711px;
@@ -27654,6 +27690,10 @@ a:hover {
 @media (max-width: 480px) {
   .header-area {
     padding: 10px !important;
+  }
+
+  .navbar-toggler {
+    padding: 0.25rem 0.25rem !important;
   }
 
   .nav-primary {

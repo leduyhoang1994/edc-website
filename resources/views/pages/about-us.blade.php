@@ -20,7 +20,8 @@ About us
 					<div class="col-lg-6">
 						<div>
 							<h1 class="text-font-size-36 text-font-weight-700 title-about">Giới thiệu chung</h1>
-							<p class="text-font-size-18 text-font-weight-400 text-justify mb-0">Bắt nguồn từ mong muốn mang chất lượng dạy
+							<p class="text-font-size-18 text-font-weight-400 text-justify mb-0">Bắt nguồn từ mong muốn mang chất lượng
+								dạy
 								Tiếng Anh tại Trường Quốc tế đến với mọi học sinh Việt Nam,
 								để các bạn nhỏ dù không có điều kiện kinh tế theo học tại các Trường Quốc Tế hay Trung Tâm đắt tiền vẫn
 								có thể sử dụng Tiếng Anh tốt như người bản ngữ. Đây chính là hành trang chuẩn bị cho các em tương lai
@@ -42,13 +43,14 @@ About us
 					<div class="col-lg-6">
 						<div class="div-right-about">
 							<div class="item-about-content">
-								<img class="img-fluid h-345" src="{{ asset('images/imgs/aboutus/about-content-2.png') }}" alt="item 2" />
+								<img class="img-fluid h-345" src="{{ asset('images/imgs/aboutus/about-content-2.png') }}"
+									alt="item 2" />
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-6">
 						<div>
-							<h1 class="text-font-size-30 text-font-weight-600">Tầm nhìn</h1>
+							<h1 class="text-font-size-30 text-font-weight-600 about-item-2-title">Tầm nhìn</h1>
 							<p class="text-font-size-20 text-font-weight-600">Edtech hàng đầu Đông Nam Á với doanh thu 100 triệu USD
 								vào năm 2026</p>
 							<p class="text-font-size-18 text-font-weight-400 text-justify">Thông qua việc áp dụng thông minh và thực
@@ -73,7 +75,8 @@ About us
 					<div class="col-lg-6">
 						<div class="div-left-about">
 							<div class="item-about-content">
-								<img class="img-fluid h-345" src="{{ asset('images/imgs/aboutus/about-content-3.png') }}" alt="item 3" />
+								<img class="img-fluid h-345" src="{{ asset('images/imgs/aboutus/about-content-3.png') }}"
+									alt="item 3" />
 							</div>
 						</div>
 					</div>
@@ -100,8 +103,8 @@ About us
 									</div>
 									<div class="item-bottom-1 text-center">
 										<p class="text-font-size-18 text-font-weight-600">2018</p>
-										<p class="text-font-size-18 text-font-weight-600 mb-3">Ra mắt Edupia Tiểu Học</p>
-										<p class="text-font-size-16 text-font-weight-400">Chương trình Tiếng Anh Online dành cho học sinh từ
+										<p class="text-font-size-18 text-font-weight-600 item-bottom-1-title">Ra mắt Edupia Tiểu Học</p>
+										<p class="text-font-size-16 text-font-weight-400 item-bottom-1-description">Chương trình Tiếng Anh Online dành cho học sinh từ
 											lớp 1 - lớp 5 và đạt
 											Giải thưởng ứng dụng công nghệ số trong lĩnh vực Giáo Dục & Đào Tạo, tại Vietnam Digital Awards
 											2018</p>
@@ -113,15 +116,13 @@ About us
 									<div class="img-item-trip-2 position-absolute">
 										<img src="{{ asset('images/imgs/aboutus/trip-2.svg') }}" alt="trip 1" />
 									</div>
-									<div class="item-bottom-2 text-center">
-										<p class="text-font-size-18 text-font-weight-600 mb-3">Ra mắt Edupia Tiểu Học</p>
-										<p class="text-font-size-16 text-font-weight-400 mb-4">Chương trình Tiếng Anh Online dành cho học
-											sinh từ
-											lớp 1 - lớp 5 và đạt
-											Giải thưởng ứng dụng công nghệ số trong lĩnh vực Giáo Dục & Đào Tạo, tại Vietnam Digital Awards
-											2018
+									<div class="item-bottom-2 text-center trip-2-thcs">
+										<p class="text-font-size-18 text-font-weight-600 item-bottom-2-title">Ra mắt Edupia THCS</p>
+										<p class="text-font-size-16 text-font-weight-400 item-bottom-2-description">
+											Chương trình Tiếng Anh Online dành cho học sinh từ lớp 6 - lớp 9 và Vinh dự nhận giải thưởng Top
+											50 Thương hiệu Vàng ASEAN
 										</p>
-										<p class="text-font-size-18 text-font-weight-600 mt-5">2019</p>
+										<p class="text-font-size-18 text-font-weight-600">2019</p>
 
 									</div>
 							</li>
@@ -132,7 +133,7 @@ About us
 									</div>
 									<div class="item-bottom-1 text-center">
 										<p class="text-font-size-18 text-font-weight-600">2020</p>
-										<p class="text-font-size-18 text-font-weight-600 mb-3">Ra mắt Edupia Tiểu Học</p>
+										<p class="text-font-size-18 text-font-weight-600 item-bottom-1-title">Ra mắt Edupia Tiểu Học</p>
 										<p class="text-font-size-16 text-font-weight-400">Chương trình Tiếng Anh Online dành cho học sinh từ
 											lớp 1 - lớp 5 và đạt
 											Giải thưởng ứng dụng công nghệ số trong lĩnh vực Giáo Dục & Đào Tạo, tại Vietnam Digital Awards
@@ -145,12 +146,12 @@ About us
 										<img src="{{ asset('images/imgs/aboutus/trip-4.svg') }}" alt="trip 1" />
 									</div>
 									<div class="item-bottom-2 text-center">
-										<p class="text-font-size-18 text-font-weight-600 mb-3">Ra đời Edupia Tutor</p>
-										<p class="text-font-size-16 text-font-weight-400 mb-4">Top 10 Giải thưởng Tin Dùng Việt Nam hạng mục
+										<p class="text-font-size-18 text-font-weight-600 item-bottom-2-title">Ra đời Edupia Tutor</p>
+										<p class="text-font-size-16 text-font-weight-400 item-bottom-2-description">Top 10 Giải thưởng Tin Dùng Việt Nam hạng mục
 											Sản phẩm - Dịch vụ triển vọng tương lai của Việt Nam. Top 50 Startup Hứa Hẹn Nhất được đánh giá
 											bởi Techinasia
 										</p>
-										<p class="text-font-size-18 text-font-weight-600 mt-5">2021</p>
+										<p class="text-font-size-18 text-font-weight-600">2021</p>
 									</div>
 							</li>
 							<li role="presentation" class="disabled">
@@ -160,7 +161,7 @@ About us
 									</div>
 									<div class="item-bottom-1 text-center">
 										<p class="text-font-size-18 text-font-weight-600">2022</p>
-										<p class="text-font-size-18 text-font-weight-600 mb-3">Ra đời Edupia IELTS,
+										<p class="text-font-size-18 text-font-weight-600 item-bottom-1-title">Ra đời Edupia IELTS,
 											Edupia Math </p>
 										<p class="text-font-size-16 text-font-weight-400">Giải thưởng Best Online English Teaching Product
 											thuộc mảng Giáo Dục. Top 50 - Edtech hạng mục Language Learning nổi bật nhất Đông Nam Á bởi
@@ -173,11 +174,11 @@ About us
 										<img src="{{ asset('images/imgs/aboutus/trip-6.svg') }}" alt="trip 6" />
 									</div>
 									<div class="item-bottom-2 text-center">
-										<p class="text-font-size-18 text-font-weight-600 mb-3">Ra mắt Edupia Business và Edupia Academy</p>
-										<p class="text-font-size-16 text-font-weight-400 mb-4">Tháng 8/2023 Edupia ra mắt sản phẩm Edupia
+										<p class="text-font-size-18 text-font-weight-600 item-bottom-2-title">Ra mắt Edupia Business và Edupia Academy</p>
+										<p class="text-font-size-16 text-font-weight-400 item-bottom-2-description">Tháng 8/2023 Edupia ra mắt sản phẩm Edupia
 											Business - Giải pháp toàn diện Tiếng Anh cho Doanh nghiệp. Đồng thời cho ra mắt Edupia Academy
 										</p>
-										<p class="text-font-size-18 text-font-weight-600 mt-5">2023</p>
+										<p class="text-font-size-18 text-font-weight-600">2023</p>
 									</div>
 							</li>
 						</ul>
