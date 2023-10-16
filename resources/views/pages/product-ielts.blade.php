@@ -373,7 +373,7 @@ Product IELTS
                             <div class="card-body text-center">
                               <h5 class="mb-0 card-title text-blue-920 text-font-size-20 text-font-weight-600">Chị Minh
                                 Ngọc</h5>
-                              <p class="card-text text-font-size-16 text-font-weight-600">Phụ huynh em Minh Huyền</p>
+                              <p class="card-text text-font-size-16 text-font-weight-600 txt-postion-review">Phụ huynh em Minh Huyền</p>
                               <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                               </div>
@@ -395,7 +395,7 @@ Product IELTS
                             <div class="card-body text-center">
                               <h5 class="mb-0 card-title text-blue-920 text-font-size-20 text-font-weight-600">Chị Dung
                                 (Mẹ Mi Mi)</h5>
-                              <p class="card-text text-font-size-16 text-font-weight-600">Nhân viên Kế Toán</p>
+                              <p class="card-text text-font-size-16 text-font-weight-600 txt-postion-review">Nhân viên Kế Toán</p>
                               <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/list-star.svg') }}" alt="icon star" />
                               </div>
@@ -422,7 +422,7 @@ Product IELTS
                             <div class="card-body text-center">
                               <h5 class="mb-0 card-title text-blue-920 text-font-size-20 text-font-weight-600">Chị Dung
                                 (Mẹ Mi Mi)</h5>
-                              <p class="card-text text-font-size-16 text-font-weight-600">Nhân viên Kế Toán</p>
+                              <p class="card-text text-font-size-16 text-font-weight-600 txt-postion-review">Nhân viên Kế Toán</p>
                               <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
@@ -449,7 +449,7 @@ Product IELTS
                             <div class="card-body text-center">
                               <h5 class="mb-0 card-title text-blue-920 text-font-size-20 text-font-weight-600">Chị Minh
                                 Ngọc</h5>
-                              <p class="card-text text-font-size-16 text-font-weight-600">Phụ huynh em Minh Huyền</p>
+                              <p class="card-text text-font-size-16 text-font-weight-600 txt-postion-review">Phụ huynh em Minh Huyền</p>
                               <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
@@ -479,7 +479,7 @@ Product IELTS
                             <div class="card-body text-center">
                               <h5 class="mb-0 card-title text-blue-920 text-font-size-20 text-font-weight-600">Chị Minh
                                 Ngọc</h5>
-                              <p class="card-text text-font-size-16 text-font-weight-600">Phụ huynh em Minh Huyền</p>
+                              <p class="card-text text-font-size-16 text-font-weight-600 txt-postion-review">Phụ huynh em Minh Huyền</p>
                               <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
@@ -505,7 +505,7 @@ Product IELTS
                             <div class="card-body text-center">
                               <h5 class="mb-0 card-title text-blue-920 text-font-size-20 text-font-weight-600">Chị Dung
                                 (Mẹ Mi Mi)</h5>
-                              <p class="card-text text-font-size-16 text-font-weight-600">Nhân viên Kế Toán</p>
+                              <p class="card-text text-font-size-16 text-font-weight-600 txt-postion-review">Nhân viên Kế Toán</p>
                               <div class="text-center list-star">
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
                                 <img src="{{ asset('images/icons/product/star.svg') }}" alt="icon star" />
