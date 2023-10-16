@@ -183,7 +183,8 @@
     margin-top: 45px;
     margin-bottom: 109px;
     .slick-carousel {
-      width: 1230px;
+      width: 1259px;
+     
       .slick-prev {
         position: absolute;
         left: -50px;
@@ -192,7 +193,7 @@
       }
       .slick-next {
         position: absolute;
-        right: -80px;
+        right: -65px;
         top: 50%;
         transform: translate(-50%, -50%);
       }
@@ -205,6 +206,12 @@
 @media (max-width: 576px) {
   .slick-carousel {
     width: 100% !important;
+
+    .slick-slide {
+      img {
+        width: 100%;
+      }
+    }
     .slick-prev {
      display: none !important;
     }
