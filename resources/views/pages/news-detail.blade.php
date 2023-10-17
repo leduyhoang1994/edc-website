@@ -6,8 +6,8 @@ Bài viết chi tiết
 <main class="news-detail">
   <section class="container edupia-mw-1230">
     <div class="row">
-      <div class="col-sm-8 left-block">
-        <div class="text-font-size-15 text-font-weight-400">
+      <div class="col-sm-8 left-block ">
+        <div class="text-font-size-15 text-font-weight-400 breadcrumb">
           <a class="text-black-200" href="">Trang chủ </a>
           <span>\</span>
           <a class="text-black-200" href=""> Tin tức </a>

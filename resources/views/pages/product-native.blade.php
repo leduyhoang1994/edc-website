@@ -51,13 +51,16 @@ Product Native
                 <div class="form-group">
                   <input class="form-control input-customer" type="text" placeholder="Địa chỉ" />
                 </div>
-                <div class="form-group">
+                <div class="form-group position-relative">
                   <select class="form-select w-100 input-customer">
                     <option selected disabled>Năm sinh của con</option>
                     <option value="2000">2000</option>
                     <option value="1999">1999</option>
                     <option value="1998">1998</option>
                   </select>
+                  <span class="custom-icon">
+                    <img src="{{ asset('images/icons/other/DownIcon.svg') }}" alt="DownIcon" />
+                  </span>
                 </div>
                 <div class="text-center">
                   <button type="submit" class="btn btn-primary more-btn btn-register">Đăng ký học thử</button>
@@ -219,9 +222,9 @@ Product Native
                               class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
                               <span class="text-font-weight-400">Thầy</span> Thầy Adam Lewis
                             </h5>
-                            <p class="text-black text-center text-font-size-18 text-font-weight-400">Giám đốc phát triển
+                            <p class="text-black text-center text-font-size-18 text-font-weight-400 des-card-team">Giám đốc phát triển
                               nội dung</p>
-                            <div class="card-text mt-4 d-flex text-left">
+                            <div class="card-text d-flex text-left item-about-team">
                               <div>
                                 <i class="dot"></i>
                               </div>
@@ -229,7 +232,7 @@ Product Native
                                 Trung tâm VAS,
                                 Giám đốc khối Digital của Viettel Telecom.</span>
                             </div>
-                            <div class="card-text mt-4 d-flex text-left">
+                            <div class="card-text item-about-team d-flex text-left">
                               <div>
                                 <i class="dot"></i>
                               </div>
@@ -251,8 +254,8 @@ Product Native
                               class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
                               <span class="text-font-weight-400">Cô</span> Jessica Miller
                             </h5>
-                            <p class="text-black text-center text-font-size-18 text-font-weight-400">Cố vấn sư phạm</p>
-                            <div class="card-text mt-4 d-flex text-left">
+                            <p class="text-black text-center text-font-size-18 text-font-weight-400 des-card-team">Cố vấn sư phạm</p>
+                            <div class="card-text item-about-team d-flex text-left">
                               <div>
                                 <i class="dot"></i>
                               </div>
@@ -260,7 +263,7 @@ Product Native
                                 Trung tâm VAS,
                                 Giám đốc khối Digital của Viettel Telecom.</span>
                             </div>
-                            <div class="card-text mt-4 d-flex text-left">
+                            <div class="card-text item-about-team d-flex text-left">
                               <div>
                                 <i class="dot"></i>
                               </div>
@@ -282,8 +285,8 @@ Product Native
                               class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
                               <span class="text-font-weight-400">Cô</span> Suzanna Hare
                             </h5>
-                            <p class="text-black text-center text-font-size-18 text-font-weight-400">Cô vấn sư phạm</p>
-                            <div class="card-text mt-4 d-flex text-left">
+                            <p class="text-black text-center text-font-size-18 text-font-weight-400 des-card-team">Cô vấn sư phạm</p>
+                            <div class="card-text item-about-team d-flex text-left">
                               <div>
                                 <i class="dot"></i>
                               </div>
@@ -291,7 +294,7 @@ Product Native
                                 Trung tâm VAS,
                                 Giám đốc khối Digital của Viettel Telecom.</span>
                             </div>
-                            <div class="card-text mt-4 d-flex text-left">
+                            <div class="card-text item-about-team d-flex text-left">
                               <div>
                                 <i class="dot"></i>
                               </div>
@@ -313,8 +316,8 @@ Product Native
                               class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
                               <span class="text-font-weight-400">Thầy</span> Cayman Fitzhugh
                             </h5>
-                            <p class="text-black text-center text-font-size-18 text-font-weight-400">Cô vấn sư phạm</p>
-                            <div class="card-text mt-4 d-flex text-left">
+                            <p class="text-black text-center text-font-size-18 text-font-weight-400 des-card-team">Cô vấn sư phạm</p>
+                            <div class="card-text item-about-team d-flex text-left">
                               <div>
                                 <i class="dot"></i>
                               </div>
@@ -322,7 +325,7 @@ Product Native
                                 Trung tâm VAS,
                                 Giám đốc khối Digital của Viettel Telecom.</span>
                             </div>
-                            <div class="card-text mt-4 d-flex text-left">
+                            <div class="card-text item-about-team d-flex text-left">
                               <div>
                                 <i class="dot"></i>
                               </div>
@@ -348,9 +351,9 @@ Product Native
                               class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
                               <span class="text-font-weight-400">Thầy</span> Thầy Adam Lewis
                             </h5>
-                            <p class="text-black text-center text-font-size-18 text-font-weight-400">Giám đốc phát triển
+                            <p class="text-black text-center text-font-size-18 text-font-weight-400 des-card-team">Giám đốc phát triển
                               nội dung</p>
-                            <div class="card-text mt-4 d-flex text-left">
+                            <div class="card-text d-flex text-left item-about-team">
                               <div>
                                 <i class="dot"></i>
                               </div>
@@ -358,7 +361,7 @@ Product Native
                                 Trung tâm VAS,
                                 Giám đốc khối Digital của Viettel Telecom.</span>
                             </div>
-                            <div class="card-text mt-4 d-flex text-left">
+                            <div class="card-text item-about-team d-flex text-left">
                               <div>
                                 <i class="dot"></i>
                               </div>
@@ -380,8 +383,8 @@ Product Native
                               class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
                               <span class="text-font-weight-400">Cô</span> Jessica Miller
                             </h5>
-                            <p class="text-black text-center text-font-size-18 text-font-weight-400">Cố vấn sư phạm</p>
-                            <div class="card-text mt-4 d-flex text-left">
+                            <p class="text-black text-center text-font-size-18 text-font-weight-400 des-card-team">Cố vấn sư phạm</p>
+                            <div class="card-text item-about-team d-flex text-left">
                               <div>
                                 <i class="dot"></i>
                               </div>
@@ -389,7 +392,7 @@ Product Native
                                 Trung tâm VAS,
                                 Giám đốc khối Digital của Viettel Telecom.</span>
                             </div>
-                            <div class="card-text mt-4 d-flex text-left">
+                            <div class="card-text item-about-team d-flex text-left">
                               <div>
                                 <i class="dot"></i>
                               </div>
@@ -411,8 +414,8 @@ Product Native
                               class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
                               <span class="text-font-weight-400">Cô</span> Suzanna Hare
                             </h5>
-                            <p class="text-black text-center text-font-size-18 text-font-weight-400">Cô vấn sư phạm</p>
-                            <div class="card-text mt-4 d-flex text-left">
+                            <p class="text-black text-center text-font-size-18 text-font-weight-400 des-card-team">Cô vấn sư phạm</p>
+                            <div class="card-text item-about-team d-flex text-left">
                               <div>
                                 <i class="dot"></i>
                               </div>
@@ -420,7 +423,7 @@ Product Native
                                 Trung tâm VAS,
                                 Giám đốc khối Digital của Viettel Telecom.</span>
                             </div>
-                            <div class="card-text mt-4 d-flex text-left">
+                            <div class="card-text item-about-team d-flex text-left">
                               <div>
                                 <i class="dot"></i>
                               </div>
@@ -442,8 +445,8 @@ Product Native
                               class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
                               <span class="text-font-weight-400">Thầy</span> Cayman Fitzhugh
                             </h5>
-                            <p class="text-black text-center text-font-size-18 text-font-weight-400">Cô vấn sư phạm</p>
-                            <div class="card-text mt-4 d-flex text-left">
+                            <p class="text-black text-center text-font-size-18 text-font-weight-400 des-card-team">Cô vấn sư phạm</p>
+                            <div class="card-text item-about-team d-flex text-left">
                               <div>
                                 <i class="dot"></i>
                               </div>
@@ -451,7 +454,7 @@ Product Native
                                 Trung tâm VAS,
                                 Giám đốc khối Digital của Viettel Telecom.</span>
                             </div>
-                            <div class="card-text mt-4 d-flex text-left">
+                            <div class="card-text item-about-team d-flex text-left">
                               <div>
                                 <i class="dot"></i>
                               </div>
