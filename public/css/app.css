@@ -25409,6 +25409,10 @@ a:hover {
   margin-bottom: 57px;
 }
 
+.recruitment-detail .desc-detail .recruitment-form {
+  max-width: 840px;
+}
+
 .recruitment-detail .desc-detail .recruitment-form .form-control {
   border: none;
   border-bottom: 1px solid #969696;
@@ -26889,19 +26893,27 @@ a:hover {
 }
 
 .document .header-banner .content .search-container .search-input::-webkit-input-placeholder {
-  color: black;
+  color: #333333;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .document .header-banner .content .search-container .search-input::-moz-placeholder {
-  color: black;
+  color: #333333;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .document .header-banner .content .search-container .search-input::-ms-input-placeholder {
-  color: black;
+  color: #333333;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .document .header-banner .content .search-container .search-input::placeholder {
-  color: black;
+  color: #333333;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .document .header-banner .content .search-container .search-button {

@@ -43,7 +43,7 @@ Tin tức
             <img class="w-100" src="{{ asset('images/imgs/other/news-pic-2.png') }}" alt="news-pic-2" />
           </div>
           <div class="col-sm right-item">
-            <p>
+            <p class="mb-2">
               Startup Edtech Việt Nam Educa nhận đầu tư từ Quỹ đầu tư Singapore Redefine Capital Fund
             </p>
             <div class="author d-flex text-font-size-16 text-font-weight-300">
@@ -63,7 +63,7 @@ Tin tức
             <img class="w-100" src="{{ asset('images/imgs/other/news-pic-3.png') }}" alt="news-pic-3" />
           </div>
           <div class="col-sm right-item">
-            <p>
+            <p class="mb-2">
               EDUPIA nhận khoản đầu tư 14 triệu USD và hướng tới "xuất khẩu" Edtech ra thị trường Đông Nam Á
             </p>
             <div class="author d-flex text-font-size-16 text-font-weight-300">
@@ -83,7 +83,7 @@ Tin tức
             <img class="w-100" src="{{ asset('images/imgs/other/news-pic-4.png') }}" alt="news-pic-4" />
           </div>
           <div class="col-sm right-item">
-            <p>
+            <p class="mb-2">
               Tổng giám đốc Educa nuôi giấc mơ 70% thế hệ trẻ Việt thạo tiếng Anh
             </p>
             <div class="author d-flex text-font-size-16 text-font-weight-300">
