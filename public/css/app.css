@@ -23037,13 +23037,13 @@ a:hover {
 
 .btn-logo-add {
   color: #333333;
-  background-color: #FFA800;
+  background-color: #FFF0B8;
 }
 
 .btn-logo-add:hover,
 .btn-logo-add:focus {
   color: #000000 !important;
-  background-color: #20BEC6 !important;
+  background-color: #FFA800 !important;
 }
 
 .item-logo {
