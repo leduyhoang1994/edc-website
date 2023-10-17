@@ -21,11 +21,11 @@
         <div class="marin-top-70">
           <div>
             <a href="#"
-              class="btn btn-location rounded-pill mb-3">
+              class="btn btn-location rounded-pill location-footer">
               Hà Nội
             </a>
             <div>
-              <ul>
+              <ul class="mb-0">
                 <li>
                   <div class="d-flex justify-content-center align-items-center mb-3">
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,7 +69,7 @@
           </div>
           <div>
             <a href="#"
-              class="btn btn-location rounded-pill mt-4 mb-3">
+              class="btn btn-location rounded-pill location-hcm">
               Tp. Hồ Chí Minh
             </a>
             <div>
@@ -100,31 +100,31 @@
       </div>
       <div class="col-lg-2">
         <div class="marin-top-70">
-          <p class="text-white text-font-size-18">Về Edupia</p>
-          <ul>
+          <p class="text-white text-font-size-18 mb-0 text-font-weight-600">Về Edupia</p>
+          <ul class="menu-about-us-footer">
             <li>
               <a href="{{ route('about-us') }}">
-                <p class="text-white text-font-weight-400">Giới thiệu chung</p>
+                <p class="text-white text-font-weight-400 mb-0">Giới thiệu chung</p>
               </a>
             </li>
             <li>
               <a href="#">
-                <p class="text-white text-font-weight-400">Khoá học Edupia</p>
+                <p class="text-white text-font-weight-400 mb-0">Khoá học Edupia</p>
               </a>
             </li>
             <li>
               <a href="#">
-                <p class="text-white text-font-weight-400">Nhà sáng lập Edupia</p>
+                <p class="text-white text-font-weight-400 mb-0">Nhà sáng lập Edupia</p>
               </a>
             </li>
             <li>
               <a href="#">
-                <p class="text-white text-font-weight-400">Đội ngũ giảng viên</p>
+                <p class="text-white text-font-weight-400 mb-0">Đội ngũ giảng viên</p>
               </a>
             </li>
             <li>
-              <a href="{{ route('recruitment') }}" class="text-white text-font-weight-400">
-                <p>Tuyển dụng</p>
+              <a href="{{ route('recruitment') }}">
+                <p class="text-white text-font-weight-400 mb-0">Tuyển dụng</p>
               </a>
             </li>
           </ul>

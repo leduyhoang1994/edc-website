@@ -15,5 +15,19 @@
     padding: 4px 16px;
     font-size: $font-16;
     font-weight: $font-weight-400;
+    line-height: 22px;
+  }
+  .menu-about-us-footer {
+    margin-top: 18px;
+    li {
+      margin-bottom: 12px;
+    }
+  }
+  .location-footer {
+    margin-bottom: 17px;
+  }
+  .location-hcm {
+    margin-top: 39px;
+    margin-bottom: 8px;
   }
 }
