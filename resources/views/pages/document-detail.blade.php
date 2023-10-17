@@ -45,12 +45,12 @@ Tài liệu chi tiết
   <section class="ask-form container-fluid">
     <div class="container edupia-mw-1230">
       <div class="row">
-        <div class="col-sm-7 px-6">
+        <div class="col-sm-7 px-6 form-advise">
           <div class="text-font-size-26 text-font-weight-600 text-white mb-4">
             <p class="m-0">Trẻ em cần được trao cơ hội để có thể học tập và phát triển tốt hơn. Giúp con khai phá tiềm năng tư duy và ngôn ngữ ngay hôm nay.</p>
           </div>
           <div>
-            <p class="text-font-size-16 text-font-weight-400 text-white mb-0">Nhập tên và số điện thoại để được Edupia tư vấn lộ trình học cho bé!</p>
+            <p class="text-font-size-16 text-font-weight-400 text-white label-form">Nhập tên và số điện thoại để được Edupia tư vấn lộ trình học cho bé!</p>
             <form>
               <div class="form-group">
                 <input type="text" class="form-control form-rounded" placeholder="Nhập tên và sdt của ba mẹ">
