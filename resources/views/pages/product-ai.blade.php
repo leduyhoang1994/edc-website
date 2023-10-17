@@ -62,7 +62,6 @@ Product AI
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
@@ -72,7 +71,7 @@ Product AI
         <div class="row">
           <div class="col-lg-12">
             <div>
-              <p class="text-center text-black text-font-size-36 text-font-weight-600">
+              <p class="text-center text-black text-font-size-36 text-font-weight-600 title-roadmap">
                 EDUPIA AI: Lộ trình học tiếng Anh chất lượng cao, <br />
                 xuyên suốt từ cấp 1 lên cấp 2
               </p>
@@ -215,13 +214,13 @@ Product AI
       <div class="edupia-container-lg">
         <div class="row">
           <div class="col-lg-12">
-            <div>
-              <p class="text-center text-black text-font-size-36 text-font-weight-600">
+            <div class="div-title-postshare">
+              <p class="text-center text-black text-font-size-36 text-font-weight-600 mb-0">
                 Chia sẻ của phụ huynh, học sinh về EDUPIA
               </p>
             </div>
           </div>
-          <div class="col-lg-12 mt-5">
+          <div class="col-lg-12">
             <div class="row">
               <div class="col-lg-4 px-3">
                 <div class="item-post">
@@ -428,7 +427,7 @@ Product AI
                     <div class="card-body px-0 py-0 des-video-verify">
                       <div class="d-flex">
                         <img class="img-fluid" src="{{ asset('images/icons/product/vtv.svg') }}" alt="VTV">
-                        <p class="text-black text-left text-font-size-16 text-font-weight-400">
+                        <p class="text-black text-left text-font-size-16 text-font-weight-500">
                           Đánh giá Edupia là khoá học DUY NHẤT đồng hành giúp hơn 1 TRIỆU học sinh từ yếu kém lên
                           khá, giỏi Tiếng Anh
                         </p>
@@ -455,7 +454,7 @@ Product AI
                     <div class="card-body px-0 py-0 des-video-verify">
                       <div class="d-flex">
                         <img class="img-fluid" src="{{ asset('images/icons/product/thvl.svg') }}" alt="THVL">
-                        <p class="text-black text-left text-font-size-16 text-font-weight-400">
+                        <p class="text-black text-left text-font-size-16 text-font-weight-500">
                           Edupia là chương trình Tiếng Anh ĐẦU TIÊN có
                           thầy cô giáo đồng hành theo sát tiến bộ của con 24/7
                         </p>

@@ -1,6 +1,10 @@
 .product-extra {
   background-color: $white;
 
+  .txt-postion-review {
+    margin-top: 4px !important;
+  }
+  
   .extra-header-banner {
     background-color: $yellow-900;
     height: 711px;
@@ -659,10 +663,12 @@
       .middle-img {
         padding-top: 154px;
         padding-bottom: 115px;
+
         .div-img-middle {
           width: 66%;
 
         }
+
         p {
           margin-bottom: 118px !important;
         }
@@ -707,9 +713,11 @@
       }
     }
   }
+
   .learning-pack-award {
     margin-top: 99px;
     padding-bottom: 30px;
+
     .title-award {
       margin-bottom: 67px;
     }

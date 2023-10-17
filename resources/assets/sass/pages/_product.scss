@@ -25,7 +25,7 @@
   }
 
   .des-register-top {
-    margin-bottom: 18px;
+    margin-bottom: 18px !important;
   }
 
   .title-register-top {
@@ -34,7 +34,7 @@
 
   .img-register {
     bottom: 0;
-    padding: 50px 50px 0 55px;
+    padding: 50px 67px 0 55px;
 
     img {
       height: 497px;
@@ -42,7 +42,7 @@
   }
 
   .div-form-register {
-    padding: 14px 114px 37px 0;
+    padding: 14px 119px 37px 0;
   }
 
   .title-skill {
@@ -455,6 +455,10 @@
   .ai-roadmap {
     margin-top: 75px;
 
+    .title-roadmap {
+      margin-bottom: 16px !important;
+    }
+
     .div-contentroadmap {
       margin-top: 128px;
     }
@@ -529,7 +533,7 @@
     margin-top: 75px;
 
     .title-study-online {
-      margin-bottom: 17px;
+      margin-bottom: 17px !important;
     }
 
     .video-study-online {
@@ -545,7 +549,12 @@
 
   .ai-postshare {
     margin-top: 95px;
+
+    .div-title-postshare {
+      margin-bottom: 46px !important;
+    }
   }
+
 
   .play-button-ai {
     width: 115px;
@@ -627,6 +636,10 @@
 .product-ielts {
   background-color: $white;
 
+  .txt-postion-review {
+    margin-top: 4px !important;
+  }
+  
   .btn-register {
     font-size: $font-18;
     font-weight: 600;
@@ -1339,23 +1352,29 @@
 
   .pro-verify {
     margin-top: 67px;
+
     .title-verify {
       margin-bottom: 69px;
     }
+
     .des-video-verify {
       margin-top: 43px;
       margin-bottom: 47px;
     }
+
     .item-verify {
       padding: 0 20px;
     }
+
     .chicken-div-verify {
       margin-top: 129px;
     }
+
     .content-chicken-txt {
       padding-top: 105px;
     }
   }
+
   .bottom-register {
     margin-top: 110px;
     margin-bottom: 110px;

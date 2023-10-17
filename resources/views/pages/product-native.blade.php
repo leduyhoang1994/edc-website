@@ -696,7 +696,7 @@ Product Native
                       </div>
                     </div>
                     <div class="card-body des-video py-0 px-0">
-                      <p class="text-black text-center text-font-size-16 text-font-weight-400">
+                      <p class="text-black text-center text-font-size-16 text-font-weight-500">
                         VTV Đánh giá Edupia là khoá học DUY NHẤT đồng hành giúp hơn 1 TRIỆU học sinh từ yếu kém lên khá,
                         giỏi Tiếng Anh
                       </p>
@@ -720,7 +720,7 @@ Product Native
                       </div>
                     </div>
                     <div class="card-body des-video py-0 px-0">
-                      <p class="text-black text-center text-font-size-16 text-font-weight-400">
+                      <p class="text-black text-center text-font-size-16 text-font-weight-500">
                         Edupia là chương trình Tiếng Anh ĐẦU TIÊN có
                         thầy cô giáo đồng hành theo sát tiến bộ của con 24/7
                       </p>
