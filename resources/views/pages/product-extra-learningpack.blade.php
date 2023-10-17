@@ -47,14 +47,14 @@
         </div>
       </div>
       <div class="row align-items-center list-learning-pack-2">
-        <div class="col-sm-6 txt-learning-pack-2">
+        <div class="col-sm-6 txt-learning-pack-2 order-xs-2">
           <p class="text-font-size-36 text-font-weight-700 text-blue-primary title-book">Sách ngữ pháp</p>
           <p class="text-font-weight-400 text-font-size-18">
             Sách ngữ pháp cung cấp các bài tập thực tế giúp con luyện tập làm các mẫu câu cơ bản
             đến phức tạp trong các bài thi.
           </p>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 order-xs-1">
           <img class="w-100" src="{{ asset('images/imgs/product/structure-book.png') }}" alt="structure-book" />
         </div>
       </div>
@@ -73,7 +73,7 @@
         </div>
       </div>
       <div class="row align-items-center list-learning-pack-4">
-        <div class="col-sm-6 txt-learning-pack-4">
+        <div class="col-sm-6 txt-learning-pack-4 order-xs-2">
           <p class="text-font-size-36 text-font-weight-700 text-blue-primary title-book">2 bộ Flashcard</p>
           <p class="text-font-weight-400 text-font-size-18">
             Truyện tranh song ngữ Edupia được thiết kế giúp học sinh vận dụng ngay kiến thức vừa học trong thực
@@ -81,7 +81,7 @@
             Ngoài là, bố mẹ dễ dàng học cùng con.
           </p>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 order-xs-1">
           <img class="w-100" src="{{ asset('images/imgs/product/flashcard-box.png') }}" alt="flashcard-box" />
         </div>
       </div>
@@ -119,8 +119,7 @@
             </p>
             <p class="mb-1 text-font-size-26 text-font-weight-600">Đăng ký đặt hàng</p>
             <div class="mb-3 text-font-weight-400">
-              <p class="m-0">Số lượng có hạn, ba mẹ nhanh tay đặt hàng để</p>
-              <p class="m-0">tạo cảm hứng cho con học tiếng Anh nhé!</p>
+              <p class="m-0">Số lượng có hạn, ba mẹ nhanh tay đặt hàng để tạo cảm hứng cho con học tiếng Anh nhé!</p>
             </div>
 
             <form class="mx-auto">

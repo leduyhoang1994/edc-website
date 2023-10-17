@@ -23759,6 +23759,14 @@ a:hover {
   height: 365px;
 }
 
+.about-us .des-card-team {
+  margin-bottom: 25px !important;
+}
+
+.about-us .item-about-team {
+  margin-bottom: 21px !important;
+}
+
 .product-native {
   background-color: #FFFFFF;
 }
@@ -24110,11 +24118,31 @@ a:hover {
 
 .input-customer {
   border-radius: 31px;
-  padding: 19px 30px;
+  padding: 19px 0 19px 30px;
   font-size: 18px;
   font-weight: 300;
   height: 62px;
   border: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.custom-icon {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.des-card-team {
+  margin-bottom: 25px !important;
+}
+
+.item-about-team {
+  margin-bottom: 21px !important;
 }
 
 .play-button {
@@ -27857,6 +27885,18 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+  .order-xs-1 {
+    -webkit-box-ordinal-group: 2 !important;
+        -ms-flex-order: 1 !important;
+            order: 1 !important;
+  }
+
+  .order-xs-2 {
+    -webkit-box-ordinal-group: 3 !important;
+        -ms-flex-order: 2 !important;
+            order: 2 !important;
+  }
+
   .header-area {
     padding: 10px !important;
   }
@@ -28142,6 +28182,10 @@ a:hover {
 
   .home .section-8 .text-font-size-26 {
     font-size: 14px !important;
+  }
+
+  .about-us .des-card-team {
+    margin-bottom: 20px !important;
   }
 
   .about-us .text-font-size-18 {
@@ -28508,8 +28552,16 @@ a:hover {
     height: 135px;
   }
 
-  .product-ielts .ielts-trip .content-trip {
-    display: none;
+  .product-ielts .ielts-trip .title-item-trip-1,
+  .product-ielts .ielts-trip .title-item-trip-2,
+  .product-ielts .ielts-trip .title-item-trip-3 {
+    font-size: 13px !important;
+  }
+
+  .product-ielts .ielts-trip .des-item-trip-1,
+  .product-ielts .ielts-trip .des-item-trip-2,
+  .product-ielts .ielts-trip .des-item-trip-3 {
+    font-size: 16px !important;
   }
 
   .product-ielts .ielts-banner-mid .img-content-mid img {
@@ -28652,6 +28704,10 @@ a:hover {
     margin-top: 20px;
   }
 
+  .product-pro .pro-verify .content-chicken-txt {
+    padding-top: 0 !important;
+  }
+
   .product-pro .pro-verify .text-font-size-26 {
     font-size: 16px;
   }
@@ -28749,7 +28805,7 @@ a:hover {
 
   .product-extra .math-slide-teacher .text-font-size-36,
   .product-extra .math-post .text-font-size-36 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .product-extra .content-chicken-txt {
@@ -28828,6 +28884,30 @@ a:hover {
   .product-extra .extra-tab-content .learning-pack-content .middle-banner .form-register {
     padding: 20px !important;
   }
+
+  .product-extra .list-award .card {
+    margin-bottom: 16px !important;
+  }
+
+  .product-extra .extra-tab-content .math-family .img-family img {
+    height: auto !important;
+  }
+
+  .product-extra .learning-pack-content .middle-banner .text-font-size-48 {
+    font-size: 38px !important;
+  }
+
+  .product-extra .extra-tab-content .vietnamese-teachers .list-group-2 {
+    margin-bottom: 16px !important;
+  }
+
+  .product-extra .vietnamese-parrent-review .col-sm-4.text-center {
+    margin-bottom: 24px !important;
+  }
+
+  .breadcrumb {
+    display: none !important;
+  }
 }
 
 @media (max-width: 375px) {
@@ -28883,6 +28963,14 @@ a:hover {
 
   .home .section-2 .line-height-55 {
     line-height: 40px;
+  }
+
+  .product-ai .text-font-size-36 {
+    font-size: 26px !important;
+  }
+
+  .product-extra .math-study-title .text-font-size-36 {
+    font-size: 28px;
   }
 }
 

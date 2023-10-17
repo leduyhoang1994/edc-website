@@ -203,15 +203,15 @@ About us
 									<h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
 										<span class="text-font-weight-400">Ông</span> Trần Đức Hùng
 									</h5>
-									<p class="text-black text-center text-font-size-18 text-font-weight-400">CEO - Co founder</p>
-									<div class="card-text mt-4 d-flex text-left">
+									<p class="text-black text-center text-font-size-18 text-font-weight-400 des-card-team">CEO - Co founder</p>
+									<div class="card-text d-flex text-left item-about-team">
 										<div>
 											<i class="dot"></i>
 										</div>
 										<span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Từng là Giám đốc Trung tâm VAS,
 											Giám đốc khối Digital của Viettel Telecom.</span>
 									</div>
-									<div class="card-text mt-4 d-flex text-left">
+									<div class="card-text d-flex text-left item-about-team">
 										<div>
 											<i class="dot"></i>
 										</div>
@@ -228,16 +228,16 @@ About us
 									<h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
 										<span class="text-font-weight-400">Thầy</span> Adam Lewis
 									</h5>
-									<p class="text-black text-center text-font-size-18 text-font-weight-400">Giám đốc phát triển nội dung
+									<p class="text-black text-center text-font-size-18 text-font-weight-400 des-card-team">Giám đốc phát triển nội dung
 									</p>
-									<div class="card-text mt-4 d-flex text-left">
+									<div class="card-text d-flex text-left item-about-team">
 										<div>
 											<i class="dot"></i>
 										</div>
 										<span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Từng là Giám đốc Trung tâm VAS,
 											Giám đốc khối Digital của Viettel Telecom.</span>
 									</div>
-									<div class="card-text mt-4 d-flex text-left">
+									<div class="card-text d-flex text-left item-about-team">
 										<div>
 											<i class="dot"></i>
 										</div>
@@ -254,15 +254,15 @@ About us
 									<h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
 										<span class="text-font-weight-400">Cô</span> Jessica Miller
 									</h5>
-									<p class="text-black text-center text-font-size-18 text-font-weight-400">Cố vấn sư phạm</p>
-									<div class="card-text mt-4 d-flex text-left">
+									<p class="text-black text-center text-font-size-18 text-font-weight-400 des-card-team">Cố vấn sư phạm</p>
+									<div class="card-text d-flex text-left item-about-team">
 										<div>
 											<i class="dot"></i>
 										</div>
 										<span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Từng là Giám đốc Trung tâm VAS,
 											Giám đốc khối Digital của Viettel Telecom.</span>
 									</div>
-									<div class="card-text mt-4 d-flex text-left">
+									<div class="card-text d-flex text-left item-about-team">
 										<div>
 											<i class="dot"></i>
 										</div>
@@ -279,15 +279,15 @@ About us
 									<h5 class="text-center card-title text-blue-primary text-font-size-20 text-font-weight-600 mb-0">
 										<span class="text-font-weight-400">Cô</span> Cayman Fitzhugh
 									</h5>
-									<p class="text-black text-center text-font-size-18 text-font-weight-400">Cô vấn sư phạm</p>
-									<div class="card-text mt-4 d-flex text-left">
+									<p class="text-black text-center text-font-size-18 text-font-weight-400 des-card-team">Cô vấn sư phạm</p>
+									<div class="card-text d-flex text-left item-about-team">
 										<div>
 											<i class="dot"></i>
 										</div>
 										<span class="ml-1 text-font-size-16 text-font-weight-400 text-black">Từng là Giám đốc Trung tâm VAS,
 											Giám đốc khối Digital của Viettel Telecom.</span>
 									</div>
-									<div class="card-text mt-4 d-flex text-left">
+									<div class="card-text d-flex text-leftitem-about-team">
 										<div>
 											<i class="dot"></i>
 										</div>

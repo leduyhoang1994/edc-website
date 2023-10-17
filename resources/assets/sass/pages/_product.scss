@@ -350,11 +350,28 @@
 
 .input-customer {
   border-radius: 31px;
-  padding: 19px 30px;
+  padding: 19px 0 19px 30px;
   font-size: $font-18;
   font-weight: 300;
   height: 62px;
   border: none;
+  appearance: none;
+}
+
+.custom-icon {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.des-card-team {
+  margin-bottom: 25px !important;
+}
+
+.item-about-team {
+  margin-bottom: 21px !important;
 }
 
 .play-button {

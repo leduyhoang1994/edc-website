@@ -1,4 +1,11 @@
 @media (max-width: 480px) {
+  .order-xs-1 {
+    order: 1 !important;
+  }
+
+  .order-xs-2 {
+    order: 2 !important;
+  }
 
   //header
   .header-area {
@@ -296,6 +303,10 @@
   }
 
   .about-us {
+    .des-card-team {
+      margin-bottom: 20px !important;
+    }
+
     .text-font-size-18 {
       font-size: $font-16;
     }
@@ -687,8 +698,17 @@
     }
 
     .ielts-trip {
-      .content-trip {
-        display: none;
+
+      .title-item-trip-1,
+      .title-item-trip-2,
+      .title-item-trip-3 {
+        font-size: $font-13 !important;
+      }
+
+      .des-item-trip-1,
+      .des-item-trip-2,
+      .des-item-trip-3 {
+        font-size: $font-16 !important;
       }
     }
 
@@ -840,6 +860,10 @@
         margin-top: 20px;
       }
 
+      .content-chicken-txt {
+        padding-top: 0 !important;
+      }
+
       .text-font-size-26 {
         font-size: $font-16;
       }
@@ -945,7 +969,7 @@
     .math-slide-teacher,
     .math-post {
       .text-font-size-36 {
-        font-size: $font-20;
+        font-size: $font-18;
       }
     }
 
@@ -1034,6 +1058,35 @@
         }
       }
     }
+
+    .list-award {
+      .card {
+        margin-bottom: 16px !important;
+      }
+    }
+
+    .extra-tab-content .math-family .img-family img {
+      height: auto !important;
+    }
+
+    .learning-pack-content {
+      .middle-banner {
+        .text-font-size-48 {
+          font-size: 38px !important;
+        }
+      }
+    }
+
+    .extra-tab-content .vietnamese-teachers .list-group-2 {
+      margin-bottom: 16px !important;
+    }
+
+    .vietnamese-parrent-review .col-sm-4.text-center {
+      margin-bottom: 24px !important;
+    }
+  }
+  .breadcrumb {
+    display: none !important;
   }
 }
 
@@ -1095,4 +1148,17 @@
       }
     }
   }
+
+  .product-ai {
+    .text-font-size-36 {
+      font-size: 26px !important;
+    }
+  }
+
+  .product-extra {
+    .math-study-title .text-font-size-36 {
+      font-size: 28px;
+    }
+  }
+
 }
