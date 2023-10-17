@@ -70,12 +70,12 @@
 
 .btn-logo-add {
   color: $black-100;
-  background-color: $yellow-400;
+  background-color: $yellow-200;
 
   &:hover,
   &:focus {
     color: $black !important;
-    background-color: $blue-primary !important;
+    background-color: $yellow-400 !important;
   }
 }
 
