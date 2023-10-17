@@ -23074,6 +23074,24 @@ a:hover {
   padding: 4px 16px;
   font-size: 16px;
   font-weight: 400;
+  line-height: 22px;
+}
+
+.footer .menu-about-us-footer {
+  margin-top: 18px;
+}
+
+.footer .menu-about-us-footer li {
+  margin-bottom: 12px;
+}
+
+.footer .location-footer {
+  margin-bottom: 17px;
+}
+
+.footer .location-hcm {
+  margin-top: 39px;
+  margin-bottom: 8px;
 }
 
 .home .content-slide-item {

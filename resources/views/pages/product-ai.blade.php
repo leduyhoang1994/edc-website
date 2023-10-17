@@ -565,10 +565,10 @@ Product AI
                 </div>
                 <div class="col-lg-6">
                   <div class="mt-4">
-                    <p class="text-center text-white text-font-size-26 text-font-weight-600 mb-1">
+                    <p class="text-center text-white text-font-size-26 text-font-weight-600 mb-0">
                       Đăng ký tư vấn
                     </p>
-                    <p class="text-center text-white text-font-size-18 text-font-weight-400">Ba mẹ hãy đăng ký để được
+                    <p class="text-center text-white text-font-size-18 text-font-weight-400 mb-2">Ba mẹ hãy đăng ký để được
                       các thầy cô tại EDUPIA
                       tư vấn về lộ trình học cho con nhé!
                     </p>
