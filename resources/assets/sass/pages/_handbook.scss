@@ -55,7 +55,6 @@
     padding-top: 38px;
     padding-bottom: 25px;
     background: $blue-primary;
-
     .form-rounded {
       border-radius: 1000px;
       border: none;
@@ -193,6 +192,11 @@
     }
     .right-item {
       margin-top: 16px;
+    }
+    .ask-form {
+      .label-form {
+        margin-bottom: 16px !important;
+      }
     }
   }
 

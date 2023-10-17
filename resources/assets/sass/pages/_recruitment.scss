@@ -1,12 +1,13 @@
 .recruitment {
   line-height: normal;
+
   .header-banner {
     height: 490px;
     padding-top: 380px;
     background-image: url("/images/imgs/other/recruitment-header.png");
     background-size: cover;
     background-repeat: no-repeat;
-  
+
   }
 
   .header-title {
@@ -80,6 +81,7 @@
         border-radius: 10px;
         box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.05);
         margin-bottom: 25px;
+
         .label {
           border-radius: 20.5px;
           background: $gray-20;
@@ -92,6 +94,7 @@
           border-radius: 25.5px;
           border: 1px solid $blue-primary;
           cursor: pointer;
+
           &:hover {
             background: $yellow-500;
             border: 1px solid $yellow-500;
@@ -134,6 +137,7 @@
 
       margin-right: 20px;
     }
+
     .page-number:last-child {
       margin-right: 0;
     }
@@ -178,6 +182,7 @@
 
 
   }
+
   .contact {
     padding-top: 30px;
     padding-bottom: 64px;
@@ -192,11 +197,25 @@
       background-position: center;
 
     }
+
     .select-location {
       padding-left: 15px !important;
       padding-right: 15px !important;
     }
+
+    .other-position {
+      .position-list-job {
+        .position-item {
+          .label {
+            margin-left: 16px;
+          }
+
+          .recruitment-btn {
+            margin-top: 8px;
+          }
+        }
+      }
+    }
   }
-  
 
 }

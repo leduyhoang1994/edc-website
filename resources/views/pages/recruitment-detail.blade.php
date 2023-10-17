@@ -87,7 +87,7 @@ Chi tiết tuyển dụng
       </div>
     </div>
     <div class="row mb-2">
-      <div class="col-sm-2 text-font-size-20 text-font-weight-600">
+      <div class="col-sm-2 text-font-size-20 text-font-weight-600 benefits">
         <p>Quyền lợi</p>
         <p>được hưởng</p>
       </div>
@@ -135,7 +135,7 @@ Chi tiết tuyển dụng
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-2 text-font-size-20 text-font-weight-600">
+      <div class="col-sm-2 text-font-size-20 text-font-weight-600 apply-now">
         <p>Ứng tuyển ngay</p>
         <p>với Edupia</p>
       </div>

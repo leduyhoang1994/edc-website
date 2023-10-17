@@ -83,6 +83,16 @@
       }
 
     }
+    .benefits {
+      p {
+        display: inline-block;
+      }
+    }
+    .apply-now {
+      p {
+        display: inline-block;
+      }
+    }
   }
 
 
@@ -204,20 +214,36 @@
 
 
 @media (max-width: 576px) {
-  .slick-carousel {
-    width: 100% !important;
+  .recruitment-detail {
+    .other-position {
+      .position-list-job {
+        .position-item {
+          .label {
+            margin-left: 16px;
+          }
 
-    .slick-slide {
-      img {
-        width: 100%;
+          .recruitment-btn {
+            margin-top: 8px;
+          }
+        }
       }
     }
-    .slick-prev {
-     display: none !important;
-    }
-    .slick-next {
-      display: none !important;
-
+    .slick-carousel {
+      width: 100% !important;
+  
+      .slick-slide {
+        img {
+          width: 100%;
+        }
+      }
+      .slick-prev {
+       display: none !important;
+      }
+      .slick-next {
+        display: none !important;
+  
+      }
     }
   }
+
 }

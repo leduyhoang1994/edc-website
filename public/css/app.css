@@ -25465,6 +25465,14 @@ a:hover {
   padding: 13.5px 12px;
 }
 
+.recruitment-detail .desc-detail .benefits p {
+  display: inline-block;
+}
+
+.recruitment-detail .desc-detail .apply-now p {
+  display: inline-block;
+}
+
 .recruitment-detail .other-position {
   padding-top: 46px;
 }
@@ -25591,19 +25599,27 @@ a:hover {
 }
 
 @media (max-width: 576px) {
-  .slick-carousel {
+  .recruitment-detail .other-position .position-list-job .position-item .label {
+    margin-left: 16px;
+  }
+
+  .recruitment-detail .other-position .position-list-job .position-item .recruitment-btn {
+    margin-top: 8px;
+  }
+
+  .recruitment-detail .slick-carousel {
     width: 100% !important;
   }
 
-  .slick-carousel .slick-slide img {
+  .recruitment-detail .slick-carousel .slick-slide img {
     width: 100%;
   }
 
-  .slick-carousel .slick-prev {
+  .recruitment-detail .slick-carousel .slick-prev {
     display: none !important;
   }
 
-  .slick-carousel .slick-next {
+  .recruitment-detail .slick-carousel .slick-next {
     display: none !important;
   }
 }
@@ -25830,6 +25846,14 @@ a:hover {
   .recruitment .select-location {
     padding-left: 15px !important;
     padding-right: 15px !important;
+  }
+
+  .recruitment .other-position .position-list-job .position-item .label {
+    margin-left: 16px;
+  }
+
+  .recruitment .other-position .position-list-job .position-item .recruitment-btn {
+    margin-top: 8px;
   }
 }
 
@@ -26076,6 +26100,15 @@ a:hover {
 
   .document-detail .description {
     padding-left: 0 !important;
+  }
+
+  .document-detail .ask-form .form-advise {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .document-detail .ask-form .form-advise .label-form {
+    margin-bottom: 16px !important;
   }
 }
 
@@ -27370,6 +27403,10 @@ a:hover {
 
   .handbook .right-item {
     margin-top: 16px;
+  }
+
+  .handbook .ask-form .label-form {
+    margin-bottom: 16px !important;
   }
 }
 
