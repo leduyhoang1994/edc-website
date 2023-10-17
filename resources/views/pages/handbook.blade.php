@@ -46,7 +46,7 @@ Cẩm nang
             <img class="w-100" src="{{ asset('images/imgs/other/handbook-pic-2.png') }}" alt="handbook-pic-1" />
           </div>
           <div class="col-sm right-item">
-            <p>
+            <p  class="mb-2">
               Top 5 phần mềm học Tiếng Anh cho trẻ lớp 1 hot nhất hiện nay
             </p>
             <div class="author d-flex text-font-size-16 text-font-weight-300">
@@ -66,7 +66,7 @@ Cẩm nang
             <img class="w-100" src="{{ asset('images/imgs/other/handbook-pic-3.png') }}" alt="handbook-pic-1" />
           </div>
           <div class="col-sm right-item">
-            <p>
+            <p class="mb-2">
               EDUPIA nhận khoản đầu tư 14 triệu USD và hướng tới "xuất khẩu" Edtech ra thị trường Đông Nam Á
             </p>
             <div class="author d-flex text-font-size-16 text-font-weight-300">
@@ -86,7 +86,7 @@ Cẩm nang
             <img class="w-100" src="{{ asset('images/imgs/other/handbook-pic-4.png') }}" alt="handbook-pic-1" />
           </div>
           <div class="col-sm right-item">
-            <p>
+            <p class="mb-2">
               Tổng hợp 5 cách học tiếng Anh online lớp 4 hiệu quả ngay tại nhà
             </p>
             <div class="author d-flex text-font-size-16 text-font-weight-300">

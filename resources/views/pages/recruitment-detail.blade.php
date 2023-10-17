@@ -457,7 +457,7 @@ Chi tiết tuyển dụng
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         }
       },
       {
